@@ -60,7 +60,7 @@ mauriziobertino-sito/
 │   └── sitemap.xml
 │
 ├── immagini/          ← Le 107 foto ORIGINALI a piena risoluzione (73 MB).
-│                        Copia di sicurezza: non serve pubblicarle, ma non buttarle.
+│                        È un repository a sé, privato. Non finisce nel sito.
 │
 ├── _backup-wp/        ← Il "cantiere": copia delle vecchie pagine WordPress
 │                        e gli script che hanno ricostruito il sito.
@@ -86,10 +86,12 @@ mauriziobertino-sito/
 I contatti sono già impostati: email, WhatsApp `331 438 5178`, la pagina Facebook
 e il canale YouTube. Instagram e TikTok per ora non ci sono.
 
-**Le foto originali non sono su GitHub.** La cartella `immagini/` è esclusa: quei
-73 MB restano solo sul tuo Mac. Online ci sono le versioni ottimizzate.
-Se vuoi anche una copia di sicurezza online degli originali, si può fare con un
-secondo repository privato.
+**Le foto originali stanno in un repository a parte, privato:**
+[mauriziobertino-foto-originali](https://github.com/Liquo84/mauriziobertino-foto-originali)
+— 107 immagini a piena risoluzione, visibili solo a te.
+
+In questo repository pubblico ci sono solo le versioni ottimizzate per il web:
+la cartella `immagini/` è esclusa apposta.
 
 ### Come si aggiorna
 
