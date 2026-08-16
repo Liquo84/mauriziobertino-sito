@@ -64,7 +64,9 @@ mauriziobertino-sito/
 │
 ├── _backup-wp/        ← Il "cantiere": copia delle vecchie pagine WordPress
 │                        e gli script che hanno ricostruito il sito.
-│                        Non va pubblicato.
+│                        Non finisce online, ma è versionato su GitHub.
+│
+├── .github/workflows/ ← Pubblica il sito da solo a ogni modifica caricata.
 │
 └── LEGGIMI.md         ← questo file
 ```
@@ -73,56 +75,65 @@ mauriziobertino-sito/
 
 ---
 
-## Cosa manca ancora (3 dati)
+## Il sito è già online
 
-Nel file `_backup-wp/genera.py`, in cima, c'è questo blocco:
+| | |
+|---|---|
+| Indirizzo provvisorio | **https://liquo84.github.io/mauriziobertino-sito/** |
+| Repository | https://github.com/Liquo84/mauriziobertino-sito (pubblico) |
+| Costo | zero |
 
-```python
-CONTATTI = {
-    "email": "mauriziobertinoartista@gmail.com",
-    "whatsapp": "39XXXXXXXXXX",        # ← numero personale di Maurizio
-    "instagram": "https://instagram.com/",   # ← link al profilo vero
-    "facebook": "https://facebook.com/",     # ← link al profilo vero
-}
-```
+I contatti sono già impostati: email, WhatsApp `331 438 5178`, la pagina Facebook
+e il canale YouTube. Instagram e TikTok per ora non ci sono.
 
-- **WhatsApp**: numero in formato internazionale, senza `+` e senza spazi.
-  Esempio: `393331234567`.
-- **Instagram / Facebook**: i link ai profili veri.
-  Nota: anche sul vecchio sito WordPress questi due link erano rotti, puntavano
-  alle home di Instagram e Facebook invece che ai profili di Maurizio.
+**Le foto originali non sono su GitHub.** La cartella `immagini/` è esclusa: quei
+73 MB restano solo sul tuo Mac. Online ci sono le versioni ottimizzate.
+Se vuoi anche una copia di sicurezza online degli originali, si può fare con un
+secondo repository privato.
 
-Dopo averli sistemati, rigenera il sito:
+### Come si aggiorna
+
+Ogni modifica caricata su GitHub viene pubblicata da sola, in un paio di minuti.
+Dopo aver cambiato qualcosa (per esempio rigenerando con `genera.py`):
 
 ```bash
-python3 /Users/davideliquori/Desktop/mauriziobertino-sito/_backup-wp/genera.py
+cd /Users/davideliquori/Desktop/mauriziobertino-sito && git add -A && git commit -m "descrizione della modifica" && git push
 ```
+
+Per vedere il sito in locale prima di pubblicarlo:
+
+```bash
+cd /Users/davideliquori/Desktop/mauriziobertino-sito/sito && python3 -m http.server 8779
+```
+
+Poi apri `http://localhost:8779`.
 
 ---
 
-## Come pubblicarlo (senza pagare)
+## Collegare il dominio mauriziobertino.com
 
-Tutte e tre le opzioni sono gratuite per un sito come questo.
+Da fare **solo dopo** aver sistemato la questione registrar qui sopra.
+Sono tre passaggi.
 
-### Netlify — la più semplice
+**1. Nel pannello DNS del dominio**, questi record:
 
-1. Vai su [app.netlify.com/drop](https://app.netlify.com/drop)
-2. Trascina la cartella `sito` nella pagina.
-3. Il sito è online in pochi secondi su un indirizzo tipo `xyz.netlify.app`.
-4. Per usare `mauriziobertino.com`: *Domain settings → Add custom domain*, e poi
-   punti lì i nameserver del dominio.
+| Tipo | Nome | Valore |
+|---|---|---|
+| A | @ | 185.199.108.153 |
+| A | @ | 185.199.109.153 |
+| A | @ | 185.199.110.153 |
+| A | @ | 185.199.111.153 |
+| CNAME | www | liquo84.github.io |
 
-### Cloudflare Pages — la più veloce
+**2. Un file `CNAME`** dentro la cartella `sito/`, contenente solo la riga
+`mauriziobertino.com`.
 
-1. Account gratuito su [dash.cloudflare.com](https://dash.cloudflare.com)
-2. *Workers & Pages → Create → Pages → Upload assets*, carichi la cartella `sito`.
-3. Se sposti anche il dominio su Cloudflare Registrar, gestisci tutto da un posto solo.
+**3. Nel repository**: *Settings → Pages → Custom domain*, scrivi
+`mauriziobertino.com` e spunta *Enforce HTTPS* (il certificato arriva da solo,
+può volerci qualche ora).
 
-### GitHub Pages — se vuoi tenere la cronologia delle modifiche
-
-1. Crei un repository, ci metti dentro il contenuto di `sito/`.
-2. *Settings → Pages → Deploy from branch*.
-3. Per il dominio custom serve un file `CNAME` con dentro `mauriziobertino.com`.
+Quando sei pronto chiedimi di farlo: sono operazioni che posso eseguire io,
+tranne la modifica dei DNS che dipende da dove sta il dominio.
 
 ---
 
@@ -165,8 +176,14 @@ stampa e l'elenco delle mostre.
 - Le schede delle riproduzioni sono collegate ai relativi articoli.
 
 **Tolto:**
-- Il modulo di contatto (richiede un server). Sostituito da email, WhatsApp e social.
+- Il modulo di contatto (richiede un server). Sostituito da email, WhatsApp,
+  Facebook e YouTube.
 - I pulsanti "Mi piace" e la barra di WordPress.com.
+
+**Da sapere:** nelle pagine, l'indirizzo "ufficiale" dichiarato ai motori di ricerca
+è già `mauriziobertino.com`. È corretto per quando il dominio sarà collegato;
+fino ad allora l'indirizzo GitHub funziona ma rimanda a quello come versione
+principale.
 
 ---
 
