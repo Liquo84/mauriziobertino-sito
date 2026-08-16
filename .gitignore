@@ -1,0 +1,6 @@
+# Le foto originali a piena risoluzione restano solo in locale:
+# sono 73 MB di copia di sicurezza, online bastano le versioni ottimizzate.
+immagini/
+
+.DS_Store
+__pycache__/
