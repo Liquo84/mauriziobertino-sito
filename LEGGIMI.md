@@ -47,7 +47,7 @@ dominio → controlla ancora → solo allora disdici il piano WordPress.
 mauriziobertino-sito/
 ├── sito/              ← IL SITO. È solo questa cartella che va pubblicata.
 │   ├── index.html         Home
-│   ├── opere.html         Catalogo, 40 opere con filtri
+│   ├── opere.html         Catalogo, 42 opere con filtri
 │   ├── tecnica.html       La tecnica
 │   ├── nativi.html        La passione per i nativi d'America
 │   ├── diario.html        Elenco delle schede
@@ -59,7 +59,7 @@ mauriziobertino-sito/
 │   ├── robots.txt
 │   └── sitemap.xml
 │
-├── immagini/          ← Le 107 foto ORIGINALI a piena risoluzione (73 MB).
+├── immagini/          ← Le 109 foto ORIGINALI a piena risoluzione (73 MB).
 │                        È un repository a sé, privato. Non finisce nel sito.
 │
 ├── _backup-wp/        ← Il "cantiere": copia delle vecchie pagine WordPress
@@ -71,7 +71,7 @@ mauriziobertino-sito/
 └── LEGGIMI.md         ← questo file
 ```
 
-**Da pubblicare: solo il contenuto della cartella `sito/`.** Pesa circa 56 MB.
+**Da pubblicare: solo il contenuto della cartella `sito/`.** Pesa circa 57 MB.
 
 ---
 
@@ -88,7 +88,7 @@ e il canale YouTube. Instagram e TikTok per ora non ci sono.
 
 **Le foto originali stanno in un repository a parte, privato:**
 [mauriziobertino-foto-originali](https://github.com/Liquo84/mauriziobertino-foto-originali)
-— 107 immagini a piena risoluzione, visibili solo a te.
+— 109 immagini a piena risoluzione, visibili solo a te.
 
 In questo repository pubblico ci sono solo le versioni ottimizzate per il web:
 la cartella `immagini/` è esclusa apposta.
@@ -141,31 +141,39 @@ tranne la modifica dei DNS che dipende da dove sta il dominio.
 
 ## Come aggiungere una nuova opera
 
-Il sito è generato da uno script, ma puoi anche modificare l'HTML a mano.
-Il modo pulito è passare dallo script:
-
-1. Metti la foto nuova in `immagini/`.
-2. Crea le due versioni per il web:
+Un comando solo. Pensa lui a tutto: archivia l'originale, crea le due versioni
+per il web, inserisce la scheda in catalogo e rigenera le pagine.
 
 ```bash
-cd /Users/davideliquori/Desktop/mauriziobertino-sito
-sips -s format jpeg -s formatOptions 80 -Z 1800 immagini/NOME.jpg --out sito/img/full/NOME.jpg
-sips -s format jpeg -s formatOptions 60 -Z 640  immagini/NOME.jpg --out sito/img/thumb/NOME.jpg
+python3 /Users/davideliquori/Desktop/mauriziobertino-sito/_backup-wp/aggiungi-opera.py ~/Downloads/FOTO.jpg --sezione pittura --titolo "Titolo dell'opera" --misure "50x40" --anno 2024 --tecnica "Olio su tela"
 ```
 
-3. Aggiungi la scheda dell'opera in `_backup-wp/_catalogo.json` (copia una voce
-   esistente e cambia i campi) e rigenera con `genera.py`.
+`--sezione` accetta `pittura`, `scultura` o `nativi`.
+`--misure`, `--anno` e `--tecnica` sono facoltativi: se un dato non c'è, la scheda
+semplicemente non lo mostra. Aggiungi `--nome-file "nome-pulito"` se la foto ha un
+nome incomprensibile (tipo quelli scaricati da Facebook).
 
-Se preferisci non toccare gli script, chiedi a Claude: la cartella `_backup-wp`
-contiene tutto quello che serve per capire come è fatto.
+Poi pubblica:
+
+```bash
+git add -A && git commit -m "nuova opera" && git push
+```
+
+E salva l'originale nella copia di sicurezza:
+
+```bash
+cd /Users/davideliquori/Desktop/mauriziobertino-sito/immagini && git add -A && git commit -m "nuova foto" && git push
+```
 
 ---
 
 ## Cosa è cambiato rispetto al vecchio sito
 
-**Tenuto tutto il contenuto**: le 40 opere con titoli, misure, anni e tecniche,
-le 14 schede delle riproduzioni native, i 9 articoli, la biografia, la rassegna
-stampa e l'elenco delle mostre.
+**Tenuto tutto il contenuto**: le 40 opere del vecchio sito con titoli, misure,
+anni e tecniche, le 14 schede delle riproduzioni native, i 9 articoli, la
+biografia, la rassegna stampa e l'elenco delle mostre.
+
+Il catalogo oggi conta **42 opere**: 24 dipinti, 9 sculture e 9 riproduzioni.
 
 **Migliorato:**
 - Le opere si vedono in una griglia che rispetta le proporzioni dei quadri,
