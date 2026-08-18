@@ -307,6 +307,18 @@
    "sezione": "pittura"
   },
   {
+   "n": null,
+   "titolo": "La più bella del mondo",
+   "misure": "50×40 cm",
+   "anno": "2017",
+   "tecnica": "Olio su tela",
+   "didascalia": "La più bella del mondo, 50×40 cm, 2017, Olio su tela",
+   "img": "la-piu-bella-del-mondo.jpg",
+   "w": null,
+   "h": null,
+   "sezione": "pittura"
+  },
+  {
    "n": 1,
    "titolo": "Testa di tigre",
    "misure": "20×10 cm",
@@ -400,6 +412,18 @@
    "img": "02622b73-2ea2-4df9-a795-60223ee035e3.jpg",
    "w": "856",
    "h": "1348",
+   "sezione": "scultura"
+  },
+  {
+   "n": null,
+   "titolo": "Cavallo rampante ovale, con cornice in pietra leccese",
+   "misure": null,
+   "anno": null,
+   "tecnica": null,
+   "didascalia": "Cavallo rampante ovale, con cornice in pietra leccese",
+   "img": "cavallo-rampante-ovale.jpg",
+   "w": null,
+   "h": null,
    "sezione": "scultura"
   },
   {

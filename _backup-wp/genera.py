@@ -151,7 +151,7 @@ def tessera_opera(o, su=""):
     dati = riga_dati(o)
     return f"""<button class="opera" data-sezione="{o.get('sezione','')}"
    data-grande="{su}img/full/{web(o['img'])}"
-   data-titolo="{e(o['titolo'])}" data-dati="{e(' — ' + dati if dati else '')}">
+   data-titolo="{e(o['titolo'])}" data-dati="{e(dati)}">
   <figure style="margin:0">
     <span class="cornice"><img src="{su}img/thumb/{web(o['img'])}" width="{d['w']}" height="{d['h']}"
       loading="lazy" decoding="async" alt="{e(o['titolo'])}"></span>
@@ -413,6 +413,25 @@ pagina("tecnica.html", "La tecnica — Maurizio Bertino",
 
 
 # ---------------------------------------------------------------- NATIVI
+def togli_prefisso(testo, titolo):
+    """Toglie il titolo dall'inizio della didascalia ignorando la punteggiatura.
+    Serve perche' i titoli sono stati ripuliti ("Mato-Tope.(capo" -> "Mato-Tope (capo")
+    mentre le didascalie conservano la forma originale."""
+    def norm(x):
+        return re.sub(r"[^0-9a-z\u00e0-\u00ff]", "", x.lower())
+    atteso = norm(titolo)
+    if not atteso:
+        return testo
+    acc = ""
+    for i, ch in enumerate(testo):
+        acc = norm(acc + ch)
+        if acc == atteso:
+            return testo[i + 1:].lstrip(" ,.;:)]}\u2019\u201d\"'").strip()
+        if not atteso.startswith(acc):
+            return testo
+    return ""
+
+
 def collega_articolo(titolo):
     """Trova l'articolo che approfondisce una riproduzione, se esiste."""
     stop = {"di", "a", "con", "in", "e", "il", "la", "le", "una", "un", "da",
@@ -438,19 +457,17 @@ for n in cat["nativi"]:
     art = collega_articolo(n["titolo"])
     if art:
         collegati.append((n["titolo"], art["titolo"]))
-    dettaglio = n["didascalia"]
-    if dettaglio.lower().startswith(n["titolo"].lower()):
-        dettaglio = dettaglio[len(n["titolo"]):].lstrip(" ,.").strip() or dettaglio
+    dettaglio = togli_prefisso(n["didascalia"], n["titolo"])
     schede += f"""
       <article class="scheda appare">
         <span class="scatto" data-grande="img/full/{web(n['img'])}"
-              data-titolo="{e(n['titolo'])}" data-dati="{e(' — ' + n['didascalia'])}">
+              data-titolo="{e(n['titolo'])}" data-dati="{e(dettaglio)}">
           <img src="img/thumb/{web(n['img'])}" width="{d['w']}" height="{d['h']}"
             loading="lazy" decoding="async" alt="{e(n['titolo'])}">
         </span>
         <div class="testo">
           <h3>{e(n['titolo'])}</h3>
-          <p>{e(dettaglio)}</p>
+          {f"<p>{e(dettaglio)}</p>" if dettaglio else ""}
           {f'<a class="approfondisci" href="articoli/{art["slug"]}.html">Leggi la scheda &rarr;</a>' if art else ''}
         </div>
       </article>"""
