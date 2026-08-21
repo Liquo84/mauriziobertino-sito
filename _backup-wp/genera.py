@@ -135,7 +135,7 @@ def pagina(nome_file, titolo, descrizione, corpo, su="", og=None, classe_corpo="
 
 
 ANNO = 2026
-EROE = "whatsapp-image-2021-07-22-at-12.19.21-6-edited.jpeg"
+EROE = "paesaggio-albero-2018.jpg"
 
 
 # ---------------------------------------------------------------- pezzi
@@ -212,8 +212,8 @@ d_eroe = dim(EROE)
 porte = ""
 for chiave, titolo, testo, dest in [
     ("pittura", "La pittura", "Paesaggi di fantasia, animali e nature morte. Olio su tela, iuta, faesite.", "opere.html#pittura"),
-    ("scultura", "La scultura", "Terracotta, cartapesta, bassorilievi. La materia che prende vita.", "opere.html#scultura"),
-    ("nativi", "Nativi d’America", "Riproduzioni fedeli di armi e oggetti, studiate nel dettaglio.", "nativi.html"),
+    ("scultura", "La scultura", "Terracotta, cartapesta e pietra leccese. Bassorilievo e altorilievo su vari materiali.", "opere.html#scultura"),
+    ("nativi", "Nativi d’America", "Manufatti dei nativi americani, riprodotti e personalizzati nel dettaglio.", "nativi.html"),
 ]:
     campione = per_sezione[chiave][0] if per_sezione.get(chiave) else None
     if not campione:
@@ -255,13 +255,13 @@ bio_resto = "\n".join(f"<p>{e(p)}</p>" for p in cat["bio"][2:])
 
 corpo_home = f"""
 <section class="copertina">
-  <img src="img/copertina.jpg" width="1600" height="899"
-    fetchpriority="high" decoding="async" alt="Dipinto a olio di Maurizio Bertino: tramonto sul lago">
+  <img src="img/copertina.jpg" width="1600" height="1142"
+    fetchpriority="high" decoding="async" alt="Dipinto a olio di Maurizio Bertino: un grande albero su una collina e un viandante lungo il sentiero">
   <div class="contenitore">
     <p class="sopratitolo">Pittore e scultore · Salento</p>
     <h1>Maurizio Bertino</h1>
     <p>Un’arte espressionista e non accademica. Ogni opera nasce da un’emozione
-       e resta irripetibile.</p>
+       e resta irripetibile: crea solo per chi cerca il pezzo unico.</p>
   </div>
 </section>
 
@@ -281,7 +281,7 @@ corpo_home = f"""
 <section class="sezione alt">
   <div class="contenitore">
     <p class="occhiello">Il lavoro</p>
-    <h2>Tre strade, una sola mano</h2>
+    <h2>Tre sentimenti, una sola mano</h2>
     <p class="guida">Pittura, scultura e la riproduzione degli oggetti dei nativi
        nordamericani: tre modi diversi di inseguire la stessa emozione.</p>
     <div class="porte">{porte}
@@ -305,7 +305,7 @@ corpo_home = f"""
 <section class="sezione alt">
   <div class="contenitore stretto">
     <p class="occhiello">Riconoscimenti</p>
-    <h2>Dove è passato</h2>
+    <h2>Documentazione artistica</h2>
     <div class="due-colonne">
       <div>
         <h3>Parlano di lui</h3>
@@ -314,7 +314,7 @@ corpo_home = f"""
         </ul>
       </div>
       <div>
-        <h3>Si è esibito a</h3>
+        <h3>Esposto a</h3>
         <ul class="lista-pulita">
           {''.join(f'<li>{e(v)}</li>' for v in cat['mostre'])}
         </ul>
@@ -324,8 +324,8 @@ corpo_home = f"""
 </section>
 """
 pagina("index.html", "Maurizio Bertino — Pittore e scultore salentino",
-       "Le opere di Maurizio Bertino: dipinti a olio, sculture in terracotta e "
-       "riproduzioni di oggetti dei nativi d’America. Un’arte espressionista e non accademica.",
+       "Le opere di Maurizio Bertino: dipinti a olio, sculture in terracotta, cartapesta "
+       "e pietra leccese, manufatti dei nativi d’America. Un’arte espressionista e non accademica.",
        corpo_home, og=EROE)
 
 
@@ -488,17 +488,19 @@ corpo_nativi = f"""
 <section class="sezione alt">
   <div class="contenitore">
     <p class="occhiello">Le riproduzioni</p>
-    <h2>Oggetti studiati nel dettaglio</h2>
-    <p class="guida">Ogni pezzo è ricostruito con i materiali e le tecniche originali.
-       Tocca una foto per ingrandirla.</p>
+    <h2>Manufatti riprodotti e personalizzati</h2>
+    <p class="guida">Riproduzioni di manufatti di vario genere, con aggiunta di
+       personalizzazione: archi, frecce, faretre e vestigia, vestiario vario,
+       nonché collane, piccole borse decorate con perline, tracolla indiana
+       personalizzata in pelle. Tocca una foto per ingrandirla.</p>
     <div class="schede" style="margin-top:36px">{schede}
     </div>
   </div>
 </section>
 """
 pagina("nativi.html", "La passione per i nativi d’America — Maurizio Bertino",
-       "Mazze da guerra, archi e bassorilievi: le riproduzioni fedeli degli oggetti "
-       "dei popoli nativi nordamericani realizzate da Maurizio Bertino.",
+       "Archi, faretre, collane e vestiario: i manufatti dei popoli nativi "
+       "nordamericani riprodotti e personalizzati da Maurizio Bertino.",
        corpo_nativi, og=cat["nativi"][0]["img"] if cat["nativi"] else EROE)
 
 

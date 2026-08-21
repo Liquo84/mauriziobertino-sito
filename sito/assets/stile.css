@@ -131,18 +131,27 @@ h3 { font-size: 1.25rem; }
 }
 .copertina::after {
   content: ""; position: absolute; inset: 0;
-  background: linear-gradient(to top, rgba(10, 8, 7, .82) 0%, rgba(10, 8, 7, .45) 38%, rgba(10, 8, 7, .08) 72%, rgba(10, 8, 7, .18) 100%);
+  background: linear-gradient(to top, rgba(10, 8, 7, .76) 0%, rgba(10, 8, 7, .56) 17%, rgba(10, 8, 7, .26) 33%, rgba(10, 8, 7, .06) 45%, rgba(10, 8, 7, 0) 55%);
 }
 .copertina .contenitore { position: relative; z-index: 1; padding-bottom: 56px; padding-top: 90px; }
-.copertina h1 { color: #fff; margin-bottom: .25em; text-shadow: 0 2px 30px rgba(0, 0, 0, .5); }
+.copertina h1 { color: #fff; margin-bottom: .25em; text-shadow: 0 1px 3px rgba(0, 0, 0, .55), 0 2px 30px rgba(0, 0, 0, .5); }
 .copertina p {
-  color: rgba(255, 255, 255, .88); font-size: 1.05rem; max-width: 46ch;
-  margin: 0; text-shadow: 0 1px 16px rgba(0, 0, 0, .6);
+  color: rgba(255, 255, 255, .95); font-size: 1.05rem; max-width: 46ch;
+  margin: 0; text-shadow: 0 1px 3px rgba(0, 0, 0, .6), 0 1px 16px rgba(0, 0, 0, .6);
 }
 .sopratitolo {
   font-family: var(--sans); font-size: .72rem; letter-spacing: .22em;
   text-transform: uppercase; color: rgba(255, 255, 255, .72);
   margin: 0 0 14px; text-shadow: 0 1px 12px rgba(0, 0, 0, .6);
+}
+
+/* su schermi stretti la tela orizzontale verrebbe tagliata ai lati:
+   si abbassa la copertina così se ne vede una porzione più ampia */
+@media (max-width: 620px) {
+  .copertina { min-height: 56vh; }
+  .copertina .contenitore { padding-top: 40px; padding-bottom: 40px; }
+  .sopratitolo { letter-spacing: .14em; font-size: .68rem; }
+  .copertina p { font-size: 1rem; }
 }
 
 /* ---------- sezioni ---------- */

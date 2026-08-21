@@ -1,8 +1,26 @@
 #!/usr/bin/env python3
 """Trasforma i blocchi estratti nel catalogo strutturato del sito."""
-import json, re, os, glob
+import argparse, json, re, os, glob
 
 BASE = os.path.dirname(os.path.abspath(__file__))
+
+# Questo script RICOSTRUISCE il catalogo dalle vecchie pagine WordPress.
+# Rilanciarlo cancella le opere aggiunte in seguito con aggiungi-opera.py.
+_ap = argparse.ArgumentParser(description="Re-importa il catalogo dalle pagine WordPress originali")
+_ap.add_argument("--forza", action="store_true",
+                 help="sovrascrive _catalogo.json anche se contiene opere aggiunte a mano")
+_args = _ap.parse_args()
+
+_esistente = os.path.join(BASE, "_catalogo.json")
+if os.path.exists(_esistente) and not _args.forza:
+    _vecchio = json.load(open(_esistente, encoding="utf-8"))
+    _aggiunte = [o["titolo"] for o in _vecchio.get("opere", []) if o.get("n") is None]
+    if _aggiunte:
+        raise SystemExit(
+            "Fermo: _catalogo.json contiene opere aggiunte a mano che andrebbero perse:\n"
+            + "\n".join("  - " + t for t in _aggiunte)
+            + "\n\nUsa --forza solo se sai cosa stai facendo (e reinserisci poi quelle opere)."
+        )
 d = json.load(open(os.path.join(BASE, "_contenuti.json"), encoding="utf-8"))
 
 # --- sezioni della pagina "Le Opere" -------------------------------------
