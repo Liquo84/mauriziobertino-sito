@@ -35,6 +35,7 @@ mauriziobertino-sito/
 ├── sito/              ← IL SITO. È solo questa cartella che va pubblicata.
 │   ├── index.html         Home
 │   ├── opere.html         Catalogo, 46 opere con filtri
+│   ├── biografia.html     Biografia, rassegna stampa, mostre
 │   ├── tecnica.html       La tecnica
 │   ├── nativi.html        La passione per i nativi d'America
 │   ├── diario.html        Elenco delle schede

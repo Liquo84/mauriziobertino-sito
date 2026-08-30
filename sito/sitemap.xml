@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://mauriziobertino.com/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
   <url><loc>https://mauriziobertino.com/opere.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://mauriziobertino.com/biografia.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://mauriziobertino.com/tecnica.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://mauriziobertino.com/nativi.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://mauriziobertino.com/diario.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>

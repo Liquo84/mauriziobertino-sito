@@ -36,6 +36,7 @@ def e(t):
 PAGINE = [
     ("index.html", "Home"),
     ("opere.html", "Opere"),
+    ("biografia.html", "Biografia"),
     ("tecnica.html", "La tecnica"),
     ("nativi.html", "Nativi d’America"),
     ("diario.html", "Diario"),
@@ -111,6 +112,7 @@ def pagina(nome_file, titolo, descrizione, corpo, su="", og=None, classe_corpo="
     <p>© {ANNO} Maurizio Bertino — Tutte le opere sono protette da copyright.</p>
     <nav>
       <a href="{su}opere.html">Opere</a>
+      <a href="{su}biografia.html">Biografia</a>
       <a href="{su}nativi.html">Nativi d’America</a>
       <a href="{su}diario.html">Diario</a>
       <a href="{su}contatti.html">Contatti</a>
@@ -261,6 +263,7 @@ bio_resto = "\n".join(f"<p>{e(p)}</p>" for p in cat["bio"][2:])
 corpo_home = f"""
 <section class="copertina">
   <img src="img/copertina.jpg" width="1600" height="1142"
+    srcset="img/copertina-960.jpg 960w, img/copertina.jpg 1600w" sizes="100vw"
     fetchpriority="high" decoding="async" alt="Dipinto a olio di Maurizio Bertino: un grande albero su una collina e un viandante lungo il sentiero">
   <div class="contenitore">
     <p class="sopratitolo">Pittore e scultore · Salento</p>
@@ -295,6 +298,43 @@ corpo_home = f"""
 </section>
 
 <section class="sezione">
+  <div class="contenitore stretto" style="text-align:center">
+    <p class="occhiello">Il percorso</p>
+    <h2>Da autodidatta, per necessità</h2>
+    <p class="guida" style="margin:0 auto 26px">Dalla Svizzera al Salento, senza studi
+       accademici: come Bertino è arrivato a esporre, e chi ha scritto di lui.</p>
+    <p><a href="biografia.html">Leggi la biografia &rarr;</a></p>
+  </div>
+</section>
+"""
+pagina("index.html", "Maurizio Bertino — Pittore e scultore salentino",
+       "Le opere di Maurizio Bertino: dipinti a olio, sculture in terracotta, cartapesta "
+       "e pietra leccese, manufatti dei nativi d’America. Un’arte espressionista e non accademica.",
+       corpo_home, og=EROE)
+
+
+# ---------------------------------------------------------------- BIOGRAFIA
+RITRATTO_BOTTEGA = "maurizio-col-gufo-2019.jpg"
+
+corpo_biografia = f"""
+<section class="intestazione-pagina">
+  <div class="contenitore stretto">
+    <p class="occhiello">Chi è</p>
+    <h1>Maurizio Bertino</h1>
+    <p class="guida">Pittore e scultore salentino, autodidatta per scelta.</p>
+  </div>
+</section>
+
+<section class="sezione" style="padding-top:0">
+  <div class="contenitore">
+    <div class="biografia">
+      <div>{bio_html}</div>
+      {figura_ritratto(RITRATTO_BOTTEGA, "Maurizio Bertino accanto a un gufo in terracotta, 2019.")}
+    </div>
+  </div>
+</section>
+
+<section class="sezione alt">
   <div class="contenitore">
     <div class="biografia">
       <div>
@@ -307,7 +347,7 @@ corpo_home = f"""
   </div>
 </section>
 
-<section class="sezione alt">
+<section class="sezione">
   <div class="contenitore stretto">
     <p class="occhiello">Riconoscimenti</p>
     <h2>Documentazione artistica</h2>
@@ -328,10 +368,10 @@ corpo_home = f"""
   </div>
 </section>
 """
-pagina("index.html", "Maurizio Bertino — Pittore e scultore salentino",
-       "Le opere di Maurizio Bertino: dipinti a olio, sculture in terracotta, cartapesta "
-       "e pietra leccese, manufatti dei nativi d’America. Un’arte espressionista e non accademica.",
-       corpo_home, og=EROE)
+pagina("biografia.html", "Biografia — Maurizio Bertino",
+       "Chi è Maurizio Bertino: nato in Svizzera nel 1965, autodidatta, pittore e "
+       "scultore salentino. Il percorso, la rassegna stampa e le mostre.",
+       corpo_biografia, og=RITRATTO_BOTTEGA)
 
 
 # ---------------------------------------------------------------- OPERE
