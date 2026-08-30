@@ -34,7 +34,7 @@ e non costa nulla.
 mauriziobertino-sito/
 ├── sito/              ← IL SITO. È solo questa cartella che va pubblicata.
 │   ├── index.html         Home
-│   ├── opere.html         Catalogo, 42 opere con filtri
+│   ├── opere.html         Catalogo, 46 opere con filtri
 │   ├── tecnica.html       La tecnica
 │   ├── nativi.html        La passione per i nativi d'America
 │   ├── diario.html        Elenco delle schede
@@ -170,7 +170,7 @@ cd /Users/davideliquori/Desktop/mauriziobertino-sito/immagini && git add -A && g
 anni e tecniche, le 14 schede delle riproduzioni native, i 9 articoli, la
 biografia, la rassegna stampa e l'elenco delle mostre.
 
-Il catalogo oggi conta **42 opere**: 24 dipinti, 9 sculture e 9 riproduzioni.
+Il catalogo oggi conta **46 opere**: 25 dipinti, 12 sculture e 9 riproduzioni.
 
 **Migliorato:**
 - Le opere si vedono in una griglia che rispetta le proporzioni dei quadri,
@@ -188,9 +188,9 @@ Il catalogo oggi conta **42 opere**: 24 dipinti, 9 sculture e 9 riproduzioni.
 - I pulsanti "Mi piace" e la barra di WordPress.com.
 
 **Da sapere:** nelle pagine, l'indirizzo "ufficiale" dichiarato ai motori di ricerca
-è già `mauriziobertino.com`. È corretto per quando il dominio sarà collegato;
-fino ad allora l'indirizzo GitHub funziona ma rimanda a quello come versione
-principale.
+è ancora `mauriziobertino.com`, che è il vecchio dominio in scadenza. Va cambiato
+in `artemauriziobertino.com` quando lo registrerete: è una riga sola nel generatore
+(`DOMINIO`). Nel frattempo non fa danni: l'indirizzo GitHub funziona comunque.
 
 ---
 

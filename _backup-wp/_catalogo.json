@@ -319,6 +319,18 @@
    "sezione": "pittura"
   },
   {
+   "n": null,
+   "titolo": "Senza titolo",
+   "misure": null,
+   "anno": null,
+   "tecnica": "Olio su tela",
+   "didascalia": "Senza titolo, Olio su tela",
+   "img": "senza-titolo-viale-alberi.jpg",
+   "w": null,
+   "h": null,
+   "sezione": "pittura"
+  },
+  {
    "n": 1,
    "titolo": "Testa di tigre",
    "misure": "20×10 cm",
@@ -428,6 +440,52 @@
    "viste": [
     "cavallo-rampante-fronte.jpg",
     "cavallo-rampante-laterale.jpg"
+   ]
+  },
+  {
+   "n": null,
+   "titolo": "Senza titolo",
+   "misure": null,
+   "anno": null,
+   "tecnica": "Scultura in pietra",
+   "didascalia": "Senza titolo, Scultura in pietra",
+   "img": "senza-titolo-figura-nativo.jpg",
+   "w": null,
+   "h": null,
+   "sezione": "scultura",
+   "viste": [
+    "senza-titolo-figura-nativo-vista2.jpg",
+    "senza-titolo-figura-nativo-vista3.jpg",
+    "senza-titolo-figura-nativo-vista4.jpg"
+   ]
+  },
+  {
+   "n": null,
+   "titolo": "Senza titolo",
+   "misure": null,
+   "anno": null,
+   "tecnica": "Bassorilievo in pietra",
+   "didascalia": "Senza titolo, Bassorilievo in pietra",
+   "img": "senza-titolo-figura-con-disco.jpg",
+   "w": null,
+   "h": null,
+   "sezione": "scultura"
+  },
+  {
+   "n": null,
+   "titolo": "Senza titolo",
+   "misure": null,
+   "anno": "2019",
+   "tecnica": "Terracotta",
+   "didascalia": "Senza titolo, 2019, Terracotta",
+   "img": "senza-titolo-gufo-2019.jpg",
+   "w": null,
+   "h": null,
+   "sezione": "scultura",
+   "viste": [
+    "senza-titolo-gufo-2019-vista2.jpg",
+    "senza-titolo-gufo-2019-vista3.jpg",
+    "senza-titolo-gufo-2019-vista4.jpg"
    ]
   },
   {
