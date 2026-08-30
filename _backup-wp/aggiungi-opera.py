@@ -22,6 +22,8 @@ p.add_argument("--misure", default=None, help='es. "80x60" oppure "36 cm"')
 p.add_argument("--anno", default=None)
 p.add_argument("--tecnica", default=None)
 p.add_argument("--nome-file", default=None, help="rinomina il file (senza estensione)")
+p.add_argument("--viste", nargs="*", default=[],
+               help="altre foto della stessa opera (altri lati, dettagli)")
 a = p.parse_args()
 
 if not os.path.isfile(a.foto):
@@ -64,6 +66,18 @@ dim = json.load(open(fdim, encoding="utf-8"))
 dim[radice + ".jpg"] = dimensioni(os.path.join(THUMB, radice + ".jpg"))
 json.dump(dim, open(fdim, "w", encoding="utf-8"))
 
+# --- 3bis. altre viste della stessa opera ---------------------------------
+viste = []
+for k, extra in enumerate(a.viste, start=2):
+    if not os.path.isfile(extra):
+        sys.exit(f"Vista non trovata: {extra}")
+    nome = f"{radice}-vista{k}"
+    orig_v = os.path.join(ORIG, nome + os.path.splitext(extra)[1])
+    if os.path.abspath(extra) != os.path.abspath(orig_v):
+        shutil.copy2(extra, orig_v)
+    sips(orig_v, os.path.join(FULL, nome + ".jpg"), 1800, 80)
+    viste.append(nome + ".jpg")
+
 # --- 4. scheda nel catalogo ------------------------------------------------
 fcat = os.path.join(BASE, "_catalogo.json")
 cat = json.load(open(fcat, encoding="utf-8"))
@@ -87,6 +101,8 @@ scheda = {
     "w": None, "h": None,
     "sezione": a.sezione,
 }
+if viste:
+    scheda["viste"] = viste
 
 if any(o["img"] == scheda["img"] for o in cat["opere"]):
     sys.exit(f"Attenzione: '{radice}' è già in catalogo. Nessuna modifica.")
@@ -106,4 +122,6 @@ print(f"Aggiunta: {a.titolo}  [{a.sezione}]")
 print(f"  originale -> immagini/{radice}{ext}")
 print(f"  web       -> sito/img/full/{radice}.jpg  +  sito/img/thumb/{radice}.jpg")
 print(f"  didascalia: {scheda['didascalia']}")
+if viste:
+    print(f"  viste aggiuntive: {len(viste)} ({', '.join(viste)})")
 print(f"  catalogo ora: {dict(Counter(o['sezione'] for o in cat['opere']))}")

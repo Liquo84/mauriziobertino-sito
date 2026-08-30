@@ -424,7 +424,11 @@
    "img": "cavallo-rampante-ovale.jpg",
    "w": null,
    "h": null,
-   "sezione": "scultura"
+   "sezione": "scultura",
+   "viste": [
+    "cavallo-rampante-fronte.jpg",
+    "cavallo-rampante-laterale.jpg"
+   ]
   },
   {
    "n": 1,

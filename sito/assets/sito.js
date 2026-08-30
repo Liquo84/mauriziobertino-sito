@@ -71,11 +71,31 @@
   var visibili = [];
   var indice = 0;
 
+  /* Un'opera può avere più viste (data-viste). L'elenco dell'ingranditore le
+     distende tutte: le frecce scorrono vista dopo vista, poi passano all'opera
+     successiva. */
   function apribili() {
-    return Array.prototype.filter.call(
+    var elenco = [];
+    Array.prototype.forEach.call(
       document.querySelectorAll("[data-grande]"),
-      function (el) { return !el.hidden && el.offsetParent !== null; }
+      function (el) {
+        if (el.hidden || el.offsetParent === null) return;
+        var viste = el.dataset.viste
+          ? el.dataset.viste.split("|").filter(Boolean)
+          : [el.dataset.grande];
+        viste.forEach(function (src, k) {
+          elenco.push({
+            src: src,
+            titolo: el.dataset.titolo || "",
+            dati: el.dataset.dati || "",
+            n: k + 1,
+            totale: viste.length,
+            origine: el
+          });
+        });
+      }
     );
+    return elenco;
   }
 
   function rinumera() { visibili = apribili(); }
@@ -83,29 +103,38 @@
   function mostra(i) {
     if (!visibili.length) return;
     indice = (i + visibili.length) % visibili.length;
-    var el = visibili[indice];
-    imgLente.src = el.dataset.grande;
-    imgLente.alt = el.dataset.titolo || "";
-    var t = el.dataset.titolo || "";
-    var d = el.dataset.dati || "";
+    var v = visibili[indice];
+    imgLente.src = v.src;
+    imgLente.alt = v.titolo;
     didascalia.innerHTML = "";
-    if (t) {
+    if (v.titolo) {
       var s = document.createElement("strong");
-      s.textContent = t;
+      s.textContent = v.titolo;
       didascalia.appendChild(s);
     }
-    if (d) didascalia.appendChild(document.createTextNode(d));
+    var riga = v.dati;
+    if (v.totale > 1) {
+      riga = (riga ? riga + " · " : "") + "vista " + v.n + " di " + v.totale;
+    }
+    if (riga) didascalia.appendChild(document.createTextNode(riga));
     // precarica le adiacenti
     [1, -1].forEach(function (off) {
-      var v = visibili[(indice + off + visibili.length) % visibili.length];
-      if (v) { var p = new Image(); p.src = v.dataset.grande; }
+      var a = visibili[(indice + off + visibili.length) % visibili.length];
+      if (a) { var p = new Image(); p.src = a.src; }
     });
   }
 
   function apri(el) {
     rinumera();
-    var i = visibili.indexOf(el);
-    if (i < 0) { visibili = [el]; i = 0; }
+    var i = -1;
+    for (var k = 0; k < visibili.length; k++) {
+      if (visibili[k].origine === el) { i = k; break; }
+    }
+    if (i < 0) {
+      visibili = [{ src: el.dataset.grande, titolo: el.dataset.titolo || "",
+                    dati: el.dataset.dati || "", n: 1, totale: 1, origine: el }];
+      i = 0;
+    }
     mostra(i);
     lente.classList.add("aperta");
     document.body.classList.add("bloccato");

@@ -206,7 +206,7 @@ h3 { font-size: 1.25rem; }
   font: inherit; color: inherit; text-align: left; display: block;
 }
 .opera .cornice {
-  display: block;
+  display: block; position: relative;
   overflow: hidden; background: var(--carta-3); border-radius: var(--raggio);
   box-shadow: var(--ombra); transition: box-shadow .3s ease, transform .3s ease;
 }
@@ -216,6 +216,16 @@ h3 { font-size: 1.25rem; }
 .opera .titolo { display: block; font-family: var(--serif); font-size: 1.06rem; line-height: 1.35; }
 .opera .dati { display: block; color: var(--tenue); font-size: .82rem; margin-top: 3px; }
 .opera[hidden] { display: none; }
+
+/* segnala le opere fotografate da più lati */
+.opera .viste {
+  position: absolute; right: 8px; bottom: 8px;
+  font-size: .7rem; letter-spacing: .04em;
+  padding: 3px 8px; border-radius: 999px;
+  background: rgba(12, 10, 9, .62); color: #fff;
+  -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px);
+  pointer-events: none;
+}
 
 /* ---------- schede (nativi) ---------- */
 .schede { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 28px; }

@@ -149,12 +149,17 @@ def riga_dati(o):
 def tessera_opera(o, su=""):
     d = dim(o["img"])
     dati = riga_dati(o)
+    # un'opera a tutto tondo può avere più viste: la prima è quella di copertina
+    viste = [o["img"]] + list(o.get("viste") or [])
+    elenco = "|".join(f"{su}img/full/{web(v)}" for v in viste)
+    segno = (f'<span class="viste">{len(viste)} viste</span>'
+             if len(viste) > 1 else '')
     return f"""<button class="opera" data-sezione="{o.get('sezione','')}"
-   data-grande="{su}img/full/{web(o['img'])}"
+   data-grande="{su}img/full/{web(o['img'])}" data-viste="{elenco}"
    data-titolo="{e(o['titolo'])}" data-dati="{e(dati)}">
   <figure style="margin:0">
     <span class="cornice"><img src="{su}img/thumb/{web(o['img'])}" width="{d['w']}" height="{d['h']}"
-      loading="lazy" decoding="async" alt="{e(o['titolo'])}"></span>
+      loading="lazy" decoding="async" alt="{e(o['titolo'])}">{segno}</span>
     <figcaption>
       <span class="titolo">{e(o['titolo'])}</span>
       {f'<span class="dati">{e(dati)}</span>' if dati else ''}

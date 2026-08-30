@@ -5,39 +5,26 @@ Niente abbonamento, niente database, niente aggiornamenti di sicurezza: solo fil
 
 ---
 
-## ⚠️ Prima di disdire WordPress: il dominio
+## Il dominio: cosa è stato deciso
 
-Il dominio **non è tuo su un registrar indipendente**. Risulta:
+Il vecchio indirizzo `mauriziobertino.com` era registrato presso **Automattic**
+(la società di WordPress.com) e **scade il 15 settembre 2026**.
 
-| | |
-|---|---|
-| Registrar | **Automattic Inc.** (la società di WordPress.com) |
-| Nameserver | NS1/NS2/NS3.WORDPRESS.COM |
-| Registrato il | 15 settembre 2021 |
-| **Scadenza** | **15 settembre 2026** |
+**Decisione presa il 21 agosto 2026: lo si lascia scadere.** Il sito faceva circa
+300 visite l'anno e il rinnovo non vale i ~15 €. Al suo posto verrà registrato
+**`artemauriziobertino.com`** con la promozione Aruba, ma solo *quando il sito
+sarà finito*.
 
-Tradotto: l'indirizzo `mauriziobertino.com` è gestito da WordPress. Se disdici tutto
-senza toccare il dominio, rischi che alla scadenza l'indirizzo si liberi e chiunque
-possa prenderlo. Chi cerca "Maurizio Bertino" su Google finirebbe altrove.
+Due cose da tenere a mente:
 
-**Le due strade possibili:**
+- **Controlla il prezzo di rinnovo prima di comprare.** Le promozioni a 1 € valgono
+  quasi sempre solo il primo anno.
+- **Alla scadenza il vecchio indirizzo diventa di chiunque.** Rischio basso con
+  questi numeri, ma vuol dire che un domani `mauriziobertino.com` potrebbe mostrare
+  qualcos'altro.
 
-1. **Trasferire il dominio a un altro registrar** (Cloudflare Registrar, Namecheap,
-   Gandi…). Si sblocca il dominio dal pannello WordPress.com, si chiede il codice di
-   autorizzazione (AuthCode/EPP) e lo si usa sul nuovo registrar. Il trasferimento
-   aggiunge un anno alla scadenza. Costo tipico: 10–12 € l'anno.
-   È la strada giusta se vuoi chiudere del tutto con WordPress.
-
-2. **Tenere solo la registrazione del dominio su WordPress.com** e disdire il piano
-   di hosting. Cambi i nameserver puntandoli al nuovo hosting. Paghi solo il dominio.
-   Più semplice, ma resti cliente Automattic.
-
-**Non fare il trasferimento all'ultimo momento**: a ridosso della scadenza i
-trasferimenti possono fallire. Muoviti con almeno due settimane di margine,
-e comunque **solo dopo** che il nuovo sito è online e funzionante.
-
-Ordine consigliato: pubblica il sito nuovo → verifica che funzioni → sposta il
-dominio → controlla ancora → solo allora disdici il piano WordPress.
+Fino ad allora il sito vive sull'indirizzo GitHub qui sotto, che funziona benissimo
+e non costa nulla.
 
 ---
 
@@ -112,12 +99,11 @@ Poi apri `http://localhost:8779`.
 
 ---
 
-## Collegare il dominio mauriziobertino.com
+## Collegare il nuovo dominio
 
-Da fare **solo dopo** aver sistemato la questione registrar qui sopra.
-Sono tre passaggi.
+Da fare quando `artemauriziobertino.com` sarà registrato. Tre passaggi.
 
-**1. Nel pannello DNS del dominio**, questi record:
+**1. Nel pannello DNS di Aruba**, questi record:
 
 | Tipo | Nome | Valore |
 |---|---|---|
@@ -128,14 +114,14 @@ Sono tre passaggi.
 | CNAME | www | liquo84.github.io |
 
 **2. Un file `CNAME`** dentro la cartella `sito/`, contenente solo la riga
-`mauriziobertino.com`.
+`artemauriziobertino.com`. E nel generatore va cambiata la costante `DOMINIO`,
+così gli indirizzi dichiarati ai motori di ricerca si allineano.
 
 **3. Nel repository**: *Settings → Pages → Custom domain*, scrivi
-`mauriziobertino.com` e spunta *Enforce HTTPS* (il certificato arriva da solo,
+`artemauriziobertino.com` e spunta *Enforce HTTPS* (il certificato arriva da solo,
 può volerci qualche ora).
 
-Quando sei pronto chiedimi di farlo: sono operazioni che posso eseguire io,
-tranne la modifica dei DNS che dipende da dove sta il dominio.
+I passaggi 2 e 3 li posso fare io. Il primo dipende dal pannello Aruba.
 
 ---
 
@@ -152,6 +138,17 @@ python3 /Users/davideliquori/Desktop/mauriziobertino-sito/_backup-wp/aggiungi-op
 `--misure`, `--anno` e `--tecnica` sono facoltativi: se un dato non c'è, la scheda
 semplicemente non lo mostra. Aggiungi `--nome-file "nome-pulito"` se la foto ha un
 nome incomprensibile (tipo quelli scaricati da Facebook).
+
+**Più foto della stessa opera.** Le sculture hanno bisogno di essere viste da più
+lati. Basta elencare le altre foto dopo `--viste`:
+
+```bash
+python3 /Users/davideliquori/Desktop/mauriziobertino-sito/_backup-wp/aggiungi-opera.py ~/Downloads/FRONTE.jpg --sezione scultura --titolo "Titolo" --viste ~/Downloads/LATO.jpg ~/Downloads/RETRO.jpg
+```
+
+La prima foto è quella che appare nella griglia; sopra compare una piccola
+etichetta "3 viste". Chi ingrandisce l'opera scorre le viste una dopo l'altra
+con le frecce o col dito, e solo alla fine passa all'opera successiva.
 
 Poi pubblica:
 
