@@ -36,10 +36,19 @@ lo scatto di taglio del cavallo e le due tracce audio del vecchio sito.
 - [ ] **Titoli e misure delle quattro opere nuove** — sono online come "Senza titolo": cinque opere del catalogo portano ora la stessa etichetta. Maurizio è lento a dare i dati, ma finché non arrivano il catalogo resta ambiguo.
 - [ ] **Materiale delle due sculture in pietra** — sul sito è scritto genericamente "pietra". Se è pietra leccese va specificato: è un dato che qualifica l'opera.
 - [ ] **Anno del dipinto con il viale di alberi** — la firma porta due cifre illeggibili alla risoluzione disponibile. Serve la conferma di Maurizio, non una supposizione.
+- [ ] **Installare ffmpeg** — non c'è sulla macchina (Homebrew sì). Senza, sul video non si fa niente. Con, si generano video da catalogo senza girare nulla: 46 opere, 46 video. Domanda posta il 30/08, rimasta senza risposta.
+- [ ] **Instagram: account Business o personale?** — con un profilo personale l'API non pubblica, e comunque il nome utente serve subito perché sul sito Instagram non c'è ancora.
 - [ ] **Registrare artemauriziobertino.com** — da fare a sito finito. Prima di comprare, controllare il prezzo di rinnovo dal secondo anno: le promozioni a 1 € valgono il primo.
 - [ ] **Disdetta del piano WordPress** — ultimo passo, quando il nuovo dominio è attivo.
 
 ---
+
+## 30/08 — I social si preparano, non si automatizzano
+
+**Cosa.** Per Facebook e Instagram si va di "livello 1": Claude prepara tutto (immagini nei tre formati, didascalie separate per le due piattaforme, hashtag, calendario editoriale dal catalogo), Davide carica. Niente pubblicazione via API. Frequenza: una uscita a settimana.
+**Perché non l'automazione, visto che le API sono gratuite.** Verificato: Meta e YouTube non fanno pagare le chiamate. Ma pubblicare su Instagram richiede la revisione dell'app da parte di Meta, indicata in una-quattro settimane per ciclo e spesso più cicli, con esito non garantito. Con un post a settimana l'automazione risparmia dieci minuti e costa un mese di pratiche. Il tempo vero sta nel preparare il contenuto, ed è lì che si interviene.
+**Nota tecnica.** Claude non ha alcun connettore per Facebook, Instagram o YouTube: verificato nel registro, zero risultati. Il livello 2 richiederebbe token Meta generati da Davide e chiamate HTTP dirette. Resta la regola: niente pubblicazione a nome di Maurizio senza via libera esplicito, volta per volta.
+**Da fare.** Il materiale si costruisce dal sito, che è già un archivio strutturato: 46 opere con foto, materiali e anni, più 9 articoli. Sono quasi un anno di uscite senza inventare niente.
 
 ## 30/08 — Le opere senza titolo si pubblicano lo stesso
 
