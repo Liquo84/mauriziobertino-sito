@@ -20,6 +20,7 @@ Quando il nuovo dominio esiste: cambiare `DOMINIO` in `_backup-wp/genera.py`, ri
 - **Niente framework, niente CMS, niente database.** Il valore di questa ricostruzione è che resta un insieme di file.
 - **Le foto originali stanno in un repository privato separato**, non in questo.
 - **I testi pubblici sono concordati con Maurizio.** Non riscriverli di iniziativa: si propongono le modifiche e si aspetta l'ok.
+- **I titoli delle opere sono di Maurizio.** Non si ribattezzano, non si traducono, non si "puliscono". Se un titolo manca si usa **"Senza titolo"**, convenzione già in uso nel catalogo, mai un titolo inventato. Vale anche per i termini scomodi ("mazza da guerra"): decisione presa il 30/08, non riaprirla.
 - La pubblicazione è automatica via GitHub Pages, workflow `.github/workflows/pubblica.yml`.
 
 ## Dove stanno le cose

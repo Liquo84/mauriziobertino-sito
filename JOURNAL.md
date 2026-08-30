@@ -15,29 +15,73 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 
 | | |
 |---|---|
-| Sito | Ricostruito e completo: 42 opere con filtri, 9 schede, tutte le pagine |
-| Ultimo lavoro | 21/08 — nuova copertina e revisione testi con Maurizio |
-| Pubblicazione | GitHub Pages, workflow `pubblica.yml` |
-| **Dominio** | Registrato presso Automattic, **scade il 15/09/2026** |
+| Sito | Online e verificato. 46 opere con filtri, 7 pagine, 9 articoli |
+| Indirizzo | https://liquo84.github.io/mauriziobertino-sito/ |
+| Pubblicazione | Automatica a ogni modifica caricata su GitHub |
+| Dominio | Il vecchio si lascia scadere il 15/09. Il nuovo si compra a sito finito |
+| Costo | Zero, finché non si registra il dominio |
 
-Il nodo non è più il sito, è il dominio. Con due settimane di margine, la decisione va presa **entro il 01/09/2026**.
+Il sito non è più il nodo: è finito e funziona anche da telefono. Quello che manca
+sono i dati delle opere, e dipende da Maurizio.
 
-**Non contato:** se il sito sia già online e verificato non è deducibile dalla cartella. <!-- DA CONFERMARE -->
+**Non contato:** le 46 opere includono **quattro pubblicate con titolo provvisorio
+"Senza titolo"**, senza misure e (tranne il gufo) senza anno. Il conteggio le tratta
+come le altre, ma le schede sono incomplete. Restano in archivio, non pubblicati,
+lo scatto di taglio del cavallo e le due tracce audio del vecchio sito.
 
 ---
 
 ## Questioni aperte
 
-- [ ] **Dominio: trasferire o tenere solo la registrazione** — trasferire a un registrar indipendente (10-12 €/anno, aggiunge un anno, chiude con WordPress) oppure disdire solo l'hosting restando clienti Automattic. Decisione entro il 01/09.
-- [ ] **Verifica del sito online** — va fatta prima di toccare il dominio, non dopo.
-- [ ] **Disdetta del piano WordPress** — ultimo passo, solo a dominio messo in sicurezza.
+- [ ] **Titoli e misure delle quattro opere nuove** — sono online come "Senza titolo": cinque opere del catalogo portano ora la stessa etichetta. Maurizio è lento a dare i dati, ma finché non arrivano il catalogo resta ambiguo.
+- [ ] **Materiale delle due sculture in pietra** — sul sito è scritto genericamente "pietra". Se è pietra leccese va specificato: è un dato che qualifica l'opera.
+- [ ] **Anno del dipinto con il viale di alberi** — la firma porta due cifre illeggibili alla risoluzione disponibile. Serve la conferma di Maurizio, non una supposizione.
+- [ ] **Registrare artemauriziobertino.com** — da fare a sito finito. Prima di comprare, controllare il prezzo di rinnovo dal secondo anno: le promozioni a 1 € valgono il primo.
+- [ ] **Disdetta del piano WordPress** — ultimo passo, quando il nuovo dominio è attivo.
 
 ---
+
+## 30/08 — Le opere senza titolo si pubblicano lo stesso
+
+**Cosa.** Le quattro opere nuove (dipinto del viale, figura di nativo in pietra, bassorilievo con il disco, gufo del 2019) sono online con titolo "Senza titolo". Confermato l'anno del gufo, 2019, leggendo la firma ingrandita.
+**Perché pubblicare invece di aspettare.** Maurizio le vuole online e i dati non arrivano. "Senza titolo" non è un ripiego inventato: è convenzione d'arte, e il catalogo la usava già per un dipinto del 1997. Inventare un titolo sarebbe stato peggio del vuoto.
+**Nota tecnica.** L'anno del dipinto è stato omesso: la firma porta due cifre che a quella risoluzione possono essere 96, 94 o 86. Meglio niente che una data sbagliata. I materiali sono dedotti dalle foto e vanno confermati.
+**Da fare.** Sostituire i quattro titoli appena Maurizio li dà.
+
+## 30/08 — Una pagina biografica separata dalla home
+
+**Cosa.** La biografia, la rassegna stampa e le mostre escono dalla home e diventano `biografia.html`, con il ritratto di Maurizio accanto al gufo. La home resta corta e rimanda.
+**Perché spostare e non duplicare.** Tenere gli stessi testi in due punti significa che prima o poi divergono. I testi non sono stati riscritti, solo spostati: la regola del 21/08 vale sul contenuto, non sulla collocazione.
+
+## 30/08 — Un'opera può avere più viste
+
+**Cosa.** Una scheda può portare più foto. Nella griglia compare "N viste", l'ingranditore le scorre prima di passare all'opera dopo. `aggiungi-opera.py` accetta `--viste`.
+**Perché serviva davvero.** Le sculture a tutto tondo con una sola foto non si capiscono: per la figura in pietra Maurizio ha mandato quattro scatti proprio per questo.
+**Esito.** Applicato a cavallo rampante, figura in pietra e gufo. I filtri continuano a funzionare: l'elenco si ricostruisce a ogni cambio.
+
+## 30/08 — La soglia del menu sale a 960px
+
+**Cosa.** Verifica su schermo da 375px. Corretti tre difetti: pulsanti sotto i 44px minimi, menu che andava a capo fra 861 e 959px, copertina scaricata a piena risoluzione anche sui telefoni.
+**Perché la soglia e non un menu più stretto.** Con l'aggiunta di "Biografia" le voci sono sette e non stanno più su una riga sotto i 960px. Rimpicciolire il testo del menu avrebbe peggiorato la leggibilità: meglio passare prima al menu a scomparsa.
+**Esito.** Nessuna pagina sborda in orizzontale, tutte le aree toccabili sono ≥44px, la prima schermata della home scende da 395 a circa 155 KB.
 
 ## 30/08 — Introdotti CLAUDE.md e JOURNAL.md
 
 **Cosa.** Aggiunti i due file di memoria del progetto.
 **Perché non basta il LEGGIMI.** Il `LEGGIMI.md` è scritto per Maurizio e spiega il progetto a chi lo apre; non dice a che punto siamo né perché abbiamo scelto una strada. Il `CLAUDE.md` rimanda al LEGGIMI invece di copiarlo, così non esistono due verità che divergono.
+
+## 21/08 — Il vecchio dominio si lascia scadere
+
+**Cosa.** `mauriziobertino.com` non verrà rinnovato: scade il 15/09/2026 e finisce lì. Al suo posto verrà registrato `artemauriziobertino.com` su Aruba, a sito finito.
+**Perché lasciarlo andare invece di metterlo in sicurezza.** Il sito faceva circa 300 visite l'anno: spendere ~15 € l'anno per conservare un indirizzo con quel traffico non ha senso. Questa decisione **supera la parte sul dominio** della voce del 21/08 sull'ordine operativo, che dava per scontato di doverlo trasferire.
+**Nota tecnica.** Registrata in ritardo nel diario: il 30/08 il journal è stato ricostruito dai file e riportava ancora la vecchia impostazione.
+**Da fare.** Alla registrazione: cambiare `DOMINIO` in `genera.py`, aggiungere `sito/CNAME`, impostare il dominio in Settings → Pages.
+
+## 21/08 — La musica del vecchio sito non torna online
+
+**Cosa.** Le due tracce che partivano da sole (Mozart sulle Opere, Sacred Spirit sui nativi) sono state recuperate e archiviate nel repository privato, ma non ripubblicate.
+**Perché non è una scelta di gusto.** La seconda è un disco Virgin del 1994: ripubblicarla è violazione di copyright, e il conto lo pagherebbe Maurizio. Della prima non si conosce l'incisione, e Mozart è di pubblico dominio ma le esecuzioni no. In più i browser bloccano l'audio automatico: anche sul vecchio sito, per quasi tutti, non partiva.
+**Esito.** Davide ha lasciato perdere la musica.
 
 ## 21/08 — I testi pubblici non si toccano senza l'ok di Maurizio
 
@@ -49,6 +93,7 @@ Il nodo non è più il sito, è il dominio. Con due settimane di margine, la dec
 
 **Cosa.** Fissata la sequenza: pubblica il sito nuovo → verifica → sposta il dominio → ricontrolla → solo allora disdici WordPress.
 **Perché quest'ordine e non un altro.** Toccare il dominio prima che il sito nuovo funzioni significa poter restare senza né l'uno né l'altro. E a ridosso della scadenza i trasferimenti possono fallire, quindi il margine va preso prima.
+**Esito.** Il sito è online e verificato. La parte sul dominio è superata dalla decisione del 21/08 di lasciarlo scadere: non c'è più niente da trasferire.
 
 ## 18/08 — Le opere si aggiungono con lo script, non a mano
 
