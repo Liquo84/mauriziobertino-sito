@@ -11,23 +11,30 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 
 ---
 
-## Stato al 30/08/2026
+## Stato al 01/09/2026
 
 | | |
 |---|---|
 | Sito | Online e verificato. 46 opere con filtri, 7 pagine, 9 articoli |
 | Indirizzo | https://liquo84.github.io/mauriziobertino-sito/ |
-| Pubblicazione | Automatica a ogni modifica caricata su GitHub |
-| Dominio | Il vecchio si lascia scadere il 15/09. Il nuovo si compra a sito finito |
-| Costo | Zero, finché non si registra il dominio |
+| Pubblicazione | Automatica. Da oggi si carica senza chiedere, se verificato |
+| Social | Instagram `@mauriziobertino_arte` (33 post, 154 follower), Facebook "Spazio Arte Bertino" (162). Nessuno dei due è nuovo |
+| Uscite | Le prime 4 schedulate su Meta Business Suite: 3, 10, 17, 24 settembre |
+| Consuntivo | A calendario il 28/09 alle 16:00, insieme alla preparazione del blocco 2 |
+| Dominio | Il vecchio scade il 15/09. Il nuovo si compra quando si decide, non blocca i social |
+| Costo | Zero |
 
-Il sito non è più il nodo: è finito e funziona anche da telefono. Quello che manca
-sono i dati delle opere, e dipende da Maurizio.
+Il sito non è più il nodo, e da oggi non lo è più nemmeno la macchina dei social:
+immagini, didascalie e tono di voce sono impostati e ripetibili. Quello che manca
+sono i dati delle opere e le risposte di Maurizio, che è preso dal lavoro.
 
 **Non contato:** le 46 opere includono **quattro pubblicate con titolo provvisorio
 "Senza titolo"**, senza misure e (tranne il gufo) senza anno. Il conteggio le tratta
 come le altre, ma le schede sono incomplete. Restano in archivio, non pubblicati,
 lo scatto di taglio del cavallo e le due tracce audio del vecchio sito.
+**Le quattro uscite sono schedulate ma non ancora uscite**: al 01/09 non esiste
+un solo dato di riuscita. Tutto quello che è stato deciso oggi sul tono e sul
+formato è ragionato, non verificato.
 
 ---
 
@@ -39,6 +46,7 @@ lo scatto di taglio del cavallo e le due tracce audio del vecchio sito.
 - [ ] **Cambiare il link in bio su Instagram e su Facebook** — oggi puntano a un video YouTube e a un dominio in scadenza. Se non si cambiano prima del 3/09, il primo post manda i lettori nel vuoto.
 - [ ] **Quali opere del catalogo sono in vendita** — le schede di Maurizio finiscono sempre con «Per info e acquisto». Sui dipinti non lo sappiamo, quindi la chiamata all'acquisto per ora è solo sulle riproduzioni.
 - [ ] **ffmpeg, solo se si vorranno i video** — non è installato e per il livello 1 non serve. Resta aperta solo se un giorno si vorranno Reel dal catalogo.
+- [ ] **Il registro "scheda" funziona quanto quello diretto?** — sul profilo i video hanno sempre avuto più reazioni dei post fotografici. Se si conferma il 28/09, nel blocco 2 i due registri vanno alternati.
 - [ ] **Registrare artemauriziobertino.com** — da fare a sito finito. Prima di comprare, controllare il prezzo di rinnovo dal secondo anno: le promozioni a 1 € valgono il primo.
 - [ ] **Disdetta del piano WordPress** — ultimo passo, quando il nuovo dominio è attivo.
 
