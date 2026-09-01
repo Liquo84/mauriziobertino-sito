@@ -302,6 +302,16 @@ h3 { font-size: 1.25rem; }
 .piede nav { display: flex; flex-wrap: wrap; gap: 18px; }
 .piede nav a { color: var(--tenue); text-decoration: none; font-size: .86rem; }
 .piede nav a:hover { color: var(--accento); }
+/* l'area toccabile resta 44px anche se l'icona ne misura 21: i margini negativi
+   la riassorbono, così il piede non cresce e le icone restano allineate a destra */
+.piede .social { display: flex; align-items: center; margin: -11px; }
+.piede .social a {
+  color: var(--tenue); transition: color .2s;
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 44px; height: 44px;
+}
+.piede .social a:hover { color: var(--accento); }
+.piede .social svg { width: 21px; height: 21px; }
 
 /* ---------- ingranditore ---------- */
 .lente {

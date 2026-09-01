@@ -12,8 +12,33 @@ CONTATTI = {
     "email": "mauriiobertinoartista@gmail.com",   # confermata da Davide: "maurii", non "maurizio"
     "whatsapp": "393314385178",        # numero personale, formato internazionale senza "+"
     "facebook": "https://www.facebook.com/mauriziobertinoartista/",
+    "instagram": "https://www.instagram.com/mauriziobertino_arte/",
     "youtube": "https://www.youtube.com/@mauriziobertinoartista9910",
 }
+
+# Icone dei social. Stanno qui in alto e non in fondo con le altre perché servono
+# al piede di pagina, che viene costruito prima della pagina Contatti.
+ICONE_SOCIAL = {
+    "ig": '<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/>'
+          '<circle cx="17" cy="7" r="1.1" fill="currentColor" stroke="none"/>',
+    "fb": '<path d="M14 8h3V5h-3a4 4 0 0 0-4 4v2H8v3h2v7h3v-7h3l1-3h-4V9a1 1 0 0 1 1-1Z"/>',
+    "yt": '<rect x="2.5" y="5.5" width="19" height="13" rx="4"/>'
+          '<path d="m10.5 9.5 5 2.5-5 2.5Z"/>',
+}
+
+
+def icona_social(chiave, etichetta, href):
+    return (f'<a href="{href}" target="_blank" rel="noopener" aria-label="{etichetta}">'
+            f'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" '
+            f'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+            f'{ICONE_SOCIAL[chiave]}</svg></a>')
+
+
+SOCIAL_PIEDE = "\n      ".join([
+    icona_social("ig", "Instagram", CONTATTI["instagram"]),
+    icona_social("fb", "Facebook", CONTATTI["facebook"]),
+    icona_social("yt", "YouTube", CONTATTI["youtube"]),
+])
 
 cat = json.load(open(os.path.join(BASE, "_catalogo.json"), encoding="utf-8"))
 DIM = json.load(open(os.path.join(BASE, "_dimensioni.json"), encoding="utf-8"))
@@ -117,6 +142,9 @@ def pagina(nome_file, titolo, descrizione, corpo, su="", og=None, classe_corpo="
       <a href="{su}diario.html">Diario</a>
       <a href="{su}contatti.html">Contatti</a>
     </nav>
+    <div class="social">
+      {SOCIAL_PIEDE}
+    </div>
   </div>
 </footer>
 
@@ -631,10 +659,8 @@ SVG = {
     "mail": '<path d="M3 6h18v12H3z"/><path d="m3 7 9 6 9-6"/>',
     "wa": '<path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 21l2.2-5.2A8.5 8.5 0 1 1 21 11.5Z"/>'
           '<path d="M8.6 9.2c.3 2.7 3.5 5.9 6.2 6.2l1.2-1.4-1.9-1-1 .9c-1-.5-2.1-1.6-2.6-2.6l.9-1-1-1.9-1.8 1.2Z"/>',
-    "fb": '<path d="M14 8h3V5h-3a4 4 0 0 0-4 4v2H8v3h2v7h3v-7h3l1-3h-4V9a1 1 0 0 1 1-1Z"/>',
-    "yt": '<rect x="2.5" y="5.5" width="19" height="13" rx="4"/>'
-          '<path d="m10.5 9.5 5 2.5-5 2.5Z"/>',
 }
+SVG.update(ICONE_SOCIAL)   # ig, fb, yt: definite in alto, servono anche al piede
 
 
 def contatto(icona, etichetta, valore, href, grezzo=False):
@@ -668,7 +694,8 @@ corpo_contatti = f"""
     <div class="contatti">
       {contatto('mail', 'Email', email_visibile, 'mailto:' + CONTATTI['email'], grezzo=True)}
       {contatto('wa', 'WhatsApp', '331 438 5178', f'https://wa.me/{wa}')}
-      {contatto('fb', 'Facebook', 'Seguimi su Facebook', CONTATTI['facebook'])}
+      {contatto('ig', 'Instagram', '@mauriziobertino_arte', CONTATTI['instagram'])}
+      {contatto('fb', 'Facebook', 'Spazio Arte Bertino', CONTATTI['facebook'])}
       {contatto('yt', 'YouTube', 'Guarda i video', CONTATTI['youtube'])}
     </div>
   </div>

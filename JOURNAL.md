@@ -36,17 +36,137 @@ lo scatto di taglio del cavallo e le due tracce audio del vecchio sito.
 - [ ] **Titoli e misure delle quattro opere nuove** — sono online come "Senza titolo": cinque opere del catalogo portano ora la stessa etichetta. Maurizio è lento a dare i dati, ma finché non arrivano il catalogo resta ambiguo.
 - [ ] **Materiale delle due sculture in pietra** — sul sito è scritto genericamente "pietra". Se è pietra leccese va specificato: è un dato che qualifica l'opera.
 - [ ] **Anno del dipinto con il viale di alberi** — la firma porta due cifre illeggibili alla risoluzione disponibile. Serve la conferma di Maurizio, non una supposizione.
-- [ ] **Installare ffmpeg** — non c'è sulla macchina (Homebrew sì). Senza, sul video non si fa niente. Con, si generano video da catalogo senza girare nulla: 46 opere, 46 video. Domanda posta il 30/08, rimasta senza risposta.
-- [ ] **Instagram: account Business o personale?** — con un profilo personale l'API non pubblica, e comunque il nome utente serve subito perché sul sito Instagram non c'è ancora.
+- [ ] **Cambiare il link in bio su Instagram e su Facebook** — oggi puntano a un video YouTube e a un dominio in scadenza. Se non si cambiano prima del 3/09, il primo post manda i lettori nel vuoto.
+- [ ] **Quali opere del catalogo sono in vendita** — le schede di Maurizio finiscono sempre con «Per info e acquisto». Sui dipinti non lo sappiamo, quindi la chiamata all'acquisto per ora è solo sulle riproduzioni.
+- [ ] **ffmpeg, solo se si vorranno i video** — non è installato e per il livello 1 non serve. Resta aperta solo se un giorno si vorranno Reel dal catalogo.
 - [ ] **Registrare artemauriziobertino.com** — da fare a sito finito. Prima di comprare, controllare il prezzo di rinnovo dal secondo anno: le promozioni a 1 € valgono il primo.
 - [ ] **Disdetta del piano WordPress** — ultimo passo, quando il nuovo dominio è attivo.
 
 ---
 
+## 01/09 — Il sito rimanda ai social, non solo il contrario
+
+**Cosa.** Icone di Instagram, Facebook e YouTube nel piede di ogni pagina, e una scheda Instagram
+in più nella pagina Contatti (`@mauriziobertino_arte`). Tutto da `genera.py`: `CONTATTI` ora
+contiene anche `instagram`, e le tre icone stanno in `ICONE_SOCIAL` in cima al file.
+**Perché in cima al file e non con le altre icone.** Il piede viene costruito nel modello di pagina,
+molto prima del blocco che disegna la pagina Contatti dove stava il dizionario `SVG`. Invece di
+duplicare i tracciati, `SVG` ora si aggiorna da `ICONE_SOCIAL`: una sola definizione per icona.
+**Perché serviva.** Il flusso era a senso unico: i post mandano al sito, il sito non rimandava da
+nessuna parte. Chi arrivava da Google usciva e basta. Instagram in particolare non compariva in
+nessuna pagina, pur essendo il canale su cui si pubblica.
+**Correzione mia.** Le avevo fatte 21×21: area toccabile sotto i 44px minimi fissati il 30/08.
+Il riquadro ora è 44×44 con margini negativi da -11px che lo riassorbono, così il piede non cresce
+in altezza e l'icona resta allineata al testo — a destra sul desktop, a sinistra da telefono.
+**Esito.** Verificato a 1280 e a 375px: nessuno sbordamento orizzontale, le tre aree sono 44×44,
+il piede resta alto 112px come prima, e a 1280 il bordo dell'ultima icona cade esattamente sul
+margine del testo.
+**Da fare.** Le modifiche sono solo in locale. Finché non si carica su GitHub, online non cambia niente.
+
+## 01/09 — Il primo blocco è schedulato, il consuntivo è già a calendario
+
+**Cosa.** Le quattro uscite e le quattro storie sono state schedulate da Davide su Meta Business
+Suite. Il 28/09 alle 16:00 c'è un evento una tantum per leggere i risultati e preparare il blocco 2,
+che parte il 1° ottobre.
+**Perché il 28 e non dopo l'ultimo post.** Il blocco 2 parte giovedì 1 ottobre: se il consuntivo si
+facesse a ottobre inoltrato la cadenza settimanale si spezzerebbe. Il 28 il post del 24 ha quattro
+giorni di dati — pochi ma sufficienti a vedere se ha girato.
+**Nota tecnica.** Esisteva già un ricorrente del lunedì alle 14:00 ("Check sito Maurizio Bertino +
+aggiornamenti artista + social") che nella descrizione copre anche la schedulazione social. Il nuovo
+evento non lo sostituisce: è una tantum, sul consuntivo. Se i due si pestano i piedi, il ricorrente
+resta e questo si cancella.
+**Da fare.** Portare in sessione i dati di Meta Business Suite: copertura, interazioni, clic sul
+link, nuovi follower, e soprattutto se sono arrivati DM per acquisto.
+
+## 01/09 — Le immagini piacciono, il formato è confermato
+
+**Cosa.** Il design delle immagini (opera contenuta su fondo carta, caratteri e colori del sito,
+blocco titolo solo nelle storie) è approvato e diventa lo standard per le uscite successive.
+**Esito.** Confermato da Davide senza modifiche. `genera-social.py` non si tocca: le uscite nuove
+si aggiungono a `social/uscite.json`.
+
+## 01/09 — Il tono di voce non si inventa: era già lì
+
+**Cosa.** Le quattro didascalie sono state riscritte da capo sul tono di voce reale di Maurizio,
+rilevato leggendo i post pubblici di Instagram e la pagina Facebook. L'analisi sta in
+`social/TONO-DI-VOCE.md` e va letta prima di scrivere qualsiasi testo social nuovo.
+**Correzione mia.** I primi quattro copy li avevo scritti in terza persona, con tono da didascalia
+di museo: titolo, tecnica, misure, punto. Davide li ha bocciati in blocco e ha avuto ragione.
+Non avevo guardato che cosa il profilo pubblica già, avevo scritto quello che *sembrava giusto*
+per un artista. La regola che ne esce: **quando un canale esiste già, il tono si rileva, non si
+progetta** — e si rileva prima di scrivere, non dopo che il cliente ha detto che non gli piace.
+**Cosa fa lui davvero.** Due registri. Uno breve ed esclamativo per i video ("Spoiler del nuovo
+video 🤩🤩"). Uno a struttura fissa per le opere: una riga di storia che non nomina l'oggetto,
+due paragrafi di contesto storico, lo scarto in prima persona ("Ho voluto fermare quel momento in
+terracotta"), una chiusura con dentro un numero ("tremila anni di storia in 42 centimetri"), e in
+fondo il blocco `📐 materiali | misure` più `📩 Per info e acquisto`. Vende, sempre.
+**Nota tecnica.** Facebook è dietro login e non risulta un accesso attivo su Chrome: da lì si legge
+solo la descrizione della pagina e il post in cima. Instagram invece si legge post per post da
+sloggato, aprendo i permalink singoli. Se serviranno più dati, quella è la strada.
+
+## 01/09 — Il profilo non è da avviare: ha già 33 post
+
+**Cosa.** Instagram `@mauriziobertino_arte` ha 33 post e 154 follower, Facebook "Spazio Arte
+Bertino" (`@mauriziobertinoartista`) ne ha 162. Di conseguenza il primo post non è più una
+presentazione ma l'annuncio del sito nuovo.
+**Perché cambiare il primo post.** Presentarsi a chi ti segue da mesi è una schermata sprecata.
+Il sito online è una notizia vera per quel pubblico, e serve anche a giustificare il cambio del
+link in bio.
+**Nota tecnica.** Il link in bio di Instagram oggi porta a un video YouTube, e la pagina Facebook
+indica ancora `mauriziobertino.com`, che scade il 15/09. Vanno cambiati tutti e due **prima** del
+post del 3 settembre, altrimenti il primo post rimanda a un posto che non c'è.
+**Da fare.** Cambiare i due link. È di Davide, non serve Maurizio.
+
+## 01/09 — Si parte con l'indirizzo brutto, e i testi social li approva Davide
+
+**Cosa.** Tre risposte che sbloccano l'avvio: il link nelle didascalie e in bio resta
+`liquo84.github.io/mauriziobertino-sito/` e si cambia dopo; la pagina Facebook esiste, quindi si
+pubblica su entrambi i canali; le didascalie social non passano da Maurizio, le approva Davide.
+**Perché non aspettare il dominio, come avevo proposto.** Il link vive solo nel testo delle
+didascalie, non dentro le immagini: cambiarlo dopo costa una sostituzione in un file. Rimandare
+l'avvio dei social all'acquisto di un dominio sarebbe stato legare una cosa fatta a una cosa da
+fare. La registrazione resta dov'era, in coda.
+**Nota tecnica.** La regola dei testi concordati con Maurizio in `CLAUDE.md` riguarda i **testi del
+sito** e non cambia. Le didascalie social sono materiale di Davide.
+
+## 01/09 — Le prime quattro uscite mostrano le tre anime, non solo la pittura
+
+**Cosa.** Calendario di avvio: 3/09 presentazione (Maurizio allo stand di Piacenza), 10/09 pittura
+("Lo Sguardo della Tigre"), 17/09 scultura ("Aquila"), 24/09 nativi ("Arco corto delle pianure").
+Una uscita a settimana, sempre di giovedì. Tutto in `social/PIANO.md`.
+**Perché non partire dalla pittura, che è la sezione più ampia.** Un profilo nuovo si giudica dalle
+prime schermate. Quattro dipinti di fila avrebbero raccontato un pittore, e il lavoro sui nativi —
+che è la parte più insolita e quella che porta Maurizio alle fiere — sarebbe rimasta invisibile.
+**Nota tecnica.** Le opere scelte hanno tutte un testo già scritto e verificato da cui partire
+(articolo del sito o scheda di catalogo). Nessuna didascalia contiene un dato inventato: dove il
+catalogo tace, il testo tace. L'"Arco corto" chiude il cerchio con la foto della fiera del primo post.
+**Da fare.** Far leggere le quattro didascalie a Maurizio prima di caricare.
+
+## 01/09 — Le immagini social si generano da script, e ffmpeg non serve
+
+**Cosa.** `social/genera-social.py` costruisce i tre formati (1080×1080 Facebook, 1080×1350
+Instagram, 1080×1920 storie) dalle foto già in `sito/img/full`. L'opera non viene mai ritagliata:
+è contenuta su fondo carta, con lo stesso colore e lo stesso carattere del sito. Le immagini
+prodotte sono in `.gitignore`: sono derivate, si rifanno con un comando.
+**Perché uno script invece di ritagliare a mano volta per volta.** Ritagliare un'opera per farla
+stare in un quadrato è la cosa peggiore che si possa fare a un dipinto: si perde la composizione,
+che è metà del lavoro. Il fondo carta risolve il problema e per giunta fa somigliare il profilo al
+sito. A mano, quarantasei opere per tre formati sono centotrentotto ritagli; con lo script sono
+una riga di JSON per uscita.
+**Perché ffmpeg non serviva.** La domanda del 30/08 dava per scontato che servisse: non è
+installato e per le immagini statiche non c'entra nulla — basta PIL, che c'è già. Resta necessario
+solo se un giorno si vorranno i video, e quella è una decisione separata.
+**Nota tecnica.** L'arco corto è una foto molto stretta (687×1800): nel quadrato resta una fascia
+verticale con molta carta intorno. Verificato a occhio, funziona — sembra una stampa su cartoncino,
+non un errore. Se un giorno darà fastidio, per quel formato si userà una seconda vista.
+
 ## 30/08 — I social si preparano, non si automatizzano
 
 **Cosa.** Per Facebook e Instagram si va di "livello 1": Claude prepara tutto (immagini nei tre formati, didascalie separate per le due piattaforme, hashtag, calendario editoriale dal catalogo), Davide carica. Niente pubblicazione via API. Frequenza: una uscita a settimana.
 **Perché non l'automazione, visto che le API sono gratuite.** Verificato: Meta e YouTube non fanno pagare le chiamate. Ma pubblicare su Instagram richiede la revisione dell'app da parte di Meta, indicata in una-quattro settimane per ciclo e spesso più cicli, con esito non garantito. Con un post a settimana l'automazione risparmia dieci minuti e costa un mese di pratiche. Il tempo vero sta nel preparare il contenuto, ed è lì che si interviene.
+**Esito (01/09).** Confermata dai fatti: l'account di Maurizio è **personale**
+(@mauriziobertino_arte), e con un profilo personale l'API di Instagram non pubblica affatto.
+La strada del livello 2 sarebbe stata chiusa in partenza, non solo lenta.
 **Nota tecnica.** Claude non ha alcun connettore per Facebook, Instagram o YouTube: verificato nel registro, zero risultati. Il livello 2 richiederebbe token Meta generati da Davide e chiamate HTTP dirette. Resta la regola: niente pubblicazione a nome di Maurizio senza via libera esplicito, volta per volta.
 **Da fare.** Il materiale si costruisce dal sito, che è già un archivio strutturato: 46 opere con foto, materiali e anni, più 9 articoli. Sono quasi un anno di uscite senza inventare niente.
 

@@ -31,6 +31,8 @@ Quando il nuovo dominio esiste: cambiare `DOMINIO` in `_backup-wp/genera.py`, ri
   (anche con più viste, `--viste`); `estrai.py` e `catalogo.py` servirono solo all'importazione
   iniziale e **non vanno rilanciati** (catalogo.py si rifiuta da solo, per non perdere le opere
   aggiunte dopo).
+- `social/` — piano editoriale e `genera-social.py`, che costruisce le immagini nei tre formati
+  dalle foto del sito. Le immagini prodotte sono in `.gitignore`: si rigenerano con un comando.
 - `LEGGIMI.md` — guida per Maurizio.
 - `JOURNAL.md` — diario di lavoro.
 
@@ -38,3 +40,6 @@ Quando il nuovo dominio esiste: cambiare `DOMINIO` in `_backup-wp/genera.py`, ri
 - Il diario è in `JOURNAL.md`: leggilo in apertura di sessione, aggiornalo in chiusura.
 - Le nuove opere si aggiungono con `aggiungi-opera.py`, non a mano nell'HTML.
 - Ogni modifica ai testi visibili va segnalata a Maurizio prima di pubblicarla.
+- **Sui social non si pubblica mai da qui.** Claude prepara immagini e didascalie, carica Davide a
+  mano dopo l'ok di Maurizio. Decisione del 30/08, confermata il 01/09: l'account Instagram è
+  personale e l'API non pubblicherebbe comunque.

@@ -4,3 +4,6 @@ immagini/
 
 .DS_Store
 __pycache__/
+
+# Immagini social: derivate, si rigenerano con social/genera-social.py
+social/uscite/
