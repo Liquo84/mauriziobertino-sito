@@ -44,6 +44,19 @@ lo scatto di taglio del cavallo e le due tracce audio del vecchio sito.
 
 ---
 
+## 01/09 — Il sito si carica senza chiedere, il resto no
+
+**Cosa.** Da oggi le modifiche al sito verificate si caricano su GitHub senza domande.
+Restano da confermare ogni volta: cancellare contenuti, toccare il dominio, scrivere a Maurizio,
+pubblicare sui social a suo nome. Scritto in `CLAUDE.md`.
+**Perché distinguere invece di chiedere sempre o mai.** Su questo progetto caricare non è salvare:
+il workflow pubblica da solo, quindi ogni push cambia ciò che vedono gli altri. Ma è anche
+un'azione che si torna indietro con un commit, e chiedere ogni volta allungava il giro senza
+aggiungere sicurezza. Le quattro eccezioni sono le cose che *non* si tornano indietro con un
+commit: quelle continuano a passare da Davide.
+**Nota tecnica.** «Verificate» vuol dire due cose precise: pagine rigenerate con `genera.py`,
+e controllo che nulla sbordi né a 1280 né a 375px. Senza quelle, la regola non si applica.
+
 ## 01/09 — Il sito rimanda ai social, non solo il contrario
 
 **Cosa.** Icone di Instagram, Facebook e YouTube nel piede di ogni pagina, e una scheda Instagram

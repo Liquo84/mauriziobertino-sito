@@ -39,6 +39,12 @@ Quando il nuovo dominio esiste: cambiare `DOMINIO` in `_backup-wp/genera.py`, ri
 ## Come lavoriamo qui
 - Il diario è in `JOURNAL.md`: leggilo in apertura di sessione, aggiornalo in chiusura.
 - Le nuove opere si aggiungono con `aggiungi-opera.py`, non a mano nell'HTML.
+- **Le modifiche al sito si caricano su GitHub senza chiedere**, purché siano state verificate
+  prima: pagine rigenerate con `genera.py` e controllo che nulla sbordi né a 1280 né a 375px.
+  Poi si dice a Davide com'è andata, workflow compreso. Regola del 01/09: chiedere ogni volta
+  allungava il giro senza aggiungere sicurezza, visto che `main` è ciò che va online.
+- **Restano da confermare volta per volta**, e non si fanno mai di iniziativa: cancellare
+  contenuti, toccare il dominio, scrivere a Maurizio, pubblicare sui social a suo nome.
 - Ogni modifica ai testi visibili va segnalata a Maurizio prima di pubblicarla.
 - **Sui social non si pubblica mai da qui.** Claude prepara immagini e didascalie, carica Davide a
   mano dopo l'ok di Maurizio. Decisione del 30/08, confermata il 01/09: l'account Instagram è
