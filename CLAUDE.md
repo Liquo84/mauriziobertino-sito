@@ -39,6 +39,12 @@ Quando il nuovo dominio esiste: cambiare `DOMINIO` in `_backup-wp/genera.py`, ri
 ## Come lavoriamo qui
 - Il diario è in `JOURNAL.md`: leggilo in apertura di sessione, aggiornalo in chiusura.
 - Le nuove opere si aggiungono con `aggiungi-opera.py`, non a mano nell'HTML.
+- **Prima di aggiungere un'opera si cerca il titolo in `_catalogo.json`.** Vale anche quando
+  Maurizio la manda come se fosse nuova: spesso sono foto migliori di un'opera già pubblicata,
+  e in quel caso si sostituisce l'immagine nella scheda esistente invece di crearne una seconda.
+  `aggiungi-opera.py` intercetta i doppioni sul nome del file, mai sul titolo. Regola del 10/09.
+- **Le foto delle opere si ritagliano sulla tela**: niente cornice, niente muro, prospettiva
+  raddrizzata sui quattro angoli. È la convenzione di tutto il catalogo.
 - **Le modifiche al sito si caricano su GitHub senza chiedere**, purché siano state verificate
   prima: pagine rigenerate con `genera.py` e controllo che nulla sbordi né a 1280 né a 375px.
   Poi si dice a Davide com'è andata, workflow compreso. Regola del 01/09: chiedere ogni volta

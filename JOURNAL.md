@@ -11,30 +11,27 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 
 ---
 
-## Stato al 01/09/2026
+## Stato al 10/09/2026
 
 | | |
 |---|---|
-| Sito | Online e verificato. 46 opere con filtri, 7 pagine, 9 articoli |
+| Sito | Online e verificato. 46 opere con filtri, 7 pagine, 9 articoli. Nessun link rotto, workflow verde |
 | Indirizzo | https://liquo84.github.io/mauriziobertino-sito/ |
-| Pubblicazione | Automatica. Da oggi si carica senza chiedere, se verificato |
-| Social | Instagram `@mauriziobertino_arte` (33 post, 154 follower), Facebook "Spazio Arte Bertino" (162). Nessuno dei due è nuovo |
-| Uscite | Le prime 4 schedulate su Meta Business Suite: 3, 10, 17, 24 settembre |
+| Pubblicazione | Automatica, si carica senza chiedere se verificato |
+| Social | Instagram `@mauriziobertino_arte` (153 follower), Facebook "Spazio Arte Bertino" (161) |
+| Uscite | 3/09 "Ho un sito nuovo" (16 like, 1 commento) e 10/09 "Lo Sguardo della Tigre" (9 like, 2 commenti) sono uscite. Restano 17 e 24 |
 | Consuntivo | A calendario il 28/09 alle 16:00, insieme alla preparazione del blocco 2 |
-| Dominio | Il vecchio scade il 15/09. Il nuovo si compra quando si decide, non blocca i social |
+| Dominio | Il vecchio scade il 15/09 e **non si rinnova**. Il nuovo si compra più avanti |
 | Costo | Zero |
 
-Il sito non è più il nodo, e da oggi non lo è più nemmeno la macchina dei social:
-immagini, didascalie e tono di voce sono impostati e ripetibili. Quello che manca
-sono i dati delle opere e le risposte di Maurizio, che è preso dal lavoro.
+La macchina gira da sola: il sito non si è rotto in nove giorni e le uscite
+schedulate sono partite senza che nessuno toccasse niente. Il lavoro vero adesso
+è fuori dal sito — i dati che Maurizio non manda e i due link in bio.
 
-**Non contato:** le 46 opere includono **quattro pubblicate con titolo provvisorio
-"Senza titolo"**, senza misure e (tranne il gufo) senza anno. Il conteggio le tratta
-come le altre, ma le schede sono incomplete. Restano in archivio, non pubblicati,
-lo scatto di taglio del cavallo e le due tracce audio del vecchio sito.
-**Le quattro uscite sono schedulate ma non ancora uscite**: al 01/09 non esiste
-un solo dato di riuscita. Tutto quello che è stato deciso oggi sul tono e sul
-formato è ragionato, non verificato.
+**Non contato:** le 46 opere includono sempre **quattro schede con titolo
+provvisorio "Senza titolo"**, senza misure e (tranne il gufo) senza anno.
+Restano in archivio, non pubblicati, lo scatto di taglio del cavallo e le due
+tracce audio del vecchio sito.
 
 ---
 
@@ -43,7 +40,8 @@ formato è ragionato, non verificato.
 - [ ] **Titoli e misure delle quattro opere nuove** — sono online come "Senza titolo": cinque opere del catalogo portano ora la stessa etichetta. Maurizio è lento a dare i dati, ma finché non arrivano il catalogo resta ambiguo.
 - [ ] **Materiale delle due sculture in pietra** — sul sito è scritto genericamente "pietra". Se è pietra leccese va specificato: è un dato che qualifica l'opera.
 - [ ] **Anno del dipinto con il viale di alberi** — la firma porta due cifre illeggibili alla risoluzione disponibile. Serve la conferma di Maurizio, non una supposizione.
-- [ ] **Cambiare il link in bio su Instagram e su Facebook** — oggi puntano a un video YouTube e a un dominio in scadenza. Se non si cambiano prima del 3/09, il primo post manda i lettori nel vuoto.
+- [ ] **I due link in bio** — su Instagram il sito c'è ma è il *secondo* link: quello in chiaro resta il video YouTube. Su Facebook non è stato toccato, la pagina indica ancora `mauriziobertino.com`. Le didascalie dicono «Link in bio», quindi finché stanno così mandano i lettori nel posto sbagliato. Il 10/09 Davide ha detto che li sistema lui.
+- [ ] **Canonical e sitemap puntano al dominio che muore il 15/09** — `DOMINIO` in `genera.py` è ancora `https://mauriziobertino.com`, e finisce in `<link rel="canonical">`, `og:url`, `sitemap.xml` e `robots.txt` di tutte le pagine. Dal 16/09 il sito dichiara a Google che la sua versione buona sta a un indirizzo che non esiste più. Il 10/09 Davide ha deciso di comprare il dominio nuovo più avanti: fino ad allora la questione resta aperta.
 - [ ] **Quali opere del catalogo sono in vendita** — le schede di Maurizio finiscono sempre con «Per info e acquisto». Sui dipinti non lo sappiamo, quindi la chiamata all'acquisto per ora è solo sulle riproduzioni.
 - [ ] **ffmpeg, solo se si vorranno i video** — non è installato e per il livello 1 non serve. Resta aperta solo se un giorno si vorranno Reel dal catalogo.
 - [ ] **Il registro "scheda" funziona quanto quello diretto?** — sul profilo i video hanno sempre avuto più reazioni dei post fotografici. Se si conferma il 28/09, nel blocco 2 i due registri vanno alternati.
@@ -51,6 +49,52 @@ formato è ragionato, non verificato.
 - [ ] **Disdetta del piano WordPress** — ultimo passo, quando il nuovo dominio è attivo.
 
 ---
+
+## 10/09 — "Due opere" erano due foto di un'opera che c'era già
+
+**Cosa.** Maurizio ha mandato due scatti. Sembravano due opere nuove: erano la tela intera
+e un dettaglio del falciatore della stessa opera, **"La falciatura del grano"**, che sta in
+catalogo dal principio come scheda n. 13 — con misure (60×40 cm), data (10/03/1995) e tecnica
+già a posto. Lo scatto d'insieme ha sostituito quello del 2021; il dettaglio è la seconda vista.
+**Correzione mia.** L'avevo aggiunta come opera nuova, e per qualche minuto in catalogo ce ne
+sono state due uguali. Me ne sono accorto perché la scheda mostrava misure e anno che non avevo
+inserito io: erano quelli della scheda vera. La regola che ne esce: **prima di aggiungere
+un'opera si cerca il titolo in `_catalogo.json`**, anche quando chi la manda la presenta come
+nuova. `aggiungi-opera.py` controlla i doppioni sul nome del file, non sul titolo, e il nome
+del file di una foto nuova non coincide mai.
+**Nota tecnica.** La foto d'insieme era storta e con cornice e muro dentro l'inquadratura, mentre
+tutte le altre del catalogo sono ritagliate sulla tela. È stata raddrizzata in prospettiva sui
+quattro angoli della tela e portata a 3:2 esatto, che è il rapporto vero dell'opera: 60×40.
+**Perché sostituire e non affiancare.** Lo scatto del 2021 era slavato, bluastro e a bassa
+risoluzione (720×467). Tenere tutti e due voleva dire far scegliere al lettore quale delle due
+è l'opera. La vecchia immagine resta nella cartella `img/`, non cancellata, solo non più usata.
+**Esito.** Online e verificato: 46 opere (non 47), una sola scheda, badge "2 viste", la lente si
+apre e il tasto avanti porta al dettaglio. Nessuno sbordamento né a 1280 né a 375px.
+
+## 10/09 — Il dominio nuovo si compra più avanti, e il vecchio muore lo stesso
+
+**Cosa.** Il check settimanale ha trovato che `mauriziobertino.com` — che scade il 15/09 e non
+si rinnova — è ancora scritto dentro il sito nuovo in quattro punti che parlano ai motori di
+ricerca: canonical di ogni pagina, `og:url`, `sitemap.xml` e `robots.txt`. Davide ha deciso di
+comprare `artemauriziobertino.com` più avanti.
+**Perché è un problema e non un dettaglio.** Il canonical dice a Google *qual è* la versione
+buona di una pagina. Dal 16/09 tutte le pagine su GitHub Pages indicheranno un indirizzo che non
+esiste più — e se qualcuno ricompra quel dominio, lo indicheranno a casa sua. In più oggi il
+vecchio dominio serve ancora il WordPress originale: è contenuto doppio, ed è quello indicizzato.
+**Cosa resta sul tavolo.** Il tampone è una riga: `DOMINIO` in `genera.py` che punta all'indirizzo
+GitHub Pages, rigenerare e caricare. Non è stato fatto perché tocca il dominio, e il dominio passa
+da Davide. Quando arriverà `artemauriziobertino.com` la riga si cambia comunque una volta sola.
+
+## 10/09 — Il primo blocco social funziona senza mani
+
+**Cosa.** Le prime due uscite schedulate sono partite da sole: il 3/09 "Ho un sito nuovo 🎯"
+(16 like, 1 commento) e il 10/09 "Lo Sguardo della Tigre" (9 like, 2 commenti). Il calendario
+regge, restano il 17 e il 24.
+**Nota tecnica.** Instagram si legge ancora da sloggato, ma non dal profilo: la griglia dei post
+sì, i conteggi e i link della bio stanno solo dentro l'HTML della pagina. Facebook da sloggato
+dà nome, "in breve" e il sito indicato, che è quanto basta per il check.
+**Da non concludere adesso.** Due post non dicono niente sul registro che funziona: i numeri si
+leggono il 28/09, come deciso.
 
 ## 01/09 — Il sito si carica senza chiedere, il resto no
 
