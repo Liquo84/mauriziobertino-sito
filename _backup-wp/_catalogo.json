@@ -169,10 +169,13 @@
    "anno": "1995",
    "tecnica": "Olio su tela",
    "didascalia": "La falciatura del grano, 60×40, 10/03/1995. Olio su tela.",
-   "img": "whatsapp-image-2021-08-23-at-16.40.18.jpeg",
-   "w": "720",
-   "h": "467",
-   "sezione": "pittura"
+   "img": "la-falciatura-del-grano.jpg",
+   "w": "640",
+   "h": "426",
+   "sezione": "pittura",
+   "viste": [
+    "la-falciatura-del-grano-vista2.jpg"
+   ]
   },
   {
    "n": 14,
