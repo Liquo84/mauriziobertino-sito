@@ -4,7 +4,7 @@ import json, os, re, shutil, html as H
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 SITO = os.path.join(BASE, "..", "sito")
-DOMINIO = "https://mauriziobertino.com"
+DOMINIO = "https://artemauriziobertino.com"
 
 # ---------------------------------------------------------------- contatti
 # NOTA: sostituire i segnaposto con i recapiti reali.

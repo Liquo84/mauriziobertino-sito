@@ -10,9 +10,11 @@ La guida completa in linguaggio non tecnico è in `LEGGIMI.md`: è scritta per M
 ## Obiettivo
 Sostituire il sito WordPress. **Fatto**: il sito è online su GitHub Pages, si aggiorna da solo a ogni modifica caricata e non costa nulla.
 
-**Il vecchio dominio non va più messo in sicurezza.** Il 21 agosto 2026 Davide e Maurizio hanno deciso di lasciare scadere `mauriziobertino.com` il 15 settembre: il sito faceva circa 300 visite l'anno e il rinnovo non valeva i ~15 €. Al suo posto registreranno **`artemauriziobertino.com`** con la promozione Aruba, ma solo *quando il sito sarà finito*.
+**Il vecchio dominio non va più messo in sicurezza.** Il 21 agosto 2026 Davide e Maurizio hanno deciso di lasciare scadere `mauriziobertino.com` il 15 settembre: il sito faceva circa 300 visite l'anno e il rinnovo non valeva i ~15 €.
 
-Quando il nuovo dominio esiste: cambiare `DOMINIO` in `_backup-wp/genera.py`, rigenerare, aggiungere `sito/CNAME` e impostare il dominio in Settings → Pages.
+**Il dominio nuovo è `artemauriziobertino.com`**, comprato da Davide su **Register.it** il 15/09/2026 in promozione (0,50 € il primo anno), scadenza 15/09/2027. I DNS stanno su Register.it. **Il rinnovo a listino Register.it è 58,50 € + IVA l'anno**: il rinnovo automatico va tenuto spento e prima della scadenza il dominio si trasferisce su un registrar economico (Cloudflare, 10,46 $ l'anno, trasferimento possibile dopo 60 giorni dall'acquisto).
+
+Il sito pubblica con un workflow di Actions: **il file `CNAME` non serve ed è ignorato**. Il dominio si imposta in Settings → Pages (o `gh api -X PUT repos/Liquo84/mauriziobertino-sito/pages -f cname=...`), e `DOMINIO` in `_backup-wp/genera.py` deve coincidere.
 
 ## Vincoli e regole
 - **Si pubblica solo la cartella `sito/`.** Il resto della cartella non va online.

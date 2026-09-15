@@ -21,7 +21,7 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 | Social | Instagram `@mauriziobertino_arte` (153 follower), Facebook "Spazio Arte Bertino" (161) |
 | Uscite | 3/09 "Ho un sito nuovo" (16 like, 1 commento) e 10/09 "Lo Sguardo della Tigre" (9 like, 2 commenti) sono uscite. Restano 17 e 24 |
 | Consuntivo | A calendario il 28/09 alle 16:00, insieme alla preparazione del blocco 2 |
-| Dominio | Il vecchio scade il 15/09 e **non si rinnova**. Il nuovo si compra più avanti |
+| Dominio | Il vecchio è scaduto il 15/09. **`artemauriziobertino.com` comprato su Register.it il 15/09**, in attesa dei DNS |
 | Costo | Zero |
 
 La macchina gira da sola: il sito non si è rotto in nove giorni e le uscite
@@ -41,14 +41,31 @@ tracce audio del vecchio sito.
 - [ ] **Materiale delle due sculture in pietra** — sul sito è scritto genericamente "pietra". Se è pietra leccese va specificato: è un dato che qualifica l'opera.
 - [ ] **Anno del dipinto con il viale di alberi** — la firma porta due cifre illeggibili alla risoluzione disponibile. Serve la conferma di Maurizio, non una supposizione.
 - [ ] **I due link in bio** — su Instagram il sito c'è ma è il *secondo* link: quello in chiaro resta il video YouTube. Su Facebook non è stato toccato, la pagina indica ancora `mauriziobertino.com`. Le didascalie dicono «Link in bio», quindi finché stanno così mandano i lettori nel posto sbagliato. Il 10/09 Davide ha detto che li sistema lui.
-- [ ] **Canonical e sitemap puntano al dominio che muore il 15/09** — `DOMINIO` in `genera.py` è ancora `https://mauriziobertino.com`, e finisce in `<link rel="canonical">`, `og:url`, `sitemap.xml` e `robots.txt` di tutte le pagine. Dal 16/09 il sito dichiara a Google che la sua versione buona sta a un indirizzo che non esiste più. Il 10/09 Davide ha deciso di comprare il dominio nuovo più avanti: fino ad allora la questione resta aperta.
+- [ ] **Canonical e sitemap puntano al dominio che muore il 15/09** — `DOMINIO` in `genera.py` è ancora `https://mauriziobertino.com`, e finisce in `<link rel="canonical">`, `og:url`, `sitemap.xml` e `robots.txt` di tutte le pagine. Dal 16/09 il sito dichiara a Google che la sua versione buona sta a un indirizzo che non esiste più. Il 10/09 Davide ha deciso di comprare il dominio nuovo più avanti: fino ad allora la questione resta aperta. **16/09:** in locale punta già ad `artemauriziobertino.com`, si pubblica quando i DNS rispondono.
 - [ ] **Quali opere del catalogo sono in vendita** — le schede di Maurizio finiscono sempre con «Per info e acquisto». Sui dipinti non lo sappiamo, quindi la chiamata all'acquisto per ora è solo sulle riproduzioni.
 - [ ] **ffmpeg, solo se si vorranno i video** — non è installato e per il livello 1 non serve. Resta aperta solo se un giorno si vorranno Reel dal catalogo.
 - [ ] **Il registro "scheda" funziona quanto quello diretto?** — sul profilo i video hanno sempre avuto più reazioni dei post fotografici. Se si conferma il 28/09, nel blocco 2 i due registri vanno alternati.
-- [ ] **Registrare artemauriziobertino.com** — da fare a sito finito. Prima di comprare, controllare il prezzo di rinnovo dal secondo anno: le promozioni a 1 € valgono il primo.
+- [ ] **Collegare artemauriziobertino.com** — comprato il 15/09 su Register.it. Mancano i DNS, il dominio in Settings → Pages e la pubblicazione del canonical nuovo (già pronto in locale).
+- [ ] **Trasferire il dominio prima del rinnovo** — Register.it rinnova a 58,50 € + IVA. Rinnovo automatico spento, trasferimento su Cloudflare entro luglio-agosto 2027.
 - [ ] **Disdetta del piano WordPress** — ultimo passo, quando il nuovo dominio è attivo.
 
 ---
+
+## 16/09 — Il dominio nuovo è su Register.it, e il rinnovo non va lasciato partire
+
+**Cosa.** Davide ha comprato `artemauriziobertino.com` su Register.it a 0,50 € il primo anno
+(registrato il 15/09 alle 22:13 UTC, scade il 15/09/2027). `DOMINIO` in `genera.py` punta già al
+nuovo indirizzo e le pagine sono rigenerate: cambiano solo canonical, `og:url`, sitemap e robots.
+**Perché non Aruba.** La scelta si è spostata sul prezzo del primo anno. Il confronto del 15/09 ha
+trovato il .com a 1 € + IVA su IONOS, 4,90 € su Register.it, 4,99 € + IVA su Aruba, 10,46 $ fisso su
+Cloudflare. Davide ha trovato su Register.it un prezzo ancora più basso.
+**Il rischio.** Il listino Register.it rinnova il .com a **58,50 € + IVA** l'anno. Rinnovo automatico
+spento; a luglio-agosto 2027 si trasferisce su Cloudflare, dove il trasferimento include l'anno.
+**Ordine dei passi.** Prima i DNS su Register.it (quattro A verso GitHub, `www` in CNAME verso
+`liquo84.github.io`), poi dominio in Settings → Pages e pubblicazione insieme. Caricare prima il
+canonical nuovo avrebbe indicato a Google la pagina di parcheggio di Register.it.
+**Correzione.** CLAUDE.md diceva di aggiungere `sito/CNAME`: con un workflow di Actions GitHub lo
+ignora, il dominio si imposta solo nelle impostazioni di Pages.
 
 ## 10/09 — "Due opere" erano due foto di un'opera che c'era già
 
