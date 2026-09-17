@@ -11,17 +11,17 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 
 ---
 
-## Stato al 10/09/2026
+## Stato al 17/09/2026
 
 | | |
 |---|---|
 | Sito | Online e verificato. 46 opere con filtri, 7 pagine, 9 articoli. Nessun link rotto, workflow verde |
-| Indirizzo | https://liquo84.github.io/mauriziobertino-sito/ |
+| Indirizzo | https://artemauriziobertino.com/ (HTTPS attivo; il vecchio indirizzo GitHub e `www` rimandano qui) |
 | Pubblicazione | Automatica, si carica senza chiedere se verificato |
 | Social | Instagram `@mauriziobertino_arte` (153 follower), Facebook "Spazio Arte Bertino" (161) |
 | Uscite | 3/09 "Ho un sito nuovo" (16 like, 1 commento) e 10/09 "Lo Sguardo della Tigre" (9 like, 2 commenti) sono uscite. Restano 17 e 24 |
 | Consuntivo | A calendario il 28/09 alle 16:00, insieme alla preparazione del blocco 2 |
-| Dominio | Il vecchio è scaduto il 15/09. **`artemauriziobertino.com` comprato su Register.it il 15/09**, in attesa dei DNS |
+| Dominio | Il vecchio è scaduto il 15/09. **`artemauriziobertino.com` online dal 17/09**, comprato su Register.it, scade il 15/09/2027 |
 | Costo | Zero |
 
 La macchina gira da sola: il sito non si è rotto in nove giorni e le uscite
@@ -41,15 +41,26 @@ tracce audio del vecchio sito.
 - [ ] **Materiale delle due sculture in pietra** — sul sito è scritto genericamente "pietra". Se è pietra leccese va specificato: è un dato che qualifica l'opera.
 - [ ] **Anno del dipinto con il viale di alberi** — la firma porta due cifre illeggibili alla risoluzione disponibile. Serve la conferma di Maurizio, non una supposizione.
 - [ ] **I due link in bio** — su Instagram il sito c'è ma è il *secondo* link: quello in chiaro resta il video YouTube. Su Facebook non è stato toccato, la pagina indica ancora `mauriziobertino.com`. Le didascalie dicono «Link in bio», quindi finché stanno così mandano i lettori nel posto sbagliato. Il 10/09 Davide ha detto che li sistema lui.
-- [ ] **Canonical e sitemap puntano al dominio che muore il 15/09** — `DOMINIO` in `genera.py` è ancora `https://mauriziobertino.com`, e finisce in `<link rel="canonical">`, `og:url`, `sitemap.xml` e `robots.txt` di tutte le pagine. Dal 16/09 il sito dichiara a Google che la sua versione buona sta a un indirizzo che non esiste più. Il 10/09 Davide ha deciso di comprare il dominio nuovo più avanti: fino ad allora la questione resta aperta. **16/09:** in locale punta già ad `artemauriziobertino.com`, si pubblica quando i DNS rispondono.
 - [ ] **Quali opere del catalogo sono in vendita** — le schede di Maurizio finiscono sempre con «Per info e acquisto». Sui dipinti non lo sappiamo, quindi la chiamata all'acquisto per ora è solo sulle riproduzioni.
 - [ ] **ffmpeg, solo se si vorranno i video** — non è installato e per il livello 1 non serve. Resta aperta solo se un giorno si vorranno Reel dal catalogo.
 - [ ] **Il registro "scheda" funziona quanto quello diretto?** — sul profilo i video hanno sempre avuto più reazioni dei post fotografici. Se si conferma il 28/09, nel blocco 2 i due registri vanno alternati.
-- [ ] **Collegare artemauriziobertino.com** — comprato il 15/09 su Register.it. Mancano i DNS, il dominio in Settings → Pages e la pubblicazione del canonical nuovo (già pronto in locale).
 - [ ] **Trasferire il dominio prima del rinnovo** — Register.it rinnova a 58,50 € + IVA. Rinnovo automatico spento, trasferimento su Cloudflare entro luglio-agosto 2027.
-- [ ] **Disdetta del piano WordPress** — ultimo passo, quando il nuovo dominio è attivo.
+- [ ] **Disdetta del piano WordPress** — il dominio nuovo è attivo dal 17/09: è l'ultimo passo rimasto del passaggio.
 
 ---
+
+## 17/09 — artemauriziobertino.com è online
+
+**Cosa.** Chiuso il DNSSEC di Register.it, Davide ha messo i DNS: 4 record A verso GitHub e `www`
+CNAME verso `liquo84.github.io`. Dominio impostato in Pages con `gh api`, pubblicato il commit con
+canonical, sitemap e robots nuovi (workflow verde), certificato approvato per dominio e `www`
+(scade il 16/12, GitHub lo rinnova da solo), HTTPS obbligatorio attivo.
+**Verificato.** `https://artemauriziobertino.com/` risponde 200 con il canonical giusto; `http`,
+`www` e il vecchio `liquo84.github.io/mauriziobertino-sito/` rimandano lì con un 301. Per questo i
+post social già schedulati con il vecchio link funzionano lo stesso e non vanno toccati.
+**Due inciampi del pannello Register.it.** Il `www` esisteva già (CNAME del parcheggio): va
+modificato, aggiungerne un altro dà "duplicato". E il nome `@` non vuol dire dominio principale:
+crea un sottodominio `@.artemauriziobertino.com`. Il nome va scritto per intero. Regola in CLAUDE.md.
 
 ## 16/09 — Il dominio nuovo è su Register.it, e il rinnovo non va lasciato partire
 

@@ -67,7 +67,7 @@ mauriziobertino-sito/
 
 | | |
 |---|---|
-| Indirizzo provvisorio | **https://liquo84.github.io/mauriziobertino-sito/** |
+| Indirizzo | **https://artemauriziobertino.com/** (il vecchio indirizzo provvisorio rimanda qui) |
 | Repository | https://github.com/Liquo84/mauriziobertino-sito (pubblico) |
 | Costo | zero |
 

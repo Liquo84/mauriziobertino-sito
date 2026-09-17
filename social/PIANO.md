@@ -163,7 +163,7 @@ Cartella `uscite/04-nativi-arco-corto/`
 
 ### Facebook
 
-Stesso testo, `🔗 Scheda completa: link in bio` → `🔗 https://liquo84.github.io/mauriziobertino-sito/`
+Stesso testo, `🔗 Scheda completa: link in bio` → `🔗 https://artemauriziobertino.com/`
 
 **Nota:** l'arrivo del cavallo nelle Grandi Pianure è storia generale, non sta nell'articolo
 del sito. Tutto il resto viene parola per parola dalla scheda che Maurizio ha già scritto.
