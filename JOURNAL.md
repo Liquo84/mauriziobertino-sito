@@ -44,7 +44,7 @@ tracce audio del vecchio sito.
 - [ ] **Quali opere del catalogo sono in vendita** — le schede di Maurizio finiscono sempre con «Per info e acquisto». Sui dipinti non lo sappiamo, quindi la chiamata all'acquisto per ora è solo sulle riproduzioni.
 - [ ] **ffmpeg, solo se si vorranno i video** — non è installato e per il livello 1 non serve. Resta aperta solo se un giorno si vorranno Reel dal catalogo.
 - [ ] **Il registro "scheda" funziona quanto quello diretto?** — sul profilo i video hanno sempre avuto più reazioni dei post fotografici. Se si conferma il 28/09, nel blocco 2 i due registri vanno alternati.
-- [ ] **Trasferire il dominio prima del rinnovo** — Register.it rinnova a 58,50 € + IVA. Rinnovo automatico spento, trasferimento su Cloudflare entro luglio-agosto 2027.
+- [ ] **Trasferire il dominio prima del rinnovo** — Register.it rinnova a 58,50 € + IVA. Il rinnovo automatico va spento (al 17/09 non confermato che Davide l'abbia fatto), poi trasferimento su Cloudflare entro luglio-agosto 2027.
 - [ ] **Disdetta del piano WordPress** — il dominio nuovo è attivo dal 17/09: è l'ultimo passo rimasto del passaggio.
 
 ---
@@ -61,6 +61,10 @@ post social già schedulati con il vecchio link funzionano lo stesso e non vanno
 **Due inciampi del pannello Register.it.** Il `www` esisteva già (CNAME del parcheggio): va
 modificato, aggiungerne un altro dà "duplicato". E il nome `@` non vuol dire dominio principale:
 crea un sottodominio `@.artemauriziobertino.com`. Il nome va scritto per intero. Regola in CLAUDE.md.
+**Nota tecnica.** Subito dopo, dal telefono "server non trovato": i resolver pubblici avevano in
+cache la risposta vuota di quando i record A non c'erano (15 minuti, rinnovati anche dai controlli
+fatti nel frattempo). `www` rispondeva già. Non si tocca niente, si aspetta.
+**Da fare.** Confermare che dal telefono si apre (atteso dalle 15:20 del 17/09).
 
 ## 16/09 — Il dominio nuovo è su Register.it, e il rinnovo non va lasciato partire
 
