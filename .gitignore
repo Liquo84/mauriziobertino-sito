@@ -7,3 +7,6 @@ __pycache__/
 
 # Immagini social: derivate, si rigenerano con social/genera-social.py
 social/uscite/
+
+# Fatture e documenti amministrativi: contengono dati personali, restano solo in locale
+documenti/
