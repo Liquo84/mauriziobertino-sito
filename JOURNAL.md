@@ -40,14 +40,35 @@ tracce audio del vecchio sito.
 - [ ] **Titoli e misure delle quattro opere nuove** — sono online come "Senza titolo": cinque opere del catalogo portano ora la stessa etichetta. Maurizio è lento a dare i dati, ma finché non arrivano il catalogo resta ambiguo.
 - [ ] **Materiale delle due sculture in pietra** — sul sito è scritto genericamente "pietra". Se è pietra leccese va specificato: è un dato che qualifica l'opera.
 - [ ] **Anno del dipinto con il viale di alberi** — la firma porta due cifre illeggibili alla risoluzione disponibile. Serve la conferma di Maurizio, non una supposizione.
-- [ ] **I due link in bio** — su Instagram il sito c'è ma è il *secondo* link: quello in chiaro resta il video YouTube. Su Facebook non è stato toccato, la pagina indica ancora `mauriziobertino.com`. Le didascalie dicono «Link in bio», quindi finché stanno così mandano i lettori nel posto sbagliato. Il 10/09 Davide ha detto che li sistema lui.
 - [ ] **Quali opere del catalogo sono in vendita** — le schede di Maurizio finiscono sempre con «Per info e acquisto». Sui dipinti non lo sappiamo, quindi la chiamata all'acquisto per ora è solo sulle riproduzioni.
 - [ ] **ffmpeg, solo se si vorranno i video** — non è installato e per il livello 1 non serve. Resta aperta solo se un giorno si vorranno Reel dal catalogo.
 - [ ] **Il registro "scheda" funziona quanto quello diretto?** — sul profilo i video hanno sempre avuto più reazioni dei post fotografici. Se si conferma il 28/09, nel blocco 2 i due registri vanno alternati.
-- [ ] **Trasferire il dominio prima del rinnovo** — Register.it rinnova a 58,50 € + IVA. Il rinnovo automatico va spento (al 17/09 non confermato che Davide l'abbia fatto), poi trasferimento su Cloudflare entro luglio-agosto 2027.
+- [ ] **Trasferire il dominio prima della scadenza** — il 22/09 Davide ha detto che il rinnovo automatico di Register.it non è un problema: sulla carta collegata non ci sono mai soldi, quindi i 58,50 € + IVA non partono. Resta il rovescio: se non si trasferisce su Cloudflare entro luglio-agosto 2027, il 15/09/2027 il dominio scade e il sito sparisce dall'indirizzo.
+- [ ] **Il vecchio `mauriziobertino.com` risulta rinnovato fino al 15/09/2027** — trovato al check del 22/09. Non si sa ancora se WordPress.com ha addebitato il rinnovo o se è solo il periodo di grazia dei .com. Conta perché si decide insieme alla disdetta del piano WordPress.
 - [ ] **Disdetta del piano WordPress** — il dominio nuovo è attivo dal 17/09: è l'ultimo passo rimasto del passaggio.
 
 ---
+
+## 22/09 — Check settimanale: sito sano, link in bio sistemati, il vecchio dominio non è morto
+
+**Cosa.** Check del lunedì fatto il martedì. Sito: workflow verde, certificato valido fino al
+16/12 (rinnovo automatico di GitHub), `http`, `www` e il vecchio indirizzo GitHub rimandano con un
+301, 131 indirizzi controllati fra pagine, immagini e link esterni, nessuno rotto. Da Maurizio
+nessun dato nuovo.
+**Social.** Il post del 17/09 è uscito: Instagram conta 36 post (33 + le tre uscite del blocco),
+Facebook lo mostra in cima con 27 reazioni, 10 commenti e 1 condivisione, più di tutte le uscite
+precedenti. Follower: 153 su Instagram (fermi), 163 su Facebook (+2). I link in bio li ha
+sistemati Davide: Facebook indica `artemauriziobertino.com`; su Instagram il sito è ora il link in
+chiaro, però con l'indirizzo GitHub `liquo84.github.io/mauriziobertino-sito`, che rimanda al
+dominio nuovo e quindi funziona.
+**La sorpresa.** Il registro ufficiale dei .com (Verisign) dà `mauriziobertino.com` in scadenza il
+**15/09/2027**, ultima modifica 16/09. Il registrar è ancora Automattic (WordPress.com) e la pagina
+dice "This domain is parked". Due letture possibili, da non confondere con un fatto: WordPress.com
+ha rinnovato addebitando la carta di Maurizio, oppure è il rinnovo d'ufficio del registro durante
+il periodo di grazia, che sparisce se il registrar non paga. Si chiarisce solo dall'account
+WordPress.com.
+**Da fare.** Il 28/09 il consuntivo con i dati di Meta Business Suite: il 17/09 su Facebook è il
+primo segnale che il registro "scheda" può funzionare, ma è un post solo.
 
 ## 17/09 — artemauriziobertino.com è online
 
@@ -65,6 +86,7 @@ crea un sottodominio `@.artemauriziobertino.com`. Il nome va scritto per intero.
 cache la risposta vuota di quando i record A non c'erano (15 minuti, rinnovati anche dai controlli
 fatti nel frattempo). `www` rispondeva già. Non si tocca niente, si aspetta.
 **Da fare.** Confermare che dal telefono si apre (atteso dalle 15:20 del 17/09).
+**Esito.** Dal telefono si apre: confermato da Davide il 22/09. Era solo la cache dei resolver.
 
 ## 16/09 — Il dominio nuovo è su Register.it, e il rinnovo non va lasciato partire
 
