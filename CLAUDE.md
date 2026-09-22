@@ -51,6 +51,13 @@ Il sito pubblica con un workflow di Actions: **il file `CNAME` non serve ed è i
   prima: pagine rigenerate con `genera.py` e controllo che nulla sbordi né a 1280 né a 375px.
   Poi si dice a Davide com'è andata, workflow compreso. Regola del 01/09: chiedere ogni volta
   allungava il giro senza aggiungere sicurezza, visto che `main` è ciò che va online.
+- **Ogni elemento toccabile (icone, pulsanti) ha un'area di almeno 44×44px**, anche se
+  l'icona disegnata è più piccola: si allarga il riquadro e lo si riassorbe con margini negativi.
+  Regola del 30/08, ribadita il 01/09 dopo icone social fatte 21×21.
+- **Quando un canale esiste già, il tono si rileva, non si progetta.** Prima di scrivere
+  qualsiasi testo social si legge `social/TONO-DI-VOCE.md` (prima persona, storia, chiusura con
+  un numero, blocco `📐` e `📩 Per info e acquisto`). Mai didascalie da museo in terza persona.
+  Regola del 01/09.
 - **Restano da confermare volta per volta**, e non si fanno mai di iniziativa: cancellare
   contenuti, toccare il dominio, scrivere a Maurizio, pubblicare sui social a suo nome.
 - Ogni modifica ai testi visibili va segnalata a Maurizio prima di pubblicarla.
