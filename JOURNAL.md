@@ -21,13 +21,13 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 | Social | Instagram `@mauriziobertino_arte` (153 follower), Facebook "Spazio Arte Bertino" (163), dati del 22/09 |
 | Uscite | 3/09, 10/09 e 17/09 uscite (il 17/09 il migliore: 27 reazioni e 10 commenti su Facebook). La 24/09 si verifica al consuntivo |
 | Consuntivo | A calendario il 28/09 alle 16:00, insieme alla preparazione del blocco 2 |
-| Dati da Maurizio | **PDF con foto e righe da compilare pronto il 25/09**, sulla Scrivania di Davide: lo manda lui |
+| Dati da Maurizio | **PDF con foto e righe da compilare pronto il 25/09**, sulla Scrivania di Davide: lo manda lui. Solo schede delle opere: vendita e WordPress tolti lo stesso giorno |
 | Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio risulta rinnovato fino al 15/09/2027: da chiarire |
 | Costo | Zero |
 
 Il sito gira da solo. Tutto il lavoro rimasto è fuori dal sito e dipende da
 Maurizio: i dati delle opere, cosa è in vendita, l'account WordPress. Da oggi
-c'è un documento solo che raccoglie tutto.
+c'è un documento che raccoglie i dati delle opere; vendita e WordPress restano fuori dal PDF.
 
 **Non contato:** le 46 opere includono sempre **quattro schede con titolo
 provvisorio "Senza titolo"**, e forse un doppione (il gufo, vedi questioni
@@ -64,8 +64,12 @@ foto, o rispondere a voce citando il numero della scheda.
 **Nota tecnica.** Le foto sono quelle di `sito/img/full`, ridotte: il PDF pesa 1,5 MB e passa su
 WhatsApp. Lo script è stato un lavoro di una volta e non è nel repository. Se serve rifarlo, si
 riparte da `_catalogo.json`, perché l'elenco delle schede incomplete si ricava da lì.
-**Da fare.** Quando arrivano le risposte: titoli e dati con `genera.py`, «Per info e acquisto»
-sulle opere segnate, e unire le due schede del gufo se Maurizio conferma che è lo stesso.
+**Da fare.** Quando arrivano le risposte: titoli e dati con `genera.py` e unire le due schede del
+gufo se Maurizio conferma che è lo stesso.
+**Esito, stesso giorno.** Davide ha fatto togliere le parti 3 (opere in vendita) e 4 (vecchio sito
+WordPress): il PDF ora ha 6 pagine, 0,7 MB, e chiede solo i dati delle 22 schede. Le due domande
+restano nelle questioni aperte, da fare per un'altra strada. Modificato il PDF esistente con PyMuPDF,
+senza lo script originale.
 
 ## 22/09 — Check settimanale: sito sano, link in bio sistemati, il vecchio dominio non è morto
 
