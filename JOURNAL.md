@@ -11,10 +11,31 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 
 ---
 
-## Stato al 17/09/2026
+## Stato al 25/09/2026
 
 | | |
 |---|---|
+| Sito | Online e verificato al check del 22/09. 46 opere con filtri, 7 pagine, 9 articoli. Nessun link rotto, workflow verde |
+| Indirizzo | https://artemauriziobertino.com/ (HTTPS attivo; il vecchio indirizzo GitHub e `www` rimandano qui) |
+| Pubblicazione | Automatica, si carica senza chiedere se verificato |
+| Social | Instagram `@mauriziobertino_arte` (153 follower), Facebook "Spazio Arte Bertino" (163), dati del 22/09 |
+| Uscite | 3/09, 10/09 e 17/09 uscite (il 17/09 il migliore: 27 reazioni e 10 commenti su Facebook). La 24/09 si verifica al consuntivo |
+| Consuntivo | A calendario il 28/09 alle 16:00, insieme alla preparazione del blocco 2 |
+| Dati da Maurizio | **PDF con foto e righe da compilare pronto il 25/09**, sulla Scrivania di Davide: lo manda lui |
+| Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio risulta rinnovato fino al 15/09/2027: da chiarire |
+| Costo | Zero |
+
+Il sito gira da solo. Tutto il lavoro rimasto è fuori dal sito e dipende da
+Maurizio: i dati delle opere, cosa è in vendita, l'account WordPress. Da oggi
+c'è un documento solo che raccoglie tutto.
+
+**Non contato:** le 46 opere includono sempre **quattro schede con titolo
+provvisorio "Senza titolo"**, e forse un doppione (il gufo, vedi questioni
+aperte): se si conferma, le opere sono 45. Oltre a queste, 18 schede non hanno
+misure, anno o tecnica. Restano in archivio, non pubblicati, lo scatto di taglio
+del cavallo e le due tracce audio del vecchio sito.
+
+---|---|
 | Sito | Online e verificato. 46 opere con filtri, 7 pagine, 9 articoli. Nessun link rotto, workflow verde |
 | Indirizzo | https://artemauriziobertino.com/ (HTTPS attivo; il vecchio indirizzo GitHub e `www` rimandano qui) |
 | Pubblicazione | Automatica, si carica senza chiedere se verificato |
@@ -49,6 +70,21 @@ tracce audio del vecchio sito.
 - [ ] **Disdetta del piano WordPress** — il dominio nuovo è attivo dal 17/09: è l'ultimo passo rimasto del passaggio.
 
 ---
+
+## 25/09 — I dati si chiedono a Maurizio con un PDF illustrato, non con un messaggio
+
+**Cosa.** Un PDF di 8 pagine (`2026-09-25 Dati da chiedere a Maurizio.pdf`, sulla Scrivania di
+Davide) con la foto di ogni opera e le righe da compilare. Contiene le quattro "Senza titolo", le altre 18
+schede incomplete, una griglia di quadri e sculture con «☐ in vendita» e le due domande su WordPress.
+Davide aveva chiesto prima un messaggio WhatsApp, poi ha preferito il PDF.
+**Perché con le foto.** Maurizio non riconosce un'opera da "il bassorilievo con il disco", e un
+elenco di 20 domande in chat resta senza risposta. Col foglio può scrivere a mano e mandare una
+foto, o rispondere a voce citando il numero della scheda.
+**Nota tecnica.** Le foto sono quelle di `sito/img/full`, ridotte: il PDF pesa 1,5 MB e passa su
+WhatsApp. Lo script è stato un lavoro di una volta e non è nel repository. Se serve rifarlo, si
+riparte da `_catalogo.json`, perché l'elenco delle schede incomplete si ricava da lì.
+**Da fare.** Quando arrivano le risposte: titoli e dati con `genera.py`, «Per info e acquisto»
+sulle opere segnate, e unire le due schede del gufo se Maurizio conferma che è lo stesso.
 
 ## 22/09 — Check settimanale: sito sano, link in bio sistemati, il vecchio dominio non è morto
 
