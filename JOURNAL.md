@@ -38,6 +38,7 @@ tracce audio del vecchio sito.
 ## Questioni aperte
 
 - [ ] **Titoli e misure delle quattro opere nuove** — sono online come "Senza titolo": cinque opere del catalogo portano ora la stessa etichetta. Maurizio è lento a dare i dati, ma finché non arrivano il catalogo resta ambiguo.
+- [ ] **Il gufo "Senza titolo" del 2019 è forse il "Gufo in terracotta" (36 cm)** — trovato il 25/09 mettendo le foto affiancate: sembra lo stesso gufo, crudo in una e cotto nell'altra. È un'ipotesi e la domanda è nel PDF per Maurizio. Se lo conferma, le schede si uniscono (regola del 10/09) e il titolo e le misure ci sono già.
 - [ ] **Materiale delle due sculture in pietra** — sul sito è scritto genericamente "pietra". Se è pietra leccese va specificato: è un dato che qualifica l'opera.
 - [ ] **Anno del dipinto con il viale di alberi** — la firma porta due cifre illeggibili alla risoluzione disponibile. Serve la conferma di Maurizio, non una supposizione.
 - [ ] **Quali opere del catalogo sono in vendita** — le schede di Maurizio finiscono sempre con «Per info e acquisto». Sui dipinti non lo sappiamo, quindi la chiamata all'acquisto per ora è solo sulle riproduzioni.
