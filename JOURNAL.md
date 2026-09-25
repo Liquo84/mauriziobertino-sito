@@ -35,25 +35,6 @@ aperte): se si conferma, le opere sono 45. Oltre a queste, 18 schede non hanno
 misure, anno o tecnica. Restano in archivio, non pubblicati, lo scatto di taglio
 del cavallo e le due tracce audio del vecchio sito.
 
----|---|
-| Sito | Online e verificato. 46 opere con filtri, 7 pagine, 9 articoli. Nessun link rotto, workflow verde |
-| Indirizzo | https://artemauriziobertino.com/ (HTTPS attivo; il vecchio indirizzo GitHub e `www` rimandano qui) |
-| Pubblicazione | Automatica, si carica senza chiedere se verificato |
-| Social | Instagram `@mauriziobertino_arte` (153 follower), Facebook "Spazio Arte Bertino" (161) |
-| Uscite | 3/09 "Ho un sito nuovo" (16 like, 1 commento) e 10/09 "Lo Sguardo della Tigre" (9 like, 2 commenti) sono uscite. Restano 17 e 24 |
-| Consuntivo | A calendario il 28/09 alle 16:00, insieme alla preparazione del blocco 2 |
-| Dominio | Il vecchio è scaduto il 15/09. **`artemauriziobertino.com` online dal 17/09**, comprato su Register.it, scade il 15/09/2027 |
-| Costo | Zero |
-
-La macchina gira da sola: il sito non si è rotto in nove giorni e le uscite
-schedulate sono partite senza che nessuno toccasse niente. Il lavoro vero adesso
-è fuori dal sito — i dati che Maurizio non manda e i due link in bio.
-
-**Non contato:** le 46 opere includono sempre **quattro schede con titolo
-provvisorio "Senza titolo"**, senza misure e (tranne il gufo) senza anno.
-Restano in archivio, non pubblicati, lo scatto di taglio del cavallo e le due
-tracce audio del vecchio sito.
-
 ---
 
 ## Questioni aperte
