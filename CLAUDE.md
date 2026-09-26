@@ -37,6 +37,7 @@ Il sito pubblica con un workflow di Actions: **il file `CNAME` non serve ed è i
   dalle foto del sito. Le immagini prodotte sono in `.gitignore`: si rigenerano con un comando.
 - `LEGGIMI.md` — guida per Maurizio.
 - `JOURNAL.md` — diario di lavoro.
+- **File nuovi:** Le foto nuove di un'opera vanno in `immagini/` con un nome che dice l'opera (`cavallo-rampante-fronte.jpg`). Se non è ancora chiaro a quale opera appartengono, passano da `immagini/da-catalogare/`. Quelle mandate su WhatsApp si rinominano quando entrano. I nomi `img_…` di WordPress restano come sono. I documenti del sito vanno in `documenti/` come `AAAA-MM-GG <tipo> <fornitore> <numero>.pdf`.
 
 ## Come lavoriamo qui
 - Il diario è in `JOURNAL.md`: leggilo in apertura di sessione, aggiornalo in chiusura.
