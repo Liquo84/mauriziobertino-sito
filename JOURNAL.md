@@ -19,8 +19,8 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 | Indirizzo | https://artemauriziobertino.com/ (HTTPS attivo; il vecchio indirizzo GitHub e `www` rimandano qui) |
 | Pubblicazione | Automatica, si carica senza chiedere se verificato |
 | Social | Instagram `@mauriziobertino_arte` (153 follower), Facebook "Spazio Arte Bertino" (163), dati del 22/09 |
-| Uscite | Blocco 1 chiuso: 4 uscite su 4. Il 24/09: copertura 49 su Facebook e 25 su Instagram, 3 interazioni per parte. **Blocco 2 non preparato** (doveva partire il 1/10) |
-| Consuntivo | Fatto il 29/09, parziale: lo screenshot di Meta copre solo il 17 e il 24/09 |
+| Uscite | Blocco 1 chiuso: copertura sui post da 49 a 258 su Facebook e da 25 a 78 su Instagram. **Blocco 2 pronto** (`social/PIANO-2.md`), dal 1/10 al 22/10, da schedulare |
+| Consuntivo | Blocco 1 fatto il 29/09. Blocco 2 lunedì 26/10, col check |
 | Dati da Maurizio | Prime risposte al PDF il 29/09, applicate: 2 titoli (*Orologio (Ercole)*, *Presenze silenziose*), pietra leccese, misure, gufi uniti. Le altre schede incomplete aspettano |
 | Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio risulta rinnovato fino al 15/09/2027: da chiarire |
 | Costo | Zero |
@@ -43,13 +43,27 @@ del cavallo e le due tracce audio del vecchio sito.
 - [ ] **«Questa per la schermata?»** — didascalia di Maurizio del 29/09 sulla foto di lui al cavalletto con *Vite in pericolo*. Probabilmente la vuole in home o come copertina: è un'ipotesi, va chiesto cosa intende.
 - [ ] **Quali opere del catalogo sono in vendita** — le schede di Maurizio finiscono sempre con «Per info e acquisto». Sui dipinti non lo sappiamo, quindi la chiamata all'acquisto per ora è solo sulle riproduzioni.
 - [ ] **ffmpeg, solo se si vorranno i video** — non è installato e per il livello 1 non serve. Resta aperta solo se un giorno si vorranno Reel dal catalogo.
-- [ ] **Il registro "scheda" funziona quanto quello diretto?** — al consuntivo del 29/09 non si decide: 4 post, e i tre "scheda" vanno da 2 a 27 reazioni su Facebook. Ipotesi, su 4 casi: conta più il soggetto del registro. Per misurarla servono la copertura e i clic di tutte le uscite, non solo del 17 e del 24/09.
-- [ ] **Blocco 2 social** — doveva partire giovedì 1/10 e non è preparato. Al primo giro un'uscita sola, poi il resto dopo il sì.
+- [ ] **Le foto con Maurizio portano più copertura di quelle con la sola opera?** — ipotesi, su 4 casi, uscita dal consuntivo del 29/09 (258 e 182 contro 55 e 49 su Facebook). Il blocco 2 alterna le due foto; si guarda il 26/10. Se regge, cambia che foto chiedere a Maurizio.
+- [ ] **Il registro "scheda" funziona quanto quello diretto?** — non misurabile con un solo post diretto. Resta aperta finché un blocco non ne mette almeno due.
 - [ ] **Trasferire il dominio prima della scadenza** — il 22/09 Davide ha detto che il rinnovo automatico di Register.it non è un problema: sulla carta collegata non ci sono mai soldi, quindi i 58,50 € + IVA non partono. Resta il rovescio: se non si trasferisce su Cloudflare entro luglio-agosto 2027, il 15/09/2027 il dominio scade e il sito sparisce dall'indirizzo.
 - [ ] **Il vecchio `mauriziobertino.com` risulta rinnovato fino al 15/09/2027** — trovato al check del 22/09. Davide il 29/09: «No io non ho pagato rinnovi». Resta da sapere se WordPress.com ha addebitato la carta di Maurizio. **Dopo il 30/10** (fine dei 45 giorni di grazia) si guarda il registro: se la scadenza è ancora 2027, il rinnovo è stato pagato. Conta perché si decide insieme alla disdetta del piano WordPress.
 - [ ] **Disdetta del piano WordPress** — il dominio nuovo è attivo dal 17/09: è l'ultimo passo rimasto del passaggio.
 
 ---
+
+## 29/09 — Il blocco 2 alterna foto con Maurizio e foto con la sola opera
+
+**Cosa.** Quattro uscite, una a settimana di giovedì dal 1/10: *Vite in pericolo (covid)*, *Mazza da
+guerra con testa d'aquila*, *Orologio in pietra leccese (Ercole)*, *Gufo in terracotta*. Testi e
+immagini in `social/PIANO-2.md` e `social/uscite/05…08`. Davide ha chiesto di preparare tutto il blocco
+in una volta: il formato è quello confermato il 01/09 e lo script non è stato toccato.
+**Perché queste quattro.** Due opere hanno appena avuto titolo e dati da Maurizio (orologio, gufo),
+la mazza ha un articolo di Maurizio da cui prendere tutti i fatti, e *Vite in pericolo* ha una data
+che racconta una storia (17/04/2020, in pieno lockdown). Ci sono tutte e tre le anime del catalogo.
+**Perché alternare le foto.** È l'ipotesi del consuntivo di oggi: 2 uscite con Maurizio (mazza al
+banco, gufo), 2 con la sola opera. Si confronta la copertura, non le reazioni.
+**Da fare.** Davide schedula su Meta Business Suite prima di giovedì 1/10. Consuntivo lunedì 26/10
+col check; blocco 3 entro il 29/10. Due punti da confermare con Maurizio (post 5 e 7).
 
 ## 29/09 — Check e consuntivo: Maurizio risponde, i numeri di Meta restano fuori
 
@@ -81,12 +95,22 @@ qui («Quando Maurizio indica un'opera a parole»).
 **Nota tecnica.** Il connettore WhatsApp non mostra le didascalie delle foto: stanno in
 `ZWAMEDIAITEM.ZTITLE`. Maurizio ne aveva scritte tre («Questa per la schermata?», «Questo c'è
 l'abbiamo?», «Il mio gufo in terracotta»).
-**Consuntivo, dallo screenshot di Meta** (`social/2026-09-29 Meta Business Suite contenuti 17-24
-settembre.png`). Il 24/09 su Facebook 83 visualizzazioni, copertura 49, 3 interazioni; su Instagram
-45 visualizzazioni, copertura 25, 3 interazioni. Storie Instagram: 47 visualizzazioni e 5 interazioni
-il 24, 50 e 8 il 17. Le storie Facebook segnano 0 visualizzazioni. Lo screenshot si ferma alle storie
-del 17/09: dei post del 3, del 10 e del 17 non ci sono copertura né clic.
-**Da fare.** Blocco 2 social, che doveva partire il 1/10.
+**Consuntivo, da tre screenshot di Meta Business Suite** (in `social/`, `2026-09-29 Meta Business
+Suite contenuti …`). Post, dati al 29/09:
+
+| Uscita | Foto | FB copertura | FB interazioni | IG copertura | IG interazioni |
+|---|---|---|---|---|---|
+| 03/09 Sito nuovo (diretto) | lo stand | 182 | 24 | 78 | 19 |
+| 10/09 Tigre (scheda) | solo l'opera | 55 | 8 | 46 | 14 |
+| 17/09 Aquila (scheda) | Maurizio con l'aquila | 258 | 38 | 67 | 21 |
+| 24/09 Arco corto (scheda) | solo l'opera | 49 | 3 | 25 | 3 |
+
+Storie Instagram: 61, 56, 50 e 47 visualizzazioni, in calo lento. Le storie Facebook segnano sempre
+0 visualizzazioni. Facebook porta più copertura di Instagram in tutte e quattro le uscite. I clic
+sul link non sono nelle colonne mostrate.
+**Cosa se ne ricava.** Sul registro, niente: un solo post diretto. Ipotesi, su 4 casi: vanno meglio i
+post con una persona o una storia di lavoro nella foto (Aquila, e il sito nuovo con lo stand) di
+quelli con il solo oggetto. Il blocco 2 la mette alla prova.
 
 ## 25/09 — I dati si chiedono a Maurizio con un PDF illustrato, non con un messaggio
 
