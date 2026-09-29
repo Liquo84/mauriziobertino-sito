@@ -64,9 +64,9 @@ Cartella `uscite/06-nativi-mazza-testa-daquila/`
 
 > Per i Nativi Americani l'aquila era l'animale che rappresentava meglio il potere del Grande Spirito.
 >
-> Per questo la rappresentavano molto. E ogni guerriero personalizzava le proprie armi con i richiami al suo credo.
+> Per questo la rappresentavano spesso. E ogni guerriero personalizzava le proprie armi con i richiami al suo credo.
 >
-> Ho voluto scolpirne una in cui l'aquila è l'arma stessa. L'ho tirata fuori da un tronchetto di ulivo, a mano. Sotto la testa del rapace pende un amuleto, l'impugnatura è in pelle di cervo conciata, e il manico finisce a punta, zigrinato: anche quella parte doveva essere letale.
+> Ho voluto scolpirne una con la testa d'aquila in cima. L'ho tirata fuori da un tronchetto di ulivo, a mano. Sotto la testa del rapace pende un amuleto, l'impugnatura è in pelle di cervo conciata, e il manico finisce a punta, zigrinato: anche quella parte doveva essere letale.
 >
 > Nella foto sono io al banco, mentre la scolpisco.
 >
