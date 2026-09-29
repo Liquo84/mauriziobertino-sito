@@ -18,16 +18,16 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 | Sito | Online e verificato al check del 29/09. **45 opere** (i due gufi uniti), 7 pagine, 9 articoli. Nessun link rotto, workflow verde |
 | Indirizzo | https://artemauriziobertino.com/ (HTTPS attivo; il vecchio indirizzo GitHub e `www` rimandano qui) |
 | Pubblicazione | Automatica, si carica senza chiedere se verificato |
-| Social | Instagram `@mauriziobertino_arte` (153 follower), Facebook "Spazio Arte Bertino" (163), dati del 22/09 |
-| Uscite | Blocco 1 chiuso: copertura sui post da 49 a 258 su Facebook e da 25 a 78 su Instagram. **Blocco 2 pronto** (`social/PIANO-2.md`), dal 1/10 al 22/10, da schedulare |
-| Consuntivo | Blocco 1 fatto il 29/09. Blocco 2 lunedì 26/10, col check |
+| Social | Instagram `@mauriziobertino_arte` (153 follower, 37 post), Facebook "Spazio Arte Bertino" (164), dati del 29/09 |
+| Uscite | Blocco 1 chiuso: copertura sui post da 49 a 258 su Facebook e da 25 a 78 su Instagram. **Blocco 2 pronto e approvato da Davide** (`social/PIANO-2.md`), dal 1/10 al 22/10: lo schedula lui |
+| Consuntivo | Blocco 1 fatto il 29/09. Blocco 2 lunedì 26/10 alle 17:00, evento in calendario creato il 29/09 |
 | Dati da Maurizio | Prime risposte al PDF il 29/09, applicate: 2 titoli (*Orologio (Ercole)*, *Presenze silenziose*), pietra leccese, misure, gufi uniti. Le altre schede incomplete aspettano |
-| Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio risulta rinnovato fino al 15/09/2027: da chiarire |
+| Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio risulta rinnovato fino al 15/09/2027: Davide non ha pagato, si ricontrolla dopo il 30/10 |
 | Costo | Zero |
 
-Il sito gira da solo. Tutto il lavoro rimasto è fuori dal sito e dipende da
-Maurizio: i dati delle opere, cosa è in vendita, l'account WordPress. Da oggi
-c'è un documento che raccoglie i dati delle opere; vendita e WordPress restano fuori dal PDF.
+Il sito gira da solo. Il lavoro rimasto dipende da Maurizio (i dati delle altre
+schede, cosa è in vendita, l'account WordPress) e dal ritmo dei blocchi social:
+uno ogni quattro settimane, con consuntivo il lunedì prima del blocco nuovo.
 
 **Non contato:** le 45 opere includono ancora **due "Senza titolo"**: la figura
 di nativo in pietra leccese (tra le quattro del 30/08) e il dipinto del 1997 con
@@ -62,6 +62,8 @@ la mazza ha un articolo di Maurizio da cui prendere tutti i fatti, e *Vite in pe
 che racconta una storia (17/04/2020, in pieno lockdown). Ci sono tutte e tre le anime del catalogo.
 **Perché alternare le foto.** È l'ipotesi del consuntivo di oggi: 2 uscite con Maurizio (mazza al
 banco, gufo), 2 con la sola opera. Si confronta la copertura, non le reazioni.
+**Esito, stesso giorno.** Davide ha approvato immagini e testi («ok vanno bene»), dopo due ritocchi
+alla mazza per restare sull'articolo di Maurizio.
 **Da fare.** Davide schedula su Meta Business Suite prima di giovedì 1/10. Consuntivo lunedì 26/10
 col check; blocco 3 entro il 29/10. Due punti da confermare con Maurizio (post 5 e 7).
 
@@ -151,6 +153,8 @@ il periodo di grazia, che sparisce se il registrar non paga. Si chiarisce solo d
 WordPress.com.
 **Da fare.** Il 28/09 il consuntivo con i dati di Meta Business Suite: il 17/09 su Facebook è il
 primo segnale che il registro "scheda" può funzionare, ma è un post solo.
+**Esito (29/09).** Consuntivo fatto: il 17/09 resta il migliore (copertura 258 su Facebook), ma il
+24/09, sempre "scheda", è il peggiore (49). Sul registro non si conclude: vedi voce del 29/09.
 
 ## 17/09 — artemauriziobertino.com è online
 
@@ -235,6 +239,7 @@ sì, i conteggi e i link della bio stanno solo dentro l'HTML della pagina. Faceb
 dà nome, "in breve" e il sito indicato, che è quanto basta per il check.
 **Da non concludere adesso.** Due post non dicono niente sul registro che funziona: i numeri si
 leggono il 28/09, come deciso.
+**Esito (29/09).** Sono partite da sole anche la terza e la quarta: 4 uscite su 4, storie comprese.
 
 ## 01/09 — Il sito si carica senza chiedere, il resto no
 
@@ -282,6 +287,9 @@ evento non lo sostituisce: è una tantum, sul consuntivo. Se i due si pestano i 
 resta e questo si cancella.
 **Da fare.** Portare in sessione i dati di Meta Business Suite: copertura, interazioni, clic sul
 link, nuovi follower, e soprattutto se sono arrivati DM per acquisto.
+**Esito (29/09).** Consuntivo fatto un giorno dopo, il 29/09, con tre screenshot di Insight →
+Contenuti: copertura e interazioni sì, clic sul link e DM per acquisto no (n/d). L'evento in
+calendario ha funzionato: è stato rifatto uguale per il blocco 2, il 26/10.
 
 ## 01/09 — Le immagini piacciono, il formato è confermato
 
