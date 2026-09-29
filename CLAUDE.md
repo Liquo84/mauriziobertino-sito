@@ -46,6 +46,11 @@ Il sito pubblica con un workflow di Actions: **il file `CNAME` non serve ed è i
   Maurizio la manda come se fosse nuova: spesso sono foto migliori di un'opera già pubblicata,
   e in quel caso si sostituisce l'immagine nella scheda esistente invece di crearne una seconda.
   `aggiungi-opera.py` intercetta i doppioni sul nome del file, mai sul titolo. Regola del 10/09.
+- **Quando Maurizio indica un'opera a parole** («il viale autunnale», «il vecchio in terracotta»),
+  prima di applicare il dato si cercano tutte le schede che la descrizione può indicare, non solo
+  quelle incomplete del PDF, e si guarda a quale foto risponde ogni messaggio. Nel dubbio si chiede
+  a Davide con le foto affiancate. Regola del 29/09: «il viale autunnale è 2018» era *L'autunno*, ed
+  era finito come titolo su *Presenze silenziose*.
 - **Le foto delle opere si ritagliano sulla tela**: niente cornice, niente muro, prospettiva
   raddrizzata sui quattro angoli. È la convenzione di tutto il catalogo.
 - **Le modifiche al sito si caricano su GitHub senza chiedere**, purché siano state verificate

@@ -21,7 +21,7 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 | Social | Instagram `@mauriziobertino_arte` (153 follower), Facebook "Spazio Arte Bertino" (163), dati del 22/09 |
 | Uscite | Blocco 1 chiuso: 4 uscite su 4. Il 24/09: copertura 49 su Facebook e 25 su Instagram, 3 interazioni per parte. **Blocco 2 non preparato** (doveva partire il 1/10) |
 | Consuntivo | Fatto il 29/09, parziale: lo screenshot di Meta copre solo il 17 e il 24/09 |
-| Dati da Maurizio | Prime risposte al PDF il 29/09, applicate: 2 titoli, pietra leccese, 3 misure, 1 anno, gufi uniti. Le altre schede incomplete aspettano |
+| Dati da Maurizio | Prime risposte al PDF il 29/09, applicate: 2 titoli (*Orologio (Ercole)*, *Presenze silenziose*), pietra leccese, misure, gufi uniti. Le altre schede incomplete aspettano |
 | Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio risulta rinnovato fino al 15/09/2027: da chiarire |
 | Costo | Zero |
 
@@ -40,7 +40,6 @@ del cavallo e le due tracce audio del vecchio sito.
 ## Questioni aperte
 
 - [ ] **Titolo e misure della figura di nativo in pietra leccese** — è l'ultima delle quattro opere del 30/08 ancora "Senza titolo" (il 29/09 le altre tre hanno avuto titolo o sono state unite).
-- [ ] **"Presenze silenziose", 60×50, 13/04/1996: a quale quadro?** — Maurizio lo scrive il 29/09 e Davide dice che si riferisce al quadro inoltrato. Nella chat i quadri sono due e non torna nessuno dei due: il falco con la lepre è *Vite in pericolo (covid)*, 80×70, 2020, e il viale è del 2018 per sua stessa risposta. Non applicato finché non si sa l'opera.
 - [ ] **«Questa per la schermata?»** — didascalia di Maurizio del 29/09 sulla foto di lui al cavalletto con *Vite in pericolo*. Probabilmente la vuole in home o come copertina: è un'ipotesi, va chiesto cosa intende.
 - [ ] **Quali opere del catalogo sono in vendita** — le schede di Maurizio finiscono sempre con «Per info e acquisto». Sui dipinti non lo sappiamo, quindi la chiamata all'acquisto per ora è solo sulle riproduzioni.
 - [ ] **ffmpeg, solo se si vorranno i video** — non è installato e per il livello 1 non serve. Resta aperta solo se un giorno si vorranno Reel dal catalogo.
@@ -74,6 +73,11 @@ scheda "Gufo in terracotta" con le quattro foto del 2019 e, come quinta vista, q
 Applicati anche la pietra leccese sulle due sculture, le misure del cavallo e dell'orologio, il
 2018 del viale e la data 19/03/1995 della *Falciatura*, che prima diceva 10/03. Online e
 verificato: 45 opere, niente sborda a 1280 e a 375px, workflow verde.
+**Correzione mia, stesso giorno.** Avevo abbinato «il viale autunnale è 2018» al viale di alberi
+spogli e l'avevo pubblicato come «Viale autunnale», 2018. Davide ha indicato il quadro di
+*Presenze silenziose*: è proprio quel viale, 60×50, 13/04/1996. Il viale autunnale del 2018 è
+*L'autunno*, che aveva già quell'anno. Corretto e ripubblicato. Regola in CLAUDE.md, Come lavoriamo
+qui («Quando Maurizio indica un'opera a parole»).
 **Nota tecnica.** Il connettore WhatsApp non mostra le didascalie delle foto: stanno in
 `ZWAMEDIAITEM.ZTITLE`. Maurizio ne aveva scritte tre («Questa per la schermata?», «Questo c'è
 l'abbiamo?», «Il mio gufo in terracotta»).
