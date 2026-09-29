@@ -11,17 +11,17 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 
 ---
 
-## Stato al 25/09/2026
+## Stato al 29/09/2026
 
 | | |
 |---|---|
-| Sito | Online e verificato al check del 22/09. 46 opere con filtri, 7 pagine, 9 articoli. Nessun link rotto, workflow verde |
+| Sito | Online e verificato al check del 29/09. **45 opere** (i due gufi uniti), 7 pagine, 9 articoli. Nessun link rotto, workflow verde |
 | Indirizzo | https://artemauriziobertino.com/ (HTTPS attivo; il vecchio indirizzo GitHub e `www` rimandano qui) |
 | Pubblicazione | Automatica, si carica senza chiedere se verificato |
 | Social | Instagram `@mauriziobertino_arte` (153 follower), Facebook "Spazio Arte Bertino" (163), dati del 22/09 |
-| Uscite | 3/09, 10/09 e 17/09 uscite (il 17/09 il migliore: 27 reazioni e 10 commenti su Facebook). La 24/09 si verifica al consuntivo |
-| Consuntivo | A calendario il 28/09 alle 16:00, insieme alla preparazione del blocco 2 |
-| Dati da Maurizio | **PDF con foto e righe da compilare pronto il 25/09**, sulla Scrivania di Davide: lo manda lui. Solo schede delle opere: vendita e WordPress tolti lo stesso giorno |
+| Uscite | Blocco 1 chiuso: 4 uscite su 4. Il 24/09: copertura 49 su Facebook e 25 su Instagram, 3 interazioni per parte. **Blocco 2 non preparato** (doveva partire il 1/10) |
+| Consuntivo | Fatto il 29/09, parziale: lo screenshot di Meta copre solo il 17 e il 24/09 |
+| Dati da Maurizio | Prime risposte al PDF il 29/09, applicate: 2 titoli, pietra leccese, 3 misure, 1 anno, gufi uniti. Le altre schede incomplete aspettano |
 | Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio risulta rinnovato fino al 15/09/2027: da chiarire |
 | Costo | Zero |
 
@@ -29,25 +29,25 @@ Il sito gira da solo. Tutto il lavoro rimasto è fuori dal sito e dipende da
 Maurizio: i dati delle opere, cosa è in vendita, l'account WordPress. Da oggi
 c'è un documento che raccoglie i dati delle opere; vendita e WordPress restano fuori dal PDF.
 
-**Non contato:** le 46 opere includono sempre **quattro schede con titolo
-provvisorio "Senza titolo"**, e forse un doppione (il gufo, vedi questioni
-aperte): se si conferma, le opere sono 45. Oltre a queste, 18 schede non hanno
-misure, anno o tecnica. Restano in archivio, non pubblicati, lo scatto di taglio
+**Non contato:** le 45 opere includono ancora **due "Senza titolo"**: la figura
+di nativo in pietra leccese (tra le quattro del 30/08) e il dipinto del 1997 con
+l'uomo e il cane, che è così dal vecchio sito. Molte schede, soprattutto fra le
+sculture e i nativi, non hanno ancora misure, anno o tecnica. Restano in archivio, non pubblicati, lo scatto di taglio
 del cavallo e le due tracce audio del vecchio sito.
 
 ---
 
 ## Questioni aperte
 
-- [ ] **Titoli e misure delle quattro opere nuove** — sono online come "Senza titolo": cinque opere del catalogo portano ora la stessa etichetta. Maurizio è lento a dare i dati, ma finché non arrivano il catalogo resta ambiguo.
-- [ ] **Il gufo "Senza titolo" del 2019 è forse il "Gufo in terracotta" (36 cm)** — trovato il 25/09 mettendo le foto affiancate: sembra lo stesso gufo, crudo in una e cotto nell'altra. È un'ipotesi e la domanda è nel PDF per Maurizio. Se lo conferma, le schede si uniscono (regola del 10/09) e il titolo e le misure ci sono già.
-- [ ] **Materiale delle due sculture in pietra** — sul sito è scritto genericamente "pietra". Se è pietra leccese va specificato: è un dato che qualifica l'opera.
-- [ ] **Anno del dipinto con il viale di alberi** — la firma porta due cifre illeggibili alla risoluzione disponibile. Serve la conferma di Maurizio, non una supposizione.
+- [ ] **Titolo e misure della figura di nativo in pietra leccese** — è l'ultima delle quattro opere del 30/08 ancora "Senza titolo" (il 29/09 le altre tre hanno avuto titolo o sono state unite).
+- [ ] **"Presenze silenziose", 60×50, 13/04/1996: a quale quadro?** — Maurizio lo scrive il 29/09 e Davide dice che si riferisce al quadro inoltrato. Nella chat i quadri sono due e non torna nessuno dei due: il falco con la lepre è *Vite in pericolo (covid)*, 80×70, 2020, e il viale è del 2018 per sua stessa risposta. Non applicato finché non si sa l'opera.
+- [ ] **«Questa per la schermata?»** — didascalia di Maurizio del 29/09 sulla foto di lui al cavalletto con *Vite in pericolo*. Probabilmente la vuole in home o come copertina: è un'ipotesi, va chiesto cosa intende.
 - [ ] **Quali opere del catalogo sono in vendita** — le schede di Maurizio finiscono sempre con «Per info e acquisto». Sui dipinti non lo sappiamo, quindi la chiamata all'acquisto per ora è solo sulle riproduzioni.
 - [ ] **ffmpeg, solo se si vorranno i video** — non è installato e per il livello 1 non serve. Resta aperta solo se un giorno si vorranno Reel dal catalogo.
-- [ ] **Il registro "scheda" funziona quanto quello diretto?** — sul profilo i video hanno sempre avuto più reazioni dei post fotografici. Se si conferma il 28/09, nel blocco 2 i due registri vanno alternati.
+- [ ] **Il registro "scheda" funziona quanto quello diretto?** — al consuntivo del 29/09 non si decide: 4 post, e i tre "scheda" vanno da 2 a 27 reazioni su Facebook. Ipotesi, su 4 casi: conta più il soggetto del registro. Per misurarla servono la copertura e i clic di tutte le uscite, non solo del 17 e del 24/09.
+- [ ] **Blocco 2 social** — doveva partire giovedì 1/10 e non è preparato. Al primo giro un'uscita sola, poi il resto dopo il sì.
 - [ ] **Trasferire il dominio prima della scadenza** — il 22/09 Davide ha detto che il rinnovo automatico di Register.it non è un problema: sulla carta collegata non ci sono mai soldi, quindi i 58,50 € + IVA non partono. Resta il rovescio: se non si trasferisce su Cloudflare entro luglio-agosto 2027, il 15/09/2027 il dominio scade e il sito sparisce dall'indirizzo.
-- [ ] **Il vecchio `mauriziobertino.com` risulta rinnovato fino al 15/09/2027** — trovato al check del 22/09. Non si sa ancora se WordPress.com ha addebitato il rinnovo o se è solo il periodo di grazia dei .com. Conta perché si decide insieme alla disdetta del piano WordPress.
+- [ ] **Il vecchio `mauriziobertino.com` risulta rinnovato fino al 15/09/2027** — trovato al check del 22/09. Davide il 29/09: «No io non ho pagato rinnovi». Resta da sapere se WordPress.com ha addebitato la carta di Maurizio. **Dopo il 30/10** (fine dei 45 giorni di grazia) si guarda il registro: se la scadenza è ancora 2027, il rinnovo è stato pagato. Conta perché si decide insieme alla disdetta del piano WordPress.
 - [ ] **Disdetta del piano WordPress** — il dominio nuovo è attivo dal 17/09: è l'ultimo passo rimasto del passaggio.
 
 ---
@@ -67,8 +67,22 @@ circa otto opere e sette foto (cinque del gufo 2019, il viale, "Vite in pericolo
 **Social, da sloggato.** L'uscita del 24/09 (Arco corto) è partita: su Facebook 2 reazioni e 1
 condivisione, Instagram a 37 post. Follower: 153 Instagram (fermi dal 22/09), 164 Facebook (+1).
 Meta Business Suite in Chrome non è loggato: copertura, clic e DM non letti.
-**Da fare.** Applicare i dati di Maurizio dopo le risposte di Davide su titoli e gufo; blocco 2
-social, che doveva partire il 1/10 e non è ancora preparato.
+**Titoli e gufo, deciso da Davide.** «Orologio in pietra leccese (Ercole)» e «Viale autunnale» si
+usano come titoli: sono le parole di Maurizio. Le due schede del gufo si uniscono: la foto con cui
+Maurizio risponde è il gufo cotto del 2019, sotto «Gufo in terracotta grande, 36 cm». Resta la
+scheda "Gufo in terracotta" con le quattro foto del 2019 e, come quinta vista, quella del gufo crudo.
+Applicati anche la pietra leccese sulle due sculture, le misure del cavallo e dell'orologio, il
+2018 del viale e la data 19/03/1995 della *Falciatura*, che prima diceva 10/03. Online e
+verificato: 45 opere, niente sborda a 1280 e a 375px, workflow verde.
+**Nota tecnica.** Il connettore WhatsApp non mostra le didascalie delle foto: stanno in
+`ZWAMEDIAITEM.ZTITLE`. Maurizio ne aveva scritte tre («Questa per la schermata?», «Questo c'è
+l'abbiamo?», «Il mio gufo in terracotta»).
+**Consuntivo, dallo screenshot di Meta** (`social/2026-09-29 Meta Business Suite contenuti 17-24
+settembre.png`). Il 24/09 su Facebook 83 visualizzazioni, copertura 49, 3 interazioni; su Instagram
+45 visualizzazioni, copertura 25, 3 interazioni. Storie Instagram: 47 visualizzazioni e 5 interazioni
+il 24, 50 e 8 il 17. Le storie Facebook segnano 0 visualizzazioni. Lo screenshot si ferma alle storie
+del 17/09: dei post del 3, del 10 e del 17 non ci sono copertura né clic.
+**Da fare.** Blocco 2 social, che doveva partire il 1/10.
 
 ## 25/09 — I dati si chiedono a Maurizio con un PDF illustrato, non con un messaggio
 
