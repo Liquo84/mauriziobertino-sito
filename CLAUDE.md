@@ -49,8 +49,11 @@ Il sito pubblica con un workflow di Actions: **il file `CNAME` non serve ed è i
 - **Quando Maurizio indica un'opera a parole** («il viale autunnale», «il vecchio in terracotta»),
   prima di applicare il dato si cercano tutte le schede che la descrizione può indicare, non solo
   quelle incomplete del PDF, e si guarda a quale foto risponde ogni messaggio. Nel dubbio si chiede
-  a Davide con le foto affiancate. Regola del 29/09: «il viale autunnale è 2018» era *L'autunno*, ed
-  era finito come titolo su *Presenze silenziose*.
+  a Davide con le foto affiancate. Un abbinamento già applicato resta una lettura nostra, non una
+  frase di Maurizio: se un messaggio o una foto nuova non torna, si rimette in discussione prima
+  l'abbinamento e poi il dato nuovo. Regola del 29/09: «il viale autunnale è 2018» era *L'autunno*,
+  era finito come titolo su *Presenze silenziose*, e la foto giusta è stata scartata perché «il viale
+  è del 2018, lo dice Maurizio».
 - **Le foto delle opere si ritagliano sulla tela**: niente cornice, niente muro, prospettiva
   raddrizzata sui quattro angoli. È la convenzione di tutto il catalogo.
 - **Le modifiche al sito si caricano su GitHub senza chiedere**, purché siano state verificate
