@@ -70,6 +70,8 @@ Il sito pubblica con un workflow di Actions: **il file `CNAME` non serve ed è i
 - **Restano da confermare volta per volta**, e non si fanno mai di iniziativa: cancellare
   contenuti, toccare il dominio, scrivere a Maurizio, pubblicare sui social a suo nome.
 - Ogni modifica ai testi visibili va segnalata a Maurizio prima di pubblicarla.
-- **Sui social non si pubblica mai da qui.** Claude prepara immagini e didascalie, carica Davide a
-  mano dopo l'ok di Maurizio. Decisione del 30/08, confermata il 01/09: l'account Instagram è
-  personale e l'API non pubblicherebbe comunque.
+- **Sui social non si pubblica mai da qui.** Claude prepara immagini e didascalie, Davide le approva
+  e le carica a mano. **Le didascalie social non passano da Maurizio, le approva Davide** (01/09): la
+  regola dei testi concordati con Maurizio vale per i testi del sito. Con Maurizio si verificano solo
+  le frasi segnate «da confermare» nel piano, e le verifica Davide. Niente pubblicazione da qui
+  (30/08): l'account Instagram è personale e l'API non pubblicherebbe comunque.
