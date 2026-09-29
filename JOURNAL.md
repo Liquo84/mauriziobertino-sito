@@ -113,6 +113,8 @@ sul link non sono nelle colonne mostrate.
 **Cosa se ne ricava.** Sul registro, niente: un solo post diretto. Ipotesi, su 4 casi: vanno meglio i
 post con una persona o una storia di lavoro nella foto (Aquila, e il sito nuovo con lo stand) di
 quelli con il solo oggetto. Il blocco 2 la mette alla prova.
+**Esito, stesso giorno.** I numeri di Meta sono arrivati con tre screenshot di Davide (consuntivo
+qui sopra) e il blocco 2 è stato preparato e approvato (voce sopra).
 
 ## 25/09 — I dati si chiedono a Maurizio con un PDF illustrato, non con un messaggio
 
@@ -253,6 +255,8 @@ aggiungere sicurezza. Le quattro eccezioni sono le cose che *non* si tornano ind
 commit: quelle continuano a passare da Davide.
 **Nota tecnica.** «Verificate» vuol dire due cose precise: pagine rigenerate con `genera.py`,
 e controllo che nulla sbordi né a 1280 né a 375px. Senza quelle, la regola non si applica.
+**Esito (30/09).** In uso da un mese senza incidenti: le pubblicazioni del 10/09, del 17/09 e del
+29/09 sono partite dopo la verifica a 1280 e 375px, e l'errore del 29/09 si è corretto con un commit.
 
 ## 01/09 — Il sito rimanda ai social, non solo il contrario
 
@@ -272,6 +276,8 @@ in altezza e l'icona resta allineata al testo — a destra sul desktop, a sinist
 il piede resta alto 112px come prima, e a 1280 il bordo dell'ultima icona cade esattamente sul
 margine del testo.
 **Da fare.** Le modifiche sono solo in locale. Finché non si carica su GitHub, online non cambia niente.
+**Esito (30/09).** Online dal 01/09 (commit «Link ai social nel piede»): il piede del sito vivo porta
+i tre link, verificato il 30/09.
 
 ## 01/09 — Il primo blocco è schedulato, il consuntivo è già a calendario
 
@@ -316,6 +322,8 @@ fondo il blocco `📐 materiali | misure` più `📩 Per info e acquisto`. Vende
 **Nota tecnica.** Facebook è dietro login e non risulta un accesso attivo su Chrome: da lì si legge
 solo la descrizione della pagina e il post in cima. Instagram invece si legge post per post da
 sloggato, aprendo i permalink singoli. Se serviranno più dati, quella è la strada.
+**Esito (29/09).** Le quattro didascalie riscritte sono uscite dal 3 al 24/09; il blocco 2 è stato
+scritto sullo stesso tono e Davide l'ha approvato senza toccare il registro. Regola in CLAUDE.md.
 
 ## 01/09 — Il profilo non è da avviare: ha già 33 post
 
@@ -329,6 +337,9 @@ link in bio.
 indica ancora `mauriziobertino.com`, che scade il 15/09. Vanno cambiati tutti e due **prima** del
 post del 3 settembre, altrimenti il primo post rimanda a un posto che non c'è.
 **Da fare.** Cambiare i due link. È di Davide, non serve Maurizio.
+**Esito (22/09).** Fatto da Davide: Facebook indica `artemauriziobertino.com`, Instagram
+l'indirizzo GitHub, che rimanda al dominio nuovo (voce del 22/09). Il post del 3/09 è uscito come
+annuncio del sito.
 
 ## 01/09 — Si parte con l'indirizzo brutto, e i testi social li approva Davide
 
@@ -341,6 +352,8 @@ l'avvio dei social all'acquisto di un dominio sarebbe stato legare una cosa fatt
 fare. La registrazione resta dov'era, in coda.
 **Nota tecnica.** La regola dei testi concordati con Maurizio in `CLAUDE.md` riguarda i **testi del
 sito** e non cambia. Le didascalie social sono materiale di Davide.
+**Esito.** Il link si è cambiato solo nel testo, dal 24/09. La regola sulle didascalie è rimasta
+vecchia nel CLAUDE.md fino al 29/09, quando è stata corretta dopo il debrief.
 
 ## 01/09 — Le prime quattro uscite mostrano le tre anime, non solo la pittura
 
@@ -354,6 +367,10 @@ che è la parte più insolita e quella che porta Maurizio alle fiere — sarebbe
 (articolo del sito o scheda di catalogo). Nessuna didascalia contiene un dato inventato: dove il
 catalogo tace, il testo tace. L'"Arco corto" chiude il cerchio con la foto della fiera del primo post.
 **Da fare.** Far leggere le quattro didascalie a Maurizio prima di caricare.
+**Superata il 01/09:** vedi la voce «Si parte con l'indirizzo brutto, e i testi social li approva
+Davide» e CLAUDE.md, Come lavoriamo qui (riga sui social).
+**Esito (29/09).** Uscite tutte e quattro. Copertura su Facebook: sito nuovo 182, pittura 55,
+scultura 258, nativi 49 (consuntivo del 29/09).
 
 ## 01/09 — Le immagini social si generano da script, e ffmpeg non serve
 
@@ -372,6 +389,8 @@ solo se un giorno si vorranno i video, e quella è una decisione separata.
 **Nota tecnica.** L'arco corto è una foto molto stretta (687×1800): nel quadrato resta una fascia
 verticale con molta carta intorno. Verificato a occhio, funziona — sembra una stampa su cartoncino,
 non un errore. Se un giorno darà fastidio, per quel formato si userà una seconda vista.
+**Esito (29/09).** Otto uscite generate (blocco 1 e 2) aggiungendo righe a `uscite.json`, senza
+toccare lo script.
 
 ## 30/08 — I social si preparano, non si automatizzano
 
@@ -389,11 +408,16 @@ La strada del livello 2 sarebbe stata chiusa in partenza, non solo lenta.
 **Perché pubblicare invece di aspettare.** Maurizio le vuole online e i dati non arrivano. "Senza titolo" non è un ripiego inventato: è convenzione d'arte, e il catalogo la usava già per un dipinto del 1997. Inventare un titolo sarebbe stato peggio del vuoto.
 **Nota tecnica.** L'anno del dipinto è stato omesso: la firma porta due cifre che a quella risoluzione possono essere 96, 94 o 86. Meglio niente che una data sbagliata. I materiali sono dedotti dalle foto e vanno confermati.
 **Da fare.** Sostituire i quattro titoli appena Maurizio li dà.
+**Esito (29/09).** Tre su quattro risolte da Maurizio: il viale è *Presenze silenziose* del 1996
+(uno dei tre anni possibili letti sulla firma), il bassorilievo è *Orologio in pietra leccese
+(Ercole)*, il gufo era un doppione ed è stato unito. La figura di nativo resta "Senza titolo"; il
+materiale dedotto, pietra, era giusto: è pietra leccese.
 
 ## 30/08 — Una pagina biografica separata dalla home
 
 **Cosa.** La biografia, la rassegna stampa e le mostre escono dalla home e diventano `biografia.html`, con il ritratto di Maurizio accanto al gufo. La home resta corta e rimanda.
 **Perché spostare e non duplicare.** Tenere gli stessi testi in due punti significa che prima o poi divergono. I testi non sono stati riscritti, solo spostati: la regola del 21/08 vale sul contenuto, non sulla collocazione.
+**Esito (30/09).** `biografia.html` è online e risponde, verificato il 30/09.
 
 ## 30/08 — Un'opera può avere più viste
 
@@ -411,6 +435,7 @@ La strada del livello 2 sarebbe stata chiusa in partenza, non solo lenta.
 
 **Cosa.** Aggiunti i due file di memoria del progetto.
 **Perché non basta il LEGGIMI.** Il `LEGGIMI.md` è scritto per Maurizio e spiega il progetto a chi lo apre; non dice a che punto siamo né perché abbiamo scelto una strada. Il `CLAUDE.md` rimanda al LEGGIMI invece di copiarlo, così non esistono due verità che divergono.
+**Esito.** In uso a ogni sessione dal 30/08.
 
 ## 21/08 — Il vecchio dominio si lascia scadere
 
@@ -418,6 +443,9 @@ La strada del livello 2 sarebbe stata chiusa in partenza, non solo lenta.
 **Perché lasciarlo andare invece di metterlo in sicurezza.** Il sito faceva circa 300 visite l'anno: spendere ~15 € l'anno per conservare un indirizzo con quel traffico non ha senso. Questa decisione **supera la parte sul dominio** della voce del 21/08 sull'ordine operativo, che dava per scontato di doverlo trasferire.
 **Nota tecnica.** Registrata in ritardo nel diario: il 30/08 il journal è stato ricostruito dai file e riportava ancora la vecchia impostazione.
 **Da fare.** Alla registrazione: cambiare `DOMINIO` in `genera.py`, aggiungere `sito/CNAME`, impostare il dominio in Settings → Pages.
+**Esito.** Il dominio nuovo è stato comprato il 15/09 su Register.it, non su Aruba (voce del 16/09).
+Il `sito/CNAME` non serviva: con il workflow di Actions GitHub lo ignora (correzione del 16/09, in
+CLAUDE.md). Il vecchio dominio risulta però rinnovato fino al 2027: questione aperta dal 22/09.
 
 ## 21/08 — La musica del vecchio sito non torna online
 
@@ -448,3 +476,5 @@ La strada del livello 2 sarebbe stata chiusa in partenza, non solo lenta.
 **Cosa.** Sito rifatto da zero in HTML, CSS e poco JavaScript; pubblicazione su GitHub Pages; foto originali in un repository privato separato.
 **Perché lo statico e non una migrazione.** Un altro CMS avrebbe spostato il problema: abbonamento, database, aggiornamenti di sicurezza. Restano solo file: niente costi ricorrenti, niente manutenzione obbligata.
 **Nota tecnica.** Si pubblica solo la cartella `sito/`. `_backup-wp/` è l'esportazione storica: si consulta, non si pubblica.
+**Esito.** Online dal 17/09 su `artemauriziobertino.com`, costo zero a parte il dominio (0,50 € il
+primo anno).
