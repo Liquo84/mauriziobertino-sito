@@ -52,6 +52,24 @@ del cavallo e le due tracce audio del vecchio sito.
 
 ---
 
+## 29/09 — Check e consuntivo: Maurizio risponde, i numeri di Meta restano fuori
+
+**Cosa.** Check del lunedì fatto il martedì. Sito: workflow verde, certificato valido fino al
+16/12, `http`, `www` e il vecchio indirizzo GitHub rimandano con un 301, 136 indirizzi controllati
+(17 pagine, 115 risorse, 4 link esterni), nessuno rotto.
+**Il vecchio dominio.** Uguale al 22/09: scadenza 15/09/2027, registrar Automattic, pagina "This
+domain is parked" (ora con codice 410). Il registro (RDAP Verisign) mostra solo lo stato
+`client transfer prohibited`, senza `auto renew period`: è un indizio verso il rinnovo pagato, non
+una prova. Il periodo di grazia dei .com dura 45 giorni: se dopo il 30/10 la scadenza è ancora
+2027, il rinnovo è stato pagato.
+**Da Maurizio.** Stasera alle 20:30 sono arrivate su WhatsApp le risposte al PDF: misure e date per
+circa otto opere e sette foto (cinque del gufo 2019, il viale, "Vite in pericolo" sul cavalletto).
+**Social, da sloggato.** L'uscita del 24/09 (Arco corto) è partita: su Facebook 2 reazioni e 1
+condivisione, Instagram a 37 post. Follower: 153 Instagram (fermi dal 22/09), 164 Facebook (+1).
+Meta Business Suite in Chrome non è loggato: copertura, clic e DM non letti.
+**Da fare.** Applicare i dati di Maurizio dopo le risposte di Davide su titoli e gufo; blocco 2
+social, che doveva partire il 1/10 e non è ancora preparato.
+
 ## 25/09 — I dati si chiedono a Maurizio con un PDF illustrato, non con un messaggio
 
 **Cosa.** Un PDF di 8 pagine (`2026-09-25 Dati da chiedere a Maurizio.pdf`, sulla Scrivania di
@@ -125,6 +143,8 @@ spento; a luglio-agosto 2027 si trasferisce su Cloudflare, dove il trasferimento
 canonical nuovo avrebbe indicato a Google la pagina di parcheggio di Register.it.
 **Correzione.** CLAUDE.md diceva di aggiungere `sito/CNAME`: con un workflow di Actions GitHub lo
 ignora, il dominio si imposta solo nelle impostazioni di Pages.
+**Esito.** Seguito l'ordine dei passi: il dominio è online dal 17/09 e dal telefono si apre dal
+22/09 (voci del 17/09 e del 22/09).
 
 ## 10/09 — "Due opere" erano due foto di un'opera che c'era già
 
@@ -160,6 +180,8 @@ vecchio dominio serve ancora il WordPress originale: è contenuto doppio, ed è 
 **Cosa resta sul tavolo.** Il tampone è una riga: `DOMINIO` in `genera.py` che punta all'indirizzo
 GitHub Pages, rigenerare e caricare. Non è stato fatto perché tocca il dominio, e il dominio passa
 da Davide. Quando arriverà `artemauriziobertino.com` la riga si cambia comunque una volta sola.
+**Esito.** Il tampone non è servito: il dominio nuovo è stato comprato il 15/09 e `DOMINIO` è
+cambiato una volta sola, direttamente sul nuovo (voce del 16/09).
 
 ## 10/09 — Il primo blocco social funziona senza mani
 
