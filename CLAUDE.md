@@ -75,3 +75,7 @@ Il sito pubblica con un workflow di Actions: **il file `CNAME` non serve ed è i
   regola dei testi concordati con Maurizio vale per i testi del sito. Con Maurizio si verificano solo
   le frasi segnate «da confermare» nel piano, e le verifica Davide. Niente pubblicazione da qui
   (30/08): l'account Instagram è personale e l'API non pubblicherebbe comunque.
+- **I dati social si leggono così:** da sloggato Instagram dà follower e numero di post nel meta
+  `og:description` del profilo, Facebook solo l'ultimo post. Copertura, interazioni e clic stanno
+  solo in Meta Business Suite, che in Chrome non è loggato: Davide passa gli screenshot di Insight →
+  Contenuti sulla Scrivania (29/09).
