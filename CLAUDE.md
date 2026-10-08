@@ -56,6 +56,8 @@ Il sito pubblica con un workflow di Actions: **il file `CNAME` non serve ed è i
   raddrizzata sui quattro angoli. È la convenzione di tutto il catalogo.
 - **Le modifiche al sito si caricano su GitHub senza chiedere**, purché siano state verificate
   prima: pagine rigenerate con `genera.py` e controllo che nulla sbordi né a 1280 né a 375px.
+  Per l'anteprima il pannello del browser non legge la Scrivania (404) e aperto come `file://` dà
+  misure false: si copia `sito/` nella scratchpad e si serve da lì (voce in `~/.claude/launch.json`, 08/10).
   Poi si dice a Davide com'è andata, workflow compreso. Regola del 01/09: chiedere ogni volta
   allungava il giro senza aggiungere sicurezza, visto che `main` è ciò che va online.
 - **Ogni elemento toccabile (icone, pulsanti) ha un'area di almeno 44×44px**, anche se

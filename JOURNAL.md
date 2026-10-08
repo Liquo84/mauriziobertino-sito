@@ -11,17 +11,17 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 
 ---
 
-## Stato al 29/09/2026
+## Stato al 08/10/2026
 
 | | |
 |---|---|
-| Sito | Online e verificato al check del 29/09. **45 opere** (i due gufi uniti), 7 pagine, 9 articoli. Nessun link rotto, workflow verde |
+| Sito | Online, workflow verde l'08/10. **45 opere**, 7 pagine, 9 articoli. In home i quadri si chiamano **«Pittura di fantasia»** («inventati dal nulla») e il paragrafo «Il lavoro» è nuovo: testi approvati da Maurizio l'08/10. Ultimo check dei link: 29/09 |
 | Indirizzo | https://artemauriziobertino.com/ (HTTPS attivo; il vecchio indirizzo GitHub e `www` rimandano qui) |
 | Pubblicazione | Automatica, si carica senza chiedere se verificato |
-| Social | Instagram `@mauriziobertino_arte` (153 follower, 37 post), Facebook "Spazio Arte Bertino" (164), dati del 29/09 |
-| Uscite | Blocco 1 chiuso: copertura sui post da 49 a 258 su Facebook e da 25 a 78 su Instagram. **Blocco 2 pronto e approvato da Davide** (`social/PIANO-2.md`), dal 1/10 al 22/10: lo schedula lui |
+| Social | Instagram `@mauriziobertino_arte` (153 follower, 37 post), Facebook "Spazio Arte Bertino" (164), dati del 29/09. Dal blocco 3 i quadri sono «pittura di fantasia» anche nei copy |
+| Uscite | Blocco 1 chiuso: copertura sui post da 49 a 258 su Facebook e da 25 a 78 su Instagram. **Blocco 2** (`social/PIANO-2.md`) dal 1/10 al 22/10, programmato da Davide: le uscite non le ho controllate l'08/10 |
 | Consuntivo | Blocco 1 fatto il 29/09. Blocco 2 lunedì 26/10 alle 17:00, evento in calendario creato il 29/09 |
-| Dati da Maurizio | Prime risposte al PDF il 29/09, applicate: 2 titoli (*Orologio (Ercole)*, *Presenze silenziose*), pietra leccese, misure, gufi uniti. Le altre schede incomplete aspettano |
+| Dati da Maurizio | Prime risposte al PDF il 29/09, applicate. Le altre schede incomplete aspettano, più le tre domande nate da «Pittura di fantasia» |
 | Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio risulta rinnovato fino al 15/09/2027: Davide non ha pagato, si ricontrolla dopo il 30/10 |
 | Costo | Zero |
 
@@ -32,7 +32,8 @@ uno ogni quattro settimane, con consuntivo il lunedì prima del blocco nuovo.
 **Non contato:** le 45 opere includono ancora **due "Senza titolo"**: la figura
 di nativo in pietra leccese (tra le quattro del 30/08) e il dipinto del 1997 con
 l'uomo e il cane, che è così dal vecchio sito. Molte schede, soprattutto fra le
-sculture e i nativi, non hanno ancora misure, anno o tecnica. Restano in archivio, non pubblicati, lo scatto di taglio
+sculture e i nativi, non hanno ancora misure, anno o tecnica. Sotto «Pittura di fantasia» ci sono
+ancora *Mah-to-toh-pa*, ripreso da Bodmer, e tre disegni. Restano in archivio, non pubblicati, lo scatto di taglio
 del cavallo e le due tracce audio del vecchio sito.
 
 ---
@@ -68,7 +69,8 @@ china) riprende il ritratto di Mató-Tópe di Bodmer (1834), quindi sotto «di f
 finché resta lì. Nella sezione ci sono anche 3 disegni (per questo «e qualche disegno»).
 **Nota tecnica.** Il pannello di anteprima legge `~/.claude/launch.json` e non vede la Scrivania:
 il sito si serve da una copia di `sito/` nella scratchpad, con una voce temporanea (porta 8766,
-tolta a fine lavoro). La 8765 è occupata da un vecchio `recv.py` di un'altra sessione.
+tolta a fine lavoro). La 8765 è occupata da un vecchio `recv.py` di un'altra sessione. Procedura nel
+CLAUDE.md, Come lavoriamo qui (regola delle modifiche caricate senza chiedere).
 **Paragrafo «Il lavoro», stesso giorno.** Su richiesta di Davide riscritto anche il paragrafo sotto
 «Tre sentimenti, una sola mano» (titolo invariato, concordato il 21/08). Prima: «Pittura, scultura e
 la riproduzione degli oggetti dei nativi nordamericani: tre modi diversi di inseguire la stessa
