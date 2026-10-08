@@ -57,7 +57,14 @@ Il sito pubblica con un workflow di Actions: **il file `CNAME` non serve ed è i
 - **Le modifiche al sito si caricano su GitHub senza chiedere**, purché siano state verificate
   prima: pagine rigenerate con `genera.py` e controllo che nulla sbordi né a 1280 né a 375px.
   Per l'anteprima il pannello del browser non legge la Scrivania (404) e aperto come `file://` dà
-  misure false: si copia `sito/` nella scratchpad e si serve da lì (voce in `~/.claude/launch.json`, 08/10).
+  misure false. Procedura verificata l'08/10, con la sessione partita da `~`:
+  1. `rsync -a --delete sito/ <scratchpad della sessione>/sito/`;
+  2. in `~/.claude/launch.json` (un `.claude/launch.json` nel progetto il pannello non lo vede) si
+     aggiunge la voce `sito-maurizio`, cioè `python3 -m http.server 8766 --directory <scratchpad>/sito`
+     con `"port": 8766`. La 8765 è occupata da un vecchio `recv.py` e non si tocca;
+  3. `preview_start` su `sito-maurizio`;
+  4. dopo ogni `genera.py` si rifà l'rsync e si ricarica la pagina;
+  5. a fine lavoro `preview_stop` e si toglie la voce, che punta a una scratchpad che muore con la sessione.
   Poi si dice a Davide com'è andata, workflow compreso. Regola del 01/09: chiedere ogni volta
   allungava il giro senza aggiungere sicurezza, visto che `main` è ciò che va online.
 - **Ogni elemento toccabile (icone, pulsanti) ha un'area di almeno 44×44px**, anche se
