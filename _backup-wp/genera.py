@@ -318,8 +318,8 @@ corpo_home = f"""
   <div class="contenitore">
     <p class="occhiello">Il lavoro</p>
     <h2>Tre sentimenti, una sola mano</h2>
-    <p class="guida">Pittura, scultura e la riproduzione degli oggetti dei nativi
-       nordamericani: tre modi diversi di inseguire la stessa emozione.</p>
+    <p class="guida">Quadri e sculture vengono dallo stato d’animo del momento; i manufatti
+       dei nativi d’America, da una passione che Bertino si porta dietro dalla Svizzera.</p>
     <div class="porte">{porte}
     </div>
   </div>
