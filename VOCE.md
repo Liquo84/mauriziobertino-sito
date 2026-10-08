@@ -41,7 +41,7 @@ comprare un pezzo unico. Non sono critici d'arte.
 | Autodidatta, senza studi accademici | `sito/biografia.html` |
 | «Un'arte Espressionista e non Accademica», paesaggi di fantasia, l'emozione dell'istante | `sito/tecnica.html` |
 | Soggetti principali: la Natura e gli Animali | `sito/biografia.html` |
-| Quadri: olio su tela, iuta, faesite; paesaggi, animali, nature morte | home, riquadro «La pittura» |
+| Quadri: olio su tela, iuta, faesite; paesaggi, animali, nature morte | home, riquadro «Pittura di fantasia» (prima «La pittura») |
 | 45 opere a catalogo: 25 nella sezione pittura (di cui 3 disegni), 11 sculture, 9 riproduzioni native | `_backup-wp/_catalogo.json`, letto il 08/10/2026 |
 | I quadri li inventa dal nulla, e vuole che risalti questo; propone «fantasie dipinte» | Maurizio, riferito da Davide il 08/10/2026 |
 | *Mah-to-toh-pa* (2004, china) riprende il ritratto di Mató-Tópe di Karl Bodmer (1834): non è inventato | confronto fatto il 08/10/2026 |
