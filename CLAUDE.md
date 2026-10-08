@@ -10,9 +10,9 @@ La guida completa in linguaggio non tecnico è in `LEGGIMI.md`: è scritta per M
 ## Obiettivo
 Sostituire il sito WordPress. **Fatto**: il sito è online su GitHub Pages, si aggiorna da solo a ogni modifica caricata e non costa nulla.
 
-**Il dominio nuovo è `artemauriziobertino.com`**, comprato da Davide su **Register.it** il 15/09/2026 in promozione (0,50 € il primo anno), scadenza 15/09/2027, **online dal 17/09/2026**. I DNS stanno su Register.it: 4 record A verso GitHub (185.199.108-111.153), `www` CNAME verso `liquo84.github.io`, MX di Register.it da non toccare. **Nel pannello DNS di Register.it il nome del dominio principale si scrive per intero (`artemauriziobertino.com`)**: con `@` crea un sottodominio che si chiama davvero `@`. **Il rinnovo a listino Register.it è 58,50 € + IVA l'anno**: il rinnovo automatico non preoccupa (sulla carta collegata non ci sono fondi, detto da Davide il 22/09), ma proprio per questo prima della scadenza il dominio si trasferisce su un registrar economico (Cloudflare, 10,46 $ l'anno, trasferimento possibile dopo 60 giorni dall'acquisto).
+**Il dominio nuovo è `artemauriziobertino.com`**, comprato da Davide su **Register.it** il 15/09/2026 in promozione (0,50 € il primo anno), scadenza 15/09/2027, **online dal 17/09/2026**. I DNS stanno su Register.it: 4 record A verso GitHub (185.199.108-111.153), `www` CNAME verso `liquo84.github.io`, MX di Register.it da non toccare. **Nel pannello DNS di Register.it il nome del dominio principale si scrive per intero (`artemauriziobertino.com`)**: con `@` crea un sottodominio che si chiama davvero `@`; un record che esiste già (il `www` del parcheggio) si modifica, perché aggiungerne un altro dà «duplicato». **Il rinnovo a listino Register.it è 58,50 € + IVA l'anno**: il rinnovo automatico non preoccupa (sulla carta collegata non ci sono fondi, detto da Davide il 22/09), ma proprio per questo prima della scadenza il dominio si trasferisce su un registrar economico (Cloudflare, 10,46 $ l'anno, trasferimento possibile dopo 60 giorni dall'acquisto).
 
-Il sito pubblica con un workflow di Actions: **il file `CNAME` non serve ed è ignorato**. Il dominio si imposta in Settings → Pages (o `gh api -X PUT repos/Liquo84/mauriziobertino-sito/pages -f cname=...`), e `DOMINIO` in `_backup-wp/genera.py` deve coincidere.
+Il sito pubblica con un workflow di Actions (`.github/workflows/pubblica.yml`), in automatico a ogni push su `main`: **il file `CNAME` non serve ed è ignorato**. Il dominio si imposta in Settings → Pages (o `gh api -X PUT repos/Liquo84/mauriziobertino-sito/pages -f cname=...`), e `DOMINIO` in `_backup-wp/genera.py` deve coincidere.
 
 ## Vincoli e regole
 - **Si pubblica solo la cartella `sito/`.** Il resto della cartella non va online.
@@ -21,7 +21,6 @@ Il sito pubblica con un workflow di Actions: **il file `CNAME` non serve ed è i
 - **Le foto originali stanno in un repository privato separato**, non in questo.
 - **I testi pubblici sono concordati con Maurizio.** Non riscriverli di iniziativa: si propongono le modifiche e si aspetta l'ok.
 - **I titoli delle opere sono di Maurizio.** Non si ribattezzano, non si traducono, non si "puliscono". Se un titolo manca si usa **"Senza titolo"**, convenzione già in uso nel catalogo, mai un titolo inventato. Vale anche per i termini scomodi ("mazza da guerra"): decisione presa il 30/08, non riaprirla.
-- La pubblicazione è automatica via GitHub Pages, workflow `.github/workflows/pubblica.yml`.
 
 ## Dove stanno le cose
 - `sito/` — il sito vero e proprio (home, opere, tecnica, nativi, diario, contatti, 404, articoli, assets, img).
@@ -33,12 +32,13 @@ Il sito pubblica con un workflow di Actions: **il file `CNAME` non serve ed è i
   aggiunte dopo).
 - `social/` — piano editoriale e `genera-social.py`, che costruisce le immagini nei tre formati
   dalle foto del sito. Le immagini prodotte sono in `.gitignore`: si rigenerano con un comando.
+  Lo script non si tocca (formato confermato il 01/09): le uscite nuove si aggiungono a `social/uscite.json`.
 - `LEGGIMI.md` — guida per Maurizio.
-- `JOURNAL.md` — diario di lavoro.
+- `JOURNAL.md` — diario di lavoro; le voci fino al 17/09/2026 stanno in `JOURNAL-archivio-2026.md`.
 - **File nuovi:** Le foto nuove di un'opera vanno in `immagini/` con un nome che dice l'opera (`cavallo-rampante-fronte.jpg`). Se non è ancora chiaro a quale opera appartengono, passano da `immagini/da-catalogare/`. Quelle mandate su WhatsApp si rinominano quando entrano. I nomi `img_…` di WordPress restano come sono. I documenti del sito vanno in `documenti/` come `AAAA-MM-GG <tipo> <fornitore> <numero>.pdf`.
 
 ## Come lavoriamo qui
-- Il diario è in `JOURNAL.md`: leggilo in apertura di sessione, aggiornalo in chiusura.
+- Il diario è in `JOURNAL.md`: leggilo in apertura, scrivi le decisioni quando le prendi. Una regola o una procedura da riusare si scrive qui nel momento in cui nasce.
 - Le nuove opere si aggiungono con `aggiungi-opera.py`, non a mano nell'HTML.
 - **Prima di aggiungere un'opera si cerca il titolo in `_catalogo.json`.** Vale anche quando
   Maurizio la manda come se fosse nuova: spesso sono foto migliori di un'opera già pubblicata,
@@ -49,9 +49,7 @@ Il sito pubblica con un workflow di Actions: **il file `CNAME` non serve ed è i
   quelle incomplete del PDF, e si guarda a quale foto risponde ogni messaggio. Nel dubbio si chiede
   a Davide con le foto affiancate. Un abbinamento già applicato resta una lettura nostra, non una
   frase di Maurizio: se un messaggio o una foto nuova non torna, si rimette in discussione prima
-  l'abbinamento e poi il dato nuovo. Regola del 29/09: «il viale autunnale è 2018» era *L'autunno*,
-  era finito come titolo su *Presenze silenziose*, e la foto giusta è stata scartata perché «il viale
-  è del 2018, lo dice Maurizio».
+  l'abbinamento e poi il dato nuovo. Regola del 29/09, dopo il viale autunnale abbinato al quadro sbagliato.
 - **Le foto delle opere si ritagliano sulla tela**: niente cornice, niente muro, prospettiva
   raddrizzata sui quattro angoli. È la convenzione di tutto il catalogo.
 - **Le modifiche al sito si caricano su GitHub senza chiedere**, purché siano state verificate
@@ -68,20 +66,19 @@ Il sito pubblica con un workflow di Actions: **il file `CNAME` non serve ed è i
   Poi si dice a Davide com'è andata, workflow compreso. Regola del 01/09: chiedere ogni volta
   allungava il giro senza aggiungere sicurezza, visto che `main` è ciò che va online.
 - **Ogni elemento toccabile (icone, pulsanti) ha un'area di almeno 44×44px**, anche se
-  l'icona disegnata è più piccola: si allarga il riquadro e lo si riassorbe con margini negativi.
-  Regola del 30/08, ribadita il 01/09 dopo icone social fatte 21×21.
+  l'icona disegnata è più piccola: si allarga il riquadro e lo si riassorbe con margini negativi (30/08).
 - **Quando un canale esiste già, il tono si rileva, non si progetta.** Prima di scrivere
   qualsiasi testo social si legge `social/TONO-DI-VOCE.md` (prima persona, storia, chiusura con
   un numero, blocco `📐` e `📩 Per info e acquisto`). Mai didascalie da museo in terza persona.
   Regola del 01/09.
 - **Restano da confermare volta per volta**, e non si fanno mai di iniziativa: cancellare
   contenuti, toccare il dominio, scrivere a Maurizio, pubblicare sui social a suo nome.
-- Ogni modifica ai testi visibili va segnalata a Maurizio prima di pubblicarla.
 - **Sui social non si pubblica mai da qui.** Claude prepara immagini e didascalie, Davide le approva
   e le carica a mano. **Le didascalie social non passano da Maurizio, le approva Davide** (01/09): la
   regola dei testi concordati con Maurizio vale per i testi del sito. Con Maurizio si verificano solo
-  le frasi segnate «da confermare» nel piano, e le verifica Davide. Niente pubblicazione da qui
-  (30/08): l'account Instagram è personale e l'API non pubblicherebbe comunque.
+  le frasi segnate «da confermare» nel piano, e le verifica Davide (30/08).
+- **Il consuntivo di ogni blocco social si mette in calendario prima del blocco successivo**, il
+  lunedì prima: si leggono i numeri e si prepara il blocco nuovo (01/09).
 - **I dati social si leggono così:** da sloggato Instagram dà follower e numero di post nel meta
   `og:description` del profilo, Facebook solo l'ultimo post. Copertura, interazioni e clic stanno
   solo in Meta Business Suite, che in Chrome non è loggato: Davide passa gli screenshot di Insight →
