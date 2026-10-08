@@ -246,7 +246,7 @@ d_eroe = dim(EROE)
 
 porte = ""
 for chiave, titolo, testo, dest in [
-    ("pittura", "La pittura", "Paesaggi di fantasia, animali e nature morte. Olio su tela, iuta, faesite.", "opere.html#pittura"),
+    ("pittura", "Pittura di fantasia", "Paesaggi, animali e nature morte inventati dal nulla. Olio su tela, iuta, faesite, e qualche disegno.", "opere.html#pittura"),
     ("scultura", "La scultura", "Terracotta, cartapesta e pietra leccese. Bassorilievo e altorilievo su vari materiali.", "opere.html#scultura"),
     ("nativi", "Nativi d’America", "Manufatti dei nativi americani, riprodotti e personalizzati nel dettaglio.", "nativi.html"),
 ]:
@@ -318,8 +318,8 @@ corpo_home = f"""
   <div class="contenitore">
     <p class="occhiello">Il lavoro</p>
     <h2>Tre sentimenti, una sola mano</h2>
-    <p class="guida">Pittura, scultura e la riproduzione degli oggetti dei nativi
-       nordamericani: tre modi diversi di inseguire la stessa emozione.</p>
+    <p class="guida">Quadri e sculture vengono dallo stato d’animo del momento; i manufatti
+       dei nativi d’America, da una passione che Bertino si porta dietro dalla Svizzera.</p>
     <div class="porte">{porte}
     </div>
   </div>
