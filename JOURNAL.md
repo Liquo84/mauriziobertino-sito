@@ -39,6 +39,7 @@ del cavallo e le due tracce audio del vecchio sito.
 
 ## Questioni aperte
 
+- [ ] **«Pittura di fantasia»: l'ok di Maurizio** — il ramo `pittura-di-fantasia` aspetta tre risposte: va bene il testo; «inventati dal nulla» vale anche per le nature morte (*Natura morta con vecchi calici*, la foto del riquadro, e *Fichi con nido di uccelli*) e per *Lo Sguardo della Tigre*; *Mah-to-toh-pa* passa fra i Nativi. Più la tecnica di *Gesta Dimenticate*, che manca in catalogo.
 - [ ] **Titolo e misure della figura di nativo in pietra leccese** — è l'ultima delle quattro opere del 30/08 ancora "Senza titolo" (il 29/09 le altre tre hanno avuto titolo o sono state unite).
 - [ ] **«Questa per la schermata?»** — didascalia di Maurizio del 29/09 sulla foto di lui al cavalletto con *Vite in pericolo*. Probabilmente la vuole in home o come copertina: è un'ipotesi, va chiesto cosa intende.
 - [ ] **Quali opere del catalogo sono in vendita** — le schede di Maurizio finiscono sempre con «Per info e acquisto». Sui dipinti non lo sappiamo, quindi la chiamata all'acquisto per ora è solo sulle riproduzioni.
@@ -50,6 +51,25 @@ del cavallo e le due tracce audio del vecchio sito.
 - [ ] **Disdetta del piano WordPress** — il dominio nuovo è attivo dal 17/09: è l'ultimo passo rimasto del passaggio.
 
 ---
+
+## 08/10 — I quadri diventano «Pittura di fantasia», non «fantasie dipinte»
+
+**Cosa.** Maurizio vuole che risalti che i quadri li inventa dal nulla e ha proposto di chiamarli
+«fantasie dipinte». A Davide l'espressione non piace: giro del copywriter, e Davide ha scelto
+«Pittura di fantasia» come titolo del riquadro in home, con sotto «Paesaggi, animali e nature morte
+inventati dal nulla. Olio su tela, iuta, faesite, e qualche disegno.». Filtro «Pittura», pagina Opere
+e descrizioni per Google restano come sono. Pronto sul ramo `pittura-di-fantasia` (commit 956705f),
+verificato a 1280 e 375px: **non è su `main`, quindi non è online**, finché Maurizio non dà l'ok.
+**Perché non «fantasie dipinte».** «Fantasie» al plurale sono anche i motivi di stoffe e piastrelle;
+accanto a «La scultura» e «Nativi d'America» era l'unico nome che non dice cosa c'è; come filtro era
+lungo. «Pittura di fantasia» riprende il suo «paesaggi di fantasia» della pagina Tecnica.
+**Perché resta da chiedere.** Un nome di sezione vale per tutti i 25 pezzi: *Mah-to-toh-pa* (2004,
+china) riprende il ritratto di Mató-Tópe di Bodmer (1834), quindi sotto «di fantasia» non è vero
+finché resta lì. Nella sezione ci sono anche 3 disegni (per questo «e qualche disegno»).
+**Nota tecnica.** Il pannello di anteprima legge `~/.claude/launch.json` e non vede la Scrivania:
+il sito si serve da una copia nella scratchpad (voce `sito-maurizio`, porta 8766). La 8765 è
+occupata da un vecchio `recv.py` di un'altra sessione.
+**Da fare.** Davide manda a Maurizio i testi e le domande; al suo ok, merge su `main` e push.
 
 ## 29/09 — Il blocco 2 alterna foto con Maurizio e foto con la sola opera
 
