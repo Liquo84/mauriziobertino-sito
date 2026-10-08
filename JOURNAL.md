@@ -67,8 +67,8 @@ lungo. «Pittura di fantasia» riprende il suo «paesaggi di fantasia» della pa
 china) riprende il ritratto di Mató-Tópe di Bodmer (1834), quindi sotto «di fantasia» non è vero
 finché resta lì. Nella sezione ci sono anche 3 disegni (per questo «e qualche disegno»).
 **Nota tecnica.** Il pannello di anteprima legge `~/.claude/launch.json` e non vede la Scrivania:
-il sito si serve da una copia nella scratchpad (voce `sito-maurizio`, porta 8766). La 8765 è
-occupata da un vecchio `recv.py` di un'altra sessione.
+il sito si serve da una copia di `sito/` nella scratchpad, con una voce temporanea (porta 8766,
+tolta a fine lavoro). La 8765 è occupata da un vecchio `recv.py` di un'altra sessione.
 **Paragrafo «Il lavoro», stesso giorno.** Su richiesta di Davide riscritto anche il paragrafo sotto
 «Tre sentimenti, una sola mano» (titolo invariato, concordato il 21/08). Prima: «Pittura, scultura e
 la riproduzione degli oggetti dei nativi nordamericani: tre modi diversi di inseguire la stessa
