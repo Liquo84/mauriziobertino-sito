@@ -246,7 +246,7 @@ d_eroe = dim(EROE)
 
 porte = ""
 for chiave, titolo, testo, dest in [
-    ("pittura", "La pittura", "Paesaggi di fantasia, animali e nature morte. Olio su tela, iuta, faesite.", "opere.html#pittura"),
+    ("pittura", "Pittura di fantasia", "Paesaggi, animali e nature morte inventati dal nulla. Olio su tela, iuta, faesite, e qualche disegno.", "opere.html#pittura"),
     ("scultura", "La scultura", "Terracotta, cartapesta e pietra leccese. Bassorilievo e altorilievo su vari materiali.", "opere.html#scultura"),
     ("nativi", "Nativi d’America", "Manufatti dei nativi americani, riprodotti e personalizzati nel dettaglio.", "nativi.html"),
 ]:
