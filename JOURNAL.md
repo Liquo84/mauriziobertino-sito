@@ -39,7 +39,7 @@ del cavallo e le due tracce audio del vecchio sito.
 
 ## Questioni aperte
 
-- [ ] **«Pittura di fantasia» e paragrafo «Il lavoro»: l'ok di Maurizio** — il ramo `pittura-di-fantasia` aspetta tre risposte: vanno bene i due testi; «inventati dal nulla» vale anche per le nature morte (*Natura morta con vecchi calici*, la foto del riquadro, e *Fichi con nido di uccelli*) e per *Lo Sguardo della Tigre*; *Mah-to-toh-pa* passa fra i Nativi. Più la tecnica di *Gesta Dimenticate*, che manca in catalogo.
+- [ ] **Tre domande rimaste dopo «Pittura di fantasia»** — i testi sono approvati e online (08/10); restano: «inventati dal nulla» vale anche per le nature morte (*Natura morta con vecchi calici*, la foto del riquadro in home, e *Fichi con nido di uccelli*) e per *Lo Sguardo della Tigre*?; *Mah-to-toh-pa*, ripreso da Bodmer, passa fra i Nativi? (finché resta, sotto «Pittura di fantasia» c'è un pezzo non inventato); che tecnica è *Gesta Dimenticate*?
 - [ ] **Titolo e misure della figura di nativo in pietra leccese** — è l'ultima delle quattro opere del 30/08 ancora "Senza titolo" (il 29/09 le altre tre hanno avuto titolo o sono state unite).
 - [ ] **«Questa per la schermata?»** — didascalia di Maurizio del 29/09 sulla foto di lui al cavalletto con *Vite in pericolo*. Probabilmente la vuole in home o come copertina: è un'ipotesi, va chiesto cosa intende.
 - [ ] **Quali opere del catalogo sono in vendita** — le schede di Maurizio finiscono sempre con «Per info e acquisto». Sui dipinti non lo sappiamo, quindi la chiamata all'acquisto per ora è solo sulle riproduzioni.
@@ -77,7 +77,9 @@ d'America, da una passione che Bertino si porta dietro dalla Svizzera.» Perché
 contraddiceva il titolo, la pagina Tecnica (lo stato d'animo di quel momento) e la pagina Nativi
 (passione nata in Svizzera). Sullo stesso ramo, commit e4209d3.
 **Collaudo alla cieca del copywriter:** Davide ha detto sì, alla prima riscrittura di una pagina intera.
-**Da fare.** Davide manda a Maurizio i testi e le domande; al suo ok, merge su `main` e push.
+**Esito, stesso giorno.** Maurizio approva i due testi (Davide: «a lui va bene»): ramo unito su
+`main` e pubblicato. Davide: «Inizieremo a usare questi termini anche nei copy instagram»: regola in
+`social/TONO-DI-VOCE.md`, in fondo, e in `VOCE.md`. Il blocco 2 resta com'è, i termini entrano dal blocco 3.
 
 ## 29/09 — Il blocco 2 alterna foto con Maurizio e foto con la sola opera
 

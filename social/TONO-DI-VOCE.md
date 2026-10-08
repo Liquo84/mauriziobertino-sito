@@ -108,3 +108,10 @@ I **dipinti** del catalogo non sono mai stati postati in quel formato, e non sap
 quali siano ancora disponibili. Per i dipinti si usa lo stesso impianto ma la chiamata
 finale è `🔗 link in bio`, non `📩 Per info e acquisto`, finché Maurizio non conferma
 cosa è in vendita.
+
+**Come si chiamano i quadri (08/10/2026, decisione di Davide approvata da Maurizio).** Nei copy
+i dipinti sono la sua **«pittura di fantasia»** e il concetto da far risaltare è che li **inventa
+dal nulla**, detto da lui in prima persona («questo paesaggio l'ho inventato dal nulla»). Sono gli
+stessi termini del sito, dove la sezione si chiama «Pittura di fantasia». Non valgono per i pezzi
+ripresi da un altro autore: *Mah-to-toh-pa* (da Bodmer) e *Stu-mick-o-suks* (da Catlin). Il
+blocco 2 (1-22/10) è già programmato e resta com'è: i termini entrano dal blocco 3.

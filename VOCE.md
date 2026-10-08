@@ -30,8 +30,8 @@ comprare un pezzo unico. Non sono critici d'arte.
 ## Parole
 - **Da usare:** «pezzo unico», «Unici» (con la maiuscola, nella sua formula «regali Unici a persone Uniche»).
 - **Vietate:** nessuna oltre al radar.
-- **Nomi fissi:** le sezioni del sito sono «Pittura di fantasia» (scelto da Davide l'08/10, in
-  attesa dell'ok di Maurizio; prima «La pittura»), «La scultura», «Nativi d'America»;
+- **Nomi fissi:** le sezioni del sito sono «Pittura di fantasia» (scelto da Davide e approvato da
+  Maurizio l'08/10; prima «La pittura»; vale anche nei copy Instagram), «La scultura», «Nativi d'America»;
   filtri della pagina Opere: Tutte, Pittura, Scultura, Nativi d'America (`genera.py`, righe 423-426).
 
 ## Banca fatti
@@ -57,5 +57,5 @@ comprare un pezzo unico. Non sono critici d'arte.
 - Collaudo alla cieca: Davide ha detto sì (08/10/2026) per la prima riscrittura di una pagina intera.
 
 ## Correzioni di Davide
-- 2026-10-08 — «fantasie dipinte» non lo convince come espressione: cercare alternative che
-  portino lo stesso concetto (quadri inventati dal nulla).
+- 2026-10-08 — «fantasie dipinte» non lo convince come espressione: scelto «Pittura di fantasia»,
+  con il concetto «inventati dal nulla» nella riga sotto. Maurizio approva; si usa anche su Instagram.
