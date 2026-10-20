@@ -11,17 +11,17 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 
 ---
 
-## Stato al 08/10/2026
+## Stato al 20/10/2026
 
 | | |
 |---|---|
-| Sito | Online, workflow verde l'08/10. **45 opere**, 7 pagine, 9 articoli. In home i quadri si chiamano **«Pittura di fantasia»** («inventati dal nulla») e il paragrafo «Il lavoro» è nuovo: testi approvati da Maurizio l'08/10. Ultimo check dei link: 29/09 |
+| Sito | Online, workflow verde l'08/10. **45 opere**, 7 pagine, 9 articoli. In home i quadri si chiamano **«Pittura di fantasia»** («inventati dal nulla») e il paragrafo «Il lavoro» è nuovo: testi approvati da Maurizio l'08/10. Ultimo check dei link: 20/10, nessuno rotto |
 | Indirizzo | https://artemauriziobertino.com/ (HTTPS attivo; il vecchio indirizzo GitHub e `www` rimandano qui) |
 | Pubblicazione | Automatica, si carica senza chiedere se verificato |
-| Social | Instagram `@mauriziobertino_arte` (153 follower, 37 post), Facebook "Spazio Arte Bertino" (164), dati del 29/09. Dal blocco 3 i quadri sono «pittura di fantasia» anche nei copy |
-| Uscite | Blocco 1 chiuso: copertura sui post da 49 a 258 su Facebook e da 25 a 78 su Instagram. **Blocco 2** (`social/PIANO-2.md`) dal 1/10 al 22/10, programmato da Davide: le uscite non le ho controllate l'08/10 |
+| Social | Instagram `@mauriziobertino_arte` (153 follower, 40 post), Facebook "Spazio Arte Bertino" (164), dati del 20/10, fermi dal 29/09. Dal blocco 3 i quadri sono «pittura di fantasia» anche nei copy |
+| Uscite | Blocco 1 chiuso: copertura sui post da 49 a 258 su Facebook e da 25 a 78 su Instagram. **Blocco 2** (`social/PIANO-2.md`) dal 1/10 al 22/10, programmato da Davide: al 20/10 sono uscite le prime tre (Instagram da 37 a 40 post), manca il gufo del 22/10 |
 | Consuntivo | Blocco 1 fatto il 29/09. Blocco 2 lunedì 26/10 alle 17:00, evento in calendario creato il 29/09 |
-| Dati da Maurizio | Prime risposte al PDF il 29/09, applicate. Le altre schede incomplete aspettano, più le tre domande nate da «Pittura di fantasia» |
+| Dati da Maurizio | Prime risposte al PDF il 29/09, applicate. Al 20/10 nessun dato nuovo nella sua chat. Le altre schede incomplete aspettano, più le tre domande nate da «Pittura di fantasia» |
 | Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio risulta rinnovato fino al 15/09/2027: Davide non ha pagato, si ricontrolla dopo il 30/10 |
 | Costo | Zero |
 
@@ -52,6 +52,23 @@ del cavallo e le due tracce audio del vecchio sito.
 - [ ] **Disdetta del piano WordPress** — il dominio nuovo è attivo dal 17/09: è l'ultimo passo rimasto del passaggio.
 
 ---
+
+## 20/10 — Check: sito sano, blocco 2 in corsa, da Maurizio niente di nuovo
+
+**Cosa.** Check settimanale fatto il martedì (Davide: «ieri dovevo fare un check»). Sito: ultimo
+workflow verde l'08/10 e nessuna modifica da allora; certificato valido fino al 16/12; `http`,
+`www` e il vecchio indirizzo GitHub rimandano con un 301. 135 indirizzi controllati (17 pagine,
+114 risorse, 4 link esterni), nessuno rotto: uno in meno del 29/09.
+**Il vecchio dominio.** Uguale al 29/09: scadenza 15/09/2027, ultima modifica 16/09, registrar
+Automattic, stato solo `client transfer prohibited`, la pagina risponde 410. Il controllo che
+decide resta quello dopo il 30/10.
+**Social, da sloggato.** Instagram 40 post (37 il 29/09): sono partite le uscite del 1/10, 8/10 e
+15/10. Follower fermi: 153 Instagram, 164 Facebook. In cima a Facebook c'è l'orologio di Ercole,
+«4 giorni fa», 11 reazioni, 2 commenti, 1 condivisione. Manca il gufo di giovedì 22/10.
+**Da Maurizio.** Nella sua chat (331 438 5178) dopo l'08/10 solo messaggi di lavoro SE2: nessun
+dato sulle schede e nessuna risposta alle tre domande di «Pittura di fantasia».
+**Da fare.** Lunedì 26/10 check e consuntivo del blocco 2 con gli screenshot di Meta, poi il
+blocco 3 entro giovedì 29/10. Dopo il 30/10 il registro del vecchio dominio.
 
 ## 08/10 — I quadri diventano «Pittura di fantasia», non «fantasie dipinte»
 
