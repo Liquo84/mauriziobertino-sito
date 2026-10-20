@@ -83,3 +83,5 @@ Il sito pubblica con un workflow di Actions (`.github/workflows/pubblica.yml`), 
   `og:description` del profilo, Facebook solo l'ultimo post. Copertura, interazioni e clic stanno
   solo in Meta Business Suite, che in Chrome non è loggato: Davide passa gli screenshot di Insight →
   Contenuti sulla Scrivania (29/09).
+- **La chat WhatsApp di Maurizio non ha un nome**: si legge col numero, `leggi_chat` su `393314385178`
+  (lo stesso di `genera.py`). Cercata come «Maurizio» non esce (20/10).

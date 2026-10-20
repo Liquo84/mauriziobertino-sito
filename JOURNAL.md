@@ -67,6 +67,8 @@ decide resta quello dopo il 30/10.
 «4 giorni fa», 11 reazioni, 2 commenti, 1 condivisione. Manca il gufo di giovedì 22/10.
 **Da Maurizio.** Nella sua chat (331 438 5178) dopo l'08/10 solo messaggi di lavoro SE2: nessun
 dato sulle schede e nessuna risposta alle tre domande di «Pittura di fantasia».
+**Nota tecnica.** Cercata per nome la chat non esce: si legge col numero. Regola in CLAUDE.md,
+Come lavoriamo qui.
 **Da fare.** Lunedì 26/10 check e consuntivo del blocco 2 con gli screenshot di Meta, poi il
 blocco 3 entro giovedì 29/10. Dopo il 30/10 il registro del vecchio dominio.
 
