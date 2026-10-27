@@ -7,7 +7,7 @@ scelte già prese. Le regole stabili stanno in `CLAUDE.md`, non qui. Qui c'è la
 Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 
 **Ciclo:** si legge all'inizio (bastano stato + questioni aperte) → si lavora →
-**si scrive nel momento in cui la decisione viene presa**, non a fine giornata.
+**si scrive nel turno in cui la decisione viene presa**, non a fine giornata (dopo la risposta in chat, se Davide ha fatto una domanda).
 
 ---
 
