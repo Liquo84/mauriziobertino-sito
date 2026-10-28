@@ -15,13 +15,13 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 
 | | |
 |---|---|
-| Sito | Online, workflow verde l'08/10. **45 opere**, 7 pagine, 9 articoli. In home i quadri si chiamano **«Pittura di fantasia»** («inventati dal nulla») e il paragrafo «Il lavoro» è nuovo: testi approvati da Maurizio l'08/10. Ultimo check dei link: 28/10, nessuno rotto |
+| Sito | Online. **52 opere** (7 dipinti aggiunti il 28/10), 7 pagine, 9 articoli. In home i quadri si chiamano **«Pittura di fantasia»** («inventati dal nulla») e il paragrafo «Il lavoro» è nuovo: testi approvati da Maurizio l'08/10. Ultimo check dei link: 28/10, nessuno rotto |
 | Indirizzo | https://artemauriziobertino.com/ (HTTPS attivo; il vecchio indirizzo GitHub e `www` rimandano qui) |
 | Pubblicazione | Automatica, si carica senza chiedere se verificato |
 | Social | Instagram `@mauriziobertino_arte` (153 follower, 41 post), Facebook "Spazio Arte Bertino" (166), dati del 28/10. Dal blocco 3 i quadri sono «pittura di fantasia» anche nei copy |
 | Uscite | Blocco 1 chiuso: copertura sui post da 49 a 258 su Facebook e da 25 a 78 su Instagram. **Blocco 2** (`social/PIANO-2.md`) dal 1/10 al 22/10, uscito per intero (Instagram da 37 a 41 post) |
 | Consuntivo | Blocco 1 fatto il 29/09. Blocco 2 fatto il 28/10 per Instagram; per Facebook mancano le coperture dei singoli post |
-| Dati da Maurizio | Prime risposte al PDF il 29/09, applicate. Il 28/10 Davide ha altro materiale da caricare (dove è da chiedere). Le altre schede incomplete aspettano, più le tre domande nate da «Pittura di fantasia» |
+| Dati da Maurizio | Prime risposte al PDF il 29/09, applicate. Il 24/10 dieci dipinti con titoli e dati (chat inoltrata da Davide il 28/10): sette nuovi, pubblicati il 28/10. Le altre schede incomplete aspettano, più le tre domande nate da «Pittura di fantasia» |
 | Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio risulta rinnovato fino al 15/09/2027: Davide non ha pagato, si ricontrolla dopo il 30/10 |
 | Costo | Zero |
 
@@ -44,7 +44,9 @@ del cavallo e le due tracce audio del vecchio sito.
 - [ ] **Titolo e misure della figura di nativo in pietra leccese** — è l'ultima delle quattro opere del 30/08 ancora "Senza titolo" (il 29/09 le altre tre hanno avuto titolo o sono state unite).
 - [ ] **«Questa per la schermata?»** — didascalia di Maurizio del 29/09 sulla foto di lui al cavalletto con *Vite in pericolo*. Probabilmente la vuole in home o come copertina: è un'ipotesi, va chiesto cosa intende.
 - [ ] **Quali opere del catalogo sono in vendita** — le schede di Maurizio finiscono sempre con «Per info e acquisto». Sui dipinti non lo sappiamo, quindi la chiamata all'acquisto per ora è solo sulle riproduzioni.
-- [ ] **Reel «tipo Superquark» con ElevenLabs** — Davide (28/10): «avevo pensato a dei reel tipo Superquark, con la voce da documentario, dove magari facevamo vedere dettagli dell'opera». Lo zoom sui particolari si fa con ffmpeg sulle foto ferme, ma le foto arrivano al massimo a 1800 px (gli originali del repository privato sono più piccoli, l'aquila 1200×1600): oltre circa 1,5× il dettaglio è sfocato (prova del 28/10 a 2,2×). Per i dettagli veri servono primi piani nuovi di Maurizio. Proposta di Claude, senza risposta al 28/10: un primo reel di prova con le foto che ci sono e una voce della libreria in terza persona. Il clone della voce di Maurizio, se mai, solo istantaneo, col suo consenso e 1-2 minuti di audio pulito (documentazione ElevenLabs letta il 28/10).
+- [ ] **Reel di prova «Tempi remoti»: cosa ne pensa Maurizio** — fatto il 28/10 (voce sotto), Davide lo gira a Maurizio: «se gli piace, vediamo come adattarlo». Due punti da chiedergli insieme: la frase «Maurizio Bertino inventa i suoi quadri dal nulla» detta su questa scena di famiglia (se viene da un ricordo o da una foto, la frase va tolta da questo reel); e se vuole che a voce si dica il sito (sui suoi profili non lo nomina mai, `social/TONO-DI-VOCE.md`).
+- [ ] **Musica di ElevenLabs sulla pagina di Maurizio** — col piano Creator la musica è «For Individual Use Only» (Music Terms, letti per SE2 il 27/10). Per SE2 Davide ha chiuso con «Sulla musica penso che la possiamo usare senza problemi tranquillo»; per la pagina di Maurizio non l'ha detto. Da chiedere prima di pubblicare il reel.
+- [ ] **«Testa indiano», terracotta bianca, 28,5×28,5 cm** — nella chat del 24/10 Maurizio risponde «Questo no c'è sul sito..» a una sua foto, che negli screenshot si vede solo in miniatura e non era fra i file in Download. Serve la foto per aggiungere la scheda.
 - [ ] **Le foto con Maurizio portano più copertura di quelle con la sola opera?** — ipotesi, su 8 casi. Blocco 1 su Facebook 258 e 182 contro 55 e 49; blocco 2 su Instagram 53 e 62 contro 48 e 30 (consuntivo del 28/10). Mancano le coperture per post di Facebook del blocco 2: l'export di Facebook è uscito vuoto. Se regge, cambia che foto chiedere a Maurizio.
 - [ ] **Il registro "scheda" funziona quanto quello diretto?** — non misurabile con un solo post diretto. Resta aperta finché un blocco non ne mette almeno due.
 - [ ] **Trasferire il dominio prima della scadenza** — il 22/09 Davide ha detto che il rinnovo automatico di Register.it non è un problema: sulla carta collegata non ci sono mai soldi, quindi i 58,50 € + IVA non partono. Resta il rovescio: se non si trasferisce su Cloudflare entro luglio-agosto 2027, il 15/09/2027 il dominio scade e il sito sparisce dall'indirizzo.
@@ -52,6 +54,35 @@ del cavallo e le due tracce audio del vecchio sito.
 - [ ] **Disdetta del piano WordPress** — il dominio nuovo è attivo dal 17/09: è l'ultimo passo rimasto del passaggio.
 
 ---
+
+## 28/10 — Sette dipinti nuovi sul sito e reel di prova con voce da documentario
+
+**Cosa.** Dalla chat di Maurizio del 24/10 (screenshot e foto inoltrati da Davide) dieci dipinti con
+titolo, data, misure e tecnica. *Presenze silenziose* e *La falciatura del grano* (col suo
+particolare) erano già sul sito con gli stessi dati e le stesse foto: niente da cambiare. Aggiunti
+con `aggiungi-opera.py`, titoli di Maurizio con la sola iniziale maiuscola: *Paesaggio contadino*
+(23/11/1992, olio su sacco di cotone preparato), *Terre rosse* (05/02/1998), *Sole al mattino*
+(24/11/1997), *Destino* (gennaio 1997, olio su iuta preparata), *2 alberi* (16/02/1996, tela
+incollata su cartoncino; ritagliato sulla tela, la cornice era «provvisoria»), *Tempi remoti*
+(04/12/1997), *L’alba sulla palude* (10/03/1992, olio su iuta preparata). Didascalie col formato di
+*Presenze silenziose* («Titolo, 60×50, data. Tecnica.»). Verificato in anteprima a 1280 e 375 px,
+online. Originali e screenshot nel repository privato delle foto.
+**Nota.** Su *Terre rosse* e *Sole al mattino* Maurizio scrive «(3 periodo)»: non è entrato nelle
+schede, perché non sappiamo cosa siano i suoi periodi.
+**Reel di prova.** Davide: «procedere con le foto che abbiamo, magari su un'opera sola, la voce di
+documentario, e vediamo. Lo giro a Maurizio». Scelta *Tempi remoti*, la scena con più particolari.
+Voce scritta e rivista dal copywriter (VOCE.md, eccezione dei reel in terza persona), letta da
+Carmelo La Rosa (voce della libreria già nell'account, modello eleven_v4) con musica Eleven Music
+v2.5. 50,9 secondi: il ritmo da documentario allunga i 30-40 previsti. Generatore in `social/reel/`.
+Crediti dell'account al 28/10: 45.356 usati su 130.578 (la voce ne ha presi circa 270).
+**Perché la finestra 9:8 e non lo schermo pieno.** La foto è orizzontale (1600×1293): un taglio
+verticale pieno è una striscia alta, e per staccare un particolare bisognerebbe ingrandire oltre 2×.
+Nella finestra 9:8, dentro i margini della guida Meta ai Reels, il particolare si stacca a circa 1,7×.
+**Correzione mia.** Nella regia al copywriter avevo descritto «noci o castagne» sulla tavola: sono
+piccoli frutti rossi. Il testo non li nomina, quindi la voce non cambia.
+**Nota tecnica.** La ricerca della chiave ElevenLabs nel Portachiavi è stata bloccata dal
+classificatore (Credential Exploration); `eleven.py` la legge come `bot/voce.py` di Diamond,
+servizio `diamond-elevenlabs`, senza stamparla.
 
 ## 28/10 — Check del lunedì saltato, rifatto il mercoledì: blocco 2 uscito per intero
 
@@ -89,9 +120,11 @@ due con la sola opera (53 e 62 contro 48 e 30). Restano 8 casi in tutto, e su Fa
 differenza era nata, il blocco 2 non si può confrontare.
 **Nota tecnica.** ffmpeg ora è installato (`/opt/homebrew/bin/ffmpeg`, 9.0.2): la questione aperta
 «ffmpeg, solo se si vorranno i video» non vale più ed è tolta. I Reel dal catalogo si possono fare.
-**Da fare.** Le coperture per post di Facebook, il materiale di Maurizio da caricare (Davide: «ho
-un pò di roba di Maurizio che dobbiamo caricare»), il blocco 3. Dopo il 30/10 il registro del
-vecchio dominio.
+**Facebook, secondo export (28/10).** Il secondo CSV di Facebook ha solo le colonne dei video
+(visualizzazioni da 3 secondi e da 1 minuto), tutte a 0 perché i post sono foto: niente copertura.
+Messo nel Cestino.
+**Da fare.** Le coperture per post di Facebook (screenshot di Insight → Contenuti), il blocco 3.
+Dopo il 30/10 il registro del vecchio dominio.
 
 ## 20/10 — Check: sito sano, blocco 2 in corsa, da Maurizio niente di nuovo
 

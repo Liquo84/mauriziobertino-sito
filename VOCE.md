@@ -2,7 +2,7 @@
 
 > Scheda del copywriter per questo progetto. La legge prima di scrivere qualunque testo.
 > Ogni fatto ha una fonte. Se un fatto non è qui, non va nei testi: si chiede.
-> Aggiornata: 2026-10-08
+> Aggiornata: 2026-10-28
 
 ## Chi è
 Maurizio Bertino dipinge a olio, scolpisce (terracotta, cartapesta, pietra leccese) e riproduce
@@ -19,7 +19,10 @@ Privati che arrivano dai social o dal passaparola, curiosi delle opere, alcuni i
 comprare un pezzo unico. Non sono critici d'arte.
 
 ## Tono
-- **Persona:** sui social prima persona di Maurizio; sul sito titoli e etichette neutri.
+- **Persona:** sui social prima persona di Maurizio; sul sito titoli e etichette neutri. **Eccezione, i reel
+  «tipo Superquark»** (Davide, 28/10/2026: «avevo pensato a dei reel tipo Superquark, con la voce da
+  documentario, dove magari facevamo vedere dettagli dell'opera»): voce narrante in terza persona, mentre
+  la camera si avvicina ai particolari. È un reel di prova, da far vedere a Maurizio.
 - **Registro:** artigiano che racconta e vende, non didascalia da museo (`social/TONO-DI-VOCE.md`).
 - **Suona così:**
   - «Pezzo unico. Non ne esiste un altro uguale.» (Instagram, rilevato 01/09/2026)
@@ -42,7 +45,8 @@ comprare un pezzo unico. Non sono critici d'arte.
 | «Un'arte Espressionista e non Accademica», paesaggi di fantasia, l'emozione dell'istante | `sito/tecnica.html` |
 | Soggetti principali: la Natura e gli Animali | `sito/biografia.html` |
 | Quadri: olio su tela, iuta, faesite; paesaggi, animali, nature morte | home, riquadro «Pittura di fantasia» (prima «La pittura») |
-| 45 opere a catalogo: 25 nella sezione pittura (di cui 3 disegni), 11 sculture, 9 riproduzioni native | `_backup-wp/_catalogo.json`, letto il 08/10/2026 |
+| 52 opere a catalogo: 32 nella sezione pittura (di cui 3 disegni), 11 sculture, 9 riproduzioni native | `_backup-wp/_catalogo.json`, letto il 28/10/2026 (7 dipinti aggiunti quel giorno) |
+| *Tempi remoti*: olio su tela, 50×40 cm, datato 4/12/1997 | Maurizio, chat del 24/10/2026 (`immagini/chat-maurizio/`) |
 | I quadri li inventa dal nulla, e vuole che risalti questo; propone «fantasie dipinte» | Maurizio, riferito da Davide il 08/10/2026 |
 | *Mah-to-toh-pa* (2004, china) riprende il ritratto di Mató-Tópe di Karl Bodmer (1834): non è inventato | confronto fatto il 08/10/2026 |
 | Primo premio «Fare Naif Oggi» a Lerici | `sito/biografia.html` |

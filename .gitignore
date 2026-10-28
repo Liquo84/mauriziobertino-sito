@@ -10,3 +10,9 @@ social/uscite/
 
 # Fatture e documenti amministrativi: contengono dati personali, restano solo in locale
 documenti/
+social/reel/cache/
+social/reel/**/*.mp4
+social/reel/**/*.mp3
+social/reel/**/tempi.json
+social/reel/__pycache__/
+social/reel/**/__pycache__/

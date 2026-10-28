@@ -33,6 +33,12 @@ Il sito pubblica con un workflow di Actions (`.github/workflows/pubblica.yml`), 
 - `social/` — piano editoriale e `genera-social.py`, che costruisce le immagini nei tre formati
   dalle foto del sito. Le immagini prodotte sono in `.gitignore`: si rigenerano con un comando.
   Lo script non si tocca (formato confermato il 01/09): le uscite nuove si aggiungono a `social/uscite.json`.
+- `social/reel/` — reel «tipo Superquark» (voce da documentario sui particolari di un dipinto):
+  `gen_reel.py` più una cartella per opera con `opera.py` (testo, inquadrature, voce). Voce e musica
+  da ElevenLabs (`eleven.py`, con la cache delle frasi già pagate). Video e audio sono fuori da git:
+  il repository è pubblico.
+- `immagini/chat-maurizio/` — screenshot della chat in cui Maurizio dà titoli e dati delle opere
+  (stanno negli originali, repository privato).
 - `LEGGIMI.md` — guida per Maurizio.
 - `JOURNAL.md` — diario di lavoro; le voci fino al 17/09/2026 stanno in `JOURNAL-archivio-2026.md`.
 - **File nuovi:** Le foto nuove di un'opera vanno in `immagini/` con un nome che dice l'opera (`cavallo-rampante-fronte.jpg`). Se non è ancora chiaro a quale opera appartengono, passano da `immagini/da-catalogare/`. Quelle mandate su WhatsApp si rinominano quando entrano. I nomi `img_…` di WordPress restano come sono. I documenti del sito vanno in `documenti/` come `AAAA-MM-GG <tipo> <fornitore> <numero>.pdf`.
