@@ -171,7 +171,8 @@ differenza era nata, il blocco 2 non si può confrontare.
 (visualizzazioni da 3 secondi e da 1 minuto), tutte a 0 perché i post sono foto: niente copertura.
 Messo nel Cestino.
 **Da fare.** Le coperture per post di Facebook (screenshot di Insight → Contenuti), il blocco 3.
-Dopo il 30/10 il registro del vecchio dominio.
+Dopo il 30/10 il registro del vecchio dominio. **Esito (28/10):** coperture arrivate e consuntivo
+fatto, blocco 3 preparato e approvato, vecchio dominio letto in anticipo: non rinnovato (voci sopra).
 
 ## 20/10 — Check: sito sano, blocco 2 in corsa, da Maurizio niente di nuovo
 
