@@ -4,7 +4,7 @@ Come i blocchi 1 e 2: qui c'è tutto pronto, **carica Davide a mano** su Meta Bu
 Le immagini si rigenerano con `/usr/bin/python3 social/genera-social.py` (stanno in `social/uscite/`,
 non su GitHub). Formati e uso dei file come nel blocco 1 (`PIANO.md`, "Quale file dove"). I testi
 seguono `TONO-DI-VOCE.md`, con «pittura di fantasia» e «inventato dal nulla» sui quadri (dal blocco 3).
-Testi scritti e riletti a freddo dal copywriter il 28/10.
+Testi scritti e riletti a freddo dal copywriter il 28/10, approvati da Davide lo stesso giorno («Approvo»).
 
 ## Calendario
 

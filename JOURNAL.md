@@ -19,7 +19,7 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 | Indirizzo | https://artemauriziobertino.com/ (HTTPS attivo; il vecchio indirizzo GitHub e `www` rimandano qui) |
 | Pubblicazione | Automatica, si carica senza chiedere se verificato |
 | Social | Instagram `@mauriziobertino_arte` (153 follower, 41 post), Facebook "Spazio Arte Bertino" (166), dati del 28/10. Dal blocco 3 i quadri sono «pittura di fantasia» anche nei copy |
-| Uscite | Blocchi 1 e 2 chiusi (`PIANO.md`, `PIANO-2.md`). **Blocco 3** (`social/PIANO-3.md`) dal 29/10 al 19/11, di giovedì: preparato il 28/10, da approvare e programmare da Davide |
+| Uscite | Blocchi 1 e 2 chiusi (`PIANO.md`, `PIANO-2.md`). **Blocco 3** (`social/PIANO-3.md`) dal 29/10 al 19/11, di giovedì: preparato e approvato il 28/10, da programmare da Davide (promemoria alle 18:00) |
 | Consuntivo | Blocco 1 fatto il 29/09, blocco 2 il 28/10 (Instagram e Facebook). Blocco 3 lunedì 23/11 |
 | Dati da Maurizio | Prime risposte al PDF il 29/09, applicate. Il 24/10 dieci dipinti con titoli e dati (chat inoltrata da Davide il 28/10): sette nuovi, pubblicati il 28/10. Le altre schede incomplete aspettano, più le tre domande nate da «Pittura di fantasia» |
 | Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio risulta rinnovato fino al 15/09/2027: Davide non ha pagato, si ricontrolla dopo il 30/10 |
@@ -71,6 +71,8 @@ all'articolo; i quadri `opere.html`.
 **Correzione mia.** Nella descrizione del *Paesaggio contadino* per il copywriter avevo scritto
 «masseria»: l'edificio può essere anche una chiesa di campagna (torre, portone ad arco). Nel testo è
 diventato «una casa bianca col tetto rosso», e l'hashtag #masseria è tolto.
+**Esito, stesso giorno.** Davide: «Approvo, mettimi promemoria sul programmare i post». Promemoria
+Apple per oggi alle 18:00 (lista «Reminders»); i quattro post li programma lui su Business Suite.
 
 ## 28/10 — Reel: finale col logo; la Testa indiano sul sito; consuntivo di Facebook
 
