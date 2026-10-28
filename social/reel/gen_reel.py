@@ -12,7 +12,10 @@ Come è fatto:
   tempi delle inquadrature e dei sottotitoli vengono dalle durate, senza whisper;
 - le foto arrivano a 1600 px: la finestra non si stringe sotto i 600 px di quadro (circa 1,8×),
   oltre il dettaglio si sfoca (prova del 28/10);
-- caratteri del sito: Iowan Old Style; colore d'accento del sito, #e2915f.
+- caratteri del sito: Iowan Old Style; colore d'accento del sito, #e2915f;
+- in chiusura dissolvenza sul fondo chiaro del sito (--carta, #faf7f2) col logo di Maurizio
+  (pennellata rossa e nome in grigio scuro, che sul fondo scuro non si leggerebbe). Davide, 28/10:
+  «alla fine: transizione e farei vedere il logo di Maurizio».
 
 Uso:  /usr/bin/python3 gen_reel.py tempi-remoti      (Pillow sta nel Python di sistema)
       /usr/bin/python3 gen_reel.py tempi-remoti --prove   (solo i fotogrammi chiave, niente voce)
@@ -31,6 +34,9 @@ MOSSA = 0.9                                    # secondi del movimento fra due i
 FONDO = (20, 18, 16)
 ACCENTO = (226, 145, 95)
 SERIF = "/System/Library/Fonts/Supplemental/Iowan Old Style.ttc"
+CARTA = (250, 247, 242)
+LOGO = os.path.join(QUI, "..", "..", "immagini", "cropped-logo-bertizio-1.png")
+FINALE, DISSOLVENZA = 3.2, 1.0                 # secondi del logo in chiusura, e della dissolvenza
 
 
 def carica(cartella):
@@ -134,12 +140,16 @@ def main():
         eleven.leggi(s["voce"], mp3, op.VOCE, impostazioni=op.IMPOSTAZIONI)
         d = durata(mp3)
         tempi.append((t, t + d, mp3)); t += d + PAUSA
-    fine = t + op.CODA
+    t_logo = t + op.CODA
+    fine = t_logo + FINALE
+    logo = Image.open(LOGO).convert("RGBA").resize((900, 900), Image.LANCZOS)
+    cartello_logo = Image.new("RGB", (W, H), CARTA)
+    cartello_logo.paste(logo, ((W - 900) // 2, (H - 900) // 2 - 60), logo)
 
     # 2. immagini
     proc = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
                              "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "medium",
-                             "-crf", "18", "-pix_fmt", "yuv420p", os.path.join(tmp, "video.mp4")],
+                             "-crf", "23", "-pix_fmt", "yuv420p", os.path.join(tmp, "video.mp4")],
                             stdin=subprocess.PIPE)
     n = int(fine * FPS)
     for k in range(n):
@@ -162,10 +172,11 @@ def main():
             sott = ""
             chiusura = min(1, max(0, (tt - tempi[da][0] + 0.3) / 0.8))
         alfa = min(1, tt / 0.6)                       # apertura dal nero
-        alfa = min(alfa, max(0, (fine - tt) / 0.6))   # chiusura nel nero
         f = fotogramma(base, ritaglio(c, m, r), sott, alfa_fin=1, chiusura=chiusura)
         if alfa < 1:
             f = Image.blend(Image.new("RGB", f.size, (0, 0, 0)), f, alfa)
+        if tt >= t_logo:                              # chiusura sul logo
+            f = Image.blend(f, cartello_logo, morbido((tt - t_logo) / DISSOLVENZA))
         proc.stdin.write(f.tobytes())
     proc.stdin.close(); proc.wait()
 

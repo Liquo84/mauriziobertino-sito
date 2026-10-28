@@ -15,12 +15,12 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 
 | | |
 |---|---|
-| Sito | Online. **52 opere** (7 dipinti aggiunti il 28/10), 7 pagine, 9 articoli. In home i quadri si chiamano **«Pittura di fantasia»** («inventati dal nulla») e il paragrafo «Il lavoro» è nuovo: testi approvati da Maurizio l'08/10. Ultimo check dei link: 28/10, nessuno rotto |
+| Sito | Online. **53 opere** (7 dipinti e la *Testa indiano* aggiunti il 28/10), 7 pagine, 9 articoli. In home i quadri si chiamano **«Pittura di fantasia»** («inventati dal nulla») e il paragrafo «Il lavoro» è nuovo: testi approvati da Maurizio l'08/10. Ultimo check dei link: 28/10, nessuno rotto |
 | Indirizzo | https://artemauriziobertino.com/ (HTTPS attivo; il vecchio indirizzo GitHub e `www` rimandano qui) |
 | Pubblicazione | Automatica, si carica senza chiedere se verificato |
 | Social | Instagram `@mauriziobertino_arte` (153 follower, 41 post), Facebook "Spazio Arte Bertino" (166), dati del 28/10. Dal blocco 3 i quadri sono «pittura di fantasia» anche nei copy |
 | Uscite | Blocco 1 chiuso: copertura sui post da 49 a 258 su Facebook e da 25 a 78 su Instagram. **Blocco 2** (`social/PIANO-2.md`) dal 1/10 al 22/10, uscito per intero (Instagram da 37 a 41 post) |
-| Consuntivo | Blocco 1 fatto il 29/09. Blocco 2 fatto il 28/10 per Instagram; per Facebook mancano le coperture dei singoli post |
+| Consuntivo | Blocco 1 fatto il 29/09, blocco 2 il 28/10 (Instagram e Facebook) |
 | Dati da Maurizio | Prime risposte al PDF il 29/09, applicate. Il 24/10 dieci dipinti con titoli e dati (chat inoltrata da Davide il 28/10): sette nuovi, pubblicati il 28/10. Le altre schede incomplete aspettano, più le tre domande nate da «Pittura di fantasia» |
 | Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio risulta rinnovato fino al 15/09/2027: Davide non ha pagato, si ricontrolla dopo il 30/10 |
 | Costo | Zero |
@@ -29,7 +29,7 @@ Il sito gira da solo. Il lavoro rimasto dipende da Maurizio (i dati delle altre
 schede, cosa è in vendita, l'account WordPress) e dal ritmo dei blocchi social:
 uno ogni quattro settimane, con consuntivo il lunedì prima del blocco nuovo.
 
-**Non contato:** le 52 opere includono ancora **due "Senza titolo"**: la figura
+**Non contato:** le 53 opere includono ancora **due "Senza titolo"**: la figura
 di nativo in pietra leccese (tra le quattro del 30/08) e il dipinto del 1997 con
 l'uomo e il cane, che è così dal vecchio sito. Molte schede, soprattutto fra le
 sculture e i nativi, non hanno ancora misure, anno o tecnica. Sotto «Pittura di fantasia» ci sono
@@ -44,16 +44,32 @@ del cavallo e le due tracce audio del vecchio sito.
 - [ ] **Titolo e misure della figura di nativo in pietra leccese** — è l'ultima delle quattro opere del 30/08 ancora "Senza titolo" (il 29/09 le altre tre hanno avuto titolo o sono state unite).
 - [ ] **«Questa per la schermata?»** — didascalia di Maurizio del 29/09 sulla foto di lui al cavalletto con *Vite in pericolo*. Probabilmente la vuole in home o come copertina: è un'ipotesi, va chiesto cosa intende.
 - [ ] **Quali opere del catalogo sono in vendita** — le schede di Maurizio finiscono sempre con «Per info e acquisto». Sui dipinti non lo sappiamo, quindi la chiamata all'acquisto per ora è solo sulle riproduzioni.
-- [ ] **Reel di prova «Tempi remoti»: cosa ne pensa Maurizio** — fatto il 28/10 (voce sotto), Davide lo gira a Maurizio: «se gli piace, vediamo come adattarlo». Due punti da chiedergli insieme: la frase «Maurizio Bertino inventa i suoi quadri dal nulla» detta su questa scena di famiglia (se viene da un ricordo o da una foto, la frase va tolta da questo reel); e se vuole che a voce si dica il sito (sui suoi profili non lo nomina mai, `social/TONO-DI-VOCE.md`).
-- [ ] **Musica di ElevenLabs sulla pagina di Maurizio** — col piano Creator la musica è «For Individual Use Only» (Music Terms, letti per SE2 il 27/10). Per SE2 Davide ha chiuso con «Sulla musica penso che la possiamo usare senza problemi tranquillo»; per la pagina di Maurizio non l'ha detto. Da chiedere prima di pubblicare il reel.
-- [ ] **«Testa indiano», terracotta bianca, 28,5×28,5 cm** — nella chat del 24/10 Maurizio risponde «Questo no c'è sul sito..» a una sua foto, che negli screenshot si vede solo in miniatura e non era fra i file in Download. Serve la foto per aggiungere la scheda.
-- [ ] **Le foto con Maurizio portano più copertura di quelle con la sola opera?** — ipotesi, su 8 casi. Blocco 1 su Facebook 258 e 182 contro 55 e 49; blocco 2 su Instagram 53 e 62 contro 48 e 30 (consuntivo del 28/10). Mancano le coperture per post di Facebook del blocco 2: l'export di Facebook è uscito vuoto. Se regge, cambia che foto chiedere a Maurizio.
+- [ ] **Reel di prova «Tempi remoti»: cosa ne pensa Maurizio** — fatto il 28/10 (voce sotto). Davide: «il Reel mi piace un sacco»; lo gira a Maurizio e gli propone un vocale in cui descrive l'opera, da usare come fonte del testo. Due punti da chiedergli insieme: la frase «Maurizio Bertino inventa i suoi quadri dal nulla» detta su questa scena di famiglia (se viene da un ricordo o da una foto, la frase va tolta da questo reel); e se vuole che a voce si dica il sito (sui suoi profili non lo nomina mai, `social/TONO-DI-VOCE.md`).
+- [ ] **Le foto con Maurizio portano più copertura di quelle con la sola opera?** — ipotesi, su 8 post (4 con Maurizio, 4 con la sola opera), finora sempre confermata. Facebook: blocco 1 258 e 182 contro 55 e 49, blocco 2 95 e 137 contro 57 e 85. Instagram: blocco 2 53 e 62 contro 48 e 30 (consuntivo del 28/10). Se regge col blocco 3, cambia che foto chiedere a Maurizio.
 - [ ] **Il registro "scheda" funziona quanto quello diretto?** — non misurabile con un solo post diretto. Resta aperta finché un blocco non ne mette almeno due.
 - [ ] **Trasferire il dominio prima della scadenza** — il 22/09 Davide ha detto che il rinnovo automatico di Register.it non è un problema: sulla carta collegata non ci sono mai soldi, quindi i 58,50 € + IVA non partono. Resta il rovescio: se non si trasferisce su Cloudflare entro luglio-agosto 2027, il 15/09/2027 il dominio scade e il sito sparisce dall'indirizzo.
 - [ ] **Il vecchio `mauriziobertino.com` risulta rinnovato fino al 15/09/2027** — trovato al check del 22/09. Davide il 29/09: «No io non ho pagato rinnovi». Resta da sapere se WordPress.com ha addebitato la carta di Maurizio. **Dopo il 30/10** (fine dei 45 giorni di grazia) si guarda il registro: se la scadenza è ancora 2027, il rinnovo è stato pagato. Conta perché si decide insieme alla disdetta del piano WordPress.
 - [ ] **Disdetta del piano WordPress** — il dominio nuovo è attivo dal 17/09: è l'ultimo passo rimasto del passaggio.
 
 ---
+
+## 28/10 — Reel: finale col logo; la Testa indiano sul sito; consuntivo di Facebook
+
+**Cosa.** Davide sul reel: «mi piace un sacco. L'unico aggiustamento che farei, probabilmente, è
+alla fine: transizione e farei vedere il logo». Il logo è quello del sito (pennellata rossa, nome
+in grigio scuro): sul fondo scuro il nome non si leggeva, quindi dissolvenza sul fondo chiaro del
+sito (#faf7f2) col logo al centro. Reel di 54 secondi, ricompresso a 21,6 MB per WhatsApp; voce e
+musica dalla cache, nessun credito in più. Regola nel `CLAUDE.md`, Dove stanno le cose.
+**Musica.** Davide: «Ovviamente, il piano va bene anche per Maurizio». Questione chiusa.
+**Fotografie.** Davide: «tutte le foto che ti sto inviando di Maurizio, queste poi le possiamo
+riciclare per i post, no?». Sì: `genera-social.py` parte dalle foto del sito, e i dipinti del 28/10
+non sono mai usciti sui social.
+**Testa indiano.** Foto in Download, scattata di lato su un tappeto: raddrizzata (profilo verso
+destra, firma in basso a sinistra), ritagliata quadrata sul tondo, fra le sculture col titolo di
+Maurizio. Anno non scritto: sulla firma si legge male.
+**Consuntivo del blocco 2, Facebook** (due screenshot di Insight → Contenuti, in `social/`): Vite in
+pericolo 57 di copertura, Mazza 95, Orologio 85, Gufo 137 (interazioni 4, 9, 14, 19). Con Maurizio
+95 e 137, con la sola opera 57 e 85: l'ipotesi regge anche qui. Le storie Facebook segnano sempre 0.
 
 ## 28/10 — Sette dipinti nuovi sul sito e reel di prova con voce da documentario
 

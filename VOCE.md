@@ -22,7 +22,10 @@ comprare un pezzo unico. Non sono critici d'arte.
 - **Persona:** sui social prima persona di Maurizio; sul sito titoli e etichette neutri. **Eccezione, i reel
   «tipo Superquark»** (Davide, 28/10/2026: «avevo pensato a dei reel tipo Superquark, con la voce da
   documentario, dove magari facevamo vedere dettagli dell'opera»): voce narrante in terza persona, mentre
-  la camera si avvicina ai particolari. È un reel di prova, da far vedere a Maurizio.
+  la camera si avvicina ai particolari. È un reel di prova, da far vedere a Maurizio. Il limite, detto da
+  Davide il 28/10: «per te è molto difficile capire cosa dire su un quadro, se non banalmente
+  descriverlo, perché lì ti serve effettivamente il commento dell'artista». Davide propone a Maurizio
+  un vocale in cui descrive l'opera: quando arriva, è la fonte dei fatti di quel reel.
 - **Registro:** artigiano che racconta e vende, non didascalia da museo (`social/TONO-DI-VOCE.md`).
 - **Suona così:**
   - «Pezzo unico. Non ne esiste un altro uguale.» (Instagram, rilevato 01/09/2026)

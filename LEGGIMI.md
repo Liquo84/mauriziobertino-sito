@@ -34,7 +34,7 @@ e non costa nulla.
 mauriziobertino-sito/
 ├── sito/              ← IL SITO. È solo questa cartella che va pubblicata.
 │   ├── index.html         Home
-│   ├── opere.html         Catalogo, 46 opere con filtri
+│   ├── opere.html         Catalogo, 53 opere con filtri
 │   ├── biografia.html     Biografia, rassegna stampa, mostre
 │   ├── tecnica.html       La tecnica
 │   ├── nativi.html        La passione per i nativi d'America
@@ -171,7 +171,7 @@ cd /Users/davideliquori/Desktop/mauriziobertino-sito/immagini && git add -A && g
 anni e tecniche, le 14 schede delle riproduzioni native, i 9 articoli, la
 biografia, la rassegna stampa e l'elenco delle mostre.
 
-Il catalogo oggi conta **46 opere**: 25 dipinti, 12 sculture e 9 riproduzioni.
+Il catalogo oggi conta **53 opere**: 32 dipinti, 12 sculture e 9 riproduzioni.
 
 **Migliorato:**
 - Le opere si vedono in una griglia che rispetta le proporzioni dei quadri,

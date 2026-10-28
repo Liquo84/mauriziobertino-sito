@@ -36,7 +36,9 @@ Il sito pubblica con un workflow di Actions (`.github/workflows/pubblica.yml`), 
 - `social/reel/` — reel «tipo Superquark» (voce da documentario sui particolari di un dipinto):
   `gen_reel.py` più una cartella per opera con `opera.py` (testo, inquadrature, voce). Voce e musica
   da ElevenLabs (`eleven.py`, con la cache delle frasi già pagate). Video e audio sono fuori da git:
-  il repository è pubblico.
+  il repository è pubblico. **Il reel finisce con una dissolvenza sul logo di Maurizio**, su fondo
+  chiaro (Davide, 28/10: «alla fine: transizione e farei vedere il logo»). Musica di ElevenLabs anche
+  sulla pagina di Maurizio: «Ovviamente, il piano va bene anche per Maurizio» (Davide, 28/10).
 - `immagini/chat-maurizio/` — screenshot della chat in cui Maurizio dà titoli e dati delle opere
   (stanno negli originali, repository privato).
 - `LEGGIMI.md` — guida per Maurizio.
