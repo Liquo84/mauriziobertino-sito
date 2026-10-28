@@ -62,7 +62,7 @@ dall'08/10 (gli ultimi push del 27/10 toccano solo CLAUDE.md e journal, workflow
 valido fino al 16/12, `http`, `www` e il vecchio indirizzo GitHub rimandano con un 301. 134
 indirizzi controllati (17 pagine, 113 risorse, 4 link esterni), nessuno rotto. Lo script del
 controllo è nuovo, quindi il confronto con i 135 del 20/10 non dice niente.
-**Social, da sloggato (09:44-09:50).** Instagram 41 post (40 il 20/10): è uscito anche il gufo del
+**Social, da sloggato (dalle 09:44).** Instagram 41 post (40 il 20/10): è uscito anche il gufo del
 22/10, quindi il blocco 2 è partito per intero. Follower: 153 Instagram (fermi), 166 Facebook (164
 il 20/10). In cima a Facebook il gufo, «6 giorni fa»: 17 reazioni, 1 commento, 1 condivisione
 (l'orologio di Ercole al 20/10 ne aveva 11).
