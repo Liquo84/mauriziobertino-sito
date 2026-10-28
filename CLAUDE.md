@@ -83,5 +83,8 @@ Il sito pubblica con un workflow di Actions (`.github/workflows/pubblica.yml`), 
   `og:description` del profilo, Facebook solo l'ultimo post. Copertura, interazioni e clic stanno
   solo in Meta Business Suite, che in Chrome non è loggato: Davide passa gli screenshot di Insight →
   Contenuti sulla Scrivania (29/09).
-- **La chat WhatsApp di Maurizio non ha un nome**: si legge col numero, `leggi_chat` su `393314385178`
-  (lo stesso di `genera.py`). Cercata come «Maurizio» non esce (20/10).
+- **Il WhatsApp del sito (331 438 5178, `genera.py`) è il numero di Davide, ed è voluto**: «Maurizio
+  è molto poco tecnologico, quindi l'abbiamo messo appositamente» (Davide, 28/10). Sul WhatsApp del
+  Mac è la chat «Liquoo 🏹» (`leggi_chat` su `393314385178`), che è quasi tutta lavoro SE2: foto e
+  dati di Maurizio ci arrivano solo se Davide li inoltra. Prima di scrivere «da Maurizio niente di
+  nuovo» si chiede a Davide se ha ricevuto qualcosa.

@@ -20,8 +20,8 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 | Pubblicazione | Automatica, si carica senza chiedere se verificato |
 | Social | Instagram `@mauriziobertino_arte` (153 follower, 41 post), Facebook "Spazio Arte Bertino" (166), dati del 28/10. Dal blocco 3 i quadri sono «pittura di fantasia» anche nei copy |
 | Uscite | Blocco 1 chiuso: copertura sui post da 49 a 258 su Facebook e da 25 a 78 su Instagram. **Blocco 2** (`social/PIANO-2.md`) dal 1/10 al 22/10, uscito per intero (Instagram da 37 a 41 post) |
-| Consuntivo | Blocco 1 fatto il 29/09. Blocco 2: la sessione del 26/10 è saltata, check rifatto il 28/10; mancano gli screenshot di Meta Business Suite |
-| Dati da Maurizio | Prime risposte al PDF il 29/09, applicate. Al 20/10 nessun dato nuovo nella sua chat. Le altre schede incomplete aspettano, più le tre domande nate da «Pittura di fantasia» |
+| Consuntivo | Blocco 1 fatto il 29/09. Blocco 2 fatto il 28/10 per Instagram; per Facebook mancano le coperture dei singoli post |
+| Dati da Maurizio | Prime risposte al PDF il 29/09, applicate. Il 28/10 Davide ha altro materiale da caricare (dove è da chiedere). Le altre schede incomplete aspettano, più le tre domande nate da «Pittura di fantasia» |
 | Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio risulta rinnovato fino al 15/09/2027: Davide non ha pagato, si ricontrolla dopo il 30/10 |
 | Costo | Zero |
 
@@ -44,9 +44,8 @@ del cavallo e le due tracce audio del vecchio sito.
 - [ ] **Titolo e misure della figura di nativo in pietra leccese** — è l'ultima delle quattro opere del 30/08 ancora "Senza titolo" (il 29/09 le altre tre hanno avuto titolo o sono state unite).
 - [ ] **«Questa per la schermata?»** — didascalia di Maurizio del 29/09 sulla foto di lui al cavalletto con *Vite in pericolo*. Probabilmente la vuole in home o come copertina: è un'ipotesi, va chiesto cosa intende.
 - [ ] **Quali opere del catalogo sono in vendita** — le schede di Maurizio finiscono sempre con «Per info e acquisto». Sui dipinti non lo sappiamo, quindi la chiamata all'acquisto per ora è solo sulle riproduzioni.
-- [ ] **Di chi è il 331 438 5178?** — è il numero WhatsApp del sito (`genera.py`, pulsante e pagina contatti) e quello che `CLAUDE.md` chiama «la chat di Maurizio». Nella rubrica di WhatsApp è salvato come «Liquoo 🏹» e i messaggi lì dentro cominciano con «Ciao Davide». Se è di Davide, la regola del `CLAUDE.md` legge la chat sbagliata e i dati di Maurizio non si vedono da qui. Chiesto a Davide il 28/10.
-- [ ] **ElevenLabs per Maurizio (esplorazione, Davide 28/10)** — voce, musica o effetti per i Reel dal catalogo. Il clone della voce di Maurizio si può fare solo con un clone istantaneo, con il suo consenso e 1-2 minuti di audio pulito: quello professionale si fa solo della propria voce (documentazione ElevenLabs letta il 28/10). Proposta di Claude, senza risposta al 28/10: strade in chat.
-- [ ] **Le foto con Maurizio portano più copertura di quelle con la sola opera?** — ipotesi, su 4 casi, uscita dal consuntivo del 29/09 (258 e 182 contro 55 e 49 su Facebook). Il blocco 2 alterna le due foto; si guarda il 26/10. Se regge, cambia che foto chiedere a Maurizio.
+- [ ] **Reel «tipo Superquark» con ElevenLabs** — Davide (28/10): «avevo pensato a dei reel tipo Superquark, con la voce da documentario, dove magari facevamo vedere dettagli dell'opera». Lo zoom sui particolari si fa con ffmpeg sulle foto ferme, ma le foto arrivano al massimo a 1800 px (gli originali del repository privato sono più piccoli, l'aquila 1200×1600): oltre circa 1,5× il dettaglio è sfocato (prova del 28/10 a 2,2×). Per i dettagli veri servono primi piani nuovi di Maurizio. Proposta di Claude, senza risposta al 28/10: un primo reel di prova con le foto che ci sono e una voce della libreria in terza persona. Il clone della voce di Maurizio, se mai, solo istantaneo, col suo consenso e 1-2 minuti di audio pulito (documentazione ElevenLabs letta il 28/10).
+- [ ] **Le foto con Maurizio portano più copertura di quelle con la sola opera?** — ipotesi, su 8 casi. Blocco 1 su Facebook 258 e 182 contro 55 e 49; blocco 2 su Instagram 53 e 62 contro 48 e 30 (consuntivo del 28/10). Mancano le coperture per post di Facebook del blocco 2: l'export di Facebook è uscito vuoto. Se regge, cambia che foto chiedere a Maurizio.
 - [ ] **Il registro "scheda" funziona quanto quello diretto?** — non misurabile con un solo post diretto. Resta aperta finché un blocco non ne mette almeno due.
 - [ ] **Trasferire il dominio prima della scadenza** — il 22/09 Davide ha detto che il rinnovo automatico di Register.it non è un problema: sulla carta collegata non ci sono mai soldi, quindi i 58,50 € + IVA non partono. Resta il rovescio: se non si trasferisce su Cloudflare entro luglio-agosto 2027, il 15/09/2027 il dominio scade e il sito sparisce dall'indirizzo.
 - [ ] **Il vecchio `mauriziobertino.com` risulta rinnovato fino al 15/09/2027** — trovato al check del 22/09. Davide il 29/09: «No io non ho pagato rinnovi». Resta da sapere se WordPress.com ha addebitato la carta di Maurizio. **Dopo il 30/10** (fine dei 45 giorni di grazia) si guarda il registro: se la scadenza è ancora 2027, il rinnovo è stato pagato. Conta perché si decide insieme alla disdetta del piano WordPress.
@@ -66,13 +65,33 @@ controllo è nuovo, quindi il confronto con i 135 del 20/10 non dice niente.
 22/10, quindi il blocco 2 è partito per intero. Follower: 153 Instagram (fermi), 166 Facebook (164
 il 20/10). In cima a Facebook il gufo, «6 giorni fa»: 17 reazioni, 1 commento, 1 condivisione
 (l'orologio di Ercole al 20/10 ne aveva 11).
-**Da Maurizio.** Nella chat letta col numero di `CLAUDE.md` (393314385178) dal 20/10 solo messaggi
-di lavoro SE2. Nella rubrica di WhatsApp quel numero è salvato come «Liquoo 🏹» e i messaggi lì
-dentro cominciano con «Ciao Davide»: chiesto a Davide di chi è il numero (questione aperta).
+**Il numero WhatsApp del sito.** Il 331 438 5178, che `CLAUDE.md` chiamava «la chat di Maurizio»,
+è salvato nella rubrica come «Liquoo 🏹». Davide: «il numero è il mio, ma va bene così perché
+Maurizio è molto poco tecnologico, quindi l'abbiamo messo appositamente». Regola riscritta in
+`CLAUDE.md`, Come lavoriamo qui: i dati di Maurizio arrivano qui solo se Davide li inoltra.
+**Consuntivo del blocco 2, Instagram** (export CSV di Meta, dati al 27/10, in `social/`):
+
+| Uscita | Foto | IG copertura | IG visualizzazioni | Mi piace |
+|---|---|---|---|---|
+| 01/10 Vite in pericolo | solo l'opera | 48 | 80 | 10 |
+| 08/10 Mazza da guerra | Maurizio al banco | 53 | 102 | 10 |
+| 15/10 Orologio di Ercole | solo l'opera | 30 | 59 | 4 |
+| 22/10 Gufo in terracotta | Maurizio col gufo | 62 | 107 | 10 |
+
+Il gufo è il migliore pur essendo uscito per ultimo (5 giorni di dati) ed è l'unico con follower
+nuovi (2). Storie: 30-36 di copertura, 41-53 visualizzazioni, in linea col blocco 1. Account
+Instagram nel periodo 30/09-27/10: copertura 107 (−9,3 %), interazioni 66 (−27,5 %), 2 follow e 2
+persone che hanno smesso di seguire. **Facebook:** l'export per post è uscito vuoto (solo
+intestazione, messo nel Cestino), quindi le coperture dei quattro post mancano. Pagina nel periodo:
+744 visualizzazioni (−29,9 %), 55 interazioni (−32,9 %), 31 visite (+82,4 %), 2 follow.
+**Cosa se ne ricava.** Su Instagram l'ipotesi del 29/09 regge: le due foto con Maurizio battono le
+due con la sola opera (53 e 62 contro 48 e 30). Restano 8 casi in tutto, e su Facebook, dove la
+differenza era nata, il blocco 2 non si può confrontare.
 **Nota tecnica.** ffmpeg ora è installato (`/opt/homebrew/bin/ffmpeg`, 9.0.2): la questione aperta
 «ffmpeg, solo se si vorranno i video» non vale più ed è tolta. I Reel dal catalogo si possono fare.
-**Da fare.** Consuntivo del blocco 2 con gli screenshot di Meta Business Suite di Davide, poi il
-blocco 3 (era previsto entro il 29/10). Dopo il 30/10 il registro del vecchio dominio.
+**Da fare.** Le coperture per post di Facebook, il materiale di Maurizio da caricare (Davide: «ho
+un pò di roba di Maurizio che dobbiamo caricare»), il blocco 3. Dopo il 30/10 il registro del
+vecchio dominio.
 
 ## 20/10 — Check: sito sano, blocco 2 in corsa, da Maurizio niente di nuovo
 
