@@ -26,7 +26,7 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 | Costo | Zero |
 
 Il sito gira da solo. Il lavoro rimasto dipende da Maurizio (i dati delle altre
-schede, cosa è in vendita, l'account WordPress) e dal ritmo dei blocchi social:
+schede, cosa è in vendita, il suo parere sul reel di prova) e dal ritmo dei blocchi social:
 uno ogni quattro settimane, con consuntivo il lunedì prima del blocco nuovo.
 
 **Non contato:** le 53 opere includono ancora **due "Senza titolo"**: la figura
