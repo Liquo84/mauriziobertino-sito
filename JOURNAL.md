@@ -11,16 +11,16 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 
 ---
 
-## Stato al 20/10/2026
+## Stato al 28/10/2026
 
 | | |
 |---|---|
-| Sito | Online, workflow verde l'08/10. **45 opere**, 7 pagine, 9 articoli. In home i quadri si chiamano **«Pittura di fantasia»** («inventati dal nulla») e il paragrafo «Il lavoro» è nuovo: testi approvati da Maurizio l'08/10. Ultimo check dei link: 20/10, nessuno rotto |
+| Sito | Online, workflow verde l'08/10. **45 opere**, 7 pagine, 9 articoli. In home i quadri si chiamano **«Pittura di fantasia»** («inventati dal nulla») e il paragrafo «Il lavoro» è nuovo: testi approvati da Maurizio l'08/10. Ultimo check dei link: 28/10, nessuno rotto |
 | Indirizzo | https://artemauriziobertino.com/ (HTTPS attivo; il vecchio indirizzo GitHub e `www` rimandano qui) |
 | Pubblicazione | Automatica, si carica senza chiedere se verificato |
-| Social | Instagram `@mauriziobertino_arte` (153 follower, 40 post), Facebook "Spazio Arte Bertino" (164), dati del 20/10, fermi dal 29/09. Dal blocco 3 i quadri sono «pittura di fantasia» anche nei copy |
-| Uscite | Blocco 1 chiuso: copertura sui post da 49 a 258 su Facebook e da 25 a 78 su Instagram. **Blocco 2** (`social/PIANO-2.md`) dal 1/10 al 22/10, programmato da Davide: al 20/10 sono uscite le prime tre (Instagram da 37 a 40 post), manca il gufo del 22/10 |
-| Consuntivo | Blocco 1 fatto il 29/09. Blocco 2 lunedì 26/10 alle 17:00, evento in calendario creato il 29/09 |
+| Social | Instagram `@mauriziobertino_arte` (153 follower, 41 post), Facebook "Spazio Arte Bertino" (166), dati del 28/10. Dal blocco 3 i quadri sono «pittura di fantasia» anche nei copy |
+| Uscite | Blocco 1 chiuso: copertura sui post da 49 a 258 su Facebook e da 25 a 78 su Instagram. **Blocco 2** (`social/PIANO-2.md`) dal 1/10 al 22/10, uscito per intero (Instagram da 37 a 41 post) |
+| Consuntivo | Blocco 1 fatto il 29/09. Blocco 2: la sessione del 26/10 è saltata, check rifatto il 28/10; mancano gli screenshot di Meta Business Suite |
 | Dati da Maurizio | Prime risposte al PDF il 29/09, applicate. Al 20/10 nessun dato nuovo nella sua chat. Le altre schede incomplete aspettano, più le tre domande nate da «Pittura di fantasia» |
 | Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio risulta rinnovato fino al 15/09/2027: Davide non ha pagato, si ricontrolla dopo il 30/10 |
 | Costo | Zero |
@@ -44,7 +44,8 @@ del cavallo e le due tracce audio del vecchio sito.
 - [ ] **Titolo e misure della figura di nativo in pietra leccese** — è l'ultima delle quattro opere del 30/08 ancora "Senza titolo" (il 29/09 le altre tre hanno avuto titolo o sono state unite).
 - [ ] **«Questa per la schermata?»** — didascalia di Maurizio del 29/09 sulla foto di lui al cavalletto con *Vite in pericolo*. Probabilmente la vuole in home o come copertina: è un'ipotesi, va chiesto cosa intende.
 - [ ] **Quali opere del catalogo sono in vendita** — le schede di Maurizio finiscono sempre con «Per info e acquisto». Sui dipinti non lo sappiamo, quindi la chiamata all'acquisto per ora è solo sulle riproduzioni.
-- [ ] **ffmpeg, solo se si vorranno i video** — non è installato e per il livello 1 non serve. Resta aperta solo se un giorno si vorranno Reel dal catalogo.
+- [ ] **Di chi è il 331 438 5178?** — è il numero WhatsApp del sito (`genera.py`, pulsante e pagina contatti) e quello che `CLAUDE.md` chiama «la chat di Maurizio». Nella rubrica di WhatsApp è salvato come «Liquoo 🏹» e i messaggi lì dentro cominciano con «Ciao Davide». Se è di Davide, la regola del `CLAUDE.md` legge la chat sbagliata e i dati di Maurizio non si vedono da qui. Chiesto a Davide il 28/10.
+- [ ] **ElevenLabs per Maurizio (esplorazione, Davide 28/10)** — voce, musica o effetti per i Reel dal catalogo. Il clone della voce di Maurizio si può fare solo con un clone istantaneo, con il suo consenso e 1-2 minuti di audio pulito: quello professionale si fa solo della propria voce (documentazione ElevenLabs letta il 28/10). Proposta di Claude, senza risposta al 28/10: strade in chat.
 - [ ] **Le foto con Maurizio portano più copertura di quelle con la sola opera?** — ipotesi, su 4 casi, uscita dal consuntivo del 29/09 (258 e 182 contro 55 e 49 su Facebook). Il blocco 2 alterna le due foto; si guarda il 26/10. Se regge, cambia che foto chiedere a Maurizio.
 - [ ] **Il registro "scheda" funziona quanto quello diretto?** — non misurabile con un solo post diretto. Resta aperta finché un blocco non ne mette almeno due.
 - [ ] **Trasferire il dominio prima della scadenza** — il 22/09 Davide ha detto che il rinnovo automatico di Register.it non è un problema: sulla carta collegata non ci sono mai soldi, quindi i 58,50 € + IVA non partono. Resta il rovescio: se non si trasferisce su Cloudflare entro luglio-agosto 2027, il 15/09/2027 il dominio scade e il sito sparisce dall'indirizzo.
@@ -52,6 +53,26 @@ del cavallo e le due tracce audio del vecchio sito.
 - [ ] **Disdetta del piano WordPress** — il dominio nuovo è attivo dal 17/09: è l'ultimo passo rimasto del passaggio.
 
 ---
+
+## 28/10 — Check del lunedì saltato, rifatto il mercoledì: blocco 2 uscito per intero
+
+**Cosa.** Il check e il consuntivo di lunedì 26/10 sono saltati (Davide: «lunedì pomeriggio ho
+saltato una sessione di lavoro per Maurizio»), ripresi oggi. Sito: nessuna modifica al sito
+dall'08/10 (gli ultimi push del 27/10 toccano solo CLAUDE.md e journal, workflow verdi), certificato
+valido fino al 16/12, `http`, `www` e il vecchio indirizzo GitHub rimandano con un 301. 134
+indirizzi controllati (17 pagine, 113 risorse, 4 link esterni), nessuno rotto. Lo script del
+controllo è nuovo, quindi il confronto con i 135 del 20/10 non dice niente.
+**Social, da sloggato (09:44-09:50).** Instagram 41 post (40 il 20/10): è uscito anche il gufo del
+22/10, quindi il blocco 2 è partito per intero. Follower: 153 Instagram (fermi), 166 Facebook (164
+il 20/10). In cima a Facebook il gufo, «6 giorni fa»: 17 reazioni, 1 commento, 1 condivisione
+(l'orologio di Ercole al 20/10 ne aveva 11).
+**Da Maurizio.** Nella chat letta col numero di `CLAUDE.md` (393314385178) dal 20/10 solo messaggi
+di lavoro SE2. Nella rubrica di WhatsApp quel numero è salvato come «Liquoo 🏹» e i messaggi lì
+dentro cominciano con «Ciao Davide»: chiesto a Davide di chi è il numero (questione aperta).
+**Nota tecnica.** ffmpeg ora è installato (`/opt/homebrew/bin/ffmpeg`, 9.0.2): la questione aperta
+«ffmpeg, solo se si vorranno i video» non vale più ed è tolta. I Reel dal catalogo si possono fare.
+**Da fare.** Consuntivo del blocco 2 con gli screenshot di Meta Business Suite di Davide, poi il
+blocco 3 (era previsto entro il 29/10). Dopo il 30/10 il registro del vecchio dominio.
 
 ## 20/10 — Check: sito sano, blocco 2 in corsa, da Maurizio niente di nuovo
 
@@ -71,6 +92,8 @@ dato sulle schede e nessuna risposta alle tre domande di «Pittura di fantasia»
 Come lavoriamo qui.
 **Da fare.** Lunedì 26/10 check e consuntivo del blocco 2 con gli screenshot di Meta, poi il
 blocco 3 entro giovedì 29/10. Dopo il 30/10 il registro del vecchio dominio.
+**Esito (28/10).** Il check e il consuntivo del 26/10 sono saltati; il check è stato rifatto il
+28/10 (voce sopra), il consuntivo aspetta gli screenshot di Meta.
 
 ## 08/10 — I quadri diventano «Pittura di fantasia», non «fantasie dipinte»
 
