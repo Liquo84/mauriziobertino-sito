@@ -1,50 +1,74 @@
 [
-  {
-    "cartella": "01-presentazione",
-    "img": "whatsapp-image-2025-03-22-at-18.28.58-1.jpg",
-    "titolo_img": "Il sito nuovo è online",
-    "meta_img": "46 opere, in un posto solo"
-  },
-  {
-    "cartella": "02-pittura-sguardo-della-tigre",
-    "img": "whatsapp-image-2021-07-22-at-12.19.21.jpg",
-    "titolo_img": "Lo Sguardo della Tigre",
-    "meta_img": "Olio su iuta preparata, 100×70 cm, 2018"
-  },
-  {
-    "cartella": "03-scultura-aquila",
-    "img": "whatsapp-image-2021-07-22-at-12.19.20-edited.jpg",
-    "titolo_img": "Aquila",
-    "meta_img": "Cartapesta dipinta, 144 cm, 2021"
-  },
-  {
-    "cartella": "04-nativi-arco-corto",
-    "img": "whatsapp-image-2025-01-26-at-14.05.12.jpg",
-    "titolo_img": "Arco corto delle pianure",
-    "meta_img": "Corno, legno di osage e tendine animale, 112 cm"
-  },
-  {
-    "cartella": "05-pittura-vite-in-pericolo",
-    "img": "whatsapp-image-2021-07-22-at-12.19.20-2-1.jpg",
-    "titolo_img": "Vite in pericolo (covid)",
-    "meta_img": "Olio su tela, 80×70 cm, 2020"
-  },
-  {
-    "cartella": "06-nativi-mazza-testa-daquila",
-    "img": "e920023b-160c-4306-8b58-537d06e2266b.jpg",
-    "titolo_img": "Mazza da guerra con testa d’aquila",
-    "meta_img": "Legno d’ulivo e pelle di cervo"
-  },
-  {
-    "cartella": "07-scultura-orologio-ercole",
-    "img": "senza-titolo-figura-con-disco.jpg",
-    "titolo_img": "Orologio in pietra leccese (Ercole)",
-    "meta_img": "Bassorilievo in pietra leccese, 47×23×7 cm"
-  },
-  {
-    "cartella": "08-scultura-gufo-in-terracotta",
-    "img": "maurizio-col-gufo-2019.jpg",
-    "titolo_img": "Gufo in terracotta",
-    "meta_img": "Terracotta, 36 cm, 2019"
-  }
+ {
+  "cartella": "01-presentazione",
+  "img": "whatsapp-image-2025-03-22-at-18.28.58-1.jpg",
+  "titolo_img": "Il sito nuovo è online",
+  "meta_img": "46 opere, in un posto solo"
+ },
+ {
+  "cartella": "02-pittura-sguardo-della-tigre",
+  "img": "whatsapp-image-2021-07-22-at-12.19.21.jpg",
+  "titolo_img": "Lo Sguardo della Tigre",
+  "meta_img": "Olio su iuta preparata, 100×70 cm, 2018"
+ },
+ {
+  "cartella": "03-scultura-aquila",
+  "img": "whatsapp-image-2021-07-22-at-12.19.20-edited.jpg",
+  "titolo_img": "Aquila",
+  "meta_img": "Cartapesta dipinta, 144 cm, 2021"
+ },
+ {
+  "cartella": "04-nativi-arco-corto",
+  "img": "whatsapp-image-2025-01-26-at-14.05.12.jpg",
+  "titolo_img": "Arco corto delle pianure",
+  "meta_img": "Corno, legno di osage e tendine animale, 112 cm"
+ },
+ {
+  "cartella": "05-pittura-vite-in-pericolo",
+  "img": "whatsapp-image-2021-07-22-at-12.19.20-2-1.jpg",
+  "titolo_img": "Vite in pericolo (covid)",
+  "meta_img": "Olio su tela, 80×70 cm, 2020"
+ },
+ {
+  "cartella": "06-nativi-mazza-testa-daquila",
+  "img": "e920023b-160c-4306-8b58-537d06e2266b.jpg",
+  "titolo_img": "Mazza da guerra con testa d’aquila",
+  "meta_img": "Legno d’ulivo e pelle di cervo"
+ },
+ {
+  "cartella": "07-scultura-orologio-ercole",
+  "img": "senza-titolo-figura-con-disco.jpg",
+  "titolo_img": "Orologio in pietra leccese (Ercole)",
+  "meta_img": "Bassorilievo in pietra leccese, 47×23×7 cm"
+ },
+ {
+  "cartella": "08-scultura-gufo-in-terracotta",
+  "img": "maurizio-col-gufo-2019.jpg",
+  "titolo_img": "Gufo in terracotta",
+  "meta_img": "Terracotta, 36 cm, 2019"
+ },
+ {
+  "cartella": "09-scultura-testa-di-bisonte",
+  "img": "img_4510.jpg",
+  "titolo_img": "Testa di Bisonte Americano",
+  "meta_img": "Terracotta, 2011"
+ },
+ {
+  "cartella": "10-pittura-sole-al-mattino",
+  "img": "sole-al-mattino.jpg",
+  "titolo_img": "Sole al mattino",
+  "meta_img": "Olio su tela, 45×35 cm, 1997"
+ },
+ {
+  "cartella": "11-nativi-mazza-testa-in-pietra",
+  "img": "whatsapp-image-2021-08-17-at-11.52.22-1.jpg",
+  "titolo_img": "Mazza con testa in pietra e decorazione in perline",
+  "meta_img": "Stile delle Pianure, 88 cm"
+ },
+ {
+  "cartella": "12-pittura-paesaggio-contadino",
+  "img": "paesaggio-contadino.jpg",
+  "titolo_img": "Paesaggio contadino",
+  "meta_img": "Olio su sacco di cotone preparato, 50×40 cm, 1992"
+ }
 ]

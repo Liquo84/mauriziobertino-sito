@@ -19,8 +19,8 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 | Indirizzo | https://artemauriziobertino.com/ (HTTPS attivo; il vecchio indirizzo GitHub e `www` rimandano qui) |
 | Pubblicazione | Automatica, si carica senza chiedere se verificato |
 | Social | Instagram `@mauriziobertino_arte` (153 follower, 41 post), Facebook "Spazio Arte Bertino" (166), dati del 28/10. Dal blocco 3 i quadri sono «pittura di fantasia» anche nei copy |
-| Uscite | Blocco 1 chiuso: copertura sui post da 49 a 258 su Facebook e da 25 a 78 su Instagram. **Blocco 2** (`social/PIANO-2.md`) dal 1/10 al 22/10, uscito per intero (Instagram da 37 a 41 post) |
-| Consuntivo | Blocco 1 fatto il 29/09, blocco 2 il 28/10 (Instagram e Facebook) |
+| Uscite | Blocchi 1 e 2 chiusi (`PIANO.md`, `PIANO-2.md`). **Blocco 3** (`social/PIANO-3.md`) dal 29/10 al 19/11, di giovedì: preparato il 28/10, da approvare e programmare da Davide |
+| Consuntivo | Blocco 1 fatto il 29/09, blocco 2 il 28/10 (Instagram e Facebook). Blocco 3 lunedì 23/11 |
 | Dati da Maurizio | Prime risposte al PDF il 29/09, applicate. Il 24/10 dieci dipinti con titoli e dati (chat inoltrata da Davide il 28/10): sette nuovi, pubblicati il 28/10. Le altre schede incomplete aspettano, più le tre domande nate da «Pittura di fantasia» |
 | Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio risulta rinnovato fino al 15/09/2027: Davide non ha pagato, si ricontrolla dopo il 30/10 |
 | Costo | Zero |
@@ -52,6 +52,25 @@ del cavallo e le due tracce audio del vecchio sito.
 - [ ] **Disdetta del piano WordPress** — il dominio nuovo è attivo dal 17/09: è l'ultimo passo rimasto del passaggio.
 
 ---
+
+## 28/10 — Blocco 3: quattro uscite di giovedì dal 29/10, tutte con la sola opera
+
+**Cosa.** Davide alla domanda se partire domani o slittare al 5/11: «1» (domani). `social/PIANO-3.md`:
+29/10 *Testa di Bisonte Americano*, 5/11 *Sole al mattino*, 12/11 *Mazza con testa in pietra e
+decorazione in perline*, 19/11 *Paesaggio contadino*, alle 10:00 con la storia lo stesso giorno.
+Testi scritti e riletti a freddo dal copywriter (10 correzioni, fra cui tre cose che il testo diceva
+di vedere nella foto e non c'erano), da approvare da Davide.
+**Perché queste quattro.** Bisonte e mazza hanno un articolo di Maurizio sul sito, da cui vengono
+tutti i fatti (la mazza a calcio di fucile l'aveva già raccontata lui su Instagram). I due quadri sono
+fra quelli arrivati il 24/10, mai usciti: per loro non c'è storia, quindi il testo usa i dati, quello
+che si vede e la «pittura di fantasia».
+**Perché tutte con la sola opera.** Le foto con Maurizio che avevamo sono già uscite: l'ipotesi resta
+ferma finché non ne arrivano di nuove.
+**Link su Facebook.** Bisonte e mazza come la mazza del blocco 2: «Scheda completa» e link
+all'articolo; i quadri `opere.html`.
+**Correzione mia.** Nella descrizione del *Paesaggio contadino* per il copywriter avevo scritto
+«masseria»: l'edificio può essere anche una chiesa di campagna (torre, portone ad arco). Nel testo è
+diventato «una casa bianca col tetto rosso», e l'hashtag #masseria è tolto.
 
 ## 28/10 — Reel: finale col logo; la Testa indiano sul sito; consuntivo di Facebook
 
