@@ -48,7 +48,6 @@ del cavallo e le due tracce audio del vecchio sito.
 - [ ] **Le foto con Maurizio portano più copertura di quelle con la sola opera?** — ipotesi, su 8 post (4 con Maurizio, 4 con la sola opera), finora sempre confermata. Facebook: blocco 1 258 e 182 contro 55 e 49, blocco 2 95 e 137 contro 57 e 85. Instagram: blocco 2 53 e 62 contro 48 e 30 (consuntivo del 28/10). La lettura di Davide (28/10): «Maurizio è un po' un personal brand e, comunque sia, la sua community è fatta ovviamente da persone che lo conoscono direttamente. Quindi magari reagiscono di più quando vedono la figura di Maurizio. Forse Maurizio trasuda anche passione nelle foto, non lo so». Se regge col blocco 3, cambia che foto chiedere a Maurizio: i 7 dipinti del 28/10 sono foto della sola opera.
 - [ ] **Il registro "scheda" funziona quanto quello diretto?** — non misurabile con un solo post diretto. Resta aperta finché un blocco non ne mette almeno due.
 - [ ] **Trasferire il dominio prima della scadenza** — il 22/09 Davide ha detto che il rinnovo automatico di Register.it non è un problema: sulla carta collegata non ci sono mai soldi, quindi i 58,50 € + IVA non partono. Resta il rovescio: se non si trasferisce su Cloudflare entro luglio-agosto 2027, il 15/09/2027 il dominio scade e il sito sparisce dall'indirizzo.
-- [ ] **Disdetta del piano WordPress** — il dominio nuovo è attivo dal 17/09: è l'ultimo passo rimasto del passaggio.
 
 ---
 
@@ -62,6 +61,8 @@ cancellazione: 30 giorni di attesa, poi dopo cinque giorni il dominio torna libe
 Davide: «Ma il vecchio dominio non è stato rinnovato. Ma perché dovevo rinnovarlo poi?».
 Il controllo serviva a escludere un addebito automatico sulla carta di Maurizio: escluso, questione chiusa.
 **Esito.** Il sito resta su artemauriziobertino.com; il vecchio indirizzo dal 29/09 rispondeva già 410.
+**Piano WordPress.** Davide: «WordPress ho semplicemente bloccato i pagamenti, quindi poi si
+annullerà da solo». Tolta la questione aperta sulla disdetta: il passaggio da WordPress è chiuso.
 
 ## 28/10 — Blocco 3: quattro uscite di giovedì dal 29/10, tutte con la sola opera
 
