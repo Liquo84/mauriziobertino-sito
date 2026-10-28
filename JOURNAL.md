@@ -29,7 +29,7 @@ Il sito gira da solo. Il lavoro rimasto dipende da Maurizio (i dati delle altre
 schede, cosa è in vendita, l'account WordPress) e dal ritmo dei blocchi social:
 uno ogni quattro settimane, con consuntivo il lunedì prima del blocco nuovo.
 
-**Non contato:** le 45 opere includono ancora **due "Senza titolo"**: la figura
+**Non contato:** le 52 opere includono ancora **due "Senza titolo"**: la figura
 di nativo in pietra leccese (tra le quattro del 30/08) e il dipinto del 1997 con
 l'uomo e il cane, che è così dal vecchio sito. Molte schede, soprattutto fra le
 sculture e i nativi, non hanno ancora misure, anno o tecnica. Sotto «Pittura di fantasia» ci sono
