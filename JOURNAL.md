@@ -22,7 +22,7 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 | Uscite | Blocchi 1 e 2 chiusi (`PIANO.md`, `PIANO-2.md`). **Blocco 3** (`social/PIANO-3.md`) dal 29/10 al 19/11, di giovedì: preparato e approvato il 28/10, da programmare da Davide (promemoria alle 18:00) |
 | Consuntivo | Blocco 1 fatto il 29/09, blocco 2 il 28/10 (Instagram e Facebook). Blocco 3 lunedì 23/11 |
 | Dati da Maurizio | Prime risposte al PDF il 29/09, applicate. Il 24/10 dieci dipinti con titoli e dati (chat inoltrata da Davide il 28/10): sette nuovi, pubblicati il 28/10. Le altre schede incomplete aspettano, più le tre domande nate da «Pittura di fantasia» |
-| Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio risulta rinnovato fino al 15/09/2027: Davide non ha pagato, si ricontrolla dopo il 30/10 |
+| Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio `mauriziobertino.com` non è stato rinnovato: dal 27/10 è in «redemption period», libero per chiunque verso il 1/12 |
 | Costo | Zero |
 
 Il sito gira da solo. Il lavoro rimasto dipende da Maurizio (i dati delle altre
@@ -48,10 +48,20 @@ del cavallo e le due tracce audio del vecchio sito.
 - [ ] **Le foto con Maurizio portano più copertura di quelle con la sola opera?** — ipotesi, su 8 post (4 con Maurizio, 4 con la sola opera), finora sempre confermata. Facebook: blocco 1 258 e 182 contro 55 e 49, blocco 2 95 e 137 contro 57 e 85. Instagram: blocco 2 53 e 62 contro 48 e 30 (consuntivo del 28/10). La lettura di Davide (28/10): «Maurizio è un po' un personal brand e, comunque sia, la sua community è fatta ovviamente da persone che lo conoscono direttamente. Quindi magari reagiscono di più quando vedono la figura di Maurizio. Forse Maurizio trasuda anche passione nelle foto, non lo so». Se regge col blocco 3, cambia che foto chiedere a Maurizio: i 7 dipinti del 28/10 sono foto della sola opera.
 - [ ] **Il registro "scheda" funziona quanto quello diretto?** — non misurabile con un solo post diretto. Resta aperta finché un blocco non ne mette almeno due.
 - [ ] **Trasferire il dominio prima della scadenza** — il 22/09 Davide ha detto che il rinnovo automatico di Register.it non è un problema: sulla carta collegata non ci sono mai soldi, quindi i 58,50 € + IVA non partono. Resta il rovescio: se non si trasferisce su Cloudflare entro luglio-agosto 2027, il 15/09/2027 il dominio scade e il sito sparisce dall'indirizzo.
-- [ ] **Il vecchio `mauriziobertino.com` risulta rinnovato fino al 15/09/2027** — trovato al check del 22/09. Davide il 29/09: «No io non ho pagato rinnovi». Resta da sapere se WordPress.com ha addebitato la carta di Maurizio. **Dopo il 30/10** (fine dei 45 giorni di grazia) si guarda il registro: se la scadenza è ancora 2027, il rinnovo è stato pagato. Conta perché si decide insieme alla disdetta del piano WordPress.
 - [ ] **Disdetta del piano WordPress** — il dominio nuovo è attivo dal 17/09: è l'ultimo passo rimasto del passaggio.
 
 ---
+
+## 28/10 — Il vecchio dominio non è stato rinnovato
+
+**Cosa.** Registro Verisign (RDAP) letto alle 11:34: scadenza 15/09/2026, stato «client transfer
+prohibited» e «redemption period», ultima modifica 27/10, registrar Automattic. Il 15/09/2027 visto
+dal 22/09 era il prolungamento automatico del periodo di grazia, non un rinnovo pagato. Secondo la
+pagina ICANN dei codici EPP, «redemption period» vuol dire che il registrar ha chiesto la
+cancellazione: 30 giorni di attesa, poi dopo cinque giorni il dominio torna libero (verso il 1/12).
+Davide: «Ma il vecchio dominio non è stato rinnovato. Ma perché dovevo rinnovarlo poi?».
+Il controllo serviva a escludere un addebito automatico sulla carta di Maurizio: escluso, questione chiusa.
+**Esito.** Il sito resta su artemauriziobertino.com; il vecchio indirizzo dal 29/09 rispondeva già 410.
 
 ## 28/10 — Blocco 3: quattro uscite di giovedì dal 29/10, tutte con la sola opera
 
