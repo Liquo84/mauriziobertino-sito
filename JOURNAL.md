@@ -11,7 +11,7 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 
 ---
 
-## Stato al 28/10/2026
+## Stato al 29/10/2026
 
 | | |
 |---|---|
@@ -19,7 +19,7 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 | Indirizzo | https://artemauriziobertino.com/ (HTTPS attivo; il vecchio indirizzo GitHub e `www` rimandano qui) |
 | Pubblicazione | Automatica, si carica senza chiedere se verificato |
 | Social | Instagram `@mauriziobertino_arte` (153 follower, 41 post), Facebook "Spazio Arte Bertino" (166), dati del 28/10. Dal blocco 3 i quadri sono «pittura di fantasia» anche nei copy |
-| Uscite | Blocchi 1 e 2 chiusi (`PIANO.md`, `PIANO-2.md`). **Blocco 3** (`social/PIANO-3.md`) dal 29/10 al 19/11, di giovedì: preparato e approvato il 28/10, da programmare da Davide (promemoria alle 18:00) |
+| Uscite | Blocchi 1 e 2 chiusi (`PIANO.md`, `PIANO-2.md`). **Blocco 3** (`social/PIANO-3.md`) dal 29/10 al 19/11, di giovedì: preparato e approvato il 28/10, programmato da Davide il 29/10 su Business Suite |
 | Consuntivo | Blocco 1 fatto il 29/09, blocco 2 il 28/10 (Instagram e Facebook). Blocco 3 lunedì 23/11 |
 | Dati da Maurizio | Prime risposte al PDF il 29/09, applicate. Il 24/10 dieci dipinti con titoli e dati (chat inoltrata da Davide il 28/10): sette nuovi, pubblicati il 28/10. Le altre schede incomplete aspettano, più le tre domande nate da «Pittura di fantasia» |
 | Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio `mauriziobertino.com` non è stato rinnovato: dal 27/10 è in «redemption period», libero per chiunque verso il 1/12 |
@@ -115,6 +115,8 @@ all'articolo; i quadri `opere.html`.
 diventato «una casa bianca col tetto rosso», e l'hashtag #masseria è tolto.
 **Esito, stesso giorno.** Davide: «Approvo, mettimi promemoria sul programmare i post». Promemoria
 Apple per oggi alle 18:00 (lista «Reminders»); i quattro post li programma lui su Business Suite.
+**Esito, 29/10.** Didascalie ridate in chat, Davide: «Perfetto, programmati». Il promemoria Apple
+«Programma i 4 post del blocco 3…» segnato completato.
 
 ## 28/10 — Reel: finale col logo; la Testa indiano sul sito; consuntivo di Facebook
 
