@@ -47,11 +47,13 @@ Il sito pubblica con un workflow di Actions (`.github/workflows/pubblica.yml`), 
 - `immagini/chat-maurizio/` — screenshot della chat in cui Maurizio dà titoli e dati delle opere
   (stanno negli originali, repository privato).
 - `LEGGIMI.md` — guida per Maurizio.
-- `JOURNAL.md` — diario di lavoro; le voci fino al 17/09/2026 stanno in `JOURNAL-archivio-2026.md`.
+- `ANTEPRIMA.md` — i passi per vedere il sito in anteprima prima di caricare una modifica.
+- `JOURNAL.md` — diario di lavoro; le voci fino all'08/10/2026 stanno in `JOURNAL-archivio-2026.md`.
 - **File nuovi:** Le foto nuove di un'opera vanno in `immagini/` con un nome che dice l'opera (`cavallo-rampante-fronte.jpg`). Se non è ancora chiaro a quale opera appartengono, passano da `immagini/da-catalogare/`. Quelle mandate su WhatsApp si rinominano quando entrano. I nomi `img_…` di WordPress restano come sono. I documenti del sito vanno in `documenti/` come `AAAA-MM-GG <tipo> <fornitore> <numero>.pdf`.
 
 ## Come lavoriamo qui
 - Il diario è in `JOURNAL.md`: leggilo in apertura, scrivi le decisioni quando le prendi. Una regola o una procedura da riusare si scrive qui nello stesso turno in cui nasce; se il messaggio di Davide contiene una domanda, prima la risposta in chat, poi i file (regola 30 generale).
+- **Soglia di questo CLAUDE.md: 98 righe**, quelle rimaste dopo la manutenzione del 29/10 (Davide: «la soglia è ok»). Oltre, la manutenzione si chiede in chiusura.
 - Le nuove opere si aggiungono con `aggiungi-opera.py`, non a mano nell'HTML.
 - **Prima di aggiungere un'opera si cerca il titolo in `_catalogo.json`.** Vale anche quando
   Maurizio la manda come se fosse nuova: spesso sono foto migliori di un'opera già pubblicata,
@@ -67,15 +69,8 @@ Il sito pubblica con un workflow di Actions (`.github/workflows/pubblica.yml`), 
   raddrizzata sui quattro angoli. È la convenzione di tutto il catalogo.
 - **Le modifiche al sito si caricano su GitHub senza chiedere**, purché siano state verificate
   prima: pagine rigenerate con `genera.py` e controllo che nulla sbordi né a 1280 né a 375px.
-  Per l'anteprima il pannello del browser non legge la Scrivania (404) e aperto come `file://` dà
-  misure false. Procedura verificata l'08/10, con la sessione partita da `~`:
-  1. `rsync -a --delete sito/ <scratchpad della sessione>/sito/`;
-  2. in `~/.claude/launch.json` (un `.claude/launch.json` nel progetto il pannello non lo vede) si
-     aggiunge la voce `sito-maurizio`, cioè `python3 -m http.server 8766 --directory <scratchpad>/sito`
-     con `"port": 8766`. La 8765 è occupata da un vecchio `recv.py` e non si tocca;
-  3. `preview_start` su `sito-maurizio`;
-  4. dopo ogni `genera.py` si rifà l'rsync e si ricarica la pagina;
-  5. a fine lavoro `preview_stop` e si toglie la voce, che punta a una scratchpad che muore con la sessione.
+  **Prima di caricare una modifica al sito si legge `ANTEPRIMA.md`**: il pannello del browser non legge
+  la Scrivania, e lì ci sono i passi per servire il sito da una copia.
   Poi si dice a Davide com'è andata, workflow compreso. Regola del 01/09: chiedere ogni volta
   allungava il giro senza aggiungere sicurezza, visto che `main` è ciò che va online.
 - **Ogni elemento toccabile (icone, pulsanti) ha un'area di almeno 44×44px**, anche se
