@@ -25,7 +25,8 @@ comprare un pezzo unico. Non sono critici d'arte.
   la camera si avvicina ai particolari. È un reel di prova, da far vedere a Maurizio. Il limite, detto da
   Davide il 28/10: «per te è molto difficile capire cosa dire su un quadro, se non banalmente
   descriverlo, perché lì ti serve effettivamente il commento dell'artista». Davide propone a Maurizio
-  un vocale in cui descrive l'opera: quando arriva, è la fonte dei fatti di quel reel.
+  un commento in cui descrive l'opera: è la fonte dei fatti di quel reel. Per *Tempi remoti* è arrivato
+  scritto il 29/10 (banca fatti).
 - **Registro:** artigiano che racconta e vende, non didascalia da museo (`social/TONO-DI-VOCE.md`).
 - **Suona così:**
   - «Pezzo unico. Non ne esiste un altro uguale.» (Instagram, rilevato 01/09/2026)
@@ -48,8 +49,9 @@ comprare un pezzo unico. Non sono critici d'arte.
 | «Un'arte Espressionista e non Accademica», paesaggi di fantasia, l'emozione dell'istante | `sito/tecnica.html` |
 | Soggetti principali: la Natura e gli Animali | `sito/biografia.html` |
 | Quadri: olio su tela, iuta, faesite; paesaggi, animali, nature morte | home, riquadro «Pittura di fantasia» (prima «La pittura») |
-| 52 opere a catalogo: 32 nella sezione pittura (di cui 3 disegni), 11 sculture, 9 riproduzioni native | `_backup-wp/_catalogo.json`, letto il 28/10/2026 (7 dipinti aggiunti quel giorno) |
+| 53 opere a catalogo: 32 nella sezione pittura (di cui 3 disegni), 12 sculture, 9 riproduzioni native | `_backup-wp/_catalogo.json`, letto il 28/10/2026 (7 dipinti e la Testa indiano aggiunti quel giorno) |
 | *Tempi remoti*: olio su tela, 50×40 cm, datato 4/12/1997 | Maurizio, chat del 24/10/2026 (`immagini/chat-maurizio/`) |
+| *Tempi remoti*, il suo commento: «In questo mio pensiero ho voluto rappresentare la vita famigliare semplice e povera di un tempo oramai passato dove ho rappresentato marito moglie di mezza età durante la festa del Natale col figlio che felice riceve in regalo un gattino in un sacco..dentro un casolare con in tavola un fiasco di vino e pane e pomodoro..il tutto è il risultato di una ricerca artistica provata e elaborata con accostamenti di colore puro per una stagione sviluppando circa una decina di paesaggi...» | Maurizio, scritto a Davide e girato in chat il 29/10/2026 |
 | I quadri li inventa dal nulla, e vuole che risalti questo; propone «fantasie dipinte» | Maurizio, riferito da Davide il 08/10/2026 |
 | *Mah-to-toh-pa* (2004, china) riprende il ritratto di Mató-Tópe di Karl Bodmer (1834): non è inventato | confronto fatto il 08/10/2026 |
 | Primo premio «Fare Naif Oggi» a Lerici | `sito/biografia.html` |
@@ -64,5 +66,8 @@ comprare un pezzo unico. Non sono critici d'arte.
 - Collaudo alla cieca: Davide ha detto sì (08/10/2026) per la prima riscrittura di una pagina intera.
 
 ## Correzioni di Davide
+- 2026-10-29 — reel di *Tempi remoti*, sulla voce solo descrittiva: «oltre che descrivere mi piacerebbe
+  molto raccontare anche le emozioni». Emozioni prese dal commento di Maurizio o da gesti visibili; la
+  revisione ha tolto quelle senza appiglio («è il caldo della casa», «tranquillo», «Ma in cima c'è la stella»).
 - 2026-10-08 — «fantasie dipinte» non lo convince come espressione: scelto «Pittura di fantasia»,
   con il concetto «inventati dal nulla» nella riga sotto. Maurizio approva; si usa anche su Instagram.

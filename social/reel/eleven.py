@@ -55,3 +55,17 @@ def musica(prompt, uscita, secondi, modello="music_v2_5"):
                                  headers={"xi-api-key": _chiave(), "Content-Type": "application/json"})
     Path(uscita).write_bytes(urllib.request.urlopen(req, timeout=300).read())
     return uscita
+
+
+def effetto(prompt, uscita, secondi=None, loop=False, influenza=0.5, modello="eleven_text_to_sound_v3"):
+    """Effetto sonoro (POST /v1/sound-generation, pagina «Create sound effect» letta il 29/10):
+    durata da 0,5 a 30 s, loop per i suoni d'ambiente che si ripetono senza stacco."""
+    if Path(uscita).exists():
+        return uscita
+    corpo = {"text": prompt, "model_id": modello, "loop": loop, "prompt_influence": influenza}
+    if secondi:
+        corpo["duration_seconds"] = secondi
+    req = urllib.request.Request("https://api.elevenlabs.io/v1/sound-generation", data=json.dumps(corpo).encode(),
+                                 headers={"xi-api-key": _chiave(), "Content-Type": "application/json"})
+    Path(uscita).write_bytes(urllib.request.urlopen(req, timeout=180).read())
+    return uscita

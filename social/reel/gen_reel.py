@@ -193,12 +193,20 @@ def main():
         q = len(tempi) + 1
         filtri.append(f"[{q}:a]volume={op.VOL_MUSICA},afade=t=in:d=1.5,afade=t=out:st={fine-2.5:.2f}:d=2.5,atrim=0:{fine:.2f}[mu]")
         mix += "[mu]"; nmix += 1; extra = 1
-    for e_i, (file, vol, istante) in enumerate(getattr(op, "EFFETTI", [])):
+    # suoni d'ambiente (in loop per tutto il reel, sotto la voce) ed effetti puntuali
+    for a_i, (file, vol) in enumerate(getattr(op, "AMBIENTE", [])):
+        entrate += ["-stream_loop", "-1", "-i", file]
+        q = len(tempi) + 1 + extra
+        filtri.append(f"[{q}:a]volume={vol},afade=t=in:d=2,afade=t=out:st={fine-2.5:.2f}:d=2.5,atrim=0:{fine:.2f}[a{a_i}]")
+        mix += f"[a{a_i}]"; nmix += 1; extra += 1
+    for e_i, (file, vol, quando) in enumerate(getattr(op, "EFFETTI", [])):
+        # quando: secondi dall'inizio, oppure (scena, scarto) = secondi dall'inizio della frase di quella scena
+        istante = quando if isinstance(quando, (int, float)) else tempi[quando[0] - 1][0] + quando[1]
         entrate += ["-i", file]
         q = len(tempi) + 1 + extra + e_i
         filtri.append(f"[{q}:a]volume={vol},adelay={int(istante*1000)}|{int(istante*1000)}[e{e_i}]")
         mix += f"[e{e_i}]"; nmix += 1
-    filtri.append(f"{mix}amix=inputs={nmix}:normalize=0:duration=longest,atrim=0:{fine:.2f}[aout]")
+    filtri.append(f"{mix}amix=inputs={nmix}:normalize=0:duration=longest,alimiter=limit=0.89:level=false,atrim=0:{fine:.2f}[aout]")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *entrate, "-filter_complex", ";".join(filtri),
                     "-map", "0:v", "-map", "[aout]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
                     "-shortest", op.USCITA], check=True)

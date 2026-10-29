@@ -44,10 +44,40 @@ del cavallo e le due tracce audio del vecchio sito.
 - [ ] **Titolo e misure della figura di nativo in pietra leccese** — è l'ultima delle quattro opere del 30/08 ancora "Senza titolo" (il 29/09 le altre tre hanno avuto titolo o sono state unite).
 - [ ] **«Questa per la schermata?»** — didascalia di Maurizio del 29/09 sulla foto di lui al cavalletto con *Vite in pericolo*. Probabilmente la vuole in home o come copertina: è un'ipotesi, va chiesto cosa intende.
 - [ ] **Quali opere del catalogo sono in vendita** — le schede di Maurizio finiscono sempre con «Per info e acquisto». Sui dipinti non lo sappiamo, quindi la chiamata all'acquisto per ora è solo sulle riproduzioni.
-- [ ] **Reel di prova «Tempi remoti»: cosa ne pensa Maurizio** — fatto il 28/10 (voce sotto). Davide: «il Reel mi piace un sacco»; lo gira a Maurizio e gli propone un vocale in cui descrive l'opera, da usare come fonte del testo. Due punti da chiedergli insieme: la frase «Maurizio Bertino inventa i suoi quadri dal nulla» detta su questa scena di famiglia (se viene da un ricordo o da una foto, la frase va tolta da questo reel); e se vuole che a voce si dica il sito (sui suoi profili non lo nomina mai, `social/TONO-DI-VOCE.md`).
+- [ ] **Reel di prova «Tempi remoti»: cosa ne pensa Maurizio** — fatto il 28/10. Il suo commento sull'opera è arrivato il 29/10: voce riscritta con emozioni ed effetti sonori (voce del 29/10). Restano due punti: il suo parere sul reel e se vuole che a voce si dica il sito (sui suoi profili non lo nomina mai, `social/TONO-DI-VOCE.md`).
 - [ ] **Le foto con Maurizio portano più copertura di quelle con la sola opera?** — ipotesi, su 8 post (4 con Maurizio, 4 con la sola opera), finora sempre confermata. Facebook: blocco 1 258 e 182 contro 55 e 49, blocco 2 95 e 137 contro 57 e 85. Instagram: blocco 2 53 e 62 contro 48 e 30 (consuntivo del 28/10). La lettura di Davide (28/10): «Maurizio è un po' un personal brand e, comunque sia, la sua community è fatta ovviamente da persone che lo conoscono direttamente. Quindi magari reagiscono di più quando vedono la figura di Maurizio. Forse Maurizio trasuda anche passione nelle foto, non lo so». Se regge col blocco 3, cambia che foto chiedere a Maurizio: i 7 dipinti del 28/10 sono foto della sola opera.
 - [ ] **Il registro "scheda" funziona quanto quello diretto?** — non misurabile con un solo post diretto. Resta aperta finché un blocco non ne mette almeno due.
 - [ ] **Trasferire il dominio prima della scadenza** — il 22/09 Davide ha detto che il rinnovo automatico di Register.it non è un problema: sulla carta collegata non ci sono mai soldi, quindi i 58,50 € + IVA non partono. Resta il rovescio: se non si trasferisce su Cloudflare entro luglio-agosto 2027, il 15/09/2027 il dominio scade e il sito sparisce dall'indirizzo.
+
+---
+
+## 29/10 — Il commento di Maurizio su «Tempi remoti»: la voce del reel racconta, con i suoni della scena
+
+**Cosa.** Davide ha girato in chat il commento scritto di Maurizio (testo intero nella banca fatti di
+`VOCE.md`): famiglia «semplice e povera di un tempo oramai passato», «marito moglie di mezza età»,
+Natale, il figlio che riceve «un gattino in un sacco», un casolare, «un fiasco di vino e pane e
+pomodoro», e la tecnica: «accostamenti di colore puro per una stagione sviluppando circa una decina di
+paesaggi».
+
+**Perché.** Il testo del reel era scritto dalla sola foto e su due punti è sbagliato: «Una donna
+anziana» (Maurizio: moglie di mezza età) e «pane spezzato» (pane e pomodoro). I frutti rossi del
+28/10 erano pomodori. La frase «Maurizio Bertino inventa i suoi quadri dal nulla» cade: per questo
+quadro dice di aver voluto rappresentare la vita famigliare di un tempo passato. Nuovo testo dal
+copywriter, mostrato a Davide.
+
+**Poi.** Davide, sul testo: «oltre che descrivere mi piacerebbe molto raccontare anche le emozioni,
+anche mettere qualche effetto audio per aiutare l'immersione (crepitio del fuoco, bambino che ride
+ecc...)». Regola nel CLAUDE.md (`social/reel/`). Voce riscritta dal copywriter e rivista a freddo: la
+revisione ha tolto tre emozioni senza appiglio, controllate sulla foto (l'uomo sorride appena, la
+stella è una cometa). Tenuta la frase d'apertura «È Natale, dentro un casolare. Una famiglia fa festa
+con quel poco che ha.», che la revisione voleva aprire con «Olio su tela»: la tecnica a voce non c'è più.
+Suoni ElevenLabs (effetti sonori v3): fuoco del camino sotto tutto il reel, ciocco sul camino, fruscio
+del sacco e miagolio sul figlio, risata all'inizio della scena dell'albero. Il reel è passato a 69,2 s:
+musica nuova da 72 s (quella del 28/10 ne durava 52 e sarebbe ripartita da capo); limitatore sul mix
+dopo un picco a -0,6 dB. File `2026-10-29 Reel prova - Tempi remoti.mp4`, 25,8 MB, mandato a Davide
+e copiato in Download.
+
+**Esito.** _(da scrivere: il parere di Davide e di Maurizio)_
 
 ---
 
