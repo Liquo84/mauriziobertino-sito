@@ -44,7 +44,7 @@ del cavallo e le due tracce audio del vecchio sito.
 - [ ] **Titolo e misure della figura di nativo in pietra leccese** — è l'ultima delle quattro opere del 30/08 ancora "Senza titolo" (il 29/09 le altre tre hanno avuto titolo o sono state unite).
 - [ ] **«Questa per la schermata?»** — didascalia di Maurizio del 29/09 sulla foto di lui al cavalletto con *Vite in pericolo*. Probabilmente la vuole in home o come copertina: è un'ipotesi, va chiesto cosa intende.
 - [ ] **Quali opere del catalogo sono in vendita** — le schede di Maurizio finiscono sempre con «Per info e acquisto». Sui dipinti non lo sappiamo, quindi la chiamata all'acquisto per ora è solo sulle riproduzioni.
-- [ ] **Reel di prova «Tempi remoti»: cosa ne pensa Maurizio** — fatto il 28/10. Il suo commento sull'opera è arrivato il 29/10: voce riscritta con emozioni ed effetti sonori (voce del 29/10). Restano due punti: il suo parere sul reel e se vuole che a voce si dica il sito (sui suoi profili non lo nomina mai, `social/TONO-DI-VOCE.md`).
+- [ ] **Reel di prova «Tempi remoti»: cosa ne pensa Maurizio** — fatto il 28/10. Il suo commento sull'opera è arrivato il 29/10: voce riscritta con emozioni ed effetti sonori (voce del 29/10). A Davide piace, e il 29/10 l'ha girato a Maurizio. Restano due punti: il parere di Maurizio sul reel e se vuole che a voce si dica il sito (sui suoi profili non lo nomina mai, `social/TONO-DI-VOCE.md`).
 - [ ] **Le foto con Maurizio portano più copertura di quelle con la sola opera?** — ipotesi, su 8 post (4 con Maurizio, 4 con la sola opera), finora sempre confermata. Facebook: blocco 1 258 e 182 contro 55 e 49, blocco 2 95 e 137 contro 57 e 85. Instagram: blocco 2 53 e 62 contro 48 e 30 (consuntivo del 28/10). La lettura di Davide (28/10): «Maurizio è un po' un personal brand e, comunque sia, la sua community è fatta ovviamente da persone che lo conoscono direttamente. Quindi magari reagiscono di più quando vedono la figura di Maurizio. Forse Maurizio trasuda anche passione nelle foto, non lo so». Se regge col blocco 3, cambia che foto chiedere a Maurizio: i 7 dipinti del 28/10 sono foto della sola opera.
 - [ ] **Il registro "scheda" funziona quanto quello diretto?** — non misurabile con un solo post diretto. Resta aperta finché un blocco non ne mette almeno due.
 - [ ] **Trasferire il dominio prima della scadenza** — il 22/09 Davide ha detto che il rinnovo automatico di Register.it non è un problema: sulla carta collegata non ci sono mai soldi, quindi i 58,50 € + IVA non partono. Resta il rovescio: se non si trasferisce su Cloudflare entro luglio-agosto 2027, il 15/09/2027 il dominio scade e il sito sparisce dall'indirizzo.
@@ -77,7 +77,8 @@ musica nuova da 72 s (quella del 28/10 ne durava 52 e sarebbe ripartita da capo)
 dopo un picco a -0,6 dB. File `2026-10-29 Reel prova - Tempi remoti.mp4`, 25,8 MB, mandato a Davide
 e copiato in Download.
 
-**Esito.** _(da scrivere: il parere di Davide e di Maurizio)_
+**Esito.** Davide: «ok gliel'ho girato, a me piace. Vediamo cosa pensa lui» (29/10). Il parere di
+Maurizio è da scrivere quando arriva.
 
 ---
 
