@@ -116,7 +116,8 @@ diventato «una casa bianca col tetto rosso», e l'hashtag #masseria è tolto.
 **Esito, stesso giorno.** Davide: «Approvo, mettimi promemoria sul programmare i post». Promemoria
 Apple per oggi alle 18:00 (lista «Reminders»); i quattro post li programma lui su Business Suite.
 **Esito, 29/10.** Didascalie ridate in chat, Davide: «Perfetto, programmati». Il promemoria Apple
-«Programma i 4 post del blocco 3…» segnato completato.
+«Programma i 4 post del blocco 3…» segnato completato. Il bisonte non è uscito alle 10:00 (programmato
+dopo): «esce oggi pomeriggio» (Davide, 29/10). Nel consuntivo del 23/11 va tenuto presente l'orario diverso.
 
 ## 28/10 — Reel: finale col logo; la Testa indiano sul sito; consuntivo di Facebook
 
