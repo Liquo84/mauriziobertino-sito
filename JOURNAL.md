@@ -43,9 +43,7 @@ del cavallo e le due tracce audio del vecchio sito.
 - [ ] **Tre domande rimaste dopo «Pittura di fantasia»** — i testi sono approvati e online (08/10); restano: «inventati dal nulla» vale anche per le nature morte (*Natura morta con vecchi calici*, la foto del riquadro in home, e *Fichi con nido di uccelli*) e per *Lo Sguardo della Tigre*?; *Mah-to-toh-pa*, ripreso da Bodmer, passa fra i Nativi? (finché resta, sotto «Pittura di fantasia» c'è un pezzo non inventato); che tecnica è *Gesta Dimenticate*?
 - [ ] **Titolo e misure della figura di nativo in pietra leccese** — è l'ultima delle quattro opere del 30/08 ancora "Senza titolo" (il 29/09 le altre tre hanno avuto titolo o sono state unite).
 - [ ] **«Questa per la schermata?»** — didascalia di Maurizio del 29/09 sulla foto di lui al cavalletto con *Vite in pericolo*. Probabilmente la vuole in home o come copertina: è un'ipotesi, va chiesto cosa intende.
-- [ ] **La chiamata all'acquisto sulle schede del sito** — Davide, 03/11: «Tutto è in vendita». Sul sito «Per info e acquisto» c'è solo sulle riproduzioni; chiesto a Davide il 03/11 se aggiungerla a dipinti e sculture (da far approvare a Maurizio, è un testo del sito) o lasciare il sito com'è.
-- [ ] **La *Testa di bisonte* è in vendita?** — il suo articolo sul sito dice «questo pezzo della mia collezione privata», mentre Davide il 03/11 ha detto «Tutto è in vendita». Conta per i post e per le schede. Chiesto a Davide il 03/11.
-- [ ] **Nei prossimi post i dipinti chiudono con `📩 Per info e acquisto`?** — `social/TONO-DI-VOCE.md` dà `🔗 link in bio` ai dipinti «finché Maurizio non conferma cosa è in vendita». Chiesto a Davide il 03/11 se dal blocco 4 si passa a `📩`.
+- [ ] **La chiamata all'acquisto sulle schede del sito** — tutto è in vendita, ma sul sito l'invito all'acquisto c'è solo in fondo a tre articoli (le due mazze e il bisonte). Proposta di Claude, mostrata a Davide il 03/11, da far approvare a Maurizio: nel visore che si apre toccando un'opera, sotto titolo e misure, la riga «Sei interessato all'acquisto? Contattami», con «Contattami» verso la pagina dei contatti; nell'articolo del bisonte, al posto di «questo pezzo della mia collezione privata… all'acquisto di altri pezzi», la chiusura delle mazze («…all'acquisto di questo o di altri pezzi»). Finché Maurizio non risponde il sito resta com'è.
 - [ ] **Reel di prova «Tempi remoti»: cosa ne pensa Maurizio** — fatto il 28/10. Il suo commento sull'opera è arrivato il 29/10: voce riscritta con emozioni ed effetti sonori (voce del 29/10). A Davide piace, e il 29/10 l'ha girato a Maurizio. L'1/11 Davide l'ha pubblicato su Instagram su richiesta di Maurizio, per vedere come risponde il pubblico (voce del 03/11): i numeri si leggono nel consuntivo del 23/11. Restano da chiedergli: il suo parere a voce; se vuole che a voce si dica il sito (sui suoi profili non lo nomina mai, `social/TONO-DI-VOCE.md`); se gli va bene «fermare» nella voce, dove lui ha scritto «rappresentare». Due punti del suo commento non sono nel reel (la stagione di ricerca sul colore puro e la decina di paesaggi): per metterli andrebbe tolta la frase sul muro di fondo.
 - [ ] **Le foto con Maurizio portano più copertura di quelle con la sola opera?** — ipotesi, su 8 post (4 con Maurizio, 4 con la sola opera), finora sempre confermata. Facebook: blocco 1 258 e 182 contro 55 e 49, blocco 2 95 e 137 contro 57 e 85. Instagram: blocco 2 53 e 62 contro 48 e 30 (consuntivo del 28/10). La lettura di Davide (28/10): «Maurizio è un po' un personal brand e, comunque sia, la sua community è fatta ovviamente da persone che lo conoscono direttamente. Quindi magari reagiscono di più quando vedono la figura di Maurizio. Forse Maurizio trasuda anche passione nelle foto, non lo so». Se regge col blocco 3, cambia che foto chiedere a Maurizio: i 7 dipinti del 28/10 sono foto della sola opera.
 - [ ] **Il registro "scheda" funziona quanto quello diretto?** — non misurabile con un solo post diretto. Nel blocco 4 si mettono due post diretti: Davide, 29/10, «1. a» alla proposta «la tengo, e nel blocco 4 metto due post diretti».
@@ -69,7 +67,15 @@ bisonte, «giovedì 29 ottobre alle 15:42», 4 reazioni e 1 condivisione: il ree
 richiesta di Maurizio, voleva vedere come il pubblico rispondeva». Il reel entra nel consuntivo del 23/11.
 **Mazza del 12/11 (questione chiusa).** Davide: «Tutto è in vendita, lascia il copy così com'è». Il post
 programmato non cambia: resta la frase «Il modello è dei primi del Novecento» e non si aggiunge «📩 Per
-info e acquisto». «Tutto è in vendita» è nel `CLAUDE.md`, Vincoli; per le schede del sito chiesto a Davide.
+info e acquisto». «Tutto è in vendita» è nel `CLAUDE.md`, Vincoli.
+**Le tre scelte che ne seguono** (Davide, «1. a 2. a 3. a»). 1. a: preparo la frase per le schede di
+dipinti e sculture, da far approvare a Maurizio (questione aperta). 2. a: la *Testa di bisonte* è in
+vendita anche lei, nonostante il suo articolo la dica «della mia collezione privata» (`VOCE.md`).
+3. a: dal blocco 4 anche i dipinti chiudono con `📩 Per info e acquisto` (`social/TONO-DI-VOCE.md`).
+**Perché la riga nel visore e non una frase per scheda.** Il visore è lo stesso per tutte le 53 opere:
+una riga sola, scritta una volta in `genera.py`, e nessun testo nuovo per scheda da far approvare.
+Le parole vengono dalla chiusura che Maurizio usa già nei suoi articoli («contattami se sei
+interessato all'acquisto…»).
 
 ## 29/10 — Il commento di Maurizio su «Tempi remoti»: la voce del reel racconta, con i suoni della scena
 

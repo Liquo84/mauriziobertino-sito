@@ -103,11 +103,10 @@ racconta e che vende.
 
 ## Una nota sulle opere del sito
 
-Il registro B è nato per **sculture e riproduzioni**, cioè per pezzi in vendita.
-I **dipinti** del catalogo non sono mai stati postati in quel formato, e non sappiamo
-quali siano ancora disponibili. Per i dipinti si usa lo stesso impianto ma la chiamata
-finale è `🔗 link in bio`, non `📩 Per info e acquisto`, finché Maurizio non conferma
-cosa è in vendita.
+Il registro B è nato per **sculture e riproduzioni**. Tutte le opere sono in vendita, dipinti e
+*Testa di bisonte* compresi (Davide, 03/11/2026: «Tutto è in vendita»): **dal blocco 4 anche i
+dipinti chiudono con `📩 Per info e acquisto`**, come sculture e riproduzioni (Davide, 03/11, «3. a»).
+I post già programmati del blocco 3 restano con `🔗` («lascia il copy così com'è»).
 
 **Come si chiamano i quadri (08/10/2026, decisione di Davide approvata da Maurizio).** Nei copy
 i dipinti sono la sua **«pittura di fantasia»** e il concetto da far risaltare è che li **inventa
