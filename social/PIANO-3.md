@@ -56,7 +56,7 @@ Stesso testo, `🔗 Scheda completa: link in bio` →
 
 **Nota:** ogni frase viene dall'articolo di Maurizio del 31/10/2021, quasi con le sue parole. Il
 03/11 Davide ha detto che il bisonte è in vendita; il post è uscito il 29/10 con la frase sulla
-collezione privata (se toglierla dal post già pubblicato, chiesto a Davide il 03/11). Nella pagina Nativi del sito,
+collezione privata, e resta com'è (Davide, 03/11: «b»). Nella pagina Nativi del sito,
 accanto al link all'articolo, la scheda «Testa di bisonte» dice «collo 160 cm, larghezza corna 48 cm,
 sporgenza fronte 35 cm»: se sono le misure di questo pezzo, si possono mettere nel 📐.
 
