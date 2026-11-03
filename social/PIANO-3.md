@@ -21,9 +21,10 @@ Alle 10:00 come sempre, e storia il giorno stesso del post. Consuntivo lunedì 2
 sono già uscite, e i dipinti arrivati il 24/10 sono foto della sola opera. L'ipotesi delle foto con
 Maurizio (8 post, confermata ogni volta) resta ferma finché non arrivano foto nuove di lui al lavoro.
 
-**La chiamata.** `🔗` su tutte e quattro: il bisonte è «della mia collezione privata» (articolo di
-Maurizio). Mazza e dipinti sono in vendita (Davide, 03/11: «Tutto è in vendita, lascia il copy così
-com'è»): i post programmati restano come sono.
+**La chiamata.** `🔗` su tutte e quattro, scelta il 28/10 quando il bisonte risultava «della mia
+collezione privata» (articolo di Maurizio) e della vendita di mazza e dipinti non si sapeva niente.
+Il 03/11 Davide: «Tutto è in vendita, lascia il copy così com'è», bisonte compreso («2. a»): i post
+programmati restano come sono.
 
 ---
 
@@ -53,8 +54,9 @@ Cartella `uscite/09-scultura-testa-di-bisonte/`
 Stesso testo, `🔗 Scheda completa: link in bio` →
 `🔗 https://artemauriziobertino.com/articoli/testa-di-bisonte-in-terracotta.html`
 
-**Nota:** ogni frase viene dall'articolo di Maurizio del 31/10/2021, quasi con le sue parole. Se il
-bisonte è uscito dalla sua collezione privata, quella frase si toglie. Nella pagina Nativi del sito,
+**Nota:** ogni frase viene dall'articolo di Maurizio del 31/10/2021, quasi con le sue parole. Il
+03/11 Davide ha detto che il bisonte è in vendita; il post è uscito il 29/10 con la frase sulla
+collezione privata (se toglierla dal post già pubblicato, chiesto a Davide il 03/11). Nella pagina Nativi del sito,
 accanto al link all'articolo, la scheda «Testa di bisonte» dice «collo 160 cm, larghezza corna 48 cm,
 sporgenza fronte 35 cm»: se sono le misure di questo pezzo, si possono mettere nel 📐.
 
