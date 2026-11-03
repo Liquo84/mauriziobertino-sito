@@ -96,7 +96,9 @@ Il sito pubblica con un workflow di Actions (`.github/workflows/pubblica.yml`), 
   solo in Meta Business Suite, che in Chrome non è loggato: Davide passa gli screenshot di Insight →
   Contenuti sulla Scrivania (29/09).
 - **Il WhatsApp del sito (331 438 5178, `genera.py`) è il numero di Davide, ed è voluto**: «Maurizio
-  è molto poco tecnologico, quindi l'abbiamo messo appositamente» (Davide, 28/10). Sul WhatsApp del
+  è molto poco tecnologico, quindi l'abbiamo messo appositamente» (Davide, 28/10). **Dal 03/11 anche la
+  mail dei Contatti è di Davide** (`davide.liquori12@gmail.com`; Davide, «a» a «sostituisco la mail di
+  Maurizio con la tua»). Sul WhatsApp del
   Mac è la chat «Liquoo 🏹» (`leggi_chat` su `393314385178`), che è quasi tutta lavoro SE2: foto e
   dati di Maurizio ci arrivano solo se Davide li inoltra. Prima di scrivere «da Maurizio niente di
   nuovo» si chiede a Davide se ha ricevuto qualcosa.

@@ -9,7 +9,7 @@ DOMINIO = "https://artemauriziobertino.com"
 # ---------------------------------------------------------------- contatti
 # NOTA: sostituire i segnaposto con i recapiti reali.
 CONTATTI = {
-    "email": "mauriiobertinoartista@gmail.com",   # confermata da Davide: "maurii", non "maurizio"
+    "email": "davide.liquori12@gmail.com",   # di Davide, come il WhatsApp (03/11); quella di Maurizio era mauriiobertinoartista@gmail.com
     "whatsapp": "393314385178",        # numero personale, formato internazionale senza "+"
     "facebook": "https://www.facebook.com/mauriziobertinoartista/",
     "instagram": "https://www.instagram.com/mauriziobertino_arte/",
