@@ -46,7 +46,6 @@ sloggato (7 mi piace al 03/11): copertura e visualizzazioni stanno in Business S
 - [ ] **Reel di prova «Tempi remoti»: cosa ne pensa Maurizio** — fatto il 28/10. Il suo commento sull'opera è arrivato il 29/10: voce riscritta con emozioni ed effetti sonori (voce del 29/10). A Davide piace; il 29/10 l'ha girato a Maurizio e l'1/11 l'ha pubblicato su Instagram su sua richiesta (voce del 03/11). Conta perché la risposta del pubblico è la prova che Maurizio voleva: i numeri si leggono nel consuntivo del 23/11. Restano da chiedergli: il suo parere a voce; se vuole che a voce si dica il sito (sui suoi profili non lo nomina mai, `social/TONO-DI-VOCE.md`); se gli va bene «fermare» nella voce, dove lui ha scritto «rappresentare». Due punti del suo commento non sono nel reel (la stagione di ricerca sul colore puro e la decina di paesaggi): per metterli andrebbe tolta la frase sul muro di fondo.
 - [ ] **Le foto con Maurizio portano più copertura di quelle con la sola opera?** — ipotesi, su 8 post (4 con Maurizio, 4 con la sola opera), finora sempre confermata. Facebook: blocco 1 258 e 182 contro 55 e 49, blocco 2 95 e 137 contro 57 e 85. Instagram: blocco 2 53 e 62 contro 48 e 30 (consuntivo del 28/10). La lettura di Davide (28/10): «Maurizio è un po' un personal brand e, comunque sia, la sua community è fatta ovviamente da persone che lo conoscono direttamente. Quindi magari reagiscono di più quando vedono la figura di Maurizio. Forse Maurizio trasuda anche passione nelle foto, non lo so». Se regge col blocco 3, cambia che foto chiedere a Maurizio: i 7 dipinti del 28/10 sono foto della sola opera.
 - [ ] **Il registro "scheda" funziona quanto quello diretto?** — non misurabile con un solo post diretto. Nel blocco 4 si mettono due post diretti: Davide, 29/10, «1. a» alla proposta «la tengo, e nel blocco 4 metto due post diretti».
-- [ ] **Salvare lo script del controllo dei link nel progetto** — Proposta di Claude, senza risposta al 03/11: il controllo del 28/10 e quello del 03/11 sono stati scritti da capo, perché lo script stava nella scratchpad, che muore con la sessione. Conta perché a ogni check settimanale si rifà lo stesso lavoro e i conteggi non sono confrontabili; salvato in `_backup-wp/`, il check diventa un comando.
 - [ ] **Trasferire il dominio prima della scadenza** — il 22/09 Davide ha detto che il rinnovo automatico di Register.it non è un problema: sulla carta collegata non ci sono mai soldi, quindi i 58,50 € + IVA non partono. Resta il rovescio: se non si trasferisce su Cloudflare entro luglio-agosto 2027, il 15/09/2027 il dominio scade e il sito sparisce dall'indirizzo.
 
 ---
@@ -92,6 +91,11 @@ chi tocca «Contattami» scrive a Davide. Regola nel `CLAUDE.md`, Come lavoriamo
 una (l'esportazione WordPress non si tocca, script e catalogo sì); le regole dei reel passano parola per parola
 in `social/reel/REGOLE.md`; le voci del 28/10 (check) e del 20/10 vanno nell'archivio. Chiusa la questione
 del titolo e delle misure della figura di nativo in pietra leccese, aperta dal 30/08: resta «Senza titolo».
+**Lo script del controllo dei link sta nel progetto.** Nel debrief Davide ha detto «si» alla correzione
+«uno script per un lavoro che il progetto rifà va salvato nel progetto»: lo script di oggi è
+`_backup-wp/controlla-link.py`, provato alla prima esecuzione (17 pagine, 121 risorse, 4 link esterni,
+nessuno non a posto). Dal prossimo check i conteggi sono confrontabili. Regola nel `CLAUDE.md` generale (13)
+e riga nel `CLAUDE.md` del sito, Dove stanno le cose.
 
 ## 29/10 — Il commento di Maurizio su «Tempi remoti»: la voce del reel racconta, con i suoni della scena
 

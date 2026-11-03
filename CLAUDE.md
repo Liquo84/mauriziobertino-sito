@@ -30,7 +30,8 @@ Il sito pubblica con un workflow di Actions (`.github/workflows/pubblica.yml`), 
   ed è quello che si lancia dopo ogni modifica; `aggiungi-opera.py` inserisce una nuova opera
   (anche con più viste, `--viste`); `estrai.py` e `catalogo.py` servirono solo all'importazione
   iniziale e **non vanno rilanciati** (catalogo.py si rifiuta da solo, per non perdere le opere
-  aggiunte dopo).
+  aggiunte dopo). `controlla-link.py` è il controllo dei link del check del lunedì: percorre il sito
+  online e dà pagine, risorse, link esterni e quelli non a posto (`/opt/homebrew/bin/python3 _backup-wp/controlla-link.py`).
 - `social/` — piano editoriale e `genera-social.py`, che costruisce le immagini nei tre formati
   dalle foto del sito. Le immagini prodotte sono in `.gitignore`: si rigenerano con un comando.
   Lo script non si tocca (formato confermato il 01/09): le uscite nuove si aggiungono a `social/uscite.json`.
