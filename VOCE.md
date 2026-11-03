@@ -55,9 +55,10 @@ comprare un pezzo unico. Non sono critici d'arte.
 | I quadri li inventa dal nulla, e vuole che risalti questo; propone «fantasie dipinte» | Maurizio, riferito da Davide il 08/10/2026 |
 | *Mah-to-toh-pa* (2004, china) riprende il ritratto di Mató-Tópe di Karl Bodmer (1834): non è inventato | confronto fatto il 08/10/2026 |
 | Primo premio «Fare Naif Oggi» a Lerici | `sito/biografia.html` |
+| Le opere sono in vendita: «Tutto è in vendita». L'articolo della *Testa di bisonte* la dice invece «della mia collezione privata»: chiesto a Davide il 03/11 | Davide, 03/11/2026 |
 
 **Fatti mancanti (segnaposto in uso):**
-- `[IN VENDITA?]` — quali dipinti sono ancora disponibili: lo sa Maurizio.
+- `[IN VENDITA?]` — resta solo per la *Testa di bisonte* (vedi sopra).
 
 ## Regole speciali del progetto
 - I testi del sito sono concordati con Maurizio: si propongono, lui approva.

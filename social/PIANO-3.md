@@ -22,7 +22,8 @@ sono già uscite, e i dipinti arrivati il 24/10 sono foto della sola opera. L'ip
 Maurizio (8 post, confermata ogni volta) resta ferma finché non arrivano foto nuove di lui al lavoro.
 
 **La chiamata.** `🔗` su tutte e quattro: il bisonte è «della mia collezione privata» (articolo di
-Maurizio), sulla mazza e sui dipinti non sappiamo se sono in vendita.
+Maurizio). Mazza e dipinti sono in vendita (Davide, 03/11: «Tutto è in vendita, lascia il copy così
+com'è»): i post programmati restano come sono.
 
 ---
 
@@ -110,9 +111,8 @@ Cartella `uscite/11-nativi-mazza-testa-in-pietra/`
 Stesso testo, `🔗 Scheda completa: link in bio` →
 `🔗 https://artemauriziobertino.com/articoli/mazza-da-guerra-indiana-con-testa-in-pietra-stone-headed-war-club.html`
 
-**Da confermare con Maurizio:** «Il modello è dei primi del Novecento» viene dalla riga «Epoca:
-Inizi del '900» del suo articolo, letta come l'epoca del modello riprodotto: se vuol dire altro, la
-frase si toglie. Se la mazza è in vendita, si aggiunge `📩 Per info e acquisto: messaggio privato`.
+**Chiuso il 03/11.** «Il modello è dei primi del Novecento» viene dalla riga «Epoca: Inizi del '900»
+del suo articolo. Davide: «Tutto è in vendita, lascia il copy così com'è»: il testo resta questo.
 
 ---
 

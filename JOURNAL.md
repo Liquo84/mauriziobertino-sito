@@ -18,15 +18,15 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 | Sito | Online. **53 opere** (7 dipinti e la *Testa indiano* aggiunti il 28/10), 7 pagine, 9 articoli. In home i quadri si chiamano **«Pittura di fantasia»** («inventati dal nulla») e il paragrafo «Il lavoro» è nuovo: testi approvati da Maurizio l'08/10. Ultimo check dei link: 03/11, 142 indirizzi, nessuno rotto |
 | Indirizzo | https://artemauriziobertino.com/ (HTTPS attivo; il vecchio indirizzo GitHub e `www` rimandano qui) |
 | Pubblicazione | Automatica, si carica senza chiedere se verificato |
-| Social | Instagram `@mauriziobertino_arte` (153 follower, 43 post), Facebook "Spazio Arte Bertino" (166), dati del 03/11. Il reel di prova *Tempi remoti* è uscito su Instagram l'1/11, fuori piano. Dal blocco 3 i quadri sono «pittura di fantasia» anche nei copy |
+| Social | Instagram `@mauriziobertino_arte` (153 follower, 43 post), Facebook "Spazio Arte Bertino" (166), dati del 03/11. Il reel di prova *Tempi remoti* è uscito su Instagram l'1/11, fuori piano: l'ha pubblicato Davide su richiesta di Maurizio. Dal blocco 3 i quadri sono «pittura di fantasia» anche nei copy |
 | Uscite | Blocchi 1 e 2 chiusi (`PIANO.md`, `PIANO-2.md`). **Blocco 3** (`social/PIANO-3.md`) dal 29/10 al 19/11, di giovedì: preparato e approvato il 28/10, programmato da Davide il 29/10 su Business Suite |
-| Consuntivo | Blocco 1 fatto il 29/09, blocco 2 il 28/10 (Instagram e Facebook). Blocco 3 lunedì 23/11 |
+| Consuntivo | Blocco 1 fatto il 29/09, blocco 2 il 28/10 (Instagram e Facebook). Blocco 3 lunedì 23/11, col reel dell'1/11 |
 | Dati da Maurizio | Prime risposte al PDF il 29/09, applicate. Il 24/10 dieci dipinti con titoli e dati (chat inoltrata da Davide il 28/10): sette nuovi, pubblicati il 28/10. Le altre schede incomplete aspettano, più le tre domande nate da «Pittura di fantasia» |
 | Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio `mauriziobertino.com` non è stato rinnovato: dal 27/10 è in «redemption period», libero per chiunque verso il 1/12 |
 | Costo | Zero |
 
 Il sito gira da solo. Il lavoro rimasto dipende da Maurizio (i dati delle altre
-schede, cosa è in vendita, il suo parere sul reel di prova) e dal ritmo dei blocchi social:
+schede, il suo parere sul reel di prova) e dal ritmo dei blocchi social:
 uno ogni quattro settimane, con consuntivo il lunedì prima del blocco nuovo.
 
 **Non contato:** le 53 opere includono ancora **due "Senza titolo"**: la figura
@@ -43,9 +43,10 @@ del cavallo e le due tracce audio del vecchio sito.
 - [ ] **Tre domande rimaste dopo «Pittura di fantasia»** — i testi sono approvati e online (08/10); restano: «inventati dal nulla» vale anche per le nature morte (*Natura morta con vecchi calici*, la foto del riquadro in home, e *Fichi con nido di uccelli*) e per *Lo Sguardo della Tigre*?; *Mah-to-toh-pa*, ripreso da Bodmer, passa fra i Nativi? (finché resta, sotto «Pittura di fantasia» c'è un pezzo non inventato); che tecnica è *Gesta Dimenticate*?
 - [ ] **Titolo e misure della figura di nativo in pietra leccese** — è l'ultima delle quattro opere del 30/08 ancora "Senza titolo" (il 29/09 le altre tre hanno avuto titolo o sono state unite).
 - [ ] **«Questa per la schermata?»** — didascalia di Maurizio del 29/09 sulla foto di lui al cavalletto con *Vite in pericolo*. Probabilmente la vuole in home o come copertina: è un'ipotesi, va chiesto cosa intende.
-- [ ] **Quali opere del catalogo sono in vendita** — le schede di Maurizio finiscono sempre con «Per info e acquisto». Sui dipinti non lo sappiamo, quindi la chiamata all'acquisto per ora è solo sulle riproduzioni.
-- [ ] **Reel di prova «Tempi remoti»: cosa ne pensa Maurizio** — fatto il 28/10. Il suo commento sull'opera è arrivato il 29/10: voce riscritta con emozioni ed effetti sonori (voce del 29/10). A Davide piace, e il 29/10 l'ha girato a Maurizio. L'1/11 è uscito su Instagram con la sola didascalia «“Tempi Remoti”» (7 mi piace al 03/11), non su Facebook: chi l'ha pubblicato e se è il parere di Maurizio, chiesto a Davide il 03/11. Restano da chiedergli: il parere sul reel; se vuole che a voce si dica il sito (sui suoi profili non lo nomina mai, `social/TONO-DI-VOCE.md`); se gli va bene «fermare» nella voce, dove lui ha scritto «rappresentare». Due punti del suo commento non sono nel reel (la stagione di ricerca sul colore puro e la decina di paesaggi): per metterli andrebbe tolta la frase sul muro di fondo.
-- [ ] **Mazza del blocco 3 (post 11, giovedì 12/11): epoca e vendita** — il post è già programmato. Se «Epoca: Inizi del '900» del suo articolo non è l'epoca del modello riprodotto, la frase «Il modello è dei primi del Novecento» va tolta prima del 12/11; se la mazza è in vendita, si aggiunge «📩 Per info e acquisto: messaggio privato». Davide deve correggere il post programmato su Business Suite.
+- [ ] **La chiamata all'acquisto sulle schede del sito** — Davide, 03/11: «Tutto è in vendita». Sul sito «Per info e acquisto» c'è solo sulle riproduzioni; chiesto a Davide il 03/11 se aggiungerla a dipinti e sculture (da far approvare a Maurizio, è un testo del sito) o lasciare il sito com'è.
+- [ ] **La *Testa di bisonte* è in vendita?** — il suo articolo sul sito dice «questo pezzo della mia collezione privata», mentre Davide il 03/11 ha detto «Tutto è in vendita». Conta per i post e per le schede. Chiesto a Davide il 03/11.
+- [ ] **Nei prossimi post i dipinti chiudono con `📩 Per info e acquisto`?** — `social/TONO-DI-VOCE.md` dà `🔗 link in bio` ai dipinti «finché Maurizio non conferma cosa è in vendita». Chiesto a Davide il 03/11 se dal blocco 4 si passa a `📩`.
+- [ ] **Reel di prova «Tempi remoti»: cosa ne pensa Maurizio** — fatto il 28/10. Il suo commento sull'opera è arrivato il 29/10: voce riscritta con emozioni ed effetti sonori (voce del 29/10). A Davide piace, e il 29/10 l'ha girato a Maurizio. L'1/11 Davide l'ha pubblicato su Instagram su richiesta di Maurizio, per vedere come risponde il pubblico (voce del 03/11): i numeri si leggono nel consuntivo del 23/11. Restano da chiedergli: il suo parere a voce; se vuole che a voce si dica il sito (sui suoi profili non lo nomina mai, `social/TONO-DI-VOCE.md`); se gli va bene «fermare» nella voce, dove lui ha scritto «rappresentare». Due punti del suo commento non sono nel reel (la stagione di ricerca sul colore puro e la decina di paesaggi): per metterli andrebbe tolta la frase sul muro di fondo.
 - [ ] **Le foto con Maurizio portano più copertura di quelle con la sola opera?** — ipotesi, su 8 post (4 con Maurizio, 4 con la sola opera), finora sempre confermata. Facebook: blocco 1 258 e 182 contro 55 e 49, blocco 2 95 e 137 contro 57 e 85. Instagram: blocco 2 53 e 62 contro 48 e 30 (consuntivo del 28/10). La lettura di Davide (28/10): «Maurizio è un po' un personal brand e, comunque sia, la sua community è fatta ovviamente da persone che lo conoscono direttamente. Quindi magari reagiscono di più quando vedono la figura di Maurizio. Forse Maurizio trasuda anche passione nelle foto, non lo so». Se regge col blocco 3, cambia che foto chiedere a Maurizio: i 7 dipinti del 28/10 sono foto della sola opera.
 - [ ] **Il registro "scheda" funziona quanto quello diretto?** — non misurabile con un solo post diretto. Nel blocco 4 si mettono due post diretti: Davide, 29/10, «1. a» alla proposta «la tengo, e nel blocco 4 metto due post diretti».
 - [ ] **Trasferire il dominio prima della scadenza** — il 22/09 Davide ha detto che il rinnovo automatico di Register.it non è un problema: sulla carta collegata non ci sono mai soldi, quindi i 58,50 € + IVA non partono. Resta il rovescio: se non si trasferisce su Cloudflare entro luglio-agosto 2027, il 15/09/2027 il dominio scade e il sito sparisce dall'indirizzo.
@@ -64,8 +65,11 @@ Lo script del 28/10 non era stato salvato: rifatto nella scratchpad.
 uscite nuove: il bisonte del 29/10 e un reel dell'1/11 con la sola didascalia «“Tempi Remoti”», 7 mi
 piace, 0 commenti. Il reel non è nel piano del blocco 3. Facebook 166 follower (fermi); in cima il
 bisonte, «giovedì 29 ottobre alle 15:42», 4 reazioni e 1 condivisione: il reel lì non c'è.
-**Da Maurizio.** Nella chat «Liquoo 🏹» dopo il 28/10 solo lavoro SE2. Chi ha pubblicato il reel e se
-Maurizio ha detto qualcosa lo sa solo Davide: chiesto il 03/11.
+**Da Maurizio.** Nella chat «Liquoo 🏹» dopo il 28/10 solo lavoro SE2. Sul reel Davide: «Io su
+richiesta di Maurizio, voleva vedere come il pubblico rispondeva». Il reel entra nel consuntivo del 23/11.
+**Mazza del 12/11 (questione chiusa).** Davide: «Tutto è in vendita, lascia il copy così com'è». Il post
+programmato non cambia: resta la frase «Il modello è dei primi del Novecento» e non si aggiunge «📩 Per
+info e acquisto». «Tutto è in vendita» è nel `CLAUDE.md`, Vincoli; per le schede del sito chiesto a Davide.
 
 ## 29/10 — Il commento di Maurizio su «Tempi remoti»: la voce del reel racconta, con i suoni della scena
 

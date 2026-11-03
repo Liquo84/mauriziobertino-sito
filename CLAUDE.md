@@ -19,6 +19,7 @@ Il sito pubblica con un workflow di Actions (`.github/workflows/pubblica.yml`), 
 - **`_backup-wp/` è archivio storico** dell'esportazione da WordPress: si consulta, non si modifica e non si pubblica.
 - **Niente framework, niente CMS, niente database.** Il valore di questa ricostruzione è che resta un insieme di file.
 - **Le foto originali stanno in un repository privato separato**, non in questo.
+- **Tutte le opere sono in vendita** (Davide, 03/11: «Tutto è in vendita»).
 - **I testi pubblici sono concordati con Maurizio.** Non riscriverli di iniziativa: si propongono le modifiche e si aspetta l'ok.
 - **I titoli delle opere sono di Maurizio.** Non si ribattezzano, non si traducono, non si "puliscono". Se un titolo manca si usa **"Senza titolo"**, convenzione già in uso nel catalogo, mai un titolo inventato. Vale anche per i termini scomodi ("mazza da guerra"): decisione presa il 30/08, non riaprirla.
 
