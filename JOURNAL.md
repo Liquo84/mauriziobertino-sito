@@ -11,14 +11,14 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 
 ---
 
-## Stato al 29/10/2026
+## Stato al 03/11/2026
 
 | | |
 |---|---|
-| Sito | Online. **53 opere** (7 dipinti e la *Testa indiano* aggiunti il 28/10), 7 pagine, 9 articoli. In home i quadri si chiamano **«Pittura di fantasia»** («inventati dal nulla») e il paragrafo «Il lavoro» è nuovo: testi approvati da Maurizio l'08/10. Ultimo check dei link: 28/10, nessuno rotto |
+| Sito | Online. **53 opere** (7 dipinti e la *Testa indiano* aggiunti il 28/10), 7 pagine, 9 articoli. In home i quadri si chiamano **«Pittura di fantasia»** («inventati dal nulla») e il paragrafo «Il lavoro» è nuovo: testi approvati da Maurizio l'08/10. Ultimo check dei link: 03/11, 142 indirizzi, nessuno rotto |
 | Indirizzo | https://artemauriziobertino.com/ (HTTPS attivo; il vecchio indirizzo GitHub e `www` rimandano qui) |
 | Pubblicazione | Automatica, si carica senza chiedere se verificato |
-| Social | Instagram `@mauriziobertino_arte` (153 follower, 41 post), Facebook "Spazio Arte Bertino" (166), dati del 28/10. Dal blocco 3 i quadri sono «pittura di fantasia» anche nei copy |
+| Social | Instagram `@mauriziobertino_arte` (153 follower, 43 post), Facebook "Spazio Arte Bertino" (166), dati del 03/11. Il reel di prova *Tempi remoti* è uscito su Instagram l'1/11, fuori piano. Dal blocco 3 i quadri sono «pittura di fantasia» anche nei copy |
 | Uscite | Blocchi 1 e 2 chiusi (`PIANO.md`, `PIANO-2.md`). **Blocco 3** (`social/PIANO-3.md`) dal 29/10 al 19/11, di giovedì: preparato e approvato il 28/10, programmato da Davide il 29/10 su Business Suite |
 | Consuntivo | Blocco 1 fatto il 29/09, blocco 2 il 28/10 (Instagram e Facebook). Blocco 3 lunedì 23/11 |
 | Dati da Maurizio | Prime risposte al PDF il 29/09, applicate. Il 24/10 dieci dipinti con titoli e dati (chat inoltrata da Davide il 28/10): sette nuovi, pubblicati il 28/10. Le altre schede incomplete aspettano, più le tre domande nate da «Pittura di fantasia» |
@@ -44,13 +44,28 @@ del cavallo e le due tracce audio del vecchio sito.
 - [ ] **Titolo e misure della figura di nativo in pietra leccese** — è l'ultima delle quattro opere del 30/08 ancora "Senza titolo" (il 29/09 le altre tre hanno avuto titolo o sono state unite).
 - [ ] **«Questa per la schermata?»** — didascalia di Maurizio del 29/09 sulla foto di lui al cavalletto con *Vite in pericolo*. Probabilmente la vuole in home o come copertina: è un'ipotesi, va chiesto cosa intende.
 - [ ] **Quali opere del catalogo sono in vendita** — le schede di Maurizio finiscono sempre con «Per info e acquisto». Sui dipinti non lo sappiamo, quindi la chiamata all'acquisto per ora è solo sulle riproduzioni.
-- [ ] **Reel di prova «Tempi remoti»: cosa ne pensa Maurizio** — fatto il 28/10. Il suo commento sull'opera è arrivato il 29/10: voce riscritta con emozioni ed effetti sonori (voce del 29/10). A Davide piace, e il 29/10 l'ha girato a Maurizio. Restano da chiedergli: il parere sul reel; se vuole che a voce si dica il sito (sui suoi profili non lo nomina mai, `social/TONO-DI-VOCE.md`); se gli va bene «fermare» nella voce, dove lui ha scritto «rappresentare». Due punti del suo commento non sono nel reel (la stagione di ricerca sul colore puro e la decina di paesaggi): per metterli andrebbe tolta la frase sul muro di fondo.
+- [ ] **Reel di prova «Tempi remoti»: cosa ne pensa Maurizio** — fatto il 28/10. Il suo commento sull'opera è arrivato il 29/10: voce riscritta con emozioni ed effetti sonori (voce del 29/10). A Davide piace, e il 29/10 l'ha girato a Maurizio. L'1/11 è uscito su Instagram con la sola didascalia «“Tempi Remoti”» (7 mi piace al 03/11), non su Facebook: chi l'ha pubblicato e se è il parere di Maurizio, chiesto a Davide il 03/11. Restano da chiedergli: il parere sul reel; se vuole che a voce si dica il sito (sui suoi profili non lo nomina mai, `social/TONO-DI-VOCE.md`); se gli va bene «fermare» nella voce, dove lui ha scritto «rappresentare». Due punti del suo commento non sono nel reel (la stagione di ricerca sul colore puro e la decina di paesaggi): per metterli andrebbe tolta la frase sul muro di fondo.
 - [ ] **Mazza del blocco 3 (post 11, giovedì 12/11): epoca e vendita** — il post è già programmato. Se «Epoca: Inizi del '900» del suo articolo non è l'epoca del modello riprodotto, la frase «Il modello è dei primi del Novecento» va tolta prima del 12/11; se la mazza è in vendita, si aggiunge «📩 Per info e acquisto: messaggio privato». Davide deve correggere il post programmato su Business Suite.
 - [ ] **Le foto con Maurizio portano più copertura di quelle con la sola opera?** — ipotesi, su 8 post (4 con Maurizio, 4 con la sola opera), finora sempre confermata. Facebook: blocco 1 258 e 182 contro 55 e 49, blocco 2 95 e 137 contro 57 e 85. Instagram: blocco 2 53 e 62 contro 48 e 30 (consuntivo del 28/10). La lettura di Davide (28/10): «Maurizio è un po' un personal brand e, comunque sia, la sua community è fatta ovviamente da persone che lo conoscono direttamente. Quindi magari reagiscono di più quando vedono la figura di Maurizio. Forse Maurizio trasuda anche passione nelle foto, non lo so». Se regge col blocco 3, cambia che foto chiedere a Maurizio: i 7 dipinti del 28/10 sono foto della sola opera.
 - [ ] **Il registro "scheda" funziona quanto quello diretto?** — non misurabile con un solo post diretto. Nel blocco 4 si mettono due post diretti: Davide, 29/10, «1. a» alla proposta «la tengo, e nel blocco 4 metto due post diretti».
 - [ ] **Trasferire il dominio prima della scadenza** — il 22/09 Davide ha detto che il rinnovo automatico di Register.it non è un problema: sulla carta collegata non ci sono mai soldi, quindi i 58,50 € + IVA non partono. Resta il rovescio: se non si trasferisce su Cloudflare entro luglio-agosto 2027, il 15/09/2027 il dominio scade e il sito sparisce dall'indirizzo.
 
 ---
+
+## 03/11 — Check del lunedì saltato, rifatto il martedì: il reel di prova è uscito su Instagram
+
+**Cosa.** Il check di lunedì 02/11 (evento settimanale delle 17:00 in calendario) è saltato, Davide:
+«ieri ho saltato una sessione di Maurizio. La riprendiamo oggi?». Sito: ultimo workflow verde il
+29/10 (solo file del diario), certificato valido fino al 16/12, `http`, `www` e il vecchio indirizzo
+GitHub rimandano con un 301. 142 indirizzi controllati (17 pagine, 121 risorse, 4 link esterni),
+nessuno rotto: le 8 risorse in più del 28/10 sono le foto delle opere aggiunte quel giorno dopo il check.
+Lo script del 28/10 non era stato salvato: rifatto nella scratchpad.
+**Social, da sloggato (alle 09:44).** Instagram 43 post (41 il 28/10), follower 153 (fermi). Le due
+uscite nuove: il bisonte del 29/10 e un reel dell'1/11 con la sola didascalia «“Tempi Remoti”», 7 mi
+piace, 0 commenti. Il reel non è nel piano del blocco 3. Facebook 166 follower (fermi); in cima il
+bisonte, «giovedì 29 ottobre alle 15:42», 4 reazioni e 1 condivisione: il reel lì non c'è.
+**Da Maurizio.** Nella chat «Liquoo 🏹» dopo il 28/10 solo lavoro SE2. Chi ha pubblicato il reel e se
+Maurizio ha detto qualcosa lo sa solo Davide: chiesto il 03/11.
 
 ## 29/10 — Il commento di Maurizio su «Tempi remoti»: la voce del reel racconta, con i suoni della scena
 
@@ -113,7 +128,8 @@ ferma finché non ne arrivano di nuove.
 all'articolo; i quadri `opere.html`.
 **Correzione mia.** Nella descrizione del *Paesaggio contadino* per il copywriter avevo scritto
 «masseria»: l'edificio può essere anche una chiesa di campagna (torre, portone ad arco). Nel testo è
-diventato «una casa bianca col tetto rosso», e l'hashtag #masseria è tolto.
+diventato «una casa bianca col tetto rosso», e l'hashtag #masseria è tolto. Regola in `CLAUDE.md`,
+Come lavoriamo qui (oggetti nella regia al copywriter), spostata il 03/11.
 **Esito, stesso giorno.** Davide: «Approvo, mettimi promemoria sul programmare i post». Promemoria
 Apple per oggi alle 18:00 (lista «Reminders»); i quattro post li programma lui su Business Suite.
 **Esito, 29/10.** Didascalie ridate in chat, Davide: «Perfetto, programmati». Il promemoria Apple
@@ -137,6 +153,8 @@ Maurizio. Anno non scritto: sulla firma si legge male.
 **Consuntivo del blocco 2, Facebook** (due screenshot di Insight → Contenuti, in `social/`): Vite in
 pericolo 57 di copertura, Mazza 95, Orologio 85, Gufo 137 (interazioni 4, 9, 14, 19). Con Maurizio
 95 e 137, con la sola opera 57 e 85: l'ipotesi regge anche qui. Le storie Facebook segnano sempre 0.
+**Esito (scritto il 03/11).** Il finale col logo è rimasto nel reel rifatto il 29/10 (`gen_reel.py`),
+quello che Davide ha girato a Maurizio; la *Testa indiano* è online (letto il 03/11).
 
 ## 28/10 — Sette dipinti nuovi sul sito e reel di prova con voce da documentario
 
@@ -162,10 +180,13 @@ Crediti dell'account al 28/10: 45.356 usati su 130.578 (la voce ne ha presi circ
 verticale pieno è una striscia alta, e per staccare un particolare bisognerebbe ingrandire oltre 2×.
 Nella finestra 9:8, dentro i margini della guida Meta ai Reels, il particolare si stacca a circa 1,7×.
 **Correzione mia.** Nella regia al copywriter avevo descritto «noci o castagne» sulla tavola: sono
-piccoli frutti rossi. Il testo non li nomina, quindi la voce non cambia.
+piccoli frutti rossi (il 29/10 Maurizio: pomodori). Il testo non li nomina, quindi la voce non cambia.
+Regola in `CLAUDE.md`, Come lavoriamo qui (oggetti nella regia al copywriter), spostata il 03/11.
 **Nota tecnica.** La ricerca della chiave ElevenLabs nel Portachiavi è stata bloccata dal
 classificatore (Credential Exploration); `eleven.py` la legge come `bot/voce.py` di Diamond,
 servizio `diamond-elevenlabs`, senza stamparla.
+**Esito (scritto il 03/11).** I sette dipinti sono nel catalogo e online (letto il 03/11); il reel di
+prova è stato rifatto il 29/10 col commento di Maurizio (voce del 29/10), il suo parere manca.
 
 ## 28/10 — Check del lunedì saltato, rifatto il mercoledì: blocco 2 uscito per intero
 

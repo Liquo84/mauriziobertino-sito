@@ -79,6 +79,9 @@ Il sito pubblica con un workflow di Actions (`.github/workflows/pubblica.yml`), 
   qualsiasi testo social si legge `social/TONO-DI-VOCE.md` (prima persona, storia, chiusura con
   un numero, blocco `📐` e `📩 Per info e acquisto`). Mai didascalie da museo in terza persona.
   Regola del 01/09.
+- **Nella regia al copywriter (post, reel) un oggetto della foto si nomina solo se si riconosce di sicuro**;
+  nel dubbio si descrive per forma e colore. 28/10, due volte: «masseria» per un edificio che può essere
+  una chiesa di campagna, «noci o castagne» per quelli che Maurizio chiama pomodori.
 - **Restano da confermare volta per volta**, e non si fanno mai di iniziativa: cancellare
   contenuti, toccare il dominio, scrivere a Maurizio, pubblicare sui social a suo nome.
 - **Sui social non si pubblica mai da qui.** Claude prepara immagini e didascalie, Davide le approva
