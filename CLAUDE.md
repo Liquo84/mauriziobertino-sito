@@ -16,7 +16,6 @@ Il sito pubblica con un workflow di Actions (`.github/workflows/pubblica.yml`), 
 
 ## Vincoli e regole
 - **Si pubblica solo la cartella `sito/`.** Il resto della cartella non va online.
-- **`_backup-wp/` è archivio storico** dell'esportazione da WordPress: si consulta, non si modifica e non si pubblica.
 - **Niente framework, niente CMS, niente database.** Il valore di questa ricostruzione è che resta un insieme di file.
 - **Le foto originali stanno in un repository privato separato**, non in questo.
 - **Tutte le opere sono in vendita** (Davide, 03/11: «Tutto è in vendita»).
@@ -26,7 +25,8 @@ Il sito pubblica con un workflow di Actions (`.github/workflows/pubblica.yml`), 
 ## Dove stanno le cose
 - `sito/` — il sito vero e proprio (home, opere, tecnica, nativi, diario, contatti, 404, articoli, assets, img).
 - `immagini/` — immagini di lavorazione, fuori dal sito pubblicato.
-- `_backup-wp/` — esportazione WordPress e script. `genera.py` costruisce il sito da `_catalogo.json`
+- `_backup-wp/` — **l'esportazione WordPress è archivio storico: si consulta, non si modifica e non si
+  pubblica**; gli script e il catalogo invece si modificano. `genera.py` costruisce il sito da `_catalogo.json`
   ed è quello che si lancia dopo ogni modifica; `aggiungi-opera.py` inserisce una nuova opera
   (anche con più viste, `--viste`); `estrai.py` e `catalogo.py` servirono solo all'importazione
   iniziale e **non vanno rilanciati** (catalogo.py si rifiuta da solo, per non perdere le opere
@@ -34,22 +34,13 @@ Il sito pubblica con un workflow di Actions (`.github/workflows/pubblica.yml`), 
 - `social/` — piano editoriale e `genera-social.py`, che costruisce le immagini nei tre formati
   dalle foto del sito. Le immagini prodotte sono in `.gitignore`: si rigenerano con un comando.
   Lo script non si tocca (formato confermato il 01/09): le uscite nuove si aggiungono a `social/uscite.json`.
-- `social/reel/` — reel «tipo Superquark» (voce da documentario sui particolari di un dipinto):
-  `gen_reel.py` più una cartella per opera con `opera.py` (testo, inquadrature, voce, suoni). Voce, musica
-  ed effetti sonori da ElevenLabs (`eleven.py`, con la cache delle frasi già pagate). **La voce racconta
-  anche le emozioni, e sotto ci sono i suoni della scena** (Davide, 29/10: «oltre che descrivere mi
-  piacerebbe molto raccontare anche le emozioni, anche mettere qualche effetto audio per aiutare
-  l'immersione (crepitio del fuoco, bambino che ride ecc...)»): le emozioni vengono dal commento di
-  Maurizio sull'opera o da gesti che si vedono nel quadro, i suoni solo da cose che ci sono nel quadro.
-  La musica si genera lunga quanto il reel, perché in loop riparte da capo. Video e audio sono fuori da git:
-  il repository è pubblico. **Il reel finisce con una dissolvenza sul logo di Maurizio**, su fondo
-  chiaro (Davide, 28/10: «alla fine: transizione e farei vedere il logo»). Musica di ElevenLabs anche
-  sulla pagina di Maurizio: «Ovviamente, il piano va bene anche per Maurizio» (Davide, 28/10).
+- `social/reel/` — reel «tipo Superquark» (voce da documentario sui particolari di un dipinto).
+  **Prima di fare o rifare un reel si legge `social/reel/REGOLE.md`**: generatore, voce, suoni, musica, finale.
 - `immagini/chat-maurizio/` — screenshot della chat in cui Maurizio dà titoli e dati delle opere
   (stanno negli originali, repository privato).
 - `LEGGIMI.md` — guida per Maurizio.
 - `ANTEPRIMA.md` — i passi per vedere il sito in anteprima prima di caricare una modifica.
-- `JOURNAL.md` — diario di lavoro; le voci fino all'08/10/2026 stanno in `JOURNAL-archivio-2026.md`.
+- `JOURNAL.md` — diario di lavoro; le voci fino al check del 28/10/2026 stanno in `JOURNAL-archivio-2026.md`.
 - **File nuovi:** Le foto nuove di un'opera vanno in `immagini/` con un nome che dice l'opera (`cavallo-rampante-fronte.jpg`). Se non è ancora chiaro a quale opera appartengono, passano da `immagini/da-catalogare/`. Quelle mandate su WhatsApp si rinominano quando entrano. I nomi `img_…` di WordPress restano come sono. I documenti del sito vanno in `documenti/` come `AAAA-MM-GG <tipo> <fornitore> <numero>.pdf`.
 
 ## Come lavoriamo qui

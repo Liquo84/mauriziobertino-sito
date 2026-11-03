@@ -42,7 +42,6 @@ sloggato (7 mi piace al 03/11): copertura e visualizzazioni stanno in Business S
 ## Questioni aperte
 
 - [ ] **Tre domande rimaste dopo «Pittura di fantasia»** — i testi sono approvati e online (08/10); restano: «inventati dal nulla» vale anche per le nature morte (*Natura morta con vecchi calici*, la foto del riquadro in home, e *Fichi con nido di uccelli*) e per *Lo Sguardo della Tigre*?; *Mah-to-toh-pa*, ripreso da Bodmer, passa fra i Nativi? (finché resta, sotto «Pittura di fantasia» c'è un pezzo non inventato); che tecnica è *Gesta Dimenticate*?
-- [ ] **Titolo e misure della figura di nativo in pietra leccese** — è l'ultima delle quattro opere del 30/08 ancora "Senza titolo" (il 29/09 le altre tre hanno avuto titolo o sono state unite).
 - [ ] **«Questa per la schermata?»** — didascalia di Maurizio del 29/09 sulla foto di lui al cavalletto con *Vite in pericolo*. Probabilmente la vuole in home o come copertina: è un'ipotesi, va chiesto cosa intende.
 - [ ] **Reel di prova «Tempi remoti»: cosa ne pensa Maurizio** — fatto il 28/10. Il suo commento sull'opera è arrivato il 29/10: voce riscritta con emozioni ed effetti sonori (voce del 29/10). A Davide piace; il 29/10 l'ha girato a Maurizio e l'1/11 l'ha pubblicato su Instagram su sua richiesta (voce del 03/11). Conta perché la risposta del pubblico è la prova che Maurizio voleva: i numeri si leggono nel consuntivo del 23/11. Restano da chiedergli: il suo parere a voce; se vuole che a voce si dica il sito (sui suoi profili non lo nomina mai, `social/TONO-DI-VOCE.md`); se gli va bene «fermare» nella voce, dove lui ha scritto «rappresentare». Due punti del suo commento non sono nel reel (la stagione di ricerca sul colore puro e la decina di paesaggi): per metterli andrebbe tolta la frase sul muro di fondo.
 - [ ] **Le foto con Maurizio portano più copertura di quelle con la sola opera?** — ipotesi, su 8 post (4 con Maurizio, 4 con la sola opera), finora sempre confermata. Facebook: blocco 1 258 e 182 contro 55 e 49, blocco 2 95 e 137 contro 57 e 85. Instagram: blocco 2 53 e 62 contro 48 e 30 (consuntivo del 28/10). La lettura di Davide (28/10): «Maurizio è un po' un personal brand e, comunque sia, la sua community è fatta ovviamente da persone che lo conoscono direttamente. Quindi magari reagiscono di più quando vedono la figura di Maurizio. Forse Maurizio trasuda anche passione nelle foto, non lo so». Se regge col blocco 3, cambia che foto chiedere a Maurizio: i 7 dipinti del 28/10 sono foto della sola opera.
@@ -89,6 +88,10 @@ Verificato in anteprima su tutte le 53 opere a 1280×800 e 375×812, niente fuor
 alla domanda «sostituisco la mail di Maurizio (`mauriiobertinoartista@gmail.com`) con la tua,
 `davide.liquori12@gmail.com`, o le metto tutte e due?». Cambiata in `genera.py`, come il WhatsApp:
 chi tocca «Contattami» scrive a Davide. Regola nel `CLAUDE.md`, Come lavoriamo qui.
+**Manutenzione del 03/11** (Davide: «1. a 2. a 3. a 4. b»). Nel `CLAUDE.md` le due righe su `_backup-wp/` diventano
+una (l'esportazione WordPress non si tocca, script e catalogo sì); le regole dei reel passano parola per parola
+in `social/reel/REGOLE.md`; le voci del 28/10 (check) e del 20/10 vanno nell'archivio. Chiusa la questione
+del titolo e delle misure della figura di nativo in pietra leccese, aperta dal 30/08: resta «Senza titolo».
 
 ## 29/10 — Il commento di Maurizio su «Tempi remoti»: la voce del reel racconta, con i suoni della scena
 
@@ -211,68 +214,4 @@ servizio `diamond-elevenlabs`, senza stamparla.
 **Esito (scritto il 03/11).** I sette dipinti sono nel catalogo e online (letto il 03/11); il reel di
 prova è stato rifatto il 29/10 col commento di Maurizio (voce del 29/10), il suo parere manca.
 
-## 28/10 — Check del lunedì saltato, rifatto il mercoledì: blocco 2 uscito per intero
-
-**Cosa.** Il check e il consuntivo di lunedì 26/10 sono saltati (Davide: «lunedì pomeriggio ho
-saltato una sessione di lavoro per Maurizio»), ripresi oggi. Sito: nessuna modifica al sito
-dall'08/10 (gli ultimi push del 27/10 toccano solo CLAUDE.md e journal, workflow verdi), certificato
-valido fino al 16/12, `http`, `www` e il vecchio indirizzo GitHub rimandano con un 301. 134
-indirizzi controllati (17 pagine, 113 risorse, 4 link esterni), nessuno rotto. Lo script del
-controllo è nuovo, quindi il confronto con i 135 del 20/10 non dice niente.
-**Social, da sloggato (dalle 09:44).** Instagram 41 post (40 il 20/10): è uscito anche il gufo del
-22/10, quindi il blocco 2 è partito per intero. Follower: 153 Instagram (fermi), 166 Facebook (164
-il 20/10). In cima a Facebook il gufo, «6 giorni fa»: 17 reazioni, 1 commento, 1 condivisione
-(l'orologio di Ercole al 20/10 ne aveva 11).
-**Il numero WhatsApp del sito.** Il 331 438 5178, che `CLAUDE.md` chiamava «la chat di Maurizio»,
-è salvato nella rubrica come «Liquoo 🏹». Davide: «il numero è il mio, ma va bene così perché
-Maurizio è molto poco tecnologico, quindi l'abbiamo messo appositamente». Regola riscritta in
-`CLAUDE.md`, Come lavoriamo qui: i dati di Maurizio arrivano qui solo se Davide li inoltra.
-**Consuntivo del blocco 2, Instagram** (export CSV di Meta, dati al 27/10, in `social/`):
-
-| Uscita | Foto | IG copertura | IG visualizzazioni | Mi piace |
-|---|---|---|---|---|
-| 01/10 Vite in pericolo | solo l'opera | 48 | 80 | 10 |
-| 08/10 Mazza da guerra | Maurizio al banco | 53 | 102 | 10 |
-| 15/10 Orologio di Ercole | solo l'opera | 30 | 59 | 4 |
-| 22/10 Gufo in terracotta | Maurizio col gufo | 62 | 107 | 10 |
-
-Il gufo è il migliore pur essendo uscito per ultimo (5 giorni di dati) ed è l'unico con follower
-nuovi (2). Storie: 30-36 di copertura, 41-53 visualizzazioni, in linea col blocco 1. Account
-Instagram nel periodo 30/09-27/10: copertura 107 (−9,3 %), interazioni 66 (−27,5 %), 2 follow e 2
-persone che hanno smesso di seguire. **Facebook:** l'export per post è uscito vuoto (solo
-intestazione, messo nel Cestino), quindi le coperture dei quattro post mancano. Pagina nel periodo:
-744 visualizzazioni (−29,9 %), 55 interazioni (−32,9 %), 31 visite (+82,4 %), 2 follow.
-**Cosa se ne ricava.** Su Instagram l'ipotesi del 29/09 regge: le due foto con Maurizio battono le
-due con la sola opera (53 e 62 contro 48 e 30). Restano 8 casi in tutto, e su Facebook, dove la
-differenza era nata, il blocco 2 non si può confrontare.
-**Nota tecnica.** ffmpeg ora è installato (`/opt/homebrew/bin/ffmpeg`, 9.0.2): la questione aperta
-«ffmpeg, solo se si vorranno i video» non vale più ed è tolta. I Reel dal catalogo si possono fare.
-**Facebook, secondo export (28/10).** Il secondo CSV di Facebook ha solo le colonne dei video
-(visualizzazioni da 3 secondi e da 1 minuto), tutte a 0 perché i post sono foto: niente copertura.
-Messo nel Cestino.
-**Da fare.** Le coperture per post di Facebook (screenshot di Insight → Contenuti), il blocco 3.
-Dopo il 30/10 il registro del vecchio dominio. **Esito (28/10):** coperture arrivate e consuntivo
-fatto, blocco 3 preparato e approvato, vecchio dominio letto in anticipo: non rinnovato (voci sopra).
-
-## 20/10 — Check: sito sano, blocco 2 in corsa, da Maurizio niente di nuovo
-
-**Cosa.** Check settimanale fatto il martedì (Davide: «ieri dovevo fare un check»). Sito: ultimo
-workflow verde l'08/10 e nessuna modifica da allora; certificato valido fino al 16/12; `http`,
-`www` e il vecchio indirizzo GitHub rimandano con un 301. 135 indirizzi controllati (17 pagine,
-114 risorse, 4 link esterni), nessuno rotto: uno in meno del 29/09.
-**Il vecchio dominio.** Uguale al 29/09: scadenza 15/09/2027, ultima modifica 16/09, registrar
-Automattic, stato solo `client transfer prohibited`, la pagina risponde 410. Il controllo che
-decide resta quello dopo il 30/10.
-**Social, da sloggato.** Instagram 40 post (37 il 29/09): sono partite le uscite del 1/10, 8/10 e
-15/10. Follower fermi: 153 Instagram, 164 Facebook. In cima a Facebook c'è l'orologio di Ercole,
-«4 giorni fa», 11 reazioni, 2 commenti, 1 condivisione. Manca il gufo di giovedì 22/10.
-**Da Maurizio.** Nella sua chat (331 438 5178) dopo l'08/10 solo messaggi di lavoro SE2: nessun
-dato sulle schede e nessuna risposta alle tre domande di «Pittura di fantasia».
-**Nota tecnica.** Cercata per nome la chat non esce: si legge col numero. Regola in CLAUDE.md,
-Come lavoriamo qui.
-**Da fare.** Lunedì 26/10 check e consuntivo del blocco 2 con gli screenshot di Meta, poi il
-blocco 3 entro giovedì 29/10. Dopo il 30/10 il registro del vecchio dominio.
-**Esito (28/10).** Il check e il consuntivo del 26/10 sono saltati; il check è stato rifatto il
-28/10 (voce sopra), il consuntivo aspetta gli screenshot di Meta.
-
-Le voci dall'08/10/2026 in giù sono in `JOURNAL-archivio-2026.md`.
+Le voci dal 28/10/2026 (check del lunedì) in giù sono in `JOURNAL-archivio-2026.md`.

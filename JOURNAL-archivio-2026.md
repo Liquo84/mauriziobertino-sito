@@ -1,11 +1,75 @@
 # JOURNAL — Sito Maurizio Bertino — archivio 2026
 
-Lezioni controllate contro il CLAUDE.md il 08/10/2026 e il 29/10/2026.
+Lezioni controllate contro il CLAUDE.md il 08/10/2026, il 29/10/2026 e il 03/11/2026.
 
 Voci spostate intatte dal `JOURNAL.md`: nella manutenzione dell'08/10/2026 (chiesta da Davide) quelle
-dal 17/09 all'avvio di agosto, in quella del 29/10/2026 quelle dall'08/10 al 22/09. Le voci recenti, lo Stato e le questioni aperte stanno nel `JOURNAL.md`.
+dal 17/09 all'avvio di agosto, in quella del 29/10/2026 quelle dall'08/10 al 22/09, in quella del 03/11/2026 il check del 28/10 e quello del 20/10. Le voci recenti, lo Stato e le questioni aperte stanno nel `JOURNAL.md`.
 
 ---
+
+## 28/10 — Check del lunedì saltato, rifatto il mercoledì: blocco 2 uscito per intero
+
+**Cosa.** Il check e il consuntivo di lunedì 26/10 sono saltati (Davide: «lunedì pomeriggio ho
+saltato una sessione di lavoro per Maurizio»), ripresi oggi. Sito: nessuna modifica al sito
+dall'08/10 (gli ultimi push del 27/10 toccano solo CLAUDE.md e journal, workflow verdi), certificato
+valido fino al 16/12, `http`, `www` e il vecchio indirizzo GitHub rimandano con un 301. 134
+indirizzi controllati (17 pagine, 113 risorse, 4 link esterni), nessuno rotto. Lo script del
+controllo è nuovo, quindi il confronto con i 135 del 20/10 non dice niente.
+**Social, da sloggato (dalle 09:44).** Instagram 41 post (40 il 20/10): è uscito anche il gufo del
+22/10, quindi il blocco 2 è partito per intero. Follower: 153 Instagram (fermi), 166 Facebook (164
+il 20/10). In cima a Facebook il gufo, «6 giorni fa»: 17 reazioni, 1 commento, 1 condivisione
+(l'orologio di Ercole al 20/10 ne aveva 11).
+**Il numero WhatsApp del sito.** Il 331 438 5178, che `CLAUDE.md` chiamava «la chat di Maurizio»,
+è salvato nella rubrica come «Liquoo 🏹». Davide: «il numero è il mio, ma va bene così perché
+Maurizio è molto poco tecnologico, quindi l'abbiamo messo appositamente». Regola riscritta in
+`CLAUDE.md`, Come lavoriamo qui: i dati di Maurizio arrivano qui solo se Davide li inoltra.
+**Consuntivo del blocco 2, Instagram** (export CSV di Meta, dati al 27/10, in `social/`):
+
+| Uscita | Foto | IG copertura | IG visualizzazioni | Mi piace |
+|---|---|---|---|---|
+| 01/10 Vite in pericolo | solo l'opera | 48 | 80 | 10 |
+| 08/10 Mazza da guerra | Maurizio al banco | 53 | 102 | 10 |
+| 15/10 Orologio di Ercole | solo l'opera | 30 | 59 | 4 |
+| 22/10 Gufo in terracotta | Maurizio col gufo | 62 | 107 | 10 |
+
+Il gufo è il migliore pur essendo uscito per ultimo (5 giorni di dati) ed è l'unico con follower
+nuovi (2). Storie: 30-36 di copertura, 41-53 visualizzazioni, in linea col blocco 1. Account
+Instagram nel periodo 30/09-27/10: copertura 107 (−9,3 %), interazioni 66 (−27,5 %), 2 follow e 2
+persone che hanno smesso di seguire. **Facebook:** l'export per post è uscito vuoto (solo
+intestazione, messo nel Cestino), quindi le coperture dei quattro post mancano. Pagina nel periodo:
+744 visualizzazioni (−29,9 %), 55 interazioni (−32,9 %), 31 visite (+82,4 %), 2 follow.
+**Cosa se ne ricava.** Su Instagram l'ipotesi del 29/09 regge: le due foto con Maurizio battono le
+due con la sola opera (53 e 62 contro 48 e 30). Restano 8 casi in tutto, e su Facebook, dove la
+differenza era nata, il blocco 2 non si può confrontare.
+**Nota tecnica.** ffmpeg ora è installato (`/opt/homebrew/bin/ffmpeg`, 9.0.2): la questione aperta
+«ffmpeg, solo se si vorranno i video» non vale più ed è tolta. I Reel dal catalogo si possono fare.
+**Facebook, secondo export (28/10).** Il secondo CSV di Facebook ha solo le colonne dei video
+(visualizzazioni da 3 secondi e da 1 minuto), tutte a 0 perché i post sono foto: niente copertura.
+Messo nel Cestino.
+**Da fare.** Le coperture per post di Facebook (screenshot di Insight → Contenuti), il blocco 3.
+Dopo il 30/10 il registro del vecchio dominio. **Esito (28/10):** coperture arrivate e consuntivo
+fatto, blocco 3 preparato e approvato, vecchio dominio letto in anticipo: non rinnovato (voci sopra).
+
+## 20/10 — Check: sito sano, blocco 2 in corsa, da Maurizio niente di nuovo
+
+**Cosa.** Check settimanale fatto il martedì (Davide: «ieri dovevo fare un check»). Sito: ultimo
+workflow verde l'08/10 e nessuna modifica da allora; certificato valido fino al 16/12; `http`,
+`www` e il vecchio indirizzo GitHub rimandano con un 301. 135 indirizzi controllati (17 pagine,
+114 risorse, 4 link esterni), nessuno rotto: uno in meno del 29/09.
+**Il vecchio dominio.** Uguale al 29/09: scadenza 15/09/2027, ultima modifica 16/09, registrar
+Automattic, stato solo `client transfer prohibited`, la pagina risponde 410. Il controllo che
+decide resta quello dopo il 30/10.
+**Social, da sloggato.** Instagram 40 post (37 il 29/09): sono partite le uscite del 1/10, 8/10 e
+15/10. Follower fermi: 153 Instagram, 164 Facebook. In cima a Facebook c'è l'orologio di Ercole,
+«4 giorni fa», 11 reazioni, 2 commenti, 1 condivisione. Manca il gufo di giovedì 22/10.
+**Da Maurizio.** Nella sua chat (331 438 5178) dopo l'08/10 solo messaggi di lavoro SE2: nessun
+dato sulle schede e nessuna risposta alle tre domande di «Pittura di fantasia».
+**Nota tecnica.** Cercata per nome la chat non esce: si legge col numero. Regola in CLAUDE.md,
+Come lavoriamo qui.
+**Da fare.** Lunedì 26/10 check e consuntivo del blocco 2 con gli screenshot di Meta, poi il
+blocco 3 entro giovedì 29/10. Dopo il 30/10 il registro del vecchio dominio.
+**Esito (28/10).** Il check e il consuntivo del 26/10 sono saltati; il check è stato rifatto il
+28/10 (voce sopra), il consuntivo aspetta gli screenshot di Meta.
 
 ## 08/10 — I quadri diventano «Pittura di fantasia», non «fantasie dipinte»
 
