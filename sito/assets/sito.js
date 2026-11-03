@@ -68,6 +68,8 @@
 
   var imgLente = lente.querySelector("img");
   var didascalia = lente.querySelector("figcaption");
+  // sotto ogni opera, l'invito all'acquisto porta alla pagina dei contatti
+  var contatti = (document.querySelector('a[href$="contatti.html"]') || {}).href;
   var visibili = [];
   var indice = 0;
 
@@ -117,6 +119,16 @@
       riga = (riga ? riga + " · " : "") + "vista " + v.n + " di " + v.totale;
     }
     if (riga) didascalia.appendChild(document.createTextNode(riga));
+    if (contatti) {
+      var invito = document.createElement("span");
+      invito.className = "invito";
+      invito.appendChild(document.createTextNode("Sei interessato all’acquisto? "));
+      var link = document.createElement("a");
+      link.href = contatti;
+      link.textContent = "Contattami";
+      invito.appendChild(link);
+      didascalia.appendChild(invito);
+    }
     // precarica le adiacenti
     [1, -1].forEach(function (off) {
       var a = visibili[(indice + off + visibili.length) % visibili.length];
