@@ -72,6 +72,11 @@ preparazione blocco 4», 23/11 17:00-18:00, con le domande del blocco 3 e le due
 **Messaggio per Maurizio.** Preparato e mostrato a Davide per intero: aggiornamento sul sito e sulle uscite,
 più le domande delle questioni aperte (tre di «Pittura di fantasia», «Questa per la schermata?», il parere sul reel).
 Lo manda Davide.
+**Le risposte di Davide.** Su «inventati dal nulla» vale anche per le nature morte e per *Lo Sguardo della
+Tigre*: «SI». Sono già sotto «Pittura di fantasia», sul sito non cambia niente. Sul reel: «questo glielo
+chiedo». Su «Questa per la schermata?»: «Ok immagino sia quello che mi ha chiesto», cioè la foto di lui che
+dipinge in home (questione aperta). Su *Mah-to-toh-pa* e *Gesta Dimenticate* «Scusa?»: spiegate in chat,
+messaggio rifatto con la sola domanda sulla tecnica di *Gesta Dimenticate* più quelle sul reel.
 
 ---
 
