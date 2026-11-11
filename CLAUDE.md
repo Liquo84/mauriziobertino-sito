@@ -41,7 +41,7 @@ Il sito pubblica con un workflow di Actions (`.github/workflows/pubblica.yml`), 
   (stanno negli originali, repository privato).
 - `LEGGIMI.md` — guida per Maurizio.
 - `ANTEPRIMA.md` — i passi per vedere il sito in anteprima prima di caricare una modifica.
-- `JOURNAL.md` — diario di lavoro; le voci fino al check del 28/10/2026 stanno in `JOURNAL-archivio-2026.md`.
+- `JOURNAL.md` — diario di lavoro; le voci fino al 28/10/2026 (tutte) stanno in `JOURNAL-archivio-2026.md`.
 - **File nuovi:** Le foto nuove di un'opera vanno in `immagini/` con un nome che dice l'opera (`cavallo-rampante-fronte.jpg`). Se non è ancora chiaro a quale opera appartengono, passano da `immagini/da-catalogare/`. Quelle mandate su WhatsApp si rinominano quando entrano. I nomi `img_…` di WordPress restano come sono. I documenti del sito vanno in `documenti/` come `AAAA-MM-GG <tipo> <fornitore> <numero>.pdf`.
 
 ## Come lavoriamo qui

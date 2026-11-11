@@ -1,9 +1,102 @@
 # JOURNAL — Sito Maurizio Bertino — archivio 2026
 
-Lezioni controllate contro il CLAUDE.md il 08/10/2026, il 29/10/2026 e il 03/11/2026.
+Lezioni controllate contro il CLAUDE.md il 08/10/2026, il 29/10/2026, il 03/11/2026 e l'11/11/2026.
 
 Voci spostate intatte dal `JOURNAL.md`: nella manutenzione dell'08/10/2026 (chiesta da Davide) quelle
-dal 17/09 all'avvio di agosto, in quella del 29/10/2026 quelle dall'08/10 al 22/09, in quella del 03/11/2026 il check del 28/10 e quello del 20/10. Le voci recenti, lo Stato e le questioni aperte stanno nel `JOURNAL.md`.
+dal 17/09 all'avvio di agosto, in quella del 29/10/2026 quelle dall'08/10 al 22/09, in quella del 03/11/2026 il check del 28/10 e quello del 20/10, in quella dell'11/11/2026 le altre quattro voci del 28/10. Le voci recenti, lo Stato e le questioni aperte stanno nel `JOURNAL.md`.
+
+---
+
+## 28/10 — Il vecchio dominio non è stato rinnovato
+
+**Cosa.** Registro Verisign (RDAP) letto alle 11:34: scadenza 15/09/2026, stato «client transfer
+prohibited» e «redemption period», ultima modifica 27/10, registrar Automattic. Il 15/09/2027 visto
+dal 22/09 era il prolungamento automatico del periodo di grazia, non un rinnovo pagato. Secondo la
+pagina ICANN dei codici EPP, «redemption period» vuol dire che il registrar ha chiesto la
+cancellazione: 30 giorni di attesa, poi dopo cinque giorni il dominio torna libero (verso il 1/12).
+Davide: «Ma il vecchio dominio non è stato rinnovato. Ma perché dovevo rinnovarlo poi?».
+Il controllo serviva a escludere un addebito automatico sulla carta di Maurizio: escluso, questione chiusa.
+**Esito.** Il sito resta su artemauriziobertino.com; il vecchio indirizzo dal 29/09 rispondeva già 410.
+**Piano WordPress.** Davide: «WordPress ho semplicemente bloccato i pagamenti, quindi poi si
+annullerà da solo». Tolta la questione aperta sulla disdetta: il passaggio da WordPress è chiuso.
+
+## 28/10 — Blocco 3: quattro uscite di giovedì dal 29/10, tutte con la sola opera
+
+**Cosa.** Davide alla domanda se partire domani o slittare al 5/11: «1» (domani). `social/PIANO-3.md`:
+29/10 *Testa di Bisonte Americano*, 5/11 *Sole al mattino*, 12/11 *Mazza con testa in pietra e
+decorazione in perline*, 19/11 *Paesaggio contadino*, alle 10:00 con la storia lo stesso giorno.
+Testi scritti e riletti a freddo dal copywriter (10 correzioni, fra cui tre cose che il testo diceva
+di vedere nella foto e non c'erano), da approvare da Davide.
+**Perché queste quattro.** Bisonte e mazza hanno un articolo di Maurizio sul sito, da cui vengono
+tutti i fatti (la mazza a calcio di fucile l'aveva già raccontata lui su Instagram). I due quadri sono
+fra quelli arrivati il 24/10, mai usciti: per loro non c'è storia, quindi il testo usa i dati, quello
+che si vede e la «pittura di fantasia».
+**Perché tutte con la sola opera.** Le foto con Maurizio che avevamo sono già uscite: l'ipotesi resta
+ferma finché non ne arrivano di nuove.
+**Link su Facebook.** Bisonte e mazza come la mazza del blocco 2: «Scheda completa» e link
+all'articolo; i quadri `opere.html`.
+**Correzione mia.** Nella descrizione del *Paesaggio contadino* per il copywriter avevo scritto
+«masseria»: l'edificio può essere anche una chiesa di campagna (torre, portone ad arco). Nel testo è
+diventato «una casa bianca col tetto rosso», e l'hashtag #masseria è tolto. Regola in `CLAUDE.md`,
+Come lavoriamo qui (oggetti nella regia al copywriter), spostata il 03/11.
+**Esito, stesso giorno.** Davide: «Approvo, mettimi promemoria sul programmare i post». Promemoria
+Apple per oggi alle 18:00 (lista «Reminders»); i quattro post li programma lui su Business Suite.
+**Esito, 29/10.** Didascalie ridate in chat, Davide: «Perfetto, programmati». Il promemoria Apple
+«Programma i 4 post del blocco 3…» segnato completato. Il bisonte non è uscito alle 10:00 (programmato
+dopo): «esce oggi pomeriggio» (Davide, 29/10). Nel consuntivo del 23/11 va tenuto presente l'orario diverso.
+**Esito, 11/11.** *Sole al mattino* è uscito il 5/11 alle 10:00 su Instagram e su Facebook (letto sui profili).
+
+## 28/10 — Reel: finale col logo; la Testa indiano sul sito; consuntivo di Facebook
+
+**Cosa.** Davide sul reel: «mi piace un sacco. L'unico aggiustamento che farei, probabilmente, è
+alla fine: transizione e farei vedere il logo». Il logo è quello del sito (pennellata rossa, nome
+in grigio scuro): sul fondo scuro il nome non si leggeva, quindi dissolvenza sul fondo chiaro del
+sito (#faf7f2) col logo al centro. Reel di 54 secondi, ricompresso a 21,6 MB per WhatsApp; voce e
+musica dalla cache, nessun credito in più. Regola nel `CLAUDE.md`, Dove stanno le cose.
+**Musica.** Davide: «Ovviamente, il piano va bene anche per Maurizio». Questione chiusa.
+**Fotografie.** Davide: «tutte le foto che ti sto inviando di Maurizio, queste poi le possiamo
+riciclare per i post, no?». Sì: `genera-social.py` parte dalle foto del sito, e i dipinti del 28/10
+non sono mai usciti sui social.
+**Testa indiano.** Foto in Download, scattata di lato su un tappeto: raddrizzata (profilo verso
+destra, firma in basso a sinistra), ritagliata quadrata sul tondo, fra le sculture col titolo di
+Maurizio. Anno non scritto: sulla firma si legge male.
+**Consuntivo del blocco 2, Facebook** (due screenshot di Insight → Contenuti, in `social/`): Vite in
+pericolo 57 di copertura, Mazza 95, Orologio 85, Gufo 137 (interazioni 4, 9, 14, 19). Con Maurizio
+95 e 137, con la sola opera 57 e 85: l'ipotesi regge anche qui. Le storie Facebook segnano sempre 0.
+**Esito (scritto il 03/11).** Il finale col logo è rimasto nel reel rifatto il 29/10 (`gen_reel.py`),
+quello che Davide ha girato a Maurizio; la *Testa indiano* è online (letto il 03/11).
+
+## 28/10 — Sette dipinti nuovi sul sito e reel di prova con voce da documentario
+
+**Cosa.** Dalla chat di Maurizio del 24/10 (screenshot e foto inoltrati da Davide) dieci dipinti con
+titolo, data, misure e tecnica. *Presenze silenziose* e *La falciatura del grano* (col suo
+particolare) erano già sul sito con gli stessi dati e le stesse foto: niente da cambiare. Aggiunti
+con `aggiungi-opera.py`, titoli di Maurizio con la sola iniziale maiuscola: *Paesaggio contadino*
+(23/11/1992, olio su sacco di cotone preparato), *Terre rosse* (05/02/1998), *Sole al mattino*
+(24/11/1997), *Destino* (gennaio 1997, olio su iuta preparata), *2 alberi* (16/02/1996, tela
+incollata su cartoncino; ritagliato sulla tela, la cornice era «provvisoria»), *Tempi remoti*
+(04/12/1997), *L’alba sulla palude* (10/03/1992, olio su iuta preparata). Didascalie col formato di
+*Presenze silenziose* («Titolo, 60×50, data. Tecnica.»). Verificato in anteprima a 1280 e 375 px,
+online. Originali e screenshot nel repository privato delle foto.
+**Nota.** Su *Terre rosse* e *Sole al mattino* Maurizio scrive «(3 periodo)»: non è entrato nelle
+schede, perché non sappiamo cosa siano i suoi periodi.
+**Reel di prova.** Davide: «procedere con le foto che abbiamo, magari su un'opera sola, la voce di
+documentario, e vediamo. Lo giro a Maurizio». Scelta *Tempi remoti*, la scena con più particolari.
+Voce scritta e rivista dal copywriter (VOCE.md, eccezione dei reel in terza persona), letta da
+Carmelo La Rosa (voce della libreria già nell'account, modello eleven_v4) con musica Eleven Music
+v2.5. 50,9 secondi: il ritmo da documentario allunga i 30-40 previsti. Generatore in `social/reel/`.
+Crediti dell'account al 28/10: 45.356 usati su 130.578 (la voce ne ha presi circa 270).
+**Perché la finestra 9:8 e non lo schermo pieno.** La foto è orizzontale (1600×1293): un taglio
+verticale pieno è una striscia alta, e per staccare un particolare bisognerebbe ingrandire oltre 2×.
+Nella finestra 9:8, dentro i margini della guida Meta ai Reels, il particolare si stacca a circa 1,7×.
+**Correzione mia.** Nella regia al copywriter avevo descritto «noci o castagne» sulla tavola: sono
+piccoli frutti rossi (il 29/10 Maurizio: pomodori). Il testo non li nomina, quindi la voce non cambia.
+Regola in `CLAUDE.md`, Come lavoriamo qui (oggetti nella regia al copywriter), spostata il 03/11.
+**Nota tecnica.** La ricerca della chiave ElevenLabs nel Portachiavi è stata bloccata dal
+classificatore (Credential Exploration); `eleven.py` la legge come `bot/voce.py` di Diamond,
+servizio `diamond-elevenlabs`, senza stamparla.
+**Esito (scritto il 03/11).** I sette dipinti sono nel catalogo e online (letto il 03/11); il reel di
+prova è stato rifatto il 29/10 col commento di Maurizio (voce del 29/10), il suo parere manca.
 
 ---
 
