@@ -11,16 +11,16 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 
 ---
 
-## Stato al 03/11/2026
+## Stato al 11/11/2026
 
 | | |
 |---|---|
-| Sito | Online. **53 opere** (7 dipinti e la *Testa indiano* aggiunti il 28/10), 7 pagine, 9 articoli. In home i quadri si chiamano **«Pittura di fantasia»** («inventati dal nulla») e il paragrafo «Il lavoro» è nuovo: testi approvati da Maurizio l'08/10. Ultimo check dei link: 03/11, 142 indirizzi, nessuno rotto. Dal 03/11 sotto ogni opera, nel visore, l'invito all'acquisto verso i Contatti, dove mail e WhatsApp sono di Davide. Tutte le opere sono in vendita |
+| Sito | Online. **53 opere** (7 dipinti e la *Testa indiano* aggiunti il 28/10), 7 pagine, 9 articoli. In home i quadri si chiamano **«Pittura di fantasia»** («inventati dal nulla») e il paragrafo «Il lavoro» è nuovo: testi approvati da Maurizio l'08/10. Ultimo check dei link: 11/11, 142 indirizzi, nessuno rotto; certificato valido fino al 16/12. Dal 03/11 sotto ogni opera, nel visore, l'invito all'acquisto verso i Contatti, dove mail e WhatsApp sono di Davide. Tutte le opere sono in vendita |
 | Indirizzo | https://artemauriziobertino.com/ (HTTPS attivo; il vecchio indirizzo GitHub e `www` rimandano qui) |
 | Pubblicazione | Automatica, si carica senza chiedere se verificato |
-| Social | Instagram `@mauriziobertino_arte` (153 follower, 43 post), Facebook "Spazio Arte Bertino" (166), dati del 03/11. Il reel di prova *Tempi remoti* è uscito su Instagram l'1/11, fuori piano: l'ha pubblicato Davide su richiesta di Maurizio. Dal blocco 3 i quadri sono «pittura di fantasia» anche nei copy |
-| Uscite | Blocchi 1 e 2 chiusi (`PIANO.md`, `PIANO-2.md`). **Blocco 3** (`social/PIANO-3.md`) dal 29/10 al 19/11, di giovedì: preparato e approvato il 28/10, programmato da Davide il 29/10 su Business Suite |
-| Consuntivo | Blocco 1 fatto il 29/09, blocco 2 il 28/10 (Instagram e Facebook). Blocco 3 lunedì 23/11, col reel dell'1/11 |
+| Social | Instagram `@mauriziobertino_arte` (153 follower, 44 post), Facebook "Spazio Arte Bertino" (166), dati dell'11/11. Il reel di prova *Tempi remoti* è uscito su Instagram l'1/11, fuori piano: l'ha pubblicato Davide su richiesta di Maurizio. Dal blocco 3 i quadri sono «pittura di fantasia» anche nei copy |
+| Uscite | Blocchi 1 e 2 chiusi (`PIANO.md`, `PIANO-2.md`). **Blocco 3** (`social/PIANO-3.md`) dal 29/10 al 19/11, di giovedì, programmato da Davide il 29/10 su Business Suite: usciti il bisonte (29/10) e *Sole al mattino* (5/11, alle 10:00 su tutti e due); restano la mazza (12/11) e il *Paesaggio contadino* (19/11). Blocco 4 da giovedì 26/11 |
+| Consuntivo | Blocco 1 fatto il 29/09, blocco 2 il 28/10 (Instagram e Facebook). Blocco 3 lunedì 23/11 alle 17:00, col reel dell'1/11: evento in calendario dall'11/11, con gli screenshot da preparare prima |
 | Dati da Maurizio | Prime risposte al PDF il 29/09, applicate. Il 24/10 dieci dipinti con titoli e dati (chat inoltrata da Davide il 28/10): sette nuovi, pubblicati il 28/10. Le altre schede incomplete aspettano, più le tre domande nate da «Pittura di fantasia» |
 | Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio `mauriziobertino.com` non è stato rinnovato: dal 27/10 è in «redemption period», libero per chiunque verso il 1/12 |
 | Costo | Zero |
@@ -35,7 +35,9 @@ l'uomo e il cane, che è così dal vecchio sito. Molte schede, soprattutto fra l
 sculture e i nativi, non hanno ancora misure, anno o tecnica. Sotto «Pittura di fantasia» ci sono
 ancora *Mah-to-toh-pa*, ripreso da Bodmer, e tre disegni. Restano in archivio, non pubblicati, lo scatto di taglio
 del cavallo e le due tracce audio del vecchio sito. Del reel dell'1/11 si sa solo quello che si vede da
-sloggato (7 mi piace al 03/11): copertura e visualizzazioni stanno in Business Suite.
+sloggato: copertura e visualizzazioni stanno in Business Suite. L'11/11 la pagina del reel su Instagram dice
+«Questo reel ha 8 commenti da Facebook», quindi forse è uscito anche lì; da sloggato la scheda Reels di
+Facebook chiede l'accesso e non l'ho visto.
 
 ---
 
@@ -48,6 +50,28 @@ sloggato (7 mi piace al 03/11): copertura e visualizzazioni stanno in Business S
 - [ ] **Le foto con Maurizio portano più copertura di quelle con la sola opera?** — ipotesi, su 8 post (4 con Maurizio, 4 con la sola opera), finora sempre confermata. Facebook: blocco 1 258 e 182 contro 55 e 49, blocco 2 95 e 137 contro 57 e 85. Instagram: blocco 2 53 e 62 contro 48 e 30 (consuntivo del 28/10). La lettura di Davide (28/10): «Maurizio è un po' un personal brand e, comunque sia, la sua community è fatta ovviamente da persone che lo conoscono direttamente. Quindi magari reagiscono di più quando vedono la figura di Maurizio. Forse Maurizio trasuda anche passione nelle foto, non lo so». Se regge col blocco 3, cambia che foto chiedere a Maurizio: i 7 dipinti del 28/10 sono foto della sola opera.
 - [ ] **Il registro "scheda" funziona quanto quello diretto?** — non misurabile con un solo post diretto. Nel blocco 4 si mettono due post diretti: Davide, 29/10, «1. a» alla proposta «la tengo, e nel blocco 4 metto due post diretti».
 - [ ] **Trasferire il dominio prima della scadenza** — il 22/09 Davide ha detto che il rinnovo automatico di Register.it non è un problema: sulla carta collegata non ci sono mai soldi, quindi i 58,50 € + IVA non partono. Resta il rovescio: se non si trasferisce su Cloudflare entro luglio-agosto 2027, il 15/09/2027 il dominio scade e il sito sparisce dall'indirizzo.
+
+---
+
+## 11/11 — Check del lunedì 09/11 saltato, recuperato il mercoledì: tutto a posto, consuntivo in calendario
+
+**Cosa.** Il check di lunedì 09/11 è saltato; recuperato oggi da una sessione aperta dalla direzione.
+Sito: ultimo workflow verde il 03/11; il commit del 07/11 (appunto ElevenLabs) era rimasto da caricare.
+Certificato valido fino al 16/12; `http`, `www` e il vecchio indirizzo GitHub rimandano con un 301.
+`_backup-wp/controlla-link.py` alle 09:24: 17 pagine, 121 risorse, 4 link esterni, nessuno non a posto,
+gli stessi numeri del 03/11. Online la mail dei Contatti è quella di Davide e il visore ha
+«Sei interessato all’acquisto?». Il vecchio `mauriziobertino.com` è ancora in «redemptionPeriod» (whois).
+**Social, da sloggato (09:22-09:26).** Instagram 44 post, follower 153 (fermi). *Sole al mattino* è uscito
+il 5/11 alle 10:00 (09:00 UTC sul post), 0 commenti. Facebook 166 follower (fermi), in cima *Sole al
+mattino*, «Giovedì 5 novembre 2026 alle ore 10:00», 4 reazioni.
+**Da Maurizio.** Nella chat «Liquoo 🏹» dopo il 28/10 solo lavoro SE2.
+**Perché un evento per il consuntivo.** Il 23/11 in calendario c'era solo il check ricorrente; i blocchi 1 e 2
+avevano un evento loro con gli screenshot da preparare prima (`CLAUDE.md`: il consuntivo si mette in
+calendario prima del blocco successivo). Creato «Maurizio Bertino — consuntivo blocco 3 social +
+preparazione blocco 4», 23/11 17:00-18:00, con le domande del blocco 3 e le due scelte già fatte per il blocco 4.
+**Messaggio per Maurizio.** Preparato e mostrato a Davide per intero: aggiornamento sul sito e sulle uscite,
+più le domande delle questioni aperte (tre di «Pittura di fantasia», «Questa per la schermata?», il parere sul reel).
+Lo manda Davide.
 
 ---
 
@@ -97,6 +121,9 @@ del titolo e delle misure della figura di nativo in pietra leccese, aperta dal 3
 `_backup-wp/controlla-link.py`, provato alla prima esecuzione (17 pagine, 121 risorse, 4 link esterni,
 nessuno non a posto). Dal prossimo check i conteggi sono confrontabili. Regola nel `CLAUDE.md` generale (13)
 e riga nel `CLAUDE.md` del sito, Dove stanno le cose.
+**Esito (scritto l'11/11).** Invito all'acquisto e mail di Davide sono online (letti l'11/11 su
+`contatti.html` e `assets/sito.js`). Lo script del controllo dei link è stato rilanciato l'11/11 senza
+riscriverlo, con gli stessi conteggi. Se dall'invito sia arrivata qualche richiesta lo sa solo Davide.
 
 ## 29/10 — Il commento di Maurizio su «Tempi remoti»: la voce del reel racconta, con i suoni della scena
 
@@ -166,6 +193,7 @@ Apple per oggi alle 18:00 (lista «Reminders»); i quattro post li programma lui
 **Esito, 29/10.** Didascalie ridate in chat, Davide: «Perfetto, programmati». Il promemoria Apple
 «Programma i 4 post del blocco 3…» segnato completato. Il bisonte non è uscito alle 10:00 (programmato
 dopo): «esce oggi pomeriggio» (Davide, 29/10). Nel consuntivo del 23/11 va tenuto presente l'orario diverso.
+**Esito, 11/11.** *Sole al mattino* è uscito il 5/11 alle 10:00 su Instagram e su Facebook (letto sui profili).
 
 ## 28/10 — Reel: finale col logo; la Testa indiano sul sito; consuntivo di Facebook
 
