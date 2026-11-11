@@ -21,7 +21,7 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 | Social | Instagram `@mauriziobertino_arte` (153 follower, 44 post), Facebook "Spazio Arte Bertino" (166), dati dell'11/11. Il reel di prova *Tempi remoti* è uscito su Instagram l'1/11, fuori piano: l'ha pubblicato Davide su richiesta di Maurizio. Dal blocco 3 i quadri sono «pittura di fantasia» anche nei copy |
 | Uscite | Blocchi 1 e 2 chiusi (`PIANO.md`, `PIANO-2.md`). **Blocco 3** (`social/PIANO-3.md`) dal 29/10 al 19/11, di giovedì, programmato da Davide il 29/10 su Business Suite: usciti il bisonte (29/10) e *Sole al mattino* (5/11, alle 10:00 su tutti e due); restano la mazza (12/11) e il *Paesaggio contadino* (19/11). Blocco 4 da giovedì 26/11 |
 | Consuntivo | Blocco 1 fatto il 29/09, blocco 2 il 28/10 (Instagram e Facebook). Blocco 3 lunedì 23/11 alle 17:00, col reel dell'1/11: evento in calendario dall'11/11, con gli screenshot da preparare prima |
-| Dati da Maurizio | Prime risposte al PDF il 29/09, applicate. Il 24/10 dieci dipinti con titoli e dati (chat inoltrata da Davide il 28/10): sette nuovi, pubblicati il 28/10. Le altre schede incomplete aspettano, più le tre domande nate da «Pittura di fantasia» |
+| Dati da Maurizio | Prime risposte al PDF il 29/09, applicate. Il 24/10 dieci dipinti con titoli e dati (chat inoltrata da Davide il 28/10): sette nuovi, pubblicati il 28/10. Le altre schede incomplete aspettano. Delle tre domande nate da «Pittura di fantasia» resta la tecnica di *Gesta Dimenticate*, nel messaggio dell'11/11 |
 | Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio `mauriziobertino.com` non è stato rinnovato: dal 27/10 è in «redemption period», libero per chiunque verso il 1/12 |
 | Costo | Zero |
 
