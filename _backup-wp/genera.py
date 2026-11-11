@@ -278,9 +278,11 @@ def figura_ritratto(nome_img, testo):
       </figure>"""
 
 
-# ritratto in bottega (era l'immagine di anteprima social del vecchio sito)
-AL_LAVORO = "5d44b1d0-1d44-4d58-a943-c387314a04ac.jpg"
-blocco_ritratto = figura_ritratto(AL_LAVORO, "Maurizio Bertino al lavoro su un gufo in terracotta.")
+# ritratto al lavoro in home: dall'11/11/2026 Maurizio al cavalletto, chiesto da lui
+# (prima "5d44b1d0-1d44-4d58-a943-c387314a04ac.jpg", al lavoro su un gufo in terracotta:
+# il file resta in sito/img)
+AL_LAVORO = "maurizio-al-lavoro-su-vite-in-pericolo.jpg"
+blocco_ritratto = figura_ritratto(AL_LAVORO, "Maurizio Bertino al lavoro su “Vite in pericolo (covid)”.")
 
 rit = cat.get("ritratto")
 blocco_stand = figura_ritratto(rit["img"], rit["caption"]) if rit else ""

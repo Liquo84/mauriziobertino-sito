@@ -262,18 +262,6 @@
    "sezione": "pittura"
   },
   {
-   "n": 21,
-   "titolo": "Mah-to-toh-pa",
-   "misure": "70×50 cm",
-   "anno": "2004",
-   "tecnica": "Disegno con pennino ad inchiostro di china su cartoncino",
-   "didascalia": "Mah-to-toh-pa, 07/2004, disegno con pennino ad inchiostro di china su cartoncino, 70x50cm.",
-   "img": "img_4656.jpg",
-   "w": "2394",
-   "h": "3333",
-   "sezione": "pittura"
-  },
-  {
    "n": 22,
    "titolo": "Cardellini",
    "misure": "35×25 cm",
@@ -670,6 +658,18 @@
    "img": "whatsapp-image-2021-09-16-at-17.36.43.jpeg",
    "w": "1200",
    "h": "1600",
+   "sezione": "nativi"
+  },
+  {
+   "n": 21,
+   "titolo": "Mah-to-toh-pa",
+   "misure": "70×50 cm",
+   "anno": "2004",
+   "tecnica": "Disegno con pennino ad inchiostro di china su cartoncino",
+   "didascalia": "Mah-to-toh-pa, 07/2004, disegno con pennino ad inchiostro di china su cartoncino, 70x50cm.",
+   "img": "img_4656.jpg",
+   "w": "2394",
+   "h": "3333",
    "sezione": "nativi"
   },
   {

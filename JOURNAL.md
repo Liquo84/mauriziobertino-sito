@@ -15,7 +15,7 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 
 | | |
 |---|---|
-| Sito | Online. **53 opere** (7 dipinti e la *Testa indiano* aggiunti il 28/10), 7 pagine, 9 articoli. In home i quadri si chiamano **«Pittura di fantasia»** («inventati dal nulla») e il paragrafo «Il lavoro» è nuovo: testi approvati da Maurizio l'08/10. Ultimo check dei link: 11/11, 142 indirizzi, nessuno rotto; certificato valido fino al 16/12. Dal 03/11 sotto ogni opera, nel visore, l'invito all'acquisto verso i Contatti, dove mail e WhatsApp sono di Davide. Tutte le opere sono in vendita |
+| Sito | Online. **53 opere** (7 dipinti e la *Testa indiano* aggiunti il 28/10), 7 pagine, 9 articoli. In home i quadri si chiamano **«Pittura di fantasia»** («inventati dal nulla») e il paragrafo «Il lavoro» è nuovo: testi approvati da Maurizio l'08/10. Ultimo check dei link: 11/11, 142 indirizzi, nessuno rotto; certificato valido fino al 16/12. Dal 03/11 sotto ogni opera, nel visore, l'invito all'acquisto verso i Contatti, dove mail e WhatsApp sono di Davide. Tutte le opere sono in vendita. Dall'11/11 in home, nel riquadro «In breve», c'è Maurizio al cavalletto con *Vite in pericolo* (chiesto da lui), e *Mah-to-toh-pa* è fra i Nativi |
 | Indirizzo | https://artemauriziobertino.com/ (HTTPS attivo; il vecchio indirizzo GitHub e `www` rimandano qui) |
 | Pubblicazione | Automatica, si carica senza chiedere se verificato |
 | Social | Instagram `@mauriziobertino_arte` (153 follower, 44 post), Facebook "Spazio Arte Bertino" (166), dati dell'11/11. Il reel di prova *Tempi remoti* è uscito su Instagram l'1/11, fuori piano: l'ha pubblicato Davide su richiesta di Maurizio. Dal blocco 3 i quadri sono «pittura di fantasia» anche nei copy |
@@ -33,7 +33,7 @@ uno ogni quattro settimane, con consuntivo il lunedì prima del blocco nuovo.
 di nativo in pietra leccese (tra le quattro del 30/08) e il dipinto del 1997 con
 l'uomo e il cane, che è così dal vecchio sito. Molte schede, soprattutto fra le
 sculture e i nativi, non hanno ancora misure, anno o tecnica. Sotto «Pittura di fantasia» ci sono
-ancora *Mah-to-toh-pa*, ripreso da Bodmer, e tre disegni. Restano in archivio, non pubblicati, lo scatto di taglio
+ancora dei disegni (fra cui *Fantasia* a sanguina e *Paesaggio con cane*); *Mah-to-toh-pa* è fra i Nativi dall'11/11. Restano in archivio, non pubblicati, lo scatto di taglio
 del cavallo e le due tracce audio del vecchio sito. Del reel dell'1/11 si sa solo quello che si vede da
 sloggato: copertura e visualizzazioni stanno in Business Suite. L'11/11 la pagina del reel su Instagram dice
 «Questo reel ha 8 commenti da Facebook», quindi forse è uscito anche lì; da sloggato la scheda Reels di
@@ -43,8 +43,7 @@ Facebook chiede l'accesso e non l'ho visto.
 
 ## Questioni aperte
 
-- [ ] **Due domande rimaste dopo «Pittura di fantasia»** — i testi sono approvati e online (08/10); restano: *Mah-to-toh-pa*, disegno a china ripreso da Bodmer, passa fra i Nativi, accanto al bassorilievo *Mato-Tope (capo Mandan)*? (finché resta, sotto «Pittura di fantasia» c'è un pezzo non inventato; chiesto a Davide l'11/11 se decide lui o lo chiede a Maurizio); che tecnica è *Gesta Dimenticate* (caccia al bisonte, 2007)? Nel messaggio per Maurizio dell'11/11.
-- [ ] **La foto di Maurizio che dipinge, in home** — l'11/11 Davide: «Maurizio mi ha chiesto se avessimo messo sulla home page la foto dove lui sta dipingendo con il pennello in mano», e sulla didascalia del 29/09 «Questa per la schermata?» (foto al cavalletto con *Vite in pericolo*): «Ok immagino sia quello che mi ha chiesto». La foto non è nel progetto né sul WhatsApp del Mac: serve che Davide la metta in Download o sulla Scrivania. Chiesto l'11/11 dove va: nel riquadro «In breve» al posto della foto al lavoro sul gufo, o in cima al posto del paesaggio.
+- [ ] **Che tecnica è *Gesta Dimenticate*** (caccia al bisonte, 2007, 80×60) — l'ultima domanda rimasta dopo «Pittura di fantasia»: la scheda è senza tecnica. Nel messaggio per Maurizio dell'11/11, che manda Davide.
 - [ ] **Reel di prova «Tempi remoti»: cosa ne pensa Maurizio** — fatto il 28/10. Il suo commento sull'opera è arrivato il 29/10: voce riscritta con emozioni ed effetti sonori (voce del 29/10). A Davide piace; il 29/10 l'ha girato a Maurizio e l'1/11 l'ha pubblicato su Instagram su sua richiesta (voce del 03/11). Conta perché la risposta del pubblico è la prova che Maurizio voleva: i numeri si leggono nel consuntivo del 23/11. Restano da chiedergli: il suo parere a voce; se vuole che a voce si dica il sito (sui suoi profili non lo nomina mai, `social/TONO-DI-VOCE.md`); se gli va bene «fermare» nella voce, dove lui ha scritto «rappresentare». Due punti del suo commento non sono nel reel (la stagione di ricerca sul colore puro e la decina di paesaggi): per metterli andrebbe tolta la frase sul muro di fondo.
 - [ ] **ElevenLabs Avatars per i reel: appunto dalla direzione (07/11), da discutere** — Davide ha girato la mail di ElevenLabs sul lancio di Avatars («Mi sembra interessante, lascia un appunto nei progetti dove potremmo sfruttarlo in modo che possa discuterne quando apro la sessione in quel progetto»). Cosa fa (documentazione «Avatars» e articolo di lancio dell'11/06/2026, letti il 07/11): un volto persistente, da 3-5 foto o da un prompt, che parla con qualsiasi voce dell'account col labiale sincronizzato; costo secondo modello di labiale, risoluzione e durata. Qui si lega a due questioni: il reel «Tempi remoti», in attesa del parere di Maurizio, e l'ipotesi che le foto con Maurizio portino più copertura (un avatar di Maurizio che racconta l'opera). Il nodo: alle 15:26 del 07/11 la finestra «Avatar» dell'app è ancora segnata «Beta», e per l'addendum di ElevenLabs (elevenlabs.io/bsa, letto il 07/11) i servizi Beta non si usano «for any commercial purposes» (art. 3 lett. a) e non vanno dati loro dati personali (art. 2): le opere sono in vendita, quindi niente reel con l'avatar finché resta Beta. Un avatar dal volto di Maurizio chiede poi il suo sì, e a Maurizio non si scrive di iniziativa (`CLAUDE.md`). Conta perché cambierebbe il formato dei reel, oggi solo voce sui particolari del dipinto.
 - [ ] **Le foto con Maurizio portano più copertura di quelle con la sola opera?** — ipotesi, su 8 post (4 con Maurizio, 4 con la sola opera), finora sempre confermata. Facebook: blocco 1 258 e 182 contro 55 e 49, blocco 2 95 e 137 contro 57 e 85. Instagram: blocco 2 53 e 62 contro 48 e 30 (consuntivo del 28/10). La lettura di Davide (28/10): «Maurizio è un po' un personal brand e, comunque sia, la sua community è fatta ovviamente da persone che lo conoscono direttamente. Quindi magari reagiscono di più quando vedono la figura di Maurizio. Forse Maurizio trasuda anche passione nelle foto, non lo so». Se regge col blocco 3, cambia che foto chiedere a Maurizio: i 7 dipinti del 28/10 sono foto della sola opera.
@@ -75,8 +74,20 @@ Lo manda Davide.
 **Le risposte di Davide.** Su «inventati dal nulla» vale anche per le nature morte e per *Lo Sguardo della
 Tigre*: «SI». Sono già sotto «Pittura di fantasia», sul sito non cambia niente. Sul reel: «questo glielo
 chiedo». Su «Questa per la schermata?»: «Ok immagino sia quello che mi ha chiesto», cioè la foto di lui che
-dipinge in home (questione aperta). Su *Mah-to-toh-pa* e *Gesta Dimenticate* «Scusa?»: spiegate in chat,
+dipinge in home. Su *Mah-to-toh-pa* e *Gesta Dimenticate* «Scusa?»: spiegate in chat,
 messaggio rifatto con la sola domanda sulla tecnica di *Gesta Dimenticate* più quelle sul reel.
+Poi «1. a 2. in download, vedi tu dove metterla 3. a».
+**Mah-to-toh-pa fra i Nativi (1. a).** Nel catalogo passa da `pittura` a `nativi`, subito dopo il bassorilievo
+*Mato-Tope (capo Mandan)*, che ritrae lo stesso capo. Sotto «Pittura di fantasia» non resta il pezzo ripreso da Bodmer.
+**La foto di Maurizio al cavalletto in home.** In Download c'era `PHOTO-2026-09-25-14-27-33.jpg`: Maurizio col
+pennello in mano davanti a *Vite in pericolo (covid)* (il falco con la lepre). L'originale è in `immagini/` come
+`maurizio-al-lavoro-su-vite-in-pericolo.jpg` (repository privato, commit 01b7ef7). Dove metterla l'ha lasciato a me:
+nel riquadro «In breve» della home, al posto della foto al lavoro sul gufo. **Perché lì e non in cima.** Il
+riquadro è già il posto di «Maurizio al lavoro», e la copertina in cima resta un quadro. La foto del gufo
+(`5d44b1d0…`) non compare più sul sito ma il file resta in `sito/img`; l'altra foto col gufo resta in biografia.
+Didascalia sullo stesso modello di prima: «Maurizio Bertino al lavoro su “Vite in pericolo (covid)”», col titolo intero.
+Verificato in anteprima a 1280×800 e 375×812: niente sborda.
+**Messaggio per Maurizio (3. a).** Lo manda Davide così com'è.
 
 ---
 
