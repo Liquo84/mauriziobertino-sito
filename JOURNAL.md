@@ -11,15 +11,15 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 
 ---
 
-## Stato al 11/11/2026
+## Stato al 16/11/2026
 
 | | |
 |---|---|
-| Sito | Online. **53 opere** (7 dipinti e la *Testa indiano* aggiunti il 28/10), 7 pagine, 9 articoli. In home i quadri si chiamano **«Pittura di fantasia»** («inventati dal nulla») e il paragrafo «Il lavoro» è nuovo: testi approvati da Maurizio l'08/10. Ultimo check dei link: 11/11, 142 indirizzi, nessuno rotto; certificato valido fino al 16/12. Dal 03/11 sotto ogni opera, nel visore, l'invito all'acquisto verso i Contatti, dove mail e WhatsApp sono di Davide. Tutte le opere sono in vendita. Dall'11/11 in home, nel riquadro «In breve», c'è Maurizio al cavalletto con *Vite in pericolo* (chiesto da lui), e *Mah-to-toh-pa* è fra i Nativi |
+| Sito | Online. **53 opere** (7 dipinti e la *Testa indiano* aggiunti il 28/10), 7 pagine, 9 articoli. In home i quadri si chiamano **«Pittura di fantasia»** («inventati dal nulla») e il paragrafo «Il lavoro» è nuovo: testi approvati da Maurizio l'08/10. Ultimo check dei link: 16/11, 142 indirizzi, nessuno rotto; certificato valido fino al 16/12. Dal 03/11 sotto ogni opera, nel visore, l'invito all'acquisto verso i Contatti, dove mail e WhatsApp sono di Davide. Tutte le opere sono in vendita. Dall'11/11 in home, nel riquadro «In breve», c'è Maurizio al cavalletto con *Vite in pericolo* (chiesto da lui), e *Mah-to-toh-pa* è fra i Nativi |
 | Indirizzo | https://artemauriziobertino.com/ (HTTPS attivo; il vecchio indirizzo GitHub e `www` rimandano qui) |
 | Pubblicazione | Automatica, si carica senza chiedere se verificato |
-| Social | Instagram `@mauriziobertino_arte` (153 follower, 44 post), Facebook "Spazio Arte Bertino" (166), dati dell'11/11. Il reel di prova *Tempi remoti* è uscito su Instagram l'1/11, fuori piano: l'ha pubblicato Davide su richiesta di Maurizio. Dal blocco 3 i quadri sono «pittura di fantasia» anche nei copy |
-| Uscite | Blocchi 1 e 2 chiusi (`PIANO.md`, `PIANO-2.md`). **Blocco 3** (`social/PIANO-3.md`) dal 29/10 al 19/11, di giovedì, programmato da Davide il 29/10 su Business Suite: usciti il bisonte (29/10) e *Sole al mattino* (5/11, alle 10:00 su tutti e due); restano la mazza (12/11) e il *Paesaggio contadino* (19/11). Blocco 4 da giovedì 26/11 |
+| Social | Instagram `@mauriziobertino_arte` (152 follower, 45 post), Facebook "Spazio Arte Bertino" (166), dati del 16/11. Il reel di prova *Tempi remoti* è uscito su Instagram l'1/11, fuori piano: l'ha pubblicato Davide su richiesta di Maurizio. Dal blocco 3 i quadri sono «pittura di fantasia» anche nei copy |
+| Uscite | Blocchi 1 e 2 chiusi (`PIANO.md`, `PIANO-2.md`). **Blocco 3** (`social/PIANO-3.md`) dal 29/10 al 19/11, di giovedì, programmato da Davide il 29/10 su Business Suite: usciti il bisonte (29/10), *Sole al mattino* (5/11) e la mazza (12/11, alle 10:00 su tutti e due); resta il *Paesaggio contadino* (19/11, già programmato su Business Suite alle 10:00 su Instagram e Facebook, letto il 16/11). Blocco 4 da giovedì 26/11 |
 | Consuntivo | Blocco 1 fatto il 29/09, blocco 2 il 28/10 (Instagram e Facebook). Blocco 3 lunedì 23/11 alle 17:00, col reel dell'1/11: evento in calendario dall'11/11, con gli screenshot da preparare prima |
 | Dati da Maurizio | Prime risposte al PDF il 29/09, applicate. Il 24/10 dieci dipinti con titoli e dati (chat inoltrata da Davide il 28/10): sette nuovi, pubblicati il 28/10. Le altre schede incomplete aspettano. Delle tre domande nate da «Pittura di fantasia» resta la tecnica di *Gesta Dimenticate*, nel messaggio dell'11/11 |
 | Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio `mauriziobertino.com` non è stato rinnovato: dal 27/10 è in «redemption period», libero per chiunque verso il 1/12 |
@@ -50,6 +50,25 @@ Facebook chiede l'accesso e non l'ho visto.
 - [ ] **Le foto con Maurizio portano più copertura di quelle con la sola opera?** — ipotesi, su 8 post (4 con Maurizio, 4 con la sola opera), finora sempre confermata. Facebook: blocco 1 258 e 182 contro 55 e 49, blocco 2 95 e 137 contro 57 e 85. Instagram: blocco 2 53 e 62 contro 48 e 30 (consuntivo del 28/10). La lettura di Davide (28/10): «Maurizio è un po' un personal brand e, comunque sia, la sua community è fatta ovviamente da persone che lo conoscono direttamente. Quindi magari reagiscono di più quando vedono la figura di Maurizio. Forse Maurizio trasuda anche passione nelle foto, non lo so». Se regge col blocco 3, cambia che foto chiedere a Maurizio: i 7 dipinti del 28/10 sono foto della sola opera.
 - [ ] **Il registro "scheda" funziona quanto quello diretto?** — non misurabile con un solo post diretto. Nel blocco 4 si mettono due post diretti: Davide, 29/10, «1. a» alla proposta «la tengo, e nel blocco 4 metto due post diretti».
 - [ ] **Trasferire il dominio prima della scadenza** — il 22/09 Davide ha detto che il rinnovo automatico di Register.it non è un problema: sulla carta collegata non ci sono mai soldi, quindi i 58,50 € + IVA non partono. Resta il rovescio: se non si trasferisce su Cloudflare entro luglio-agosto 2027, il 15/09/2027 il dominio scade e il sito sparisce dall'indirizzo.
+
+---
+
+## 16/11 — Check del lunedì: tutto a posto, la mazza è uscita il 12/11, il paesaggio è programmato per il 19/11
+
+**Cosa.** Check settimanale fatto il lunedì 16/11 dalle 08:21, da una sessione figlia della Direzione.
+**Sito.** Ultimo workflow verde l'11/11 (`gh run list`); `http`, `www` e il vecchio indirizzo GitHub rimandano
+con un 301 al dominio; certificato valido fino al 16/12. `controlla-link.py` alle 08:21: 17 pagine, 121 risorse,
+4 link esterni, nessuno non a posto (come l'11/11). Il vecchio `mauriziobertino.com` è ancora in `redemptionPeriod` (whois).
+**Social, da Chrome (08:2x).** Instagram: 45 post, 152 follower (153 l'11/11). Facebook «Spazio Arte Bertino»: 166 follower (fermi).
+La mazza è uscita giovedì 12/11 alle 10:00 su tutti e due. Business Suite, Contenuti, ultimi 90 giorni: mazza su Instagram
+33 account raggiunti, 60 visualizzazioni, 7 interazioni (6 «mi piace», 1 commento: due cuori di un follower); su Facebook 53
+visualizzazioni da 30 account, 5 interazioni (3 reazioni, 1 commento, 1 condivisione). *Sole al mattino* (5/11): Instagram 28 account,
+61 visualizzazioni, 5 interazioni; Facebook 60 visualizzazioni da 30 account, 5 interazioni. Reel *Tempi remoti* (1/11, solo Instagram):
+162 account, 201 visualizzazioni, 8 interazioni, tempo medio 6 secondi. Bisonte (29/10, con cross-posting): 150 visualizzazioni da 52 account,
+13 interazioni. Colonne lette per confronto con i conteggi del profilo, non da una legenda: da rileggere nel consuntivo del 23/11.
+**Programmato.** In Business Suite, «In programma»: *Paesaggio contadino*, giovedì 19/11 alle 10:00, su Facebook e Instagram, col testo del blocco 3.
+**Da Maurizio.** Nella chat «Liquoo 🏹» dopo l'11/11 solo lavoro SE2; nessuna risposta a quanto girato dall'11/11 (la manda Davide).
+**Esito del 12/11.** La mazza è uscita come programmato.
 
 ---
 
