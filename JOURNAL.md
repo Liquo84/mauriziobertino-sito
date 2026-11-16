@@ -60,12 +60,12 @@ le colonne le ho abbinate ai conteggi dei profili, senza legenda. Il reel dell'1
 
 ---
 
-## 16/11 — Blog «Diario»: approvato, primo articolo (bisonte) in pubblicazione
+## 16/11 — Blog «Diario»: approvato, primo articolo (bisonte) online
 
 **Cosa.** Davide ha approvato design e bozza (16/11): «a, approvati tutti e due». Misure nella riga dati: «a», quelle della scheda n. 10 dei Nativi (collo 160 cm, larghezza corna 48 cm, sporgenza fronte 35 cm), confermate da lui. «È un pezzo unico»: «a, sono tutti pezzi unici», valido per tutte le opere (regola nel `CLAUDE.md` e riga in banca fatti di `VOCE.md`). Articolo sulla mazza: «Mettilo nella sessione della prossima settimana, ti va?»: sì, si fa nel check di lunedì 23/11.
 **Cosa è cambiato nel codice.** `_backup-wp/aggiungi-articolo.py` (nuovo: testo da file, controllo dei doppioni su slug e titolo, copertina e foto già in `sito/img/full`, `--opera` solo se è un titolo del catalogo, inserisce in testa e rigenera). In `genera.py`: `articolo_di_opera` e attributo `data-articolo` sulle tessere di Opere; `collega_articolo` usa prima il campo `opera` e ignora per il confronto sui titoli gli articoli che lo hanno; in fondo a un articolo con `opera` il rimando «Sei interessato all'acquisto? Contattami». In `sito.js`: il visore mostra «Leggi l'articolo» sopra l'invito all'acquisto.
 **Articolo.** «Quanto pesa una testa di bisonte in terracotta», 16/11/2026, con la foto di copertina e una seconda foto della serie già sul sito. Il vecchio articolo del 2021 resta dov'è (il post di Facebook del 29/10 punta lì) e la scheda dei Nativi continua a puntarci.
-**Verifica.** Anteprima a 1280 e 375 px: niente sborda; il visore di Opere mostra «Leggi l'articolo» e «Contattami».
+**Verifica.** Anteprima a 1280 e 375 px: niente sborda; il visore di Opere mostra «Leggi l'articolo» e «Contattami». **Online.** Workflow verde (partito alle 10:25), pagina https://artemauriziobertino.com/articoli/quanto-pesa-una-testa-di-bisonte-in-terracotta.html letta nel Chrome collegato con testo e screenshot (foto, riga dati, «Sei interessato all'acquisto? Contattami» in fondo); `controlla-link.py` dopo la pubblicazione: 18 pagine, 121 risorse, 4 link esterni, nessuno non a posto.
 
 ---
 
