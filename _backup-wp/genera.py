@@ -176,8 +176,18 @@ def riga_dati(o):
     return " · ".join(pezzi)
 
 
+def articolo_di_opera(titolo):
+    """L'articolo del Diario che dichiara `opera` uguale al titolo (campo esplicito)."""
+    for art in cat["articoli"]:
+        if art.get("opera") and art["opera"].strip().lower() == titolo.strip().lower():
+            return art
+    return None
+
+
 def tessera_opera(o, su=""):
     d = dim(o["img"])
+    art = articolo_di_opera(o["titolo"])
+    attr_art = f' data-articolo="{su}articoli/{art["slug"]}.html"' if art else ""
     dati = riga_dati(o)
     # un'opera a tutto tondo può avere più viste: la prima è quella di copertina
     viste = [o["img"]] + list(o.get("viste") or [])
@@ -186,7 +196,7 @@ def tessera_opera(o, su=""):
              if len(viste) > 1 else '')
     return f"""<button class="opera" data-sezione="{o.get('sezione','')}"
    data-grande="{su}img/full/{web(o['img'])}" data-viste="{elenco}"
-   data-titolo="{e(o['titolo'])}" data-dati="{e(dati)}">
+   data-titolo="{e(o['titolo'])}" data-dati="{e(dati)}"{attr_art}>
   <figure style="margin:0">
     <span class="cornice"><img src="{su}img/thumb/{web(o['img'])}" width="{d['w']}" height="{d['h']}"
       loading="lazy" decoding="async" alt="{e(o['titolo'])}">{segno}</span>
@@ -514,11 +524,17 @@ def collega_articolo(titolo):
             "personale", "club", "war", "headed", "variante", "cm", "circa"}
     def token(t):
         return {p for p in re.findall(r"[a-zà-ù]+", t.lower()) if p not in stop and len(p) > 2}
+    esplicito = [art for art in cat["articoli"] if art.get("opera")
+                 and art["opera"].strip().lower() == titolo.strip().lower()]
+    if esplicito:
+        return esplicito[0]
     a_t = token(titolo)
     if not a_t:
         return None
     migliore, punteggio = None, 0
     for art in cat["articoli"]:
+        if art.get("opera"):
+            continue  # gli articoli con `opera` si collegano solo per titolo esatto
         s = len(a_t & token(art["titolo"]))
         if s > punteggio:
             migliore, punteggio = art, s
@@ -646,7 +662,7 @@ for i, a in enumerate(cat["articoli"]):
     <div class="piede" style="border:0;background:none;padding:0;margin:0">
       <div style="display:flex;flex-wrap:wrap;gap:24px;justify-content:space-between;width:100%">
         {''.join(nav_art) if nav_art else '<a href="../diario.html">Torna al diario</a>'}
-      </div>
+      </div>{f'<div style="margin-top:18px"><a href="../contatti.html">Sei interessato all&rsquo;acquisto? Contattami &rarr;</a></div>' if a.get('opera') else ''}
     </div>
   </div>
 </section>

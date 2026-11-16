@@ -18,7 +18,7 @@ Il sito pubblica con un workflow di Actions (`.github/workflows/pubblica.yml`), 
 - **Si pubblica solo la cartella `sito/`.** Il resto della cartella non va online.
 - **Niente framework, niente CMS, niente database.** Il valore di questa ricostruzione è che resta un insieme di file.
 - **Le foto originali stanno in un repository privato separato**, non in questo.
-- **Tutte le opere sono in vendita** (Davide, 03/11: «Tutto è in vendita»).
+- **Tutte le opere sono in vendita** (Davide, 03/11: «Tutto è in vendita») **e sono tutte pezzi unici** (Davide, 16/11: «a, sono tutti pezzi unici»): nei testi si può scrivere «pezzo unico» di qualunque opera.
 - **I testi pubblici sono concordati con Maurizio.** Non riscriverli di iniziativa: si propongono le modifiche e si aspetta l'ok. **Fanno eccezione gli articoli del Diario**: l'autore è Maurizio («può essere Maurizio senza problemi») e li approva Davide: «Gli articoli li approvo io» (Davide, 16/11). Il blog, strada A, e il design sono in `design-blog-diario-2026-11-16.md`; non si scrive codice né si pubblica prima del suo sì sul design.
 - **I titoli delle opere sono di Maurizio.** Non si ribattezzano, non si traducono, non si "puliscono". Se un titolo manca si usa **"Senza titolo"**, convenzione già in uso nel catalogo, mai un titolo inventato. Vale anche per i termini scomodi ("mazza da guerra"): decisione presa il 30/08, non riaprirla.
 
@@ -47,7 +47,7 @@ Il sito pubblica con un workflow di Actions (`.github/workflows/pubblica.yml`), 
 ## Come lavoriamo qui
 - Il diario è in `JOURNAL.md`: leggilo in apertura, scrivi le decisioni quando le prendi. Una regola o una procedura da riusare si scrive qui nello stesso turno in cui nasce; se il messaggio di Davide contiene una domanda, prima la risposta in chat, poi i file (regola 30 generale).
 - **Soglia di questo CLAUDE.md: 98 righe**, quelle rimaste dopo la manutenzione del 29/10 (Davide: «la soglia è ok»). Oltre, la manutenzione si chiede in chiusura.
-- Le nuove opere si aggiungono con `aggiungi-opera.py`, non a mano nell'HTML.
+- Le nuove opere si aggiungono con `aggiungi-opera.py`, non a mano nell'HTML; gli articoli del Diario con `_backup-wp/aggiungi-articolo.py` (testo approvato in un file, `--opera` col titolo esatto dell'opera nel catalogo: collega l'articolo al visore di Opere; istruzioni in testa allo script).
 - **Prima di aggiungere un'opera si cerca il titolo in `_catalogo.json`.** Vale anche quando
   Maurizio la manda come se fosse nuova: spesso sono foto migliori di un'opera già pubblicata,
   e in quel caso si sostituisce l'immagine nella scheda esistente invece di crearne una seconda.

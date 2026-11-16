@@ -90,6 +90,7 @@
             src: src,
             titolo: el.dataset.titolo || "",
             dati: el.dataset.dati || "",
+            articolo: el.dataset.articolo || "",
             n: k + 1,
             totale: viste.length,
             origine: el
@@ -119,6 +120,15 @@
       riga = (riga ? riga + " · " : "") + "vista " + v.n + " di " + v.totale;
     }
     if (riga) didascalia.appendChild(document.createTextNode(riga));
+    if (v.articolo) {
+      var art = document.createElement("span");
+      art.className = "invito";
+      var la = document.createElement("a");
+      la.href = v.articolo;
+      la.textContent = "Leggi l’articolo";
+      art.appendChild(la);
+      didascalia.appendChild(art);
+    }
     if (contatti) {
       var invito = document.createElement("span");
       invito.className = "invito";

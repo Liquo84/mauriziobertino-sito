@@ -41,7 +41,7 @@ mauriziobertino-sito/
 │   ├── diario.html        Elenco delle schede
 │   ├── contatti.html      Email, WhatsApp, social
 │   ├── 404.html           Pagina di errore
-│   ├── articoli/          9 schede di approfondimento
+│   ├── articoli/          10 schede di approfondimento
 │   ├── assets/            stile.css e sito.js
 │   ├── img/               copertina, miniature e immagini grandi
 │   ├── robots.txt
@@ -168,7 +168,7 @@ cd /Users/davideliquori/Desktop/mauriziobertino-sito/immagini && git add -A && g
 ## Cosa è cambiato rispetto al vecchio sito
 
 **Tenuto tutto il contenuto**: le 40 opere del vecchio sito con titoli, misure,
-anni e tecniche, le 14 schede delle riproduzioni native, i 9 articoli, la
+anni e tecniche, le 14 schede delle riproduzioni native, i 10 articoli, la
 biografia, la rassegna stampa e l'elenco delle mostre.
 
 Il catalogo oggi conta **53 opere**: 32 dipinti, 12 sculture e 9 riproduzioni.
