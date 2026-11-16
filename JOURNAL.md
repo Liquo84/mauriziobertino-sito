@@ -34,10 +34,8 @@ di nativo in pietra leccese (tra le quattro del 30/08) e il dipinto del 1997 con
 l'uomo e il cane, che è così dal vecchio sito. Molte schede, soprattutto fra le
 sculture e i nativi, non hanno ancora misure, anno o tecnica. Sotto «Pittura di fantasia» ci sono
 ancora dei disegni (fra cui *Fantasia* a sanguina e *Paesaggio con cane*); *Mah-to-toh-pa* è fra i Nativi dall'11/11. Restano in archivio, non pubblicati, lo scatto di taglio
-del cavallo e le due tracce audio del vecchio sito. Del reel dell'1/11 si sa solo quello che si vede da
-sloggato: copertura e visualizzazioni stanno in Business Suite. L'11/11 la pagina del reel su Instagram dice
-«Questo reel ha 8 commenti da Facebook», quindi forse è uscito anche lì; da sloggato la scheda Reels di
-Facebook chiede l'accesso e non l'ho visto.
+del cavallo e le due tracce audio del vecchio sito. I numeri di Business Suite (16/11) sono nella voce del 16/11, ma
+le colonne le ho abbinate ai conteggi dei profili, senza legenda. Il reel dell'1/11 compare nell'elenco dei contenuti solo per Instagram.
 
 ---
 
@@ -59,7 +57,7 @@ Facebook chiede l'accesso e non l'ho visto.
 **Sito.** Ultimo workflow verde l'11/11 (`gh run list`); `http`, `www` e il vecchio indirizzo GitHub rimandano
 con un 301 al dominio; certificato valido fino al 16/12. `controlla-link.py` alle 08:21: 17 pagine, 121 risorse,
 4 link esterni, nessuno non a posto (come l'11/11). Il vecchio `mauriziobertino.com` è ancora in `redemptionPeriod` (whois).
-**Social, da Chrome (08:2x).** Instagram: 45 post, 152 follower (153 l'11/11). Facebook «Spazio Arte Bertino»: 166 follower (fermi).
+**Social, da Chrome.** Instagram: 45 post, 152 follower (153 l'11/11). Facebook «Spazio Arte Bertino»: 166 follower (fermi).
 La mazza è uscita giovedì 12/11 alle 10:00 su tutti e due. Business Suite, Contenuti, ultimi 90 giorni: mazza su Instagram
 33 account raggiunti, 60 visualizzazioni, 7 interazioni (6 «mi piace», 1 commento: due cuori di un follower); su Facebook 53
 visualizzazioni da 30 account, 5 interazioni (3 reazioni, 1 commento, 1 condivisione). *Sole al mattino* (5/11): Instagram 28 account,
