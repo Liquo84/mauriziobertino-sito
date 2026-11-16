@@ -19,7 +19,7 @@ Il sito pubblica con un workflow di Actions (`.github/workflows/pubblica.yml`), 
 - **Niente framework, niente CMS, niente database.** Il valore di questa ricostruzione è che resta un insieme di file.
 - **Le foto originali stanno in un repository privato separato**, non in questo.
 - **Tutte le opere sono in vendita** (Davide, 03/11: «Tutto è in vendita»).
-- **I testi pubblici sono concordati con Maurizio.** Non riscriverli di iniziativa: si propongono le modifiche e si aspetta l'ok.
+- **I testi pubblici sono concordati con Maurizio.** Non riscriverli di iniziativa: si propongono le modifiche e si aspetta l'ok. **Fanno eccezione gli articoli del Diario**: l'autore è Maurizio («può essere Maurizio senza problemi») e li approva Davide: «Gli articoli li approvo io» (Davide, 16/11). Il blog, strada A, e il design sono in `design-blog-diario-2026-11-16.md`; non si scrive codice né si pubblica prima del suo sì sul design.
 - **I titoli delle opere sono di Maurizio.** Non si ribattezzano, non si traducono, non si "puliscono". Se un titolo manca si usa **"Senza titolo"**, convenzione già in uso nel catalogo, mai un titolo inventato. Vale anche per i termini scomodi ("mazza da guerra"): decisione presa il 30/08, non riaprirla.
 
 ## Dove stanno le cose
@@ -39,7 +39,7 @@ Il sito pubblica con un workflow di Actions (`.github/workflows/pubblica.yml`), 
   **Prima di fare o rifare un reel si legge `social/reel/REGOLE.md`**: generatore, voce, suoni, musica, finale.
 - `immagini/chat-maurizio/` — screenshot della chat in cui Maurizio dà titoli e dati delle opere
   (stanno negli originali, repository privato).
-- `LEGGIMI.md` — guida per Maurizio.
+- `LEGGIMI.md` — guida per Maurizio. `design-blog-diario-2026-11-16.md` — design corto del blog «Diario» (16/11), in attesa del sì di Davide.
 - `ANTEPRIMA.md` — i passi per vedere il sito in anteprima prima di caricare una modifica.
 - `JOURNAL.md` — diario di lavoro; le voci fino al 28/10/2026 (tutte) stanno in `JOURNAL-archivio-2026.md`.
 - **File nuovi:** Le foto nuove di un'opera vanno in `immagini/` con un nome che dice l'opera (`cavallo-rampante-fronte.jpg`). Se non è ancora chiaro a quale opera appartengono, passano da `immagini/da-catalogare/`. Quelle mandate su WhatsApp si rinominano quando entrano. I nomi `img_…` di WordPress restano come sono. I documenti del sito vanno in `documenti/` come `AAAA-MM-GG <tipo> <fornitore> <numero>.pdf`.

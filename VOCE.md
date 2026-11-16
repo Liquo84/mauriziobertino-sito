@@ -60,7 +60,7 @@ comprare un pezzo unico. Non sono critici d'arte.
 **Fatti mancanti (segnaposto in uso):** nessuno al 03/11/2026.
 
 ## Regole speciali del progetto
-- I testi del sito sono concordati con Maurizio: si propongono, lui approva.
+- I testi del sito sono concordati con Maurizio: si propongono, lui approva. **Eccezione, gli articoli del Diario**: autore Maurizio, in prima persona, li approva Davide («Gli articoli li approvo io», Davide, 16/11/2026).
 - I titoli delle opere sono suoi e non si toccano.
 - Didascalie social: le approva Davide (CLAUDE.md del progetto).
 - Collaudo alla cieca: Davide ha detto sì (08/10/2026) per la prima riscrittura di una pagina intera.
