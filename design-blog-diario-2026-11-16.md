@@ -1,5 +1,5 @@
 # Blog «Diario» — strada A, design corto
-Data: 16/11/2026. **Stato: proposta, aspetta il sì di Davide sul design. Niente codice e niente pubblicazione prima.**
+Data: 16/11/2026. **Stato: approvato da Davide il 16/11** («a, approvati tutti e due», design e bozza del bisonte). Realizzato lo stesso giorno: `_backup-wp/aggiungi-articolo.py`, campo `opera`, «Leggi l'articolo» nel visore di Opere, primo articolo sul bisonte.
 
 ## Decisioni di Davide (16/11)
 - Strada A, «La scheda del giovedì»: «La a mi piace, inoltre possiamo fare degli articoli che descrivono le opere già pubblicate».
@@ -29,7 +29,7 @@ Un articolo di approfondimento sul sito per ogni opera del post del giovedì, pi
 5. Verifica come ogni modifica al sito: `genera.py`, a 1280 e a 375 px, `controlla-link.py`.
 
 ## Da dove si parte (scelta di Claude, da confermare)
-Bisonte e mazza: i loro post su Facebook puntano già a una pagina «articolo» (testa-di-bisonte e mazza con testa in pietra). Il bisonte è già stato riscritto: bozza del 16/11 nel rapporto alla Direzione; non è nel sito.
+Bisonte e mazza: i loro post su Facebook puntano già a una pagina «articolo» (testa-di-bisonte e mazza con testa in pietra). Il bisonte è pubblicato il 16/11. La mazza si fa nel check di lunedì 23/11 (Davide, 16/11: «Mettilo nella sessione della prossima settimana»).
 
 ## Fuori scope
 Newsletter, commenti, un'altra lingua, articoli su temi che non sono opere, un nuovo design delle pagine.
