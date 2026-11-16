@@ -76,6 +76,7 @@ le colonne le ho abbinate ai conteggi dei profili, senza legenda. Il reel dell'1
 **Design.** `design-blog-diario-2026-11-16.md`: un articolo a settimana sull'opera del giovedì, più articoli sulle opere già pubblicate; lavoro tecnico (`aggiungi-articolo.py`, campo `opera` per il collegamento) solo dopo il sì di Davide sul design.
 **Bozza del bisonte.** Scritta dal subagente `copywriter` con `VOCE.md`, riletta a freddo da una seconda istanza (5 parti su 8 corrette: titolo, due frasi, una frase senza fonte tolta). Nel rapporto alla principale per l'approvazione. Aperto: le misure della riga dati (la scheda n. 10 dei Nativi dice collo 160 cm, corna 48 cm, fronte 35 cm, ma che sia questo pezzo è una lettura delle foto).
 **Esito.** Design e bozza approvati lo stesso giorno, codice e articolo fatti il 16/11 (voce sopra).
+**Scheda Nativi del bisonte.** Davide, 16/11: «53. a», cioè resta sul vecchio articolo del 2021; non si cambia niente.
 
 ---
 
