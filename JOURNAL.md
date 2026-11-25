@@ -19,7 +19,7 @@ Voce nuova in cima. Formato: **cosa**, **perché**, **esito** (aggiornato dopo).
 | Indirizzo | https://artemauriziobertino.com/ (HTTPS attivo; il vecchio indirizzo GitHub e `www` rimandano qui) |
 | Pubblicazione | Automatica, si carica senza chiedere se verificato |
 | Social | Instagram `@mauriziobertino_arte` (153 follower, 46 post), Facebook "Spazio Arte Bertino" (166), dati del 25/11. Il reel di prova *Tempi remoti* è uscito su Instagram l'1/11, fuori piano: l'ha pubblicato Davide su richiesta di Maurizio. Dal blocco 3 i quadri sono «pittura di fantasia» anche nei copy |
-| Uscite | Blocchi 1, 2 e 3 chiusi (`PIANO.md`, `PIANO-2.md`, `PIANO-3.md`). **Blocco 4** (`social/PIANO-4.md`) dal 26/11 al 17/12, di giovedì alle 10:00, testi approvati da Davide il 25/11: *Terre rosse*, *Vecchietto con Coppola*, gunstock club, Maurizio al cavalletto. Lo programma Davide su Business Suite (passi mandati il 25/11). Gli articoli del Diario delle quattro opere sono online, tranne *Terre rosse* (26/11) |
+| Uscite | Blocchi 1, 2 e 3 chiusi (`PIANO.md`, `PIANO-2.md`, `PIANO-3.md`). **Blocco 4** (`social/PIANO-4.md`) dal 26/11 al 17/12, di giovedì alle 10:00, testi approvati da Davide il 25/11: *Terre rosse*, *Vecchietto con Coppola*, gunstock club, Maurizio al cavalletto. I due post di *Terre rosse* (26/11) li ha programmati la principale il 25/11, autorizzazione per una volta; gli altri li carica Davide. Gli articoli del Diario delle quattro opere sono online, tranne *Terre rosse* (26/11) |
 | Consuntivo | Blocco 1 fatto il 29/09, blocco 2 il 28/10, blocco 3 il 25/11 (dati letti da Claude in Business Suite, voce del 25/11). Blocco 4 lunedì 21/12 |
 | Dati da Maurizio | Prime risposte al PDF il 29/09, applicate. Il 24/10 dieci dipinti con titoli e dati (chat inoltrata da Davide il 28/10): sette nuovi, pubblicati il 28/10. Le altre schede incomplete aspettano. Delle tre domande nate da «Pittura di fantasia» resta la tecnica di *Gesta Dimenticate*, da chiedergli (il messaggio dell'11/11 non è partito) |
 | Dominio | `artemauriziobertino.com` online dal 17/09, scade il 15/09/2027. Il vecchio `mauriziobertino.com` non è stato rinnovato: dal 27/10 è in «redemption period», libero per chiunque verso il 1/12 |
@@ -34,8 +34,7 @@ di nativo in pietra leccese (tra le quattro del 30/08) e il dipinto del 1997 con
 l'uomo e il cane, che è così dal vecchio sito. Molte schede, soprattutto fra le
 sculture e i nativi, non hanno ancora misure, anno o tecnica. Sotto «Pittura di fantasia» ci sono
 ancora dei disegni (fra cui *Fantasia* a sanguina e *Paesaggio con cane*); *Mah-to-toh-pa* è fra i Nativi dall'11/11. Restano in archivio, non pubblicati, lo scatto di taglio
-del cavallo e le due tracce audio del vecchio sito. I numeri di Business Suite (16/11) sono nella voce del 16/11, ma
-le colonne le ho abbinate ai conteggi dei profili, senza legenda. Il reel dell'1/11 compare nell'elenco dei contenuti solo per Instagram.
+del cavallo e le due tracce audio del vecchio sito. I numeri di Business Suite sono nella voce del 25/11 e in `social/2026-11-25 Meta Business Suite contenuti 28-10 24-11.md`: dal 31/10 Facebook non dà più la copertura, quindi i suoi numeri non si confrontano con quelli dei blocchi 1 e 2. Le storie di Facebook risultano a 0 visualizzazioni, non verificato perché. Il reel dell'1/11 compare solo per Instagram.
 
 ---
 
