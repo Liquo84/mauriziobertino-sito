@@ -17,12 +17,12 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
+# Due job: caricare e pubblicare nello stesso job a volte fallisce con
+# «No artifacts named github-pages» (actions/deploy-pages, segnalazione del 07/10/2026;
+# qui il 25/11/2026, quattro volte di fila).
 jobs:
-  pubblica:
+  prepara:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -35,5 +35,12 @@ jobs:
         with:
           path: sito
 
+  pubblica:
+    needs: prepara
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
       - id: deploy
         uses: actions/deploy-pages@v4
