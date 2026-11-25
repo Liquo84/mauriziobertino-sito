@@ -3,7 +3,7 @@
 Come i blocchi precedenti: qui c'è tutto pronto, **carica Davide a mano** su Meta Business Suite.
 Le immagini si rigenerano con `/usr/bin/python3 social/genera-social.py` (stanno in `social/uscite/`,
 non su GitHub). Testi scritti dal copywriter e riletti a freddo da una seconda istanza il 25/11.
-**Stato: bozza, in attesa dell'ok di Davide sul testo esatto.**
+**Stato: testi approvati da Davide il 25/11 («72. A»: approvati parola per parola), uscita alle 10:00 («71. A»).**
 
 ## Calendario
 
