@@ -51,6 +51,19 @@ le colonne le ho abbinate ai conteggi dei profili, senza legenda. Il reel dell'1
 
 ---
 
+## 25/11 — Consuntivo del blocco 3 (dati letti da Business Suite) e blocco 4 preparato
+
+**Cosa.** Consuntivo del 23/11 recuperato oggi da una sessione figlia della Direzione, col check. Per la prima volta gli insight non sono screenshot di Davide: li ha letti Claude nel Chrome collegato, in sola lettura (Insight → Contenuti, «Ultimi 28 giorni: 28 ott – 24 nov»), e li ha passati al Marketer (subagente, `~/Desktop/Direzione/piattaforma/agenti/marketer.md`). Dati in `social/2026-11-25 Meta Business Suite contenuti 28-10 24-11.md`, scheda del Marketer in `social/2026-11-25 Scheda del Marketer blocco 4.md`.
+**Colonne, chiuso il dubbio del 16/11.** La pagina dice che dal 31/10/2026 la copertura di Facebook non c'è più e che la metrica principale è «Account che hanno visualizzato»: è la seconda colonna «Visualizzazioni». Per Instagram le persone sono «Copertura». Quindi la copertura di Facebook dei blocchi 1-2 non si confronta coi numeri di oggi.
+**Numeri.** Persone (IG copertura / FB account) e visualizzazioni: *Sole al mattino* IG 30 e 64, FB 30 e 62; mazza IG 38 e 67, FB 33 e 63; *Paesaggio contadino* IG 33 e 62, FB 35 e 61; bisonte (cross-posting, una riga sola, 15:42) 52 e 153, 13 interazioni; reel *Tempi remoti* (1/11, solo IG, 69 s) 163 persone, 202 visualizzazioni, 8 interazioni, tempo medio 6 s. Follow: 0 su tutte le righe. Profili: Instagram 153 follower, 46 post; Facebook 166.
+**Le tre domande del blocco 3.** Il reel ha raggiunto circa cinque volte le persone di un post, ma con 6 s di visione media e nessun follow (ipotesi, su 1 reel). Le quattro uscite con la sola opera stanno sotto le due foto con Maurizio del blocco 2 su Instagram (30-38 contro 53 e 62): l'ipotesi regge, su 7 post Instagram; su Facebook non si misura più con la stessa metrica. Il bisonte è il più visto ma ha orario e cross-posting diversi insieme: non si attribuisce.
+**Check.** Ultimo workflow verde il 16/11; `http`, `www` e il vecchio indirizzo GitHub rimandano con un 301; certificato valido fino al 14/02/2027 (rinnovato); `controlla-link.py` alle 17:52: 18 pagine, 121 risorse, 4 link esterni, nessuno non a posto. Il vecchio `mauriziobertino.com` è ancora in `redemptionPeriod` (whois). Su WhatsApp, nella chat «Liquoo 🏹», dopo il 16/11 solo lavoro SE2.
+**Blocco 4.** `social/PIANO-4.md`: *Terre rosse* (26/11, scheda), *Vecchietto con Coppola* (3/12, diretto), gunstock club (10/12, scheda), Maurizio al cavalletto su *Vite in pericolo* (17/12, diretto, unica foto nuova con lui). Immagini generate (`uscite.json` 13-16). Testi del copywriter, riletti a freddo; in attesa dell'ok di Davide sul testo esatto, attraverso la principale. Il gunstock pubblicato da Maurizio il 10/03/2026 su Instagram è un altro pezzo (53 × 3 cm, frassino).
+**Articolo del Diario sulla mazza.** Bozza scritta e riletta a freddo, nel rapporto alla principale per l'approvazione di Davide; non pubblicata.
+**Esito del 19/11.** Il *Paesaggio contadino* è uscito alle 10:00 su Instagram e Facebook (Business Suite, letto il 25/11).
+
+---
+
 ## 16/11 — Blog del sito: Davide vuole iniziarlo, studio di fattibilità preparato
 
 **Cosa.** Davide (16/11): «il blog lo vorrei iniziare» (detto alla domanda sull'appunto «Fattibilità di un blog» dell'11/11; la sua lettera «b» stava sull'altra domanda, quella sul messaggio a Maurizio). Preparato lo studio di fattibilità con `brainstorming-chat`: tre strade, domande aperte e fonti sono nel rapporto alla principale. **Non è stato scritto niente sul sito né sul codice**: aspetta il sì di Davide sul design.

@@ -70,5 +70,29 @@
   "img": "paesaggio-contadino.jpg",
   "titolo_img": "Paesaggio contadino",
   "meta_img": "Olio su sacco di cotone preparato, 50×40 cm, 1992"
+ },
+ {
+  "cartella": "13-pittura-terre-rosse",
+  "img": "terre-rosse.jpg",
+  "titolo_img": "Terre rosse",
+  "meta_img": "Olio su tela, 50×40 cm, 1998"
+ },
+ {
+  "cartella": "14-scultura-vecchietto-con-coppola",
+  "img": "02622b73-2ea2-4df9-a795-60223ee035e3.jpg",
+  "titolo_img": "Vecchietto con Coppola",
+  "meta_img": "Terracotta, 25×59 cm"
+ },
+ {
+  "cartella": "15-nativi-gunstock-club",
+  "img": "img_4599.jpg",
+  "titolo_img": "Gunstock club (mazza a forma di fucile)",
+  "meta_img": "Stile Dakota, 80 cm"
+ },
+ {
+  "cartella": "16-pittura-maurizio-al-lavoro",
+  "img": "maurizio-al-lavoro-su-vite-in-pericolo.jpg",
+  "titolo_img": "Vite in pericolo (covid)",
+  "meta_img": "Olio su tela, 80×70 cm, 2020"
  }
 ]
