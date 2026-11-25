@@ -39,7 +39,7 @@ Il sito pubblica con un workflow di Actions (`.github/workflows/pubblica.yml`), 
   **Prima di fare o rifare un reel si legge `social/reel/REGOLE.md`**: generatore, voce, suoni, musica, finale.
 - `immagini/chat-maurizio/` — screenshot della chat in cui Maurizio dà titoli e dati delle opere
   (stanno negli originali, repository privato).
-- `LEGGIMI.md` — guida per Maurizio. `design-blog-diario-2026-11-16.md` — design corto del blog «Diario» (16/11), in attesa del sì di Davide.
+- `LEGGIMI.md` — guida per Maurizio. `design-blog-diario-2026-11-16.md` — design corto del blog «Diario» (16/11), approvato da Davide il 16/11 (commit 1625306).
 - `ANTEPRIMA.md` — i passi per vedere il sito in anteprima prima di caricare una modifica.
 - `JOURNAL.md` — diario di lavoro; le voci fino al 28/10/2026 (tutte) stanno in `JOURNAL-archivio-2026.md`.
 - **File nuovi:** Le foto nuove di un'opera vanno in `immagini/` con un nome che dice l'opera (`cavallo-rampante-fronte.jpg`). Se non è ancora chiaro a quale opera appartengono, passano da `immagini/da-catalogare/`. Quelle mandate su WhatsApp si rinominano quando entrano. I nomi `img_…` di WordPress restano come sono. I documenti del sito vanno in `documenti/` come `AAAA-MM-GG <tipo> <fornitore> <numero>.pdf`.
@@ -85,8 +85,10 @@ Il sito pubblica con un workflow di Actions (`.github/workflows/pubblica.yml`), 
   lunedì prima: si leggono i numeri e si prepara il blocco nuovo (01/09).
 - **I dati social si leggono così:** da sloggato Instagram dà follower e numero di post nel meta
   `og:description` del profilo, Facebook solo l'ultimo post. Copertura, interazioni e clic stanno
-  solo in Meta Business Suite, che in Chrome non è loggato: Davide passa gli screenshot di Insight →
-  Contenuti sulla Scrivania (29/09).
+  solo in Meta Business Suite (Insight → Contenuti). Dal 25/11 li legge Claude nel Chrome collegato,
+  in sola lettura (regola 5 generale; lettura del 25/11 in `social/2026-11-25 Meta Business Suite
+  contenuti 28-10 24-11.md`). Dal 31/10 Facebook non dà più la copertura: le persone sono «Account
+  che hanno visualizzato».
 - **Il WhatsApp del sito (331 438 5178, `genera.py`) è il numero di Davide, ed è voluto**: «Maurizio
   è molto poco tecnologico, quindi l'abbiamo messo appositamente» (Davide, 28/10). **Dal 03/11 anche la
   mail dei Contatti è di Davide** (`davide.liquori12@gmail.com`; Davide, «a» a «sostituisco la mail di
