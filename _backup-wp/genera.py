@@ -524,10 +524,8 @@ def collega_articolo(titolo):
             "personale", "club", "war", "headed", "variante", "cm", "circa"}
     def token(t):
         return {p for p in re.findall(r"[a-zà-ù]+", t.lower()) if p not in stop and len(p) > 2}
-    esplicito = [art for art in cat["articoli"] if art.get("opera")
-                 and art["opera"].strip().lower() == titolo.strip().lower()]
-    if esplicito:
-        return esplicito[0]
+    # Gli articoli nuovi del Diario (con `opera`) vanno solo al visore di Opere:
+    # la scheda dei Nativi resta sulla scheda storica (Davide, 16/11 «53. a» e 25/11 «81. A»).
     a_t = token(titolo)
     if not a_t:
         return None
