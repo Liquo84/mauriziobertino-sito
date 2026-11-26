@@ -843,6 +843,58 @@
  ],
  "articoli": [
   {
+   "slug": "dove-si-trova-il-paesaggio-di-terre-rosse",
+   "titolo": "Dove si trova il paesaggio di Terre rosse",
+   "data": "2026-11-26",
+   "data_it": "26 novembre 2026",
+   "cover": "terre-rosse.jpg",
+   "blocchi": [
+    {
+     "type": "paragraph",
+     "level": "p",
+     "text": "Da nessuna parte. Terre rosse è pittura di fantasia: il viale, il campo, le colline non li ho presi da un posto vero. Il paesaggio l'ho inventato dal nulla."
+    },
+    {
+     "type": "figure",
+     "src": "terre-rosse.jpg",
+     "caption": null,
+     "w": "640",
+     "h": "497"
+    },
+    {
+     "type": "paragraph",
+     "level": "p",
+     "text": "Quando dipingo un paesaggio così, sulla tela metto lo stato d'animo di quel momento. Per me dipingere è anche uno sfogo: c'è un'emozione che non riesco a tenermi dentro, e prima o poi esce col pennello."
+    },
+    {
+     "type": "paragraph",
+     "level": "p",
+     "text": "Dentro questo paesaggio c'è una persona sola, piccola, sul sentiero accanto agli alberi: l'uomo con la giacca rossa. Rossa come la terra del campo."
+    },
+    {
+     "type": "paragraph",
+     "level": "p",
+     "text": "In basso a destra c'è la mia firma, con un 98. Il quadro è datato 5 febbraio 1998."
+    },
+    {
+     "type": "paragraph",
+     "level": "p",
+     "text": "Sul sito trovi altri quadri di quei mesi: Sole al mattino, del 24 novembre 1997, e Tempi remoti, del 4 dicembre 1997, che ha la stessa misura di questo, 50 per 40."
+    },
+    {
+     "type": "paragraph",
+     "level": "p",
+     "text": "Di Terre rosse ce n'è uno solo, ed è in vendita. Se lo vuoi, o se hai una domanda, scrivimi dalla pagina Contatti."
+    },
+    {
+     "type": "paragraph",
+     "level": "p",
+     "text": "Terre rosse · Olio su tela · 1998 · 50 × 40 cm"
+    }
+   ],
+   "opera": "Terre rosse"
+  },
+  {
    "slug": "vite-in-pericolo-cosa-mancava-sul-cavalletto",
    "titolo": "Vite in pericolo: cosa mancava sul cavalletto",
    "data": "2026-11-25",
